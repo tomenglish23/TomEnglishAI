@@ -1,0 +1,50 @@
+
+/* Top, Right, Bottom, Left */
+
+.block10   { margin: 50px 0px 20px 8%; }
+.block12   { margin-left:5%; margin-top:0%; width:80%; }
+.block12b  { margin-left:5%; border-color: black; border-width: 1px; border-style: solid; width:80%; }
+
+.homeTable { margin-left: 5%; }
+td         { text-align: left; vertical-align: top; font-family:monospace; font-size: small; padding: 0px 0px 6px 0px;  }
+.tdb       { text-align: left; padding-right:30px; }
+
+/* Top, Right, Bottom, Left */
+.h1home { font-size:84px; color:darkcyan;         padding: 0px 0px 0px 2px; font-family: cursive; }
+.h1ahome { font-size:21px; color:darkcyan;        padding: 0px 0px 0px 2px; font-family: cursive; }
+.h2home { font-size:18px; color:rgb(0, 139, 139); padding: 0px 0px 0px 2px; font-family: cursive; }
+.h3home { font-size:14px; color:rgb(0, 139, 139); padding: 0px 0px 0px 2px; font-family: cursive; }
+h1     { font-size:28px; width:70%; margin:20px 0px 10px 0px; background-color:rgb(0, 139, 139, 30%); padding:9px 0px 9px 2px; }
+h2     { font-size:22px; width:70%; margin:20px 0px 10px 0px; background-color:rgba(3, 213, 98, 0.4); padding:4px 0px 4px 2px; }
+h3     { font-size:18px; width:70%; margin:20px 0px 10px 0px; background-color:rgba(3, 213, 98, 0.2); padding:3px 0px 3px 2px; }
+h4     { font-size:16px; width:70%; margin:20px 0px 10px 0px; background-color:rgba(3, 213, 98, 0.1); padding:1px 0px 1px 2px; }
+h5     { font-size:14px; width:70%; margin:20px 0px 10px 0px; background-color:rgb(0, 139, 139, 11%); padding:1px 0px 1px 2px; }
+
+pre        { margin-left: 20px; }
+p          { font-size: small; margin: 0px 0px 6px 0px; padding: 0px;  
+             font-family: monospace; }
+button     { padding: 0px 5px 0px 5px; margin: 2px; background-color: bisque; }
+
+code       { font-size:small;  margin: 5px 0px 5px 0px; padding: 2px 20px 2px 5px; 
+             font-family: Arial, Helvetica, sans-serif; 
+            background-color: bisque; border-color: black; border-width: 1px; border-style: solid; }
+
+             .div120   { width: 120px; display:inline-block; }
+             .div130   { width: 130px; display:inline-block; }
+             .div140   { width: 140px; display:inline-block; }
+             .div145   { width: 145px; display:inline-block; }
+             .div150   { width: 150px; display:inline-block; }
+             .div160   { width: 160px; display:inline-block; }
+             .div170   { width: 170px; display:inline-block; }
+             .div180   { width: 180px; display:inline-block; }
+
+             .div150PL { width: 150px; display:inline-block; padding-left:25px; }
+
+p.colorred   { color:'red'; display:inline-block; }
+
+.anounderline { text-decoration:'none' }
+
+/* border-color: black; border-width: 1px; border-style: solid;  
+             font-family: Arial, Helvetica, sans-serif; font-size: smaller; }
+
+*/
