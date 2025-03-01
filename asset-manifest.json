@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/TomEnglishAI/static/css/main.b1df637c.chunk.css",
+    "main.js": "/TomEnglishAI/static/js/main.0aa521e4.chunk.js",
+    "main.js.map": "/TomEnglishAI/static/js/main.0aa521e4.chunk.js.map",
+    "runtime-main.js": "/TomEnglishAI/static/js/runtime-main.f6e5a3b5.js",
+    "runtime-main.js.map": "/TomEnglishAI/static/js/runtime-main.f6e5a3b5.js.map",
+    "static/js/2.907f8bca.chunk.js": "/TomEnglishAI/static/js/2.907f8bca.chunk.js",
+    "static/js/2.907f8bca.chunk.js.map": "/TomEnglishAI/static/js/2.907f8bca.chunk.js.map",
+    "static/js/3.07ec4502.chunk.js": "/TomEnglishAI/static/js/3.07ec4502.chunk.js",
+    "static/js/3.07ec4502.chunk.js.map": "/TomEnglishAI/static/js/3.07ec4502.chunk.js.map",
+    "index.html": "/TomEnglishAI/index.html",
+    "precache-manifest.28e8294f3f95637edde7dcf61ee1b46a.js": "/TomEnglishAI/precache-manifest.28e8294f3f95637edde7dcf61ee1b46a.js",
+    "service-worker.js": "/TomEnglishAI/service-worker.js",
+    "static/css/main.b1df637c.chunk.css.map": "/TomEnglishAI/static/css/main.b1df637c.chunk.css.map",
+    "static/js/2.907f8bca.chunk.js.LICENSE.txt": "/TomEnglishAI/static/js/2.907f8bca.chunk.js.LICENSE.txt",
+    "static/media/AIInFinance1.jpg": "/TomEnglishAI/static/media/AIInFinance1.d9338116.jpg",
+    "static/media/DogTrack1.jpg": "/TomEnglishAI/static/media/DogTrack1.45d94fb5.jpg",
+    "static/media/DogTrack2.png": "/TomEnglishAI/static/media/DogTrack2.d2892425.png",
+    "static/media/FullStack2.jpg": "/TomEnglishAI/static/media/FullStack2.1d31553e.jpg",
+    "static/media/MLExample1.jpg": "/TomEnglishAI/static/media/MLExample1.cc250fe3.jpg",
+    "static/media/OldManInDingy.jpg": "/TomEnglishAI/static/media/OldManInDingy.2f206b3d.jpg",
+    "static/media/OldManInDingyNoBG.png": "/TomEnglishAI/static/media/OldManInDingyNoBG.83756dd6.png",
+    "static/media/React1.jpg": "/TomEnglishAI/static/media/React1.bfc4bc33.jpg",
+    "static/media/ScreenScrape.jpg": "/TomEnglishAI/static/media/ScreenScrape.9b36f3d0.jpg",
+    "static/media/ScreenScrape2.jpg": "/TomEnglishAI/static/media/ScreenScrape2.498745df.jpg",
+    "static/media/Terms_Geek.jpg": "/TomEnglishAI/static/media/Terms_Geek.11adf02a.jpg",
+    "static/media/Terms_Geek2.jpg": "/TomEnglishAI/static/media/Terms_Geek2.a47634e1.jpg",
+    "static/media/clip_image002.jpg": "/TomEnglishAI/static/media/clip_image002.978b9cbc.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f6e5a3b5.js",
+    "static/js/2.907f8bca.chunk.js",
+    "static/css/main.b1df637c.chunk.css",
+    "static/js/main.0aa521e4.chunk.js"
+  ]
+}
