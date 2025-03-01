@@ -1,12 +1,14 @@
 {
-  "name": "TE23",
+  "name": "TomEnglishAI",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://tomenglish23.gigthub.io/TomEnglishAI",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.7",
+    "gh-pages": "^6.3.0",
     "json": "^11.0.0",
     "pandas-js": "^0.2.4",
     "playht": "^0.16.0",
@@ -20,9 +22,11 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts --openssl-legacy-provider build && cp build/index.html build/404.html"
   },
   "eslintConfig": {
     "extends": [
