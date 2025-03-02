@@ -44,7 +44,7 @@ export const history = createBrowserHistory({ basename: process.env.PUBLIC_URL }
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
     <div>
         <Routes>
         {/* <Route exact path="/"                  element={<SignIn />} /> */}
