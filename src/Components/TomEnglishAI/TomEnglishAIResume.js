@@ -3,7 +3,7 @@ import TopBar from '../Menu/TopBar';
 import '../CSS/styles.css';
 import backgroundImage from '../../Images/OldManInDingyNoBG.png';
 
-export default function HowAIEvolved() {
+export default function TomEnglishAIResume() {
 
   return (
     <div style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: '16%', 

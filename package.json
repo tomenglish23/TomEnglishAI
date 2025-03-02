@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.7",
     "gh-pages": "^6.3.0",
+    "history": "^5.3.0",
     "json": "^11.0.0",
     "pandas-js": "^0.2.4",
     "playht": "^0.16.0",

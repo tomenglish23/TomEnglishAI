@@ -38,11 +38,14 @@ import PlansProposalsDecks         from './Components/Presence/PlansProposalsDec
 
 import React                       from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { createBrowserHistory } from 'history';
+
+export const history = createBrowserHistory({ basename: process.env.PUBLIC_URL });
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
-      <div>
+    <Router>
+    <div>
         <Routes>
         {/* <Route exact path="/"                  element={<SignIn />} /> */}
         <Route exact path="/"                  element={<Home />} />
@@ -72,7 +75,7 @@ function App() {
           <Route path="/AIConsoleApps/AIConsoleApps"          element={<AIConsoleApps />} />
           <Route path="/AIConsoleApps/GetStkHist"             element={<AIGetStkHist />} />
 
-          <Route path="/AIArchitecture/AIArchitecture"        element={<AIArchitecture />} />
+          <Route path="./AIArchitecture/AIArchitecture"        element={<AIArchitecture />} />
           <Route path="/AIArchitecture/AIHowTo"               element={<AIHowTo />} />
           <Route path="/AIArchitecture/AITechnologies"        element={<AITechnologies />} />
           <Route path="/AIArchitecture/Todo"                  element={<Todo />} />
