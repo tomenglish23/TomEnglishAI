@@ -2,7 +2,7 @@
   "name": "TomEnglishAI",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://tomenglish23.gigthub.io/TomEnglishAI",
+  "homepage": "http://tomenglish23.github.io/TomEnglishAI",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
