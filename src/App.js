@@ -1,13 +1,13 @@
 import './Components/CSS/App.css';
 //import SignIn                      from './Components/SignIn';
 //import './Components/Documentation/Readme3Architecture.md';
-import Home                        from './Components/TomEnglishAI/Home';
-import About                       from './Components/TomEnglishAI/About';
-import SignUp                      from './Components/TomEnglishAI/Signup';
-import TomEnglishAIResume          from './Components/TomEnglishAI/TomEnglishAIResume';
-import HowAIEvolved                from './Components/TomEnglishAI/HowAIEvolved';
-import BusinessPlan                from './Components/TomEnglishAI/BusinessPlan';
-import AWSDictionary               from './Components/TomEnglishAI/AWSDictionary';
+import Home                        from './Components/TomEnglish/Home';
+import About                       from './Components/TomEnglish/About';
+import SignUp                      from './Components/TomEnglish/Signup';
+import TomEnglishAIResume          from './Components/TomEnglish/TomEnglishAIResume';
+import HowAIEvolved                from './Components/TomEnglish/HowAIEvolved';
+import BusinessPlan                from './Components/TomEnglish/BusinessPlan';
+import AWSDictionary               from './Components/TomEnglish/AWSDictionary';
 
 import AIStocks                    from './Components/AIStocks/AIStocks';
 import AIStocksCandlesticks        from './Components/AIStocks/AIStocksCandlesticks';
@@ -52,13 +52,13 @@ function App() {
 
           {/* <Route path="Documentation/Readme3Architecture.md"  element={<Readme3Architecture />} /> */}
 
-          <Route path="/TomEnglishAI/Home"                    element={<Home />} />
-          <Route path="/TomEnglishAI/About"                   element={<About />} />
-          <Route path="/TomEnglishAI/SignUp"                  element={<SignUp />} />
-          <Route path="/TomEnglishAI/TomEnglishAIResume"      element={<TomEnglishAIResume />} />
-          <Route path="/TomEnglishAI/HowAIEvolved"            element={<HowAIEvolved />} />
-          <Route path="/TomEnglishAI/BusinessPlan"            element={<BusinessPlan />} />
-          <Route path="/TomEnglishAI/AWSDictionary"           element={<AWSDictionary />} />
+          <Route path="/TomEnglish/Home"                      element={<Home />} />
+          <Route path="/TomEnglish/About"                     element={<About />} />
+          <Route path="/TomEnglish/SignUp"                    element={<SignUp />} />
+          <Route path="/TomEnglish/TomEnglishAIResume"        element={<TomEnglishAIResume />} />
+          <Route path="/TomEnglish/HowAIEvolved"              element={<HowAIEvolved />} />
+          <Route path="/TomEnglish/BusinessPlan"              element={<BusinessPlan />} />
+          <Route path="/TomEnglish/AWSDictionary"             element={<AWSDictionary />} />
 
           <Route path="/AIStocks/AIStocks"                    element={<AIStocks />} />
           <Route path="/AIStocks/AIStocksCandlesticks"        element={<AIStocksCandlesticks />} />
@@ -75,7 +75,7 @@ function App() {
           <Route path="/AIConsoleApps/AIConsoleApps"          element={<AIConsoleApps />} />
           <Route path="/AIConsoleApps/GetStkHist"             element={<AIGetStkHist />} />
 
-          <Route path="./AIArchitecture/AIArchitecture"        element={<AIArchitecture />} />
+          <Route path="/AIArchitecture/AIArchitecture"        element={<AIArchitecture />} />
           <Route path="/AIArchitecture/AIHowTo"               element={<AIHowTo />} />
           <Route path="/AIArchitecture/AITechnologies"        element={<AITechnologies />} />
           <Route path="/AIArchitecture/Todo"                  element={<Todo />} />

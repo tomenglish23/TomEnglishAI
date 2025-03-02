@@ -46,11 +46,11 @@ export default function MenuSubmenu() {
 
         <li><a href="\TomEnglishAI\About"                   >About</a>
         <ul className="sub">
-                <li><a href="\TomEnglishAI\About"                   > About</a></li>
-                <li><a href="\TomEnglishAI\TomEnglishAIResume"      > TomEnglish AI Resume</a></li>
-                <li><a href="\TomEnglishAI\HowAIEvolved"            > How AI evolved for me</a></li>
-                <li><a href="\TomEnglishAI\BusinessPlan"            > Business Plan</a></li>
-                <li><a href="\TomEnglishAI\AWSDictionary"           > AWS Dictionary</a></li>
+                <li><a href="\TomEnglish\About"                     > About</a></li>
+                <li><a href="\TomEnglish\TomEnglishAIResume"        > TomEnglish AI Resume</a></li>
+                <li><a href="\TomEnglish\HowAIEvolved"              > How AI evolved for me</a></li>
+                <li><a href="\TomEnglish\BusinessPlan"              > Business Plan</a></li>
+                <li><a href="\TomEnglish\AWSDictionary"             > AWS Dictionary</a></li>
             </ul>
         </li>
 
