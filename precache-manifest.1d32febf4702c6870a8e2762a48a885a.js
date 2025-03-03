@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9dbf6efc6680b0dcf6c8a2e7413d61be",
+    "revision": "d693d3bbfd458763dc558a57967bc67b",
     "url": "/TomEnglishAI/index.html"
   },
   {
-    "revision": "772f1fed8ce1d462d80d",
+    "revision": "01803ade57efe04e2b0e",
     "url": "/TomEnglishAI/static/css/main.b1df637c.chunk.css"
   },
   {
-    "revision": "cd4ade038e63d6e14eb7",
-    "url": "/TomEnglishAI/static/js/2.e1462686.chunk.js"
+    "revision": "87f32e2c4b679395748a",
+    "url": "/TomEnglishAI/static/js/2.4c379401.chunk.js"
   },
   {
     "revision": "9e126fb458b379ef7cf758f298725956",
-    "url": "/TomEnglishAI/static/js/2.e1462686.chunk.js.LICENSE.txt"
+    "url": "/TomEnglishAI/static/js/2.4c379401.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2336c67c890237506f28",
-    "url": "/TomEnglishAI/static/js/3.0a43de23.chunk.js"
+    "revision": "c0c214770088c283843e",
+    "url": "/TomEnglishAI/static/js/3.37021f01.chunk.js"
   },
   {
-    "revision": "772f1fed8ce1d462d80d",
-    "url": "/TomEnglishAI/static/js/main.1a63334f.chunk.js"
+    "revision": "01803ade57efe04e2b0e",
+    "url": "/TomEnglishAI/static/js/main.039feede.chunk.js"
   },
   {
-    "revision": "d513cee4e5e2063cacdf",
-    "url": "/TomEnglishAI/static/js/runtime-main.8139e137.js"
+    "revision": "58bd1c316ec0aa619b11",
+    "url": "/TomEnglishAI/static/js/runtime-main.5b422b9b.js"
   },
   {
     "revision": "d933811650a919e6f2fa9dbfe9ee0938",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cc250fe322f79b7c3fd78e069586c68e",
     "url": "/TomEnglishAI/static/media/MLExample1.cc250fe3.jpg"
+  },
+  {
+    "revision": "185d6bd1808a01de515b27149f715600",
+    "url": "/TomEnglishAI/static/media/Midjourney_ai.185d6bd1.png"
   },
   {
     "revision": "2f206b3d39772536d20d0d1a0b5206c8",
@@ -104,6 +108,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TomEnglishAI/static/media/conversica_ai.b8101eb2.png"
   },
   {
+    "revision": "ae88c70ca4885c929771281cbe20f0bc",
+    "url": "/TomEnglishAI/static/media/copilot_ai.ae88c70c.png"
+  },
+  {
     "revision": "7a35d500d63a901a65e650dd8bb905a9",
     "url": "/TomEnglishAI/static/media/crypko_ai.7a35d500.png"
   },
@@ -132,6 +140,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TomEnglishAI/static/media/knowji_ai.db7846e0.png"
   },
   {
+    "revision": "2917c51c806f73be999dba3d83903f97",
+    "url": "/TomEnglishAI/static/media/meta_ai.2917c51c.png"
+  },
+  {
+    "revision": "da3c487ddd10cad09200fceb43679836",
+    "url": "/TomEnglishAI/static/media/nitecafe_ai.da3c487d.png"
+  },
+  {
     "revision": "029f8f496035621fa94b29f5d5cbdda6",
     "url": "/TomEnglishAI/static/media/notion_ai.029f8f49.png"
   },
@@ -140,8 +156,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TomEnglishAI/static/media/perplexity_ai.63e29418.png"
   },
   {
+    "revision": "0a96a6671fb229532741e57d404df2d1",
+    "url": "/TomEnglishAI/static/media/popai_ai.0a96a667.png"
+  },
+  {
     "revision": "c3fbc50d3bf459546752949a14b2ee6b",
     "url": "/TomEnglishAI/static/media/quill_ai.c3fbc50d.png"
+  },
+  {
+    "revision": "798567a97b7beae3564aeb586fea3658",
+    "url": "/TomEnglishAI/static/media/runway_ai.798567a9.png"
+  },
+  {
+    "revision": "ae51e0005ce6a6c6b3202b4e478c5ce8",
+    "url": "/TomEnglishAI/static/media/secondnature_ai.ae51e000.png"
+  },
+  {
+    "revision": "72fc1478b31034a5815f431e36ed5bec",
+    "url": "/TomEnglishAI/static/media/soul_machines_ai.72fc1478.png"
+  },
+  {
+    "revision": "4c1f2260abe235e6234eb3519a452df0",
+    "url": "/TomEnglishAI/static/media/soul_machines_ex.4c1f2260.png"
+  },
+  {
+    "revision": "dba320ef4970088ea6e61a0be913598b",
+    "url": "/TomEnglishAI/static/media/vue_ai.dba320ef.png"
+  },
+  {
+    "revision": "f3d29231d949a673cbceff1d427826bb",
+    "url": "/TomEnglishAI/static/media/wonderdynamics_ai.f3d29231.png"
   },
   {
     "revision": "e73788bb43d6f4c2f1d59c7798ffca7a",
@@ -150,5 +194,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "03f88049e0c83cc517564df37e8216e4",
     "url": "/TomEnglishAI/static/media/writesonic_ai.03f88049.png"
+  },
+  {
+    "revision": "b68cd2fa75a2ca417bcab8283cfe43b7",
+    "url": "/TomEnglishAI/static/media/zapier_ai.b68cd2fa.png"
   }
 ]);
