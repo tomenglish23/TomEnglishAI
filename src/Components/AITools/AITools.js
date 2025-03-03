@@ -25,6 +25,7 @@ import Krisp from '../../Images/AITools/krisp_ai.png';
 import Copilot from '../../Images/AITools/copilot_ai.png';
 import MidJourney from '../../Images/AITools/Midjourney_ai.png';
 import NiteCafe from '../../Images/AITools/nitecafe_ai.png';
+import NiteCafeOldManInDingy from '../../Images/AITools/OldManInADingyNightCafe.jpg';
 import Notion from '../../Images/AITools/notion_ai.png';
 //import Numerous from '../../Images/AITools/numerous_ai.png';
 //import OpenAIPlayground from '../../Images/AITools/openai-playground_ai.png';
@@ -65,7 +66,7 @@ export default function AITools() {
                     <tbody>
                         <tr>
                             <td><a target="blank" href="https://chat.openai.com/"><b>ChatGPT</b></a></td>
-                            <td><img src={ChatGPT} alt="ChatGPT" border="0" width="26" height="26" /></td>
+                            <td><img src={ChatGPT} alt="ChatGPT" border="0" width="32" height="32" /></td>
                             <td>ChatGPT is an AI language model that can engage in conversations and answer questions.</td>
                         </tr>
                         <tr>
@@ -75,7 +76,7 @@ export default function AITools() {
                         </tr>
                         <tr>
                             <td><a target="blank" href="https://chatfuel.com/"><b>Chatfuel</b></a></td>
-                            <td><img src={Chatfuel} alt="Chatfuel" border="0" width="26" height="26" /></td>
+                            <td><img src={Chatfuel} alt="Chatfuel" border="0" width="32" height="32" /></td>
                             <td>Chatfuel is a no-code chatbot building platform for Facebook Messenger.</td>
                         </tr>
                         <tr>
@@ -85,7 +86,7 @@ export default function AITools() {
                         </tr>
                         <tr>
                             <td><a target="blank" href="https://www.anthropic.com/claude"><b>Claude</b></a></td>
-                            <td><img src={Claude} alt="Claude" border="0" width="26" height="26" /></td>
+                            <td><img src={Claude} alt="Claude" border="0" width="32" height="32" /></td>
                             <td>Claude is an AI assistant designed for safe and ethical conversations.</td>
                         </tr>
                         <tr>
@@ -95,7 +96,7 @@ export default function AITools() {
                         </tr>
                         <tr>
                             <td><a target="blank" href="https://www.conversica.com/"><b>Conversica</b></a></td>
-                            <td><img src={Conversica} alt="Conversica" border="0" width="26" height="26" /></td>
+                            <td><img src={Conversica} alt="Conversica" border="0" width="32" height="32" /></td>
                             <td>Conversica provides AI-driven sales assistants that engage leads via email.</td>
                         </tr>
                         <tr>
@@ -116,7 +117,7 @@ export default function AITools() {
                     <tbody>
                         <tr>
                             <td><a target="blank" href="https://www.perplexity.ai/"><b>Perplexity</b></a></td>
-                            <td><img src={Perplexity} alt="Perplexity" border="0" width="26" height="26" /></td>
+                            <td><img src={Perplexity} alt="Perplexity" border="0" width="32" height="32" /></td>
                             <td>Perplexity is an AI-powered search engine that provides answers to queries.</td>
                         </tr>
                         <tr>
@@ -126,7 +127,7 @@ export default function AITools() {
                         </tr>
                         <tr>
                             <td><a target="blank" href="https://www.popai.com/"><b>PopAi</b></a></td>
-                            <td><img src={PopAi} alt="PopAi" border="0" width="26" height="26" /></td>
+                            <td><img src={PopAi} alt="PopAi" border="0" width="32" height="32" /></td>
                             <td>PopAi offers AI solutions for analytics and consumer insights.</td>
                         </tr>
                         <tr>
@@ -147,7 +148,7 @@ export default function AITools() {
                     <tbody>
                         <tr>
                             <td><a target="blank" href="https://www.grammarly.com/"><b>Grammarly</b></a></td>
-                            <td><img src={Grammarly} alt="Grammarly" border="0" width="26" height="26" /></td>
+                            <td><img src={Grammarly} alt="Grammarly" border="0" width="32" height="32" /></td>
                             <td>Grammarly is an AI writing assistant that helps improve grammar and style.</td>
                         </tr>
                         <tr>
@@ -157,7 +158,7 @@ export default function AITools() {
                         </tr>
                         <tr>
                             <td><a target="blank" href="https://www.jasper.ai/"><b>Jasper</b></a></td>
-                            <td><img src={Jasper} alt="Jasper" border="0" width="26" height="26" /></td>
+                            <td><img src={Jasper} alt="Jasper" border="0" width="32" height="32" /></td>
                             <td>Jasper is an AI writing assistant designed to help create high-quality content.</td>
                         </tr>
                         <tr>
@@ -167,7 +168,7 @@ export default function AITools() {
                         </tr>
                         <tr>
                             <td><a target="blank" href="https://www.quill.com/"><b>Quill</b></a></td>
-                            <td><img src={Quill} alt="Quill" border="0" width="26" height="26" /></td>
+                            <td><img src={Quill} alt="Quill" border="0" width="32" height="32" /></td>
                             <td>Quill is an AI writing assistant that helps users craft professional documents.</td>
                         </tr>
                         <tr>
@@ -177,7 +178,7 @@ export default function AITools() {
                         </tr>
                         <tr>
                             <td><a target="blank" href="https://www.wordtune.com/"><b>Wordtune</b></a></td>
-                            <td><img src={Wordtune} alt="Wordtune" border="0" width="26" height="26" /></td>
+                            <td><img src={Wordtune} alt="Wordtune" border="0" width="32" height="32" /></td>
                             <td>Wordtune is a writing assistant that helps users rephrase and improve text.</td>
                         </tr>
                         <tr>
@@ -187,7 +188,7 @@ export default function AITools() {
                         </tr>
                         <tr>
                             <td><a target="blank" href="https://writesonic.com/"><b>Writesonic</b></a></td>
-                            <td><img src={Writesonic} alt="Writesonic" border="0" width="26" height="26" /></td>
+                            <td><img src={Writesonic} alt="Writesonic" border="0" width="32" height="32" /></td>
                             <td>Writesonic is an AI writing tool that generates marketing content and articles.</td>
                         </tr>
                         <tr>
@@ -208,7 +209,7 @@ export default function AITools() {
                     <tbody>
                         <tr>
                             <td><a target="blank" href="https://www.notion.so/"><b>Notion</b></a></td>
-                            <td><img src={Notion} alt="Notion" border="0" width="26" height="26" /></td>
+                            <td><img src={Notion} alt="Notion" border="0" width="32" height="32" /></td>
                             <td>Notion is an all-in-one workspace for notes, tasks, and project management.</td>
                         </tr>
                         <tr>
@@ -218,7 +219,7 @@ export default function AITools() {
                         </tr>
                         <tr>
                             <td><a target="blank" href="https://zapier.com/"><b>Zapier</b></a></td>
-                            <td><img src={Zapier} alt="Zapier" border="0" width="26" height="26" /></td>
+                            <td><img src={Zapier} alt="Zapier" border="0" width="32" height="32" /></td>
                             <td>Zapier automates workflows by connecting various web applications.</td>
                         </tr>
                         <tr>
@@ -239,7 +240,7 @@ export default function AITools() {
                     <tbody>
                         <tr>
                             <td><a target="blank" href="https://knowji.com/"><b>Knowji</b></a></td>
-                            <td><img src={Knowji} alt="Knowji" border="0" width="26" height="26" /></td>
+                            <td><img src={Knowji} alt="Knowji" border="0" width="32" height="32" /></td>
                             <td>Knowji is an AI-powered language learning platform that enhances vocabulary retention.</td>
                         </tr>
                         <tr>
@@ -249,7 +250,7 @@ export default function AITools() {
                         </tr>
                         <tr>
                             <td><a target="blank" href="https://krisp.ai/"><b>Krisp</b></a></td>
-                            <td><img src={Krisp} alt="Krisp" border="0" width="26" height="26" /></td>
+                            <td><img src={Krisp} alt="Krisp" border="0" width="32" height="32" /></td>
                             <td>Krisp removes background noise during calls to enhance audio quality.</td>
                         </tr>
                         <tr>
@@ -259,7 +260,7 @@ export default function AITools() {
                         </tr>
                         <tr>
                             <td><a target="blank" href="https://www.microsoft.com/en-us/microsoft-365/copilot"><b>Copilot</b></a></td>
-                            <td><img src={Copilot} alt="Microsoft Copilot" border="0" width="26" height="26" /></td>
+                            <td><img src={Copilot} alt="Microsoft Copilot" border="0" width="32" height="32" /></td>
                             <td>Microsoft Copilot integrates AI to assist in productivity applications.</td>
                         </tr>
                         <tr>
@@ -269,22 +270,22 @@ export default function AITools() {
                         </tr>
                         <tr>
                             <td><a target="blank" href="https://soulmachines.com/"><b>Soul Machines</b></a></td>
-                            <td><img src={SoulMachines} alt="Soul Machines" border="0" width="26" height="26" /></td>
+                            <td><img src={SoulMachines} alt="Soul Machines" border="0" width="32" height="32" /></td>
                             <td>Soul Machines develops AI-driven digital humans for customer interaction.</td>
                         </tr>
                         <tr>
-                            <td style={{paddingBottom:'33px'}}>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;&nbsp;&nbsp;<img src={SoulMachinesEx} alt="Soul Machines" border="0" width="100" height="130" /></td>
-                        </tr>
-                        <tr>
-                            <td style={{paddingBottom:'33px'}}>&nbsp;</td>
+                            <td style={{paddingBottom:'23px'}}>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td>Soul Machines creates lifelike avatars that engage with users in a human-like manner across various applications.</td>
                         </tr>
                         <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td style={{paddingBottom:'33px'}}>&nbsp;&nbsp;&nbsp;<img src={SoulMachinesEx} alt="Soul Machines" border="0" width="200" height="260" /></td>
+                        </tr>
+                        <tr>
                             <td><a target="blank" href="https://secondnature.ai/"><b>SecondNature</b></a></td>
-                            <td><img src={SecondNature} alt="SecondNature" border="0" width="26" height="26" /></td>
+                            <td><img src={SecondNature} alt="SecondNature" border="0" width="32" height="32" /></td>
                             <td>SecondNature provides AI-driven training simulations for sales and customer interactions.</td>
                         </tr>
                         <tr>
@@ -305,7 +306,7 @@ export default function AITools() {
                     <tbody>
                         <tr>
                             <td><a target="blank" href="https://fliki.ai/"><b>Fliki</b></a></td>
-                            <td><img src={Fliki} alt="Fliki" border="0" width="26" height="26" /></td>
+                            <td><img src={Fliki} alt="Fliki" border="0" width="32" height="32" /></td>
                             <td>Fliki turns text into videos using AI, making video creation easier.</td>
                         </tr>
                         <tr>
@@ -315,7 +316,7 @@ export default function AITools() {
                         </tr>
                         <tr>
                             <td><a target="blank" href="https://invideo.io/"><b>Invideo</b></a></td>
-                            <td><img src={Invideo} alt="Invideo" border="0" width="26" height="26" /></td>
+                            <td><img src={Invideo} alt="Invideo" border="0" width="32" height="32" /></td>
                             <td>Invideo is a video creation tool that uses templates to streamline video production.</td>
                         </tr>
                         <tr>
@@ -325,7 +326,7 @@ export default function AITools() {
                         </tr>
                         <tr>
                             <td><a target="blank" href="https://runwayml.com/"><b>Runway</b></a></td>
-                            <td><img src={Runway} alt="Runway" border="0" width="26" height="26" /></td>
+                            <td><img src={Runway} alt="Runway" border="0" width="32" height="32" /></td>
                             <td>Runway offers AI tools for video editing and creative content creation.</td>
                         </tr>
                         <tr>
@@ -335,7 +336,7 @@ export default function AITools() {
                         </tr>
                         <tr>
                             <td><a target="blank" href="https://wonderdynamics.com/"><b>Wonder Dynamics</b></a></td>
-                            <td><img src={WonderDynamics} alt="Wonder Dynamics" border="0" width="26" height="26" /></td>
+                            <td><img src={WonderDynamics} alt="Wonder Dynamics" border="0" width="32" height="32" /></td>
                             <td>Wonder Dynamics combines AI and live-action for creating dynamic content.</td>
                         </tr>
                         <tr>
@@ -356,7 +357,7 @@ export default function AITools() {
                     <tbody>
                         <tr>
                             <td><a target="blank" href="https://vuejs.org/"><b>Vue</b></a></td>
-                            <td><img src={Vue} alt="Vue" border="0" width="26" height="26" /></td>
+                            <td><img src={Vue} alt="Vue" border="0" width="32" height="32" /></td>
                             <td>Vue is a progressive JavaScript framework for building user interfaces.</td>
                         </tr>
                         <tr>
@@ -366,7 +367,7 @@ export default function AITools() {
                         </tr>
                         <tr>
                             <td><a target="blank" href="https://ai.meta.com/"><b>Meta AI</b></a></td>
-                            <td><img src={MetaAI} alt="Meta AI" border="0" width="26" height="26" /></td>
+                            <td><img src={MetaAI} alt="Meta AI" border="0" width="32" height="32" /></td>
                             <td>Meta AI focuses on advancing AI technologies and research at Meta.</td>
                         </tr>
                         <tr>
@@ -387,7 +388,7 @@ export default function AITools() {
                     <tbody>
                         <tr>
                             <td><a target="blank" href="https://www.aiva.ai/"><b>AIVA</b></a></td>
-                            <td><img src={AIVA} alt="AIVA" border="0" width="26" height="26" /></td>
+                            <td><img src={AIVA} alt="AIVA" border="0" width="32" height="32" /></td>
                             <td>AIVA is an AI music composition tool that helps create original music tracks.</td>
                         </tr>
                         <tr>
@@ -397,7 +398,7 @@ export default function AITools() {
                         </tr>
                         <tr>
                             <td><a target="blank" href="https://artflow.ai/"><b>Artflow</b></a></td>
-                            <td><img src={Artflow} alt="Artflow" border="0" width="26" height="26" /></td>
+                            <td><img src={Artflow} alt="Artflow" border="0" width="32" height="32" /></td>
                             <td>Artflow uses AI to create unique artworks and illustrations based on user input.</td>
                         </tr>
                         <tr>
@@ -407,7 +408,7 @@ export default function AITools() {
                         </tr>
                         <tr>
                             <td><a target="blank" href="https://crypko.ai/"><b>Crypko</b></a></td>
-                            <td><img src={Crypko} alt="Crypko" border="0" width="26" height="26" /></td>
+                            <td><img src={Crypko} alt="Crypko" border="0" width="32" height="32" /></td>
                             <td>Crypko generates anime-style characters using AI technology.</td>
                         </tr>
                         <tr>
@@ -417,7 +418,7 @@ export default function AITools() {
                         </tr>
                         <tr>
                             <td><a target="blank" href="https://openai.com/dall-e-3"><b>DALL-E 3</b></a></td>
-                            <td><img src={DALL_E3} alt="DALL-E 3" border="0" width="26" height="26" /></td>
+                            <td><img src={DALL_E3} alt="DALL-E 3" border="0" width="32" height="32" /></td>
                             <td>DALL-E 3 is an AI model that creates images from textual descriptions.</td>
                         </tr>
                         <tr>
@@ -427,7 +428,7 @@ export default function AITools() {
                         </tr>
                         <tr>
                             <td><a target="blank" href="https://www.midjourney.com/"><b>Midjourney</b></a></td>
-                            <td><img src={MidJourney} alt="Midjourney" border="0" width="26" height="26" /></td>
+                            <td><img src={MidJourney} alt="Midjourney" border="0" width="32" height="32" /></td>
                             <td>Midjourney creates stunning AI-generated images based on text prompts.</td>
                         </tr>
                         <tr>
@@ -437,13 +438,23 @@ export default function AITools() {
                         </tr>
                         <tr>
                             <td><a target="blank" href="https://nightcafe.studio/"><b>NightCafe</b></a></td>
-                            <td>{<img src={NiteCafe} alt="NightCafe" border="0" width="26" height="26" />}</td>
+                            <td>{<img src={NiteCafe} alt="NightCafe" border="0" width="32" height="32" />}</td>
                             <td>NiteCafe uses AI algorithms to generate unique artworks from text descriptions.</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>NightCafe offers various styles and options for users to create visually appealing art pieces with ease.</td>
                         </tr>
                         <tr>
                             <td style={{paddingBottom:'33px'}}>&nbsp;</td>
                             <td>&nbsp;</td>
-                            <td>NightCafe offers various styles and options for users to create visually appealing art pieces with ease.</td>
+                            <td>I prompted NightCafe: "Old man sitting in the rear of a dingy with a pipe headed across the bay toward a lighthouse", and it gave me this:</td>
+                        </tr>
+                        <tr>
+                            <td style={{paddingBottom:'33px'}}>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;&nbsp;&nbsp;<img src={NiteCafeOldManInDingy} alt="NightCafe" border="0" width="300" height="350" /></td>
                         </tr>
                     </tbody>
                 </table>
