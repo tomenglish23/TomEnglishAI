@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/TomEnglishAI/static/css/main.b1df637c.chunk.css",
-    "main.js": "/TomEnglishAI/static/js/main.79d8e67e.chunk.js",
-    "main.js.map": "/TomEnglishAI/static/js/main.79d8e67e.chunk.js.map",
+    "main.js": "/TomEnglishAI/static/js/main.1a63334f.chunk.js",
+    "main.js.map": "/TomEnglishAI/static/js/main.1a63334f.chunk.js.map",
     "runtime-main.js": "/TomEnglishAI/static/js/runtime-main.8139e137.js",
     "runtime-main.js.map": "/TomEnglishAI/static/js/runtime-main.8139e137.js.map",
-    "static/js/2.8a4bae6f.chunk.js": "/TomEnglishAI/static/js/2.8a4bae6f.chunk.js",
-    "static/js/2.8a4bae6f.chunk.js.map": "/TomEnglishAI/static/js/2.8a4bae6f.chunk.js.map",
+    "static/js/2.e1462686.chunk.js": "/TomEnglishAI/static/js/2.e1462686.chunk.js",
+    "static/js/2.e1462686.chunk.js.map": "/TomEnglishAI/static/js/2.e1462686.chunk.js.map",
     "static/js/3.0a43de23.chunk.js": "/TomEnglishAI/static/js/3.0a43de23.chunk.js",
     "static/js/3.0a43de23.chunk.js.map": "/TomEnglishAI/static/js/3.0a43de23.chunk.js.map",
     "index.html": "/TomEnglishAI/index.html",
-    "precache-manifest.d4b43aeae7cc9b5b1bbd1912e8f4d0cd.js": "/TomEnglishAI/precache-manifest.d4b43aeae7cc9b5b1bbd1912e8f4d0cd.js",
+    "precache-manifest.97f07d05f8f8849b6adc00307165c20d.js": "/TomEnglishAI/precache-manifest.97f07d05f8f8849b6adc00307165c20d.js",
     "service-worker.js": "/TomEnglishAI/service-worker.js",
     "static/css/main.b1df637c.chunk.css.map": "/TomEnglishAI/static/css/main.b1df637c.chunk.css.map",
-    "static/js/2.8a4bae6f.chunk.js.LICENSE.txt": "/TomEnglishAI/static/js/2.8a4bae6f.chunk.js.LICENSE.txt",
+    "static/js/2.e1462686.chunk.js.LICENSE.txt": "/TomEnglishAI/static/js/2.e1462686.chunk.js.LICENSE.txt",
     "static/media/AIInFinance1.jpg": "/TomEnglishAI/static/media/AIInFinance1.d9338116.jpg",
     "static/media/DogTrack1.jpg": "/TomEnglishAI/static/media/DogTrack1.45d94fb5.jpg",
     "static/media/DogTrack2.png": "/TomEnglishAI/static/media/DogTrack2.d2892425.png",
@@ -48,8 +48,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8139e137.js",
-    "static/js/2.8a4bae6f.chunk.js",
+    "static/js/2.e1462686.chunk.js",
     "static/css/main.b1df637c.chunk.css",
-    "static/js/main.79d8e67e.chunk.js"
+    "static/js/main.1a63334f.chunk.js"
   ]
 }
