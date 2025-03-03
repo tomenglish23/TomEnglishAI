@@ -30,6 +30,8 @@ import AIHowTo                     from './Components/AIArchitecture/AIHowTo';
 import AIArchitecture              from './Components/AIArchitecture/AIArchitecture';
 import AITechnologies              from './Components/AIArchitecture/AITechnologies';
 
+import AITools                     from './Components/AITools/AITools';
+
 import Private                     from './Components/Presence/Private';
 import Presence1                   from './Components/Presence/Presence1';
 import Funding                     from './Components/Presence/Funding';
@@ -79,6 +81,8 @@ function App() {
           <Route path="/AIArchitecture/AIHowTo"               element={<AIHowTo />} />
           <Route path="/AIArchitecture/AITechnologies"        element={<AITechnologies />} />
           <Route path="/AIArchitecture/Todo"                  element={<Todo />} />
+
+          <Route path="/AITools/AITools"                      element={<AITools />} />
 
           <Route path="/Presence/Private"                     element={<Private />} />
           <Route path="/Presence/Presence1"                   element={<Presence1 />} />
