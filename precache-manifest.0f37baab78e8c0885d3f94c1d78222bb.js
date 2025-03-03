@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d693d3bbfd458763dc558a57967bc67b",
+    "revision": "5173a0a5de6ec791286125f93cbeb6fa",
     "url": "/TomEnglishAI/index.html"
   },
   {
-    "revision": "01803ade57efe04e2b0e",
+    "revision": "dd688b6ecc8c325ee7ae",
     "url": "/TomEnglishAI/static/css/main.b1df637c.chunk.css"
   },
   {
-    "revision": "87f32e2c4b679395748a",
-    "url": "/TomEnglishAI/static/js/2.4c379401.chunk.js"
+    "revision": "96bf08fe1ef7744ce8d6",
+    "url": "/TomEnglishAI/static/js/2.79239b83.chunk.js"
   },
   {
     "revision": "9e126fb458b379ef7cf758f298725956",
-    "url": "/TomEnglishAI/static/js/2.4c379401.chunk.js.LICENSE.txt"
+    "url": "/TomEnglishAI/static/js/2.79239b83.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c0c214770088c283843e",
-    "url": "/TomEnglishAI/static/js/3.37021f01.chunk.js"
+    "revision": "d98beaa195bf38cb9d72",
+    "url": "/TomEnglishAI/static/js/3.4c975eb7.chunk.js"
   },
   {
-    "revision": "01803ade57efe04e2b0e",
-    "url": "/TomEnglishAI/static/js/main.039feede.chunk.js"
+    "revision": "dd688b6ecc8c325ee7ae",
+    "url": "/TomEnglishAI/static/js/main.66dbac1b.chunk.js"
   },
   {
-    "revision": "58bd1c316ec0aa619b11",
-    "url": "/TomEnglishAI/static/js/runtime-main.5b422b9b.js"
+    "revision": "3b1a9d59bcba57ece254",
+    "url": "/TomEnglishAI/static/js/runtime-main.bb962e86.js"
   },
   {
     "revision": "d933811650a919e6f2fa9dbfe9ee0938",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "185d6bd1808a01de515b27149f715600",
     "url": "/TomEnglishAI/static/media/Midjourney_ai.185d6bd1.png"
+  },
+  {
+    "revision": "ffedb441fd27a193bd873876eba67f7e",
+    "url": "/TomEnglishAI/static/media/OldManInADingyNightCafe.ffedb441.jpg"
   },
   {
     "revision": "2f206b3d39772536d20d0d1a0b5206c8",
