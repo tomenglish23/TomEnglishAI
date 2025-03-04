@@ -150,9 +150,9 @@ Here are some general guidelines:</p>
 <p>Existing business plans for starting an AI company can be found through various resources. <br />
 Here are a few examples:</p>
 <p>&nbsp;</p>
-<p>- <b>Grammarly's AI-Powered Business Plan Generator</b>:<br />
+<p>- <b><u>Grammarly</u>'s AI-Powered Business Plan Generator</b>:<br />
 &nbsp;&nbsp;A guide to creating a winning business plan: [executive summary, market analysis, financial projections].</p>
-<p>- <b>ProAI's Custom Business Plans</b>:<br />
+<p>- <b><a target="blank" href="https://www.popai.pro/ai-presentation/"><b>PopAI</b></a>'s Custom Business Plans</b>:<br />
 &nbsp;&nbsp;Generates custom business plans: [financial projections, market research, SWOT analysis].<br />
 &nbsp;&nbsp;Plans can be edited &amp; exported to <b>Google Docs</b> &amp; <b>Google Sheets</b>.</p>
 <p>- <b>AI-Based Business Plan Templates</b>:<br />

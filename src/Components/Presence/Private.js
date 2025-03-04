@@ -14,17 +14,17 @@ export default function Private() {
             </center> 
             <p><a target="blank" href="/">Home</a></p>
             <p>&nbsp;</p>
-            <p><a target="blank" href="/AIArchitecture/Todo">Todo</a></p>
+            <p><a target="blank" href="\TomEnglishAI\AIArchitecture/Todo">Todo</a></p>
             <p>&nbsp;</p>
-            <p><a target="blank" href="/Presence/Presence1">Presence</a></p>
-            <p><a target="blank" href="/Presence/Funding">Funding</a></p>
-            <p><a target="blank" href="/Presence/VentureCapitalists">Venture Capitalists</a></p>
-            <p><a target="blank" href="/Presence/PlansProposalsDecks">Plans Proposals Decks</a></p>
+            <p><a target="blank" href="\TomEnglishAI\Presence\Presence1">Presence</a></p>
+            <p><a target="blank" href="\TomEnglishAI\Presence\Funding">Funding</a></p>
+            <p><a target="blank" href="\TomEnglishAI\Presence\VentureCapitalists">Venture Capitalists</a></p>
+            <p><a target="blank" href="\TomEnglishAI\Presence\PlansProposalsDecks">Plans Proposals Decks</a></p>
             <p>&nbsp;</p>
-            <p><a target="blank" href="/AIConsoleApps/AIConsoleApps">Fix: Console Apps</a></p>
-            <p><a target="blank" href="/AIConsoleApps/AIGetStkHist">Fix: Stock History</a></p>
+            <p><a target="blank" href="\TomEnglishAI\AIConsoleApps\AIConsoleApps">Fix: Console Apps</a></p>
+            <p><a target="blank" href="\TomEnglishAI\AIConsoleApps\AIGetStkHist">Fix: Stock History</a></p>
             <p>&nbsp;</p>
-            <p><a target="blank" href="/AIStocks/AIStocksAPIs2">Too much: AIStocksAPIs 2</a></p>
+            <p><a target="blank" href="\TomEnglishAI\AIStocks\AIStocksAPIs2">Too much: AIStocksAPIs 2</a></p>
             <p>&nbsp;</p>
             <p style={{height: '20px'}}></p>
             <center> 

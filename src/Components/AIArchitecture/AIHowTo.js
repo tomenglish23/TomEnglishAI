@@ -417,7 +417,7 @@ MySQL Workbench
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p style={{textAlign:"right"}}>
-    <a className='anounderline' target="blank" href="/Presence/Private">&nbsp;</a></p>
+    <a className='anounderline' target="blank" href="\TomEnglishAI\Presence\Private">&nbsp;</a>&nbsp;</p>
 
 
             </div>
