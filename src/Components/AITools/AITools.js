@@ -32,7 +32,7 @@ import Notion from '../../Images/AITools/notion_ai.png';
 //import OtterAI from '../../Images/AITools/otter-ai_ai.png';
 import Perplexity from '../../Images/AITools/perplexity_ai.png';
 import PopAi from '../../Images/AITools/popai_ai.png';
-import Quill from '../../Images/AITools/quill_ai.png';
+//import Quill from '../../Images/AITools/quill_ai.png';
 import Runway from '../../Images/AITools/runway_ai.png';
 import SecondNature from '../../Images/AITools/secondnature_ai.png';
 import SoulMachines from '../../Images/AITools/soul_machines_ai.png';
@@ -283,16 +283,6 @@ export default function AITools() {
                             <td style={{paddingBottom:'37px'}}>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td><b><u>$39+/month</u></b></td>
-                        </tr>
-                        <tr>
-                            <td><a target="blank" href="https://www.quill.com/"><b>Quill</b></a></td>
-                            <td><img src={Quill} alt="Quill" border="0" width="32" height="32" /></td>
-                            <td>Quill is an AI writing assistant that helps users craft professional documents.</td>
-                        </tr>
-                        <tr>
-                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>Quill provides tools for generating written content, including reports and articles, ensuring clarity and coherence.</td>
                         </tr>
                         <tr>
                             <td><a target="blank" href="https://www.wordtune.com/"><b>Wordtune</b></a></td>
