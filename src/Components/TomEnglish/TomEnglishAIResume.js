@@ -265,6 +265,10 @@ export default function TomEnglishAIResume() {
             <p style={{marginLeft:"20px"}}>Analyzed stock on various platforms:  TradingView, RobinHood, Schwab ThinkOrSwim, TopTradeTitan</p>
             <p style={{margin:'15px 0px 4px 40px'}}>Python, React, Node.js, C#, MySQL Workbench<br/ >VSCode, VS2022 for ML development, Jupyter</p>
 
+            <p style={{marginTop:"20px"}}>Developing my AI Tools skills: </p>
+            <p style={{marginLeft:"20px"}}> Copilot, ChatGPT, Meta AI, Claude. Exploring 30+ other AI tools.</p>
+
+
             <table style={{ width:'90%', margin:'15px 0px 4px 0px' }}><colgroup><col style={{ width: '30%' }} /><col style={{ width: '50%' }} /><col /></colgroup><tbody><tr>
                   <td style={{ fontSize:'16px'}}><b>SMB Capital</b></td>
                   <td style={{ fontSize:'16px'}}><b>Internship: Stock Market</b></td>
