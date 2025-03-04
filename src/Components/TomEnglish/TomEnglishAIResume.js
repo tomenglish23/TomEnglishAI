@@ -11,7 +11,6 @@ export default function TomEnglishAIResume() {
         <TopBar/>
         <div className='homeTable'>
             <h1>Resume for Tom English</h1>
-            <p>&nbsp;</p>
             <table style={{ width:'70%' }}>
               <colgroup>
                 <col style={{ width: '33%' }} />
@@ -21,10 +20,11 @@ export default function TomEnglishAIResume() {
               <thead>
                 <tr>
                   <td>
-                    <p>Tom.English23@yahoo.com</p>
                     <p><a target="blank" href="www.linkedin.com/in/TomEnglish23">linkedin.com/in/TomEnglish23</a></p>
+                    <p>Tom.English23@yahoo.com</p>
                   </td>
                   <td>
+                  <center><p><a target="blank" href="https://tomenglish23.github.io/TomEnglishAI/">TomEnglishAI.com</a></p></center>
                     <center><p><b>Tom English, Microsoft and Azure Certified</b></p></center>
                     <center><p>.NET, SQL, Azure, AI, ML, Python, Node, React</p></center>
                   </td>
@@ -32,6 +32,7 @@ export default function TomEnglishAIResume() {
                     <p>February 27, 2025</p>
                   </td>
                 </tr>
+                
               </thead>
               <tbody />
             </table>
