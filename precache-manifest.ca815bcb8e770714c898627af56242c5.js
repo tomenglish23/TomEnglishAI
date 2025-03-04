@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a39786e343c965b92d5ffe14ba134681",
+    "revision": "f0657e03c0dbd59095eeea5b89255735",
     "url": "/TomEnglishAI/index.html"
   },
   {
-    "revision": "45bbe01742b72cc90305",
+    "revision": "b1e6738c5989cad315a1",
     "url": "/TomEnglishAI/static/css/main.b1df637c.chunk.css"
   },
   {
-    "revision": "190df13b00c6d0044de9",
-    "url": "/TomEnglishAI/static/js/2.1a8d3986.chunk.js"
+    "revision": "635b77bfa728e89fea29",
+    "url": "/TomEnglishAI/static/js/2.11bcc629.chunk.js"
   },
   {
     "revision": "9e126fb458b379ef7cf758f298725956",
-    "url": "/TomEnglishAI/static/js/2.1a8d3986.chunk.js.LICENSE.txt"
+    "url": "/TomEnglishAI/static/js/2.11bcc629.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c0c214770088c283843e",
-    "url": "/TomEnglishAI/static/js/3.37021f01.chunk.js"
+    "revision": "3dad5a526d5613ec2013",
+    "url": "/TomEnglishAI/static/js/3.8fd3be9c.chunk.js"
   },
   {
-    "revision": "45bbe01742b72cc90305",
-    "url": "/TomEnglishAI/static/js/main.0278e9b1.chunk.js"
+    "revision": "b1e6738c5989cad315a1",
+    "url": "/TomEnglishAI/static/js/main.853e6a17.chunk.js"
   },
   {
-    "revision": "58bd1c316ec0aa619b11",
-    "url": "/TomEnglishAI/static/js/runtime-main.5b422b9b.js"
+    "revision": "b91af592ecae1a67d2c3",
+    "url": "/TomEnglishAI/static/js/runtime-main.2e40c4f6.js"
   },
   {
     "revision": "d933811650a919e6f2fa9dbfe9ee0938",
@@ -40,12 +40,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TomEnglishAI/static/media/DogTrack2.d2892425.png"
   },
   {
+    "revision": "db41e50f35401ebdbb42ba5b7039bd55",
+    "url": "/TomEnglishAI/static/media/Excel_ai.db41e50f.png"
+  },
+  {
     "revision": "1d31553e14e4ac044475f7aad4647ca8",
     "url": "/TomEnglishAI/static/media/FullStack2.1d31553e.jpg"
   },
   {
     "revision": "cc250fe322f79b7c3fd78e069586c68e",
     "url": "/TomEnglishAI/static/media/MLExample1.cc250fe3.jpg"
+  },
+  {
+    "revision": "2adbebc08cb0a8c3b47d594f64a2265e",
+    "url": "/TomEnglishAI/static/media/MicrosoftEdge_Copilot.2adbebc0.png"
+  },
+  {
+    "revision": "ad6e0e9b320eba521627941b91825fbd",
+    "url": "/TomEnglishAI/static/media/MicrosoftEdge_ai.ad6e0e9b.png"
   },
   {
     "revision": "185d6bd1808a01de515b27149f715600",
@@ -154,6 +166,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "029f8f496035621fa94b29f5d5cbdda6",
     "url": "/TomEnglishAI/static/media/notion_ai.029f8f49.png"
+  },
+  {
+    "revision": "3acd3ddf02dc44e7729d94b3ddd5fd7f",
+    "url": "/TomEnglishAI/static/media/oneNote_ai.3acd3ddf.png"
+  },
+  {
+    "revision": "5e667368252c3f1c0070bce0e71f1470",
+    "url": "/TomEnglishAI/static/media/oneNote_ex.5e667368.png"
   },
   {
     "revision": "63e29418df0c07dad2383cc45e3ae691",
