@@ -55,6 +55,104 @@ export default function AITools() {
 
                 <h1>AI Tools</h1>
 
+
+                <p>&nbsp;</p>
+                <h2>Tools I Use A Lot</h2>
+                <p>&nbsp;</p>
+
+                <table style={{width:'70%'}}>
+                    <colgroup>
+                    <col span="1" style={{width:'10%'}} />
+                    <col span="1" style={{width:'30%'}} />
+                    <col span="1" style={{width:'30%'}} />
+                    <col span="1" style={{width:'30%'}} />
+                    <col />
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td style={{align:"center"}}>
+                                <table>
+                                    <tbody>
+                                        <tr><td><img src={Copilot}               alt="Microsoft Copilot" border="0" width="32" height="32" /></td></tr>
+                                        <tr><td><a target="blank" href="https://www.microsoft.com/en-us/microsoft-365/copilot"> <b>Copilot</b></a></td></tr>
+                                        <tr><td>Great for Software</td></tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td style={{align:"center"}}>
+                                <table style={{width:'90%'}}>
+                                    <tbody>
+                                        <tr><td><img src={ChatGPT}               alt="ChatGPT"           border="0" width="32" height="32" /></td></tr>
+                                        <tr><td><a target="blank" href="https://chat.openai.com/">                              <b>ChatGPT</b></a></td></tr>
+                                        <tr><td>Narrative</td></tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td style={{align:"center"}}>
+                                <table style={{width:'90%'}}>
+                                    <tbody>
+                                        <tr><td><img src={MetaAI}                alt="Meta AI"           border="0" width="32" height="32" /></td></tr>
+                                        <tr><td><a target="blank" href="https://ai.meta.com/">                                  <b>Meta AI</b></a></td></tr>
+                                        <tr><td>Great for Narrative</td></tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>&nbsp;</p>
+
+                <table style={{width:'70%'}}>
+                    <colgroup>
+                    <col span="1" style={{width:'10%'}} />
+                    <col span="1" style={{width:'30%'}} />
+                    <col span="1" style={{width:'30%'}} />
+                    <col span="1" style={{width:'30%'}} />
+                    <col />
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td style={{align:"center"}}>
+                                <table style={{width:'90%'}}>
+                                    <tbody>
+                                        <tr><td><img src={Claude}                alt="Claude"            border="0" width="32" height="32" /></td></tr>
+                                        <tr><td><a target="blank" href="https://www.anthropic.com/claude">                      <b>Claude</b></a></td></tr>
+                                        <tr><td>Software</td></tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td style={{align:"center"}}>
+                                <table>
+                                    <tbody>
+                                        <tr><td><img src={Notion}                alt="Notion"            border="0" width="32" height="32" /></td></tr>
+                                        <tr><td><a target="blank" href="https://www.notion.so/">                                <b>Notion</b></a></td></tr>
+                                        <tr><td>Task Management, Notes</td></tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td style={{align:"center"}}>
+                                <table style={{width:'90%'}}>
+                                    <tbody>
+                                        <tr><td></td></tr>
+                                        <tr><td></td></tr>
+                                        <tr><td></td></tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+                <p>&nbsp;</p>
+
+
+                <h2>Tools by Category</h2>
+
                 <h3>Chatbots & Conversational AI</h3>
 
                 <table style={{width:'90%'}}>
@@ -70,9 +168,14 @@ export default function AITools() {
                             <td>ChatGPT is an AI language model that can engage in conversations and answer questions.</td>
                         </tr>
                         <tr>
-                            <td style={{paddingBottom:'33px'}}>&nbsp;</td>
+                            <td>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td>ChatGPT can be used for various applications including customer support, content creation, and educational purposes.</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td style={{paddingBottom:'23px'}}><b><u>~50 FREE uses. I have 23 remaining.</u></b></td>
                         </tr>
                         <tr>
                             <td><a target="blank" href="https://chatfuel.com/"><b>Chatfuel</b></a></td>
@@ -80,7 +183,7 @@ export default function AITools() {
                             <td>Chatfuel is a no-code chatbot building platform for Facebook Messenger.</td>
                         </tr>
                         <tr>
-                            <td style={{paddingBottom:'33px'}}>&nbsp;</td>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td>Chatfuel enables businesses to create and manage chatbots that help automate customer interactions on social media.</td>
                         </tr>
@@ -90,7 +193,7 @@ export default function AITools() {
                             <td>Claude is an AI assistant designed for safe and ethical conversations.</td>
                         </tr>
                         <tr>
-                            <td style={{paddingBottom:'33px'}}>&nbsp;</td>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td>Claude focuses on providing reliable and contextually aware responses while prioritizing user safety.</td>
                         </tr>
@@ -100,7 +203,7 @@ export default function AITools() {
                             <td>Conversica provides AI-driven sales assistants that engage leads via email.</td>
                         </tr>
                         <tr>
-                            <td style={{paddingBottom:'33px'}}>&nbsp;</td>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td>Conversica automates follow-ups with potential customers, helping sales teams increase engagement and conversions.</td>
                         </tr>
@@ -121,9 +224,14 @@ export default function AITools() {
                             <td>Perplexity is an AI-powered search engine that provides answers to queries.</td>
                         </tr>
                         <tr>
-                            <td style={{paddingBottom:'33px'}}>&nbsp;</td>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td>Perplexity combines information retrieval and conversational AI to deliver concise answers to user questions, enhancing the search experience.</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td style={{paddingBottom:'37px'}}><b><u>Perplexity is FREE. Very rich feature set!</u></b></td>
                         </tr>
                         <tr>
                             <td><a target="blank" href="https://www.popai.com/"><b>PopAi</b></a></td>
@@ -131,7 +239,7 @@ export default function AITools() {
                             <td>PopAi offers AI solutions for analytics and consumer insights.</td>
                         </tr>
                         <tr>
-                            <td style={{paddingBottom:'33px'}}>&nbsp;</td>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td>PopAi helps organizations analyze consumer behavior and market trends using advanced AI algorithms.</td>
                         </tr>
@@ -152,9 +260,14 @@ export default function AITools() {
                             <td>Grammarly is an AI writing assistant that helps improve grammar and style.</td>
                         </tr>
                         <tr>
-                            <td style={{paddingBottom:'33px'}}>&nbsp;</td>
+                            <td>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td>Grammarly checks for spelling and grammatical errors, and provides suggestions for improving writing clarity and engagement.</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td style={{paddingBottom:'23px'}}><b><u>23 FREE suggestions</u></b></td>
                         </tr>
                         <tr>
                             <td><a target="blank" href="https://www.jasper.ai/"><b>Jasper</b></a></td>
@@ -162,9 +275,14 @@ export default function AITools() {
                             <td>Jasper is an AI writing assistant designed to help create high-quality content.</td>
                         </tr>
                         <tr>
-                            <td style={{paddingBottom:'33px'}}>&nbsp;</td>
+                            <td>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td>Jasper can generate ad copy, blog posts, and social media content based on user prompts and guidelines.</td>
+                        </tr>
+                        <tr>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td><b><u>$39+/month</u></b></td>
                         </tr>
                         <tr>
                             <td><a target="blank" href="https://www.quill.com/"><b>Quill</b></a></td>
@@ -172,7 +290,7 @@ export default function AITools() {
                             <td>Quill is an AI writing assistant that helps users craft professional documents.</td>
                         </tr>
                         <tr>
-                            <td style={{paddingBottom:'33px'}}>&nbsp;</td>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td>Quill provides tools for generating written content, including reports and articles, ensuring clarity and coherence.</td>
                         </tr>
@@ -182,7 +300,7 @@ export default function AITools() {
                             <td>Wordtune is a writing assistant that helps users rephrase and improve text.</td>
                         </tr>
                         <tr>
-                            <td style={{paddingBottom:'33px'}}>&nbsp;</td>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td>Wordtune offers suggestions for rewriting sentences to enhance clarity and impact, aiding users in their writing process.</td>
                         </tr>
@@ -192,7 +310,7 @@ export default function AITools() {
                             <td>Writesonic is an AI writing tool that generates marketing content and articles.</td>
                         </tr>
                         <tr>
-                            <td style={{paddingBottom:'33px'}}>&nbsp;</td>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td>Writesonic helps users create a variety of content, from blog posts to ad copy, using templates and AI capabilities.</td>
                         </tr>
@@ -213,9 +331,14 @@ export default function AITools() {
                             <td>Notion is an all-in-one workspace for notes, tasks, and project management.</td>
                         </tr>
                         <tr>
-                            <td style={{paddingBottom:'33px'}}>&nbsp;</td>
                             <td>&nbsp;</td>
-                            <td>Notion combines note-taking, task management, and collaboration features into a single platform, allowing teams to work efficiently.</td>
+                            <td>&nbsp;</td>
+                            <td>Notion combines note-taking, task management &amp; collaboration features into 1 platform, allowing teams to work efficiently.</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td style={{paddingBottom:'23px'}}><b><u>Notion is FREE and better than OneNote.</u></b></td>
                         </tr>
                         <tr>
                             <td><a target="blank" href="https://zapier.com/"><b>Zapier</b></a></td>
@@ -223,7 +346,7 @@ export default function AITools() {
                             <td>Zapier automates workflows by connecting various web applications.</td>
                         </tr>
                         <tr>
-                            <td style={{paddingBottom:'33px'}}>&nbsp;</td>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td>Zapier enables users to create automated workflows, saving time and reducing repetitive tasks across different apps.</td>
                         </tr>
@@ -244,7 +367,7 @@ export default function AITools() {
                             <td>Knowji is an AI-powered language learning platform that enhances vocabulary retention.</td>
                         </tr>
                         <tr>
-                            <td style={{paddingBottom:'33px'}}>&nbsp;</td>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td>Knowji uses spaced repetition and interactive exercises to help users effectively learn and remember new words.</td>
                         </tr>
@@ -254,7 +377,7 @@ export default function AITools() {
                             <td>Krisp removes background noise during calls to enhance audio quality.</td>
                         </tr>
                         <tr>
-                            <td style={{paddingBottom:'33px'}}>&nbsp;</td>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td>Krisp works with any communication app, providing a clear audio experience for both parties in a conversation.</td>
                         </tr>
@@ -264,9 +387,14 @@ export default function AITools() {
                             <td>Microsoft Copilot integrates AI to assist in productivity applications.</td>
                         </tr>
                         <tr>
-                            <td style={{paddingBottom:'33px'}}>&nbsp;</td>
+                            <td>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td>Copilot enhances applications like Word and Excel by suggesting content and automating repetitive tasks.</td>
+                        </tr>
+                        <tr>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td><b><u>I add Copilot to many of my tools. It is my coding assistant!</u></b>.</td>
                         </tr>
                         <tr>
                             <td><a target="blank" href="https://soulmachines.com/"><b>Soul Machines</b></a></td>
@@ -281,7 +409,7 @@ export default function AITools() {
                         <tr>
                             <td>&nbsp;</td>
                             <td>&nbsp;</td>
-                            <td style={{paddingBottom:'33px'}}>&nbsp;&nbsp;&nbsp;<img src={SoulMachinesEx} alt="Soul Machines" border="0" width="200" height="260" /></td>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;&nbsp;&nbsp;<img src={SoulMachinesEx} alt="Soul Machines" border="0" width="200" height="260" /></td>
                         </tr>
                         <tr>
                             <td><a target="blank" href="https://secondnature.ai/"><b>SecondNature</b></a></td>
@@ -289,7 +417,7 @@ export default function AITools() {
                             <td>SecondNature provides AI-driven training simulations for sales and customer interactions.</td>
                         </tr>
                         <tr>
-                            <td style={{paddingBottom:'33px'}}>&nbsp;</td>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td>SecondNature helps organizations train their employees through realistic role-playing scenarios using AI technology.</td>
                         </tr>
@@ -310,7 +438,7 @@ export default function AITools() {
                             <td>Fliki turns text into videos using AI, making video creation easier.</td>
                         </tr>
                         <tr>
-                            <td style={{paddingBottom:'33px'}}>&nbsp;</td>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td>Fliki allows users to create engaging videos quickly by converting scripts or articles into video format with visuals and voiceovers.</td>
                         </tr>
@@ -320,7 +448,7 @@ export default function AITools() {
                             <td>Invideo is a video creation tool that uses templates to streamline video production.</td>
                         </tr>
                         <tr>
-                            <td style={{paddingBottom:'33px'}}>&nbsp;</td>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td>Invideo provides users with a wide range of templates for creating professional-quality videos for marketing and social media.</td>
                         </tr>
@@ -330,7 +458,7 @@ export default function AITools() {
                             <td>Runway offers AI tools for video editing and creative content creation.</td>
                         </tr>
                         <tr>
-                            <td style={{paddingBottom:'33px'}}>&nbsp;</td>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td>Runway provides innovative editing solutions, including AI-driven features for enhancing videos and imagery.</td>
                         </tr>
@@ -340,7 +468,7 @@ export default function AITools() {
                             <td>Wonder Dynamics combines AI and live-action for creating dynamic content.</td>
                         </tr>
                         <tr>
-                            <td style={{paddingBottom:'33px'}}>&nbsp;</td>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td>Wonder Dynamics provides tools to merge AI-generated characters with live-action footage, enhancing video production quality.</td>
                         </tr>
@@ -361,7 +489,7 @@ export default function AITools() {
                             <td>Vue is a progressive JavaScript framework for building user interfaces.</td>
                         </tr>
                         <tr>
-                            <td style={{paddingBottom:'33px'}}>&nbsp;</td>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td>Vue provides a flexible and performant framework for developing interactive web applications, making it popular among developers.</td>
                         </tr>
@@ -371,9 +499,14 @@ export default function AITools() {
                             <td>Meta AI focuses on advancing AI technologies and research at Meta.</td>
                         </tr>
                         <tr>
-                        <td style={{paddingBottom:'33px'}}>&nbsp;</td>
+                        <td>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td>Meta AI is dedicated to developing innovative AI solutions that enhance communication and social interaction across its platforms.</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td style={{paddingBottom:'23px'}}><b><u>Meta AI is better than ChatGPT for narrative assistance.</u></b></td>
                         </tr>
                     </tbody>
                 </table>
@@ -392,7 +525,7 @@ export default function AITools() {
                             <td>AIVA is an AI music composition tool that helps create original music tracks.</td>
                         </tr>
                         <tr>
-                            <td style={{paddingBottom:'33px'}}>&nbsp;</td>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td>AIVA allows users to compose music in various styles and genres, providing tools for both amateur and professional musicians.</td>
                         </tr>
@@ -402,7 +535,7 @@ export default function AITools() {
                             <td>Artflow uses AI to create unique artworks and illustrations based on user input.</td>
                         </tr>
                         <tr>
-                            <td style={{paddingBottom:'33px'}}>&nbsp;</td>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td>Artflow allows users to create and customize artwork by generating images from text descriptions or modifying existing images.</td>
                         </tr>
@@ -412,7 +545,7 @@ export default function AITools() {
                             <td>Crypko generates anime-style characters using AI technology.</td>
                         </tr>
                         <tr>
-                            <td style={{paddingBottom:'33px'}}>&nbsp;</td>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td>Crypko allows users to create unique characters for games, animations, and other creative projects, leveraging deep learning techniques.</td>
                         </tr>
@@ -422,7 +555,7 @@ export default function AITools() {
                             <td>DALL-E 3 is an AI model that creates images from textual descriptions.</td>
                         </tr>
                         <tr>
-                            <td style={{paddingBottom:'33px'}}>&nbsp;</td>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td>DALL-E 3 enhances the capabilities of its predecessor by generating more detailed and contextually relevant images from user prompts.</td>
                         </tr>
@@ -432,9 +565,14 @@ export default function AITools() {
                             <td>Midjourney creates stunning AI-generated images based on text prompts.</td>
                         </tr>
                         <tr>
-                            <td style={{paddingBottom:'33px'}}>&nbsp;</td>
+                            <td>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td>Midjourney is known for its artistic style and can produce a wide range of visuals from abstract to realistic images.</td>
+                        </tr>
+                        <tr>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td><b><u>$10+/month</u></b></td>
                         </tr>
                         <tr>
                             <td><a target="blank" href="https://nightcafe.studio/"><b>NightCafe</b></a></td>
@@ -447,12 +585,17 @@ export default function AITools() {
                             <td>NightCafe offers various styles and options for users to create visually appealing art pieces with ease.</td>
                         </tr>
                         <tr>
-                            <td style={{paddingBottom:'33px'}}>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td style={{paddingBottom:'23px'}}><b><u>3 FREE uses</u></b></td>
+                        </tr>
+                        <tr>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td>I prompted NightCafe: "Old man sitting in the rear of a dingy with a pipe headed across the bay toward a lighthouse", and it gave me this:</td>
                         </tr>
                         <tr>
-                            <td style={{paddingBottom:'33px'}}>&nbsp;</td>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td>&nbsp;&nbsp;&nbsp;<img src={NiteCafeOldManInDingy} alt="NightCafe" border="0" width="300" height="350" /></td>
                         </tr>
