@@ -20,7 +20,7 @@ export default function TomEnglishAIResume() {
               <thead>
                 <tr>
                   <td>
-                    <p><a target="blank" href="www.linkedin.com/in/TomEnglish23">linkedin.com/in/TomEnglish23</a></p>
+                    <p><a target="blank" href="https://www.linkedin.com/in/TomEnglish23">linkedin.com/in/TomEnglish23</a></p>
                     <p>Tom.English23@yahoo.com</p>
                   </td>
                   <td>
