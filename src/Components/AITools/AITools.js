@@ -58,7 +58,7 @@ export default function AITools() {
             <div style={{opacity: 1.0 }}>
                 <TopBar/>
 
-                <h1>AI Tools</h1>
+                <h1>AI Tools by Category</h1>
 
 
                 <p>&nbsp;</p>
@@ -155,55 +155,6 @@ export default function AITools() {
 
 
                 <p>&nbsp;</p>
-                <h2>Copilot-Enabled Tools</h2>
-                <p>&nbsp;</p>
-
-                <table style={{width:'70%'}}>
-                    <colgroup>
-                    <col span="1" style={{width:'10%'}} />
-                    <col span="1" style={{width:'30%'}} />
-                    <col span="1" style={{width:'30%'}} />
-                    <col span="1" style={{width:'30%'}} />
-                    <col />
-                    </colgroup>
-                    <tbody>
-                        <tr>
-                            <td></td>
-                            <td style={{align:"center"}}>
-                                <table>
-                                    <tbody>
-                                        <tr><td><img src={MicrosoftEdge} alt="OneNote" border="0" width="32" height="32" /></td></tr>
-                                        <tr><td><a target="blank" href="https://www.microsoft.com/en-us/edge/?msockid=348cb6b810986ce205a9a44211ea6d18&form=MA13FJ"><b>Microsoft Edge</b></a></td></tr>
-                                        <tr><td>Internet Browser</td></tr>
-                                    </tbody>
-                                </table>
-                            </td>
-                            <td style={{align:"center"}}>
-                                <table style={{width:'90%'}}>
-                                    <tbody>
-                                        <tr><td><img src={OneNote} alt="OneNote" border="0" width="32" height="32" /></td></tr>
-                                        <tr><td><a target="blank" href="https://www.onenote.com/"><b>OneNote</b></a></td></tr>
-                                        <tr><td>Organizational</td></tr>
-                                    </tbody>
-                                </table>
-                            </td>
-                            <td style={{align:"center"}}>
-                                <table style={{width:'90%'}}>
-                                    <tbody>
-                                        <tr><td><img src={Excel} alt="Excel" border="0" width="32" height="32" /></td></tr>
-                                        <tr><td><a target="blank" href="https://www.microsoft.com/en-us/microsoft-365/excel/"><b>Excel</b></a></td></tr>
-                                        <tr><td>Data</td></tr>
-                                    </tbody>
-                                </table>
-                            </td>
-                            <td></td>
-                        </tr>
-                    </tbody>
-                </table>
-
-
-
-                <p>&nbsp;</p>
                 <h2>Tools by Category</h2>
 
                 <h3>Chatbots & Conversational AI</h3>
@@ -284,61 +235,6 @@ export default function AITools() {
                     </tbody>
                 </table>
 
-                <h3>Research & Information Retrieval</h3>
-                <table style={{width:'90%'}}>
-                <colgroup>
-                        <col span="1" style={{width:'12%'}} />
-                        <col span="1" style={{width:'4%'}} />
-                        <col />
-                    </colgroup>
-                    <tbody>
-                        <tr>
-                            <td><a target="blank" href="https://www.perplexity.ai/"><b>Perplexity</b></a></td>
-                            <td><img src={Perplexity} alt="Perplexity" border="0" width="32" height="32" /></td>
-                            <td>Perplexity is an AI-powered search engine that provides answers to queries.</td>
-                        </tr>
-                        <tr>
-                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>Perplexity combines information retrieval and conversational AI to deliver concise answers to user questions, enhancing the search experience.</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td style={{paddingBottom:'37px'}}><b><u>Perplexity is FREE. Very rich feature set!</u></b></td>
-                        </tr>
-
-                        <tr>
-                            <td><a target="blank" href="https://www.popai.pro/"><b>PopAi</b></a></td>
-                            <td><img src={PopAi} alt="PopAi" border="0" width="32" height="32" /></td>
-                            <td>PopAi offers AI solutions for analytics and consumer insights.</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>PopAi helps organizations analyze consumer behavior and market trends using advanced AI algorithms.</td>
-                        </tr>
-                        <tr>
-                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>Categories:<br /><br />
-                                &nbsp;&nbsp;&nbsp;- AI ChatPDF<br />
-                                &nbsp;&nbsp;&nbsp;- AI Presentation<br />
-                                &nbsp;&nbsp;&nbsp;- AI Writer<br />
-                                &nbsp;&nbsp;&nbsp;- AI Pitch Decks<br />
-                                &nbsp;&nbsp;&nbsp;- AI Paraphraser<br />
-                                &nbsp;&nbsp;&nbsp;- AI Image<br />
-                                &nbsp;&nbsp;&nbsp;- AI Video</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td style={{paddingBottom:'23px'}}><b><u>FREE: Limited per category</u></b></td>
-                        </tr>
-
-                    </tbody>
-                </table>
-
                 <h3>Writing & Content Generation</h3>
                 <table style={{width:'90%'}}>
                 <colgroup>
@@ -396,45 +292,6 @@ export default function AITools() {
                             <td style={{paddingBottom:'37px'}}>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td>Writesonic helps users create a variety of content, from blog posts to ad copy, using templates and AI capabilities.</td>
-                        </tr>
-                    </tbody>
-                </table>
-
-                <h3>Productivity & Organization Tools</h3>
-                <table style={{width:'90%'}}>
-                <colgroup>
-                        <col span="1" style={{width:'12%'}} />
-                        <col span="1" style={{width:'4%'}} />
-                        <col />
-                    </colgroup>
-                    <tbody>
-                        <tr>
-                            <td><a target="blank" href="https://www.notion.so/"><b>Notion</b></a></td>
-                            <td><img src={Notion} alt="Notion" border="0" width="32" height="32" /></td>
-                            <td>Notion is an all-in-one workspace for notes, tasks, and project management.</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>Notion combines note-taking, task management &amp; collaboration features into 1 platform, allowing teams to work efficiently.</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td style={{paddingBottom:'23px'}}><b><u>Notion is FREE &amp; better than OneNote. <br />
-                                                               If you have used OneNote for years, <br />
-                                                               porting to Notion can be tedious.</u></b></td>
-                        </tr>
-
-                        <tr>
-                            <td><a target="blank" href="https://zapier.com/"><b>Zapier</b></a></td>
-                            <td><img src={Zapier} alt="Zapier" border="0" width="32" height="32" /></td>
-                            <td>Zapier automates workflows by connecting various web applications.</td>
-                        </tr>
-                        <tr>
-                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>Zapier enables users to create automated workflows, saving time and reducing repetitive tasks across different apps.</td>
                         </tr>
                     </tbody>
                 </table>
@@ -511,51 +368,6 @@ export default function AITools() {
                             <td>&nbsp;</td>
                             <td><b><u>I add Copilot to many of my tools. It is my coding assistant!</u></b>.</td>
                         </tr>
-                    </tbody>
-                </table>
-
-                <h3>Copilot extension-enabled tools</h3>
-                <table style={{width:'90%'}}>
-                <colgroup>
-                        <col span="1" style={{width:'12%'}} />
-                        <col span="1" style={{width:'4%'}} />
-                        <col />
-                    </colgroup>
-                    <tbody>
-                        <tr>
-                            <td><a target="blank" href="https://www.microsoft.com/en-us/edge/?msockid=348cb6b810986ce205a9a44211ea6d18&form=MA13FJ"><b>Microsoft Edge</b></a></td>
-                            <td><img src={MicrosoftEdge} alt="OneNote" border="0" width="32" height="32" /></td>
-                            <td>Microsoft Edge is an Internet browser.</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>Integrate Edge with <b><u>Copilot</u></b> for quick &amp; easy suggestions.<br />
-                                Edge will have the Copilot icon along the right scrollbar.<br />
-                                Click on it and Copilot opens in a sidebar:</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td style={{padding:'13px 0px 37px 40px'}}><img src={MicrosoftEdge_Copilot} alt="MicrosoftEdge_Copilot" border="0" width="320" height="400" /></td>
-                        </tr>
-                        
-                        <tr>
-                            <td><a target="blank" href="https://www.onenote.com/"><b>OneNote</b></a></td>
-                            <td><img src={OneNote} alt="OneNote" border="0" width="32" height="32" /></td>
-                            <td>OneNote is great for keeping notebooks to organize your notes.</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td><b><u>OneNote is FREE. As an example, you might have 10 tabs of 1-15 pages each.</u></b></td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td style={{padding:'13px 0px 37px 40px'}}><img src={OneNoteEx} alt="OneNoteEx" border="0" width="270" height="400" /></td>
-                        </tr>
-                        
                     </tbody>
                 </table>
 
