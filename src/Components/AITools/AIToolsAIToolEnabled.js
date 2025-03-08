@@ -13,7 +13,7 @@ import Conversica from '../../Images/AITools/conversica_ai.png';
 import Crypko from '../../Images/AITools/crypko_ai.png';
 import DALL_E3 from '../../Images/AITools/dall_e_3_ai.png';
 import Excel from '../../Images/AITools/Excel_ai.png';
-import Fliki from '../../Images/AITools/fliki_ai.png';
+import FeedHive from '../../Images/AITools/FeedHive_ai.png';
 //import Gemini from '../../Images/AITools/gemini_ai.png';
 //import GoogleAI from '../../Images/AITools/google_ai.png';
 // import GoogleGemini from '../../Images/AITools/google-gemini.png';
@@ -143,21 +143,13 @@ export default function AIToolsAIToolEnabled() {
                             <td style={{align:"center"}}>
                                 <table style={{width:'90%'}}>
                                     <tbody>
-                                        <tr><td><img src={Excel} alt="Excel" border="0" width="32" height="32" /></td></tr>
-                                        <tr><td><a target="blank" href="https://www.microsoft.com/en-us/microsoft-365/excel/"><b>Excel</b></a></td></tr>
-                                        <tr><td>Data</td></tr>
+                                        <tr><td><img src={FeedHive} alt="FeedHive" border="0" width="32" height="32" /></td></tr>
+                                        <tr><td><a target="blank" href="https://www.FeedHive.com/"><b>FeedHive</b></a></td></tr>
+                                        <tr><td>Social media using AI &amp; automation</td></tr>
                                     </tbody>
                                 </table>
                             </td>
-                            <td style={{align:"center"}}>
-                                <table style={{width:'90%'}}>
-                                    <tbody>
-                                        <tr><td></td></tr>
-                                        <tr><td></td></tr>
-                                        <tr><td></td></tr>
-                                    </tbody>
-                                </table>
-                            </td>
+                            <td></td>
                             <td></td>
                         </tr>
                     </tbody>
@@ -190,6 +182,24 @@ export default function AIToolsAIToolEnabled() {
                             <td>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td style={{paddingBottom:'37px'}}><b><u>n8n is like SQL SSIS, but for AI workflow.</u></b></td>
+                        </tr>
+
+                        <tr>
+                            <td><a target="blank" href="https://www.FeedHive.com/"><b>FeedHive</b></a></td>
+                            <td><img src={FeedHive} alt="FeedHive" border="0" width="32" height="32" /></td>
+                            <td>Social media using AI &amp; automation.</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td style={{paddingBottom:'37px'}}>
+                                AI Chat Assistant<br />
+                                AI Performance Prediction<br />
+                                Inspiration Templates<br />
+                                Instagram Grid Preview<br />
+                                Publish to Threads<br />
+                                Publish LinkedIn Carousels
+                            </td>
                         </tr>
 
                         <tr>
