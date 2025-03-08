@@ -157,8 +157,7 @@ export default function AITools() {
                 <p>&nbsp;</p>
                 <h2>Tools by Category</h2>
 
-                <h3>Chatbots & Conversational AI</h3>
-
+                <h3>Conversational AI</h3>
                 <table style={{width:'90%'}}>
                     <colgroup>
                         <col span="1" style={{width:'12%'}} />
@@ -166,6 +165,23 @@ export default function AITools() {
                         <col />
                     </colgroup>
                     <tbody>
+
+                        <tr>
+                            <td><a target="blank" href="https://ai.meta.com/"><b>Meta AI</b></a></td>
+                            <td><img src={MetaAI} alt="Meta AI" border="0" width="32" height="32" /></td>
+                            <td>Meta AI focuses on advancing AI technologies and research at Meta.</td>
+                        </tr>
+                        <tr>
+                        <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>Meta AI is dedicated to developing innovative AI solutions that enhance communication and social interaction across its platforms.</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td style={{paddingBottom:'23px'}}><b><u>Meta AI is better than ChatGPT for narrative assistance.</u></b></td>
+                        </tr>
+
                         <tr>
                             <td><a target="blank" href="https://chat.openai.com/"><b>ChatGPT</b></a></td>
                             <td><img src={ChatGPT} alt="ChatGPT" border="0" width="32" height="32" /></td>
@@ -181,20 +197,7 @@ export default function AITools() {
                             <td>&nbsp;</td>
                             <td style={{paddingBottom:'23px'}}><b><u>~50 FREE uses. I have 23 remaining.</u></b></td>
                         </tr>
-                        <tr>
-                            <td><a target="blank" href="https://chatfuel.com/"><b>Chatfuel</b></a></td>
-                            <td><img src={Chatfuel} alt="Chatfuel" border="0" width="32" height="32" /></td>
-                            <td>Chatfuel is a no-code chatbot building platform for: <br />
-                                &nbsp;&nbsp;&nbsp;- Facebook Messenger <br />
-                                &nbsp;&nbsp;&nbsp;- Instagram <br />
-                                &nbsp;&nbsp;&nbsp;- WhatsApp <br />
-                                &nbsp;&nbsp;&nbsp;- web widgets</td>
-                        </tr>
-                        <tr>
-                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td><b>Chatbots</b>  are created &amp; managed for automating social media <b>customer interactions</b>.</td>
-                        </tr>
+
                         <tr>
                             <td><a target="blank" href="https://www.anthropic.com/claude"><b>Claude</b></a></td>
                             <td><img src={Claude} alt="Claude" border="0" width="32" height="32" /></td>
@@ -206,7 +209,7 @@ export default function AITools() {
                             <td>Claude provides reliable &amp; contextually-aware responses:</td>
                         </tr>
                         <tr>
-                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
+                            <td>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td>&nbsp;&nbsp;&nbsp;- Advanced reasoning: Performs complex cognitive tasks that go beyond <br />
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;simple pattern recognition or text generation<br /><br />
@@ -223,15 +226,76 @@ export default function AITools() {
                         </tr>
 
                         <tr>
-                            <td><a target="blank" href="https://www.conversica.com/"><b>Conversica</b></a></td>
-                            <td><img src={Conversica} alt="Conversica" border="0" width="32" height="32" /></td>
-                            <td>Conversica provides AI-driven sales assistants that engage leads via email.</td>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td><b><u>As of March, 2025, Claude's knowledge cutoff is October 2024.</u></b></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+                <h3>AI for Assistance &amp; Personalization</h3>
+                <table style={{width:'90%'}}>
+                <colgroup>
+                        <col span="1" style={{width:'12%'}} />
+                        <col span="1" style={{width:'4%'}} />
+                        <col />
+                    </colgroup>
+                    <tbody>
+                    <tr>
+                            <td><a target="blank" href="https://www.microsoft.com/en-us/microsoft-365/copilot"><b>Copilot</b></a></td>
+                            <td><img src={Copilot} alt="Microsoft Copilot" border="0" width="32" height="32" /></td>
+                            <td>Microsoft <b><u>Copilot</u></b> integrates AI to assist in productivity applications.</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>Copilot enhances applications like Word, Excel &amp; OneNote by suggesting content and automating repetitive tasks.</td>
                         </tr>
                         <tr>
                             <td style={{paddingBottom:'37px'}}>&nbsp;</td>
                             <td>&nbsp;</td>
-                            <td>Conversica automates follow-ups with potential customers, helping sales teams increase engagement and conversions.</td>
+                            <td><b><u>I add Copilot to many of my tools. It is my coding assistant!</u></b>.</td>
                         </tr>
+                        
+                        <tr>
+                            <td><a target="blank" href="https://knowji.com/"><b>Knowji</b></a></td>
+                            <td><img src={Knowji} alt="Knowji" border="0" width="32" height="32" /></td>
+                            <td>Knowji is an AI-powered language learning platform that enhances vocabulary retention.</td>
+                        </tr>
+                        <tr>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>Knowji uses spaced repetition and interactive exercises to help users effectively learn and remember new words.</td>
+                        </tr>
+
+                        <tr>
+                            <td><a target="blank" href="https://krisp.ai/"><b>Krisp</b></a></td>
+                            <td><img src={Krisp} alt="Krisp" border="0" width="32" height="32" /></td>
+                            <td>Krisp removes background noise during calls to enhance audio quality.</td>
+                        </tr>
+                        <tr>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>Krisp works with any communication app, providing a clear audio experience for both parties in a conversation.</td>
+                        </tr>
+
+                        <tr>
+                            <td><a target="blank" href="https://soulmachines.com/"><b>Soul Machines</b></a></td>
+                            <td><img src={SoulMachines} alt="Soul Machines" border="0" width="32" height="32" /></td>
+                            <td>Soul Machines develops AI-driven digital humans for customer interaction.</td>
+                        </tr>
+                        <tr>
+                            <td style={{paddingBottom:'23px'}}>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>Soul Machines creates lifelike avatars that engage with users in a human-like manner across various applications.</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td style={{padding:'13px 0px 37px 40px'}}><img src={SoulMachinesEx} alt="Soul Machines" border="0" width="200" height="260" /></td>
+                        </tr>
+
                     </tbody>
                 </table>
 
@@ -296,132 +360,6 @@ export default function AITools() {
                     </tbody>
                 </table>
 
-                <h3>AI for Assistance &amp; Personalization</h3>
-                <table style={{width:'90%'}}>
-                <colgroup>
-                        <col span="1" style={{width:'12%'}} />
-                        <col span="1" style={{width:'4%'}} />
-                        <col />
-                    </colgroup>
-                    <tbody>
-                        <tr>
-                            <td><a target="blank" href="https://knowji.com/"><b>Knowji</b></a></td>
-                            <td><img src={Knowji} alt="Knowji" border="0" width="32" height="32" /></td>
-                            <td>Knowji is an AI-powered language learning platform that enhances vocabulary retention.</td>
-                        </tr>
-                        <tr>
-                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>Knowji uses spaced repetition and interactive exercises to help users effectively learn and remember new words.</td>
-                        </tr>
-
-                        <tr>
-                            <td><a target="blank" href="https://krisp.ai/"><b>Krisp</b></a></td>
-                            <td><img src={Krisp} alt="Krisp" border="0" width="32" height="32" /></td>
-                            <td>Krisp removes background noise during calls to enhance audio quality.</td>
-                        </tr>
-                        <tr>
-                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>Krisp works with any communication app, providing a clear audio experience for both parties in a conversation.</td>
-                        </tr>
-
-                        <tr>
-                            <td><a target="blank" href="https://soulmachines.com/"><b>Soul Machines</b></a></td>
-                            <td><img src={SoulMachines} alt="Soul Machines" border="0" width="32" height="32" /></td>
-                            <td>Soul Machines develops AI-driven digital humans for customer interaction.</td>
-                        </tr>
-                        <tr>
-                            <td style={{paddingBottom:'23px'}}>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>Soul Machines creates lifelike avatars that engage with users in a human-like manner across various applications.</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td style={{padding:'13px 0px 37px 40px'}}><img src={SoulMachinesEx} alt="Soul Machines" border="0" width="200" height="260" /></td>
-                        </tr>
-
-                        <tr>
-                            <td><a target="blank" href="https://secondnature.ai/"><b>SecondNature</b></a></td>
-                            <td><img src={SecondNature} alt="SecondNature" border="0" width="32" height="32" /></td>
-                            <td>SecondNature provides AI-driven training simulations for sales and customer interactions.</td>
-                        </tr>
-                        <tr>
-                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>SecondNature helps organizations train their employees through realistic role-playing scenarios using AI technology.</td>
-                        </tr>
- 
-                        <tr>
-                            <td><a target="blank" href="https://www.microsoft.com/en-us/microsoft-365/copilot"><b>Copilot</b></a></td>
-                            <td><img src={Copilot} alt="Microsoft Copilot" border="0" width="32" height="32" /></td>
-                            <td>Microsoft <b><u>Copilot</u></b> integrates AI to assist in productivity applications.</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>Copilot enhances applications like Word, Excel &amp; OneNote by suggesting content and automating repetitive tasks.</td>
-                        </tr>
-                        <tr>
-                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td><b><u>I add Copilot to many of my tools. It is my coding assistant!</u></b>.</td>
-                        </tr>
-                    </tbody>
-                </table>
-
-                <h3>AI Tools for Video & Multimedia</h3>
-                <table style={{width:'90%'}}>
-                <colgroup>
-                        <col span="1" style={{width:'12%'}} />
-                        <col span="1" style={{width:'4%'}} />
-                        <col />
-                    </colgroup>
-                    <tbody>
-                        <tr>
-                            <td><a target="blank" href="https://fliki.ai/"><b>Fliki</b></a></td>
-                            <td><img src={Fliki} alt="Fliki" border="0" width="32" height="32" /></td>
-                            <td>Fliki turns text into videos using AI, making video creation easier.</td>
-                        </tr>
-                        <tr>
-                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>Fliki allows users to create engaging videos quickly by converting scripts or articles into video format with visuals and voiceovers.</td>
-                        </tr>
-                        <tr>
-                            <td><a target="blank" href="https://invideo.io/"><b>Invideo</b></a></td>
-                            <td><img src={Invideo} alt="Invideo" border="0" width="32" height="32" /></td>
-                            <td>Invideo is a video creation tool that uses templates to streamline video production.</td>
-                        </tr>
-                        <tr>
-                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>Invideo provides users with a wide range of templates for creating professional-quality videos for marketing and social media.</td>
-                        </tr>
-                        <tr>
-                            <td><a target="blank" href="https://runwayml.com/"><b>Runway</b></a></td>
-                            <td><img src={Runway} alt="Runway" border="0" width="32" height="32" /></td>
-                            <td>Runway offers AI tools for video editing and creative content creation.</td>
-                        </tr>
-                        <tr>
-                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>Runway provides innovative editing solutions, including AI-driven features for enhancing videos and imagery.</td>
-                        </tr>
-                        <tr>
-                            <td><a target="blank" href="https://wonderdynamics.com/"><b>Wonder Dynamics</b></a></td>
-                            <td><img src={WonderDynamics} alt="Wonder Dynamics" border="0" width="32" height="32" /></td>
-                            <td>Wonder Dynamics combines AI and live-action for creating dynamic content.</td>
-                        </tr>
-                        <tr>
-                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>Wonder Dynamics provides tools to merge AI-generated characters with live-action footage, enhancing video production quality.</td>
-                        </tr>
-                    </tbody>
-                </table>
-
                 <h3>Development & Programming Tools</h3>
                 <table style={{width:'90%'}}>
                 <colgroup>
@@ -440,25 +378,69 @@ export default function AITools() {
                             <td>&nbsp;</td>
                             <td>Vue provides a flexible and performant framework for developing interactive web applications, making it popular among developers.</td>
                         </tr>
-                        <tr>
-                            <td><a target="blank" href="https://ai.meta.com/"><b>Meta AI</b></a></td>
-                            <td><img src={MetaAI} alt="Meta AI" border="0" width="32" height="32" /></td>
-                            <td>Meta AI focuses on advancing AI technologies and research at Meta.</td>
-                        </tr>
-                        <tr>
-                        <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>Meta AI is dedicated to developing innovative AI solutions that enhance communication and social interaction across its platforms.</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td style={{paddingBottom:'23px'}}><b><u>Meta AI is better than ChatGPT for narrative assistance.</u></b></td>
-                        </tr>
+
                     </tbody>
                 </table>
 
-                <h3>Music & Art Generation</h3>
+                <h3 style={{backgroundColor: 'coral'}}>Chatbots</h3>
+                <table style={{width:'90%'}}>
+                    <colgroup>
+                        <col span="1" style={{width:'12%'}} />
+                        <col span="1" style={{width:'4%'}} />
+                        <col />
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <td><a target="blank" href="https://chatfuel.com/"><b>Chatfuel</b></a></td>
+                            <td><img src={Chatfuel} alt="Chatfuel" border="0" width="32" height="32" /></td>
+                            <td>Chatfuel is a no-code <b><u>chatbot</u></b> building platform for: <br />
+                                &nbsp;&nbsp;&nbsp;- Facebook Messenger <br />
+                                &nbsp;&nbsp;&nbsp;- Instagram <br />
+                                &nbsp;&nbsp;&nbsp;- WhatsApp <br />
+                                &nbsp;&nbsp;&nbsp;- web widgets</td>
+                        </tr>
+                        <tr>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td><b>Chatbots</b>  are created &amp; managed for automating social media <b>customer interactions</b>.</td>
+                        </tr>
+                     </tbody>
+                </table>
+
+                <h3 style={{backgroundColor: 'coral'}}>AI Sales-Related</h3>
+                <table style={{width:'90%'}}>
+                    <colgroup>
+                        <col span="1" style={{width:'12%'}} />
+                        <col span="1" style={{width:'4%'}} />
+                        <col />
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <td><a target="blank" href="https://www.conversica.com/"><b>Conversica</b></a></td>
+                            <td><img src={Conversica} alt="Conversica" border="0" width="32" height="32" /></td>
+                            <td>Conversica provides AI-driven sales assistants that engage leads via email.</td>
+                        </tr>
+                        <tr>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>Conversica automates follow-ups with potential customers, helping sales teams increase engagement and conversions.</td>
+                        </tr>
+
+                        <tr>
+                            <td><a target="blank" href="https://secondnature.ai/"><b>SecondNature</b></a></td>
+                            <td><img src={SecondNature} alt="SecondNature" border="0" width="32" height="32" /></td>
+                            <td>SecondNature provides AI-driven training simulations for sales and customer interactions.</td>
+                        </tr>
+                        <tr>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>SecondNature helps organizations train their employees through realistic role-playing scenarios using AI technology.</td>
+                        </tr>
+ 
+                    </tbody>
+                </table>
+
+                <h3 style={{backgroundColor: 'gold'}}>Music & Art Generation</h3>
                 <table style={{width:'90%'}}>
                 <colgroup>
                         <col span="1" style={{width:'12%'}} />
@@ -548,6 +530,59 @@ export default function AITools() {
                         </tr>
                     </tbody>
                 </table>
+
+
+                <h3 style={{backgroundColor: 'gold'}}>AI Tools for Video & Multimedia</h3>
+                <table style={{width:'90%'}}>
+                <colgroup>
+                        <col span="1" style={{width:'12%'}} />
+                        <col span="1" style={{width:'4%'}} />
+                        <col />
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <td><a target="blank" href="https://fliki.ai/"><b>Fliki</b></a></td>
+                            <td><img src={Fliki} alt="Fliki" border="0" width="32" height="32" /></td>
+                            <td>Fliki turns text into videos using AI, making video creation easier.</td>
+                        </tr>
+                        <tr>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>Fliki allows users to create engaging videos quickly by converting scripts or articles into video format with visuals and voiceovers.</td>
+                        </tr>
+                        <tr>
+                            <td><a target="blank" href="https://invideo.io/"><b>Invideo</b></a></td>
+                            <td><img src={Invideo} alt="Invideo" border="0" width="32" height="32" /></td>
+                            <td>Invideo is a video creation tool that uses templates to streamline video production.</td>
+                        </tr>
+                        <tr>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>Invideo provides users with a wide range of templates for creating professional-quality videos for marketing and social media.</td>
+                        </tr>
+                        <tr>
+                            <td><a target="blank" href="https://runwayml.com/"><b>Runway</b></a></td>
+                            <td><img src={Runway} alt="Runway" border="0" width="32" height="32" /></td>
+                            <td>Runway offers AI tools for video editing and creative content creation.</td>
+                        </tr>
+                        <tr>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>Runway provides innovative editing solutions, including AI-driven features for enhancing videos and imagery.</td>
+                        </tr>
+                        <tr>
+                            <td><a target="blank" href="https://wonderdynamics.com/"><b>Wonder Dynamics</b></a></td>
+                            <td><img src={WonderDynamics} alt="Wonder Dynamics" border="0" width="32" height="32" /></td>
+                            <td>Wonder Dynamics combines AI and live-action for creating dynamic content.</td>
+                        </tr>
+                        <tr>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>Wonder Dynamics provides tools to merge AI-generated characters with live-action footage, enhancing video production quality.</td>
+                        </tr>
+                    </tbody>
+                </table>
+
                 <p>&nbsp;</p>
                 <p>&nbsp;</p>
                 <p>&nbsp;</p>
