@@ -30,6 +30,7 @@ import MidJourney from '../../Images/AITools/Midjourney_ai.png';
 import NiteCafe from '../../Images/AITools/nitecafe_ai.png';
 import NiteCafeOldManInDingy from '../../Images/AITools/OldManInADingyNightCafe.jpg';
 import Notion from '../../Images/AITools/notion_ai.png';
+import NotionAIEx1a from '../../Images/AITools/Notion_ai_ex1a.png';
 //import Numerous from '../../Images/AITools/numerous_ai.png';
 //import OpenAIPlayground from '../../Images/AITools/openai-playground_ai.png';
 //import OtterAI from '../../Images/AITools/otter-ai_ai.png';
@@ -178,19 +179,24 @@ export default function AIToolsAIToolEnabled() {
                         <tr>
                             <td><a target="blank" href="https://www.notion.so/"><b>Notion</b></a></td>
                             <td><img src={Notion} alt="Notion" border="0" width="32" height="32" /></td>
-                            <td>Notion is an all-in-one workspace for notes, tasks, and project management.</td>
+                            <td>Notion is an all-in-one platform for efficient teamwork with [notes, tasks &amp; project management]. <br />
+                                The AI feature, NotionAI, is a great help when working alone.</td>
                         </tr>
                         <tr>
                             <td>&nbsp;</td>
                             <td>&nbsp;</td>
-                            <td>Notion combines note-taking, task management &amp; collaboration features into 1 platform, allowing teams to work efficiently.</td>
+                            <td></td>
                         </tr>
                         <tr>
                             <td>&nbsp;</td>
                             <td>&nbsp;</td>
-                            <td style={{paddingBottom:'23px'}}><b><u>Notion is FREE &amp; better than OneNote. <br />
-                                                               If you have used OneNote for years, <br />
-                                                               porting to Notion can be tedious.</u></b></td>
+                            <td>&nbsp;&nbsp;&nbsp;<img src={NotionAIEx1a} alt="Notion" border="0" width="550" height="600" /></td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td style={{paddingBottom:'23px'}}><b><u>Notion is FREE &amp; better than OneNote. 
+                                &nbsp;&nbsp;Porting from OneNote can be tedious, but worth it.</u></b></td>
                         </tr>
 
                         <tr>
