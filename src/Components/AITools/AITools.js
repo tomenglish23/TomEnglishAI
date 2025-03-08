@@ -104,49 +104,6 @@ export default function AITools() {
                                 </table>
                             </td>
                             <td></td>
-                        </tr>
-                    </tbody>
-                </table>
-                <p>&nbsp;</p>
-
-                <table style={{width:'70%'}}>
-                    <colgroup>
-                    <col span="1" style={{width:'10%'}} />
-                    <col span="1" style={{width:'30%'}} />
-                    <col span="1" style={{width:'30%'}} />
-                    <col span="1" style={{width:'30%'}} />
-                    <col />
-                    </colgroup>
-                    <tbody>
-                        <tr>
-                            <td></td>
-                            <td style={{align:"center"}}>
-                                <table style={{width:'90%'}}>
-                                    <tbody>
-                                        <tr><td><img src={Claude}                alt="Claude"            border="0" width="32" height="32" /></td></tr>
-                                        <tr><td><a target="blank" href="https://www.anthropic.com/claude">                      <b>Claude</b></a></td></tr>
-                                        <tr><td>Reasoning<br />Vision analysis<br />Code generation<br />Multilingual processing</td></tr>
-                                    </tbody>
-                                </table>
-                            </td>
-                            <td style={{align:"center"}}>
-                                <table>
-                                    <tbody>
-                                        <tr><td><img src={Notion}                alt="Notion"            border="0" width="32" height="32" /></td></tr>
-                                        <tr><td><a target="blank" href="https://www.notion.so/">                                <b>Notion</b></a></td></tr>
-                                        <tr><td>Task Management<br />Notes</td></tr>
-                                    </tbody>
-                                </table>
-                            </td>
-                            <td style={{align:"center"}}>
-                                <table style={{width:'90%'}}>
-                                    <tbody>
-                                        <tr><td></td></tr>
-                                        <tr><td></td></tr>
-                                        <tr><td></td></tr>
-                                    </tbody>
-                                </table>
-                            </td>
                             <td></td>
                         </tr>
                     </tbody>
@@ -196,39 +153,6 @@ export default function AITools() {
                             <td>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td style={{paddingBottom:'23px'}}><b><u>~50 FREE uses. I have 23 remaining.</u></b></td>
-                        </tr>
-
-                        <tr>
-                            <td><a target="blank" href="https://www.anthropic.com/claude"><b>Claude</b></a></td>
-                            <td><img src={Claude} alt="Claude" border="0" width="32" height="32" /></td>
-                            <td>Claude is an AI assistant which uses <b>AI models</b>.</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>Claude provides reliable &amp; contextually-aware responses:</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;&nbsp;&nbsp;- Advanced reasoning: Performs complex cognitive tasks that go beyond <br />
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;simple pattern recognition or text generation<br /><br />
-
-                                &nbsp;&nbsp;&nbsp;- Vision analysis: Transcribe and analyze almost any static image, <br />
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;from handwritten notes &amp; graphs to photographs<br /><br />
-
-                                &nbsp;&nbsp;&nbsp;- Code generation: Start creating websites in HTML and CSS,<br />
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;turning images into structured JSON data<br />
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or debugging complex code bases<br /><br />
-
-                                &nbsp;&nbsp;&nbsp;- Multilingual processing: Translate between various languages in real-time,<br />
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;practice grammar, or create multi-lingual content</td>
-                        </tr>
-
-                        <tr>
-                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td><b><u>As of March, 2025, Claude's knowledge cutoff is October 2024.</u></b></td>
                         </tr>
 
                     </tbody>
