@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/TomEnglishAI/precache-manifest.665e81ff69a32944d62c93992c02f767.js"
+  "/TomEnglishAI/precache-manifest.eae3fbc47f117c19002e9ab0d82054e1.js"
 );
 
 self.addEventListener('message', (event) => {
