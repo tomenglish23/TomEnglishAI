@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/TomEnglishAI/static/css/main.59c467c9.chunk.css",
-    "main.js": "/TomEnglishAI/static/js/main.5c802380.chunk.js",
-    "main.js.map": "/TomEnglishAI/static/js/main.5c802380.chunk.js.map",
+    "main.js": "/TomEnglishAI/static/js/main.c6b58438.chunk.js",
+    "main.js.map": "/TomEnglishAI/static/js/main.c6b58438.chunk.js.map",
     "runtime-main.js": "/TomEnglishAI/static/js/runtime-main.810826b6.js",
     "runtime-main.js.map": "/TomEnglishAI/static/js/runtime-main.810826b6.js.map",
-    "static/js/2.d4db32a7.chunk.js": "/TomEnglishAI/static/js/2.d4db32a7.chunk.js",
-    "static/js/2.d4db32a7.chunk.js.map": "/TomEnglishAI/static/js/2.d4db32a7.chunk.js.map",
+    "static/js/2.2f220a76.chunk.js": "/TomEnglishAI/static/js/2.2f220a76.chunk.js",
+    "static/js/2.2f220a76.chunk.js.map": "/TomEnglishAI/static/js/2.2f220a76.chunk.js.map",
     "static/js/3.ab33854d.chunk.js": "/TomEnglishAI/static/js/3.ab33854d.chunk.js",
     "static/js/3.ab33854d.chunk.js.map": "/TomEnglishAI/static/js/3.ab33854d.chunk.js.map",
     "index.html": "/TomEnglishAI/index.html",
-    "precache-manifest.52092394a4a318538d870181629d4677.js": "/TomEnglishAI/precache-manifest.52092394a4a318538d870181629d4677.js",
+    "precache-manifest.4b5fb573495404e6384df4cc4220be9d.js": "/TomEnglishAI/precache-manifest.4b5fb573495404e6384df4cc4220be9d.js",
     "service-worker.js": "/TomEnglishAI/service-worker.js",
     "static/css/main.59c467c9.chunk.css.map": "/TomEnglishAI/static/css/main.59c467c9.chunk.css.map",
-    "static/js/2.d4db32a7.chunk.js.LICENSE.txt": "/TomEnglishAI/static/js/2.d4db32a7.chunk.js.LICENSE.txt",
+    "static/js/2.2f220a76.chunk.js.LICENSE.txt": "/TomEnglishAI/static/js/2.2f220a76.chunk.js.LICENSE.txt",
     "static/media/AIInFinance1.jpg": "/TomEnglishAI/static/media/AIInFinance1.d9338116.jpg",
     "static/media/DogTrack1.jpg": "/TomEnglishAI/static/media/DogTrack1.45d94fb5.jpg",
     "static/media/DogTrack2.png": "/TomEnglishAI/static/media/DogTrack2.d2892425.png",
@@ -69,8 +69,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.810826b6.js",
-    "static/js/2.d4db32a7.chunk.js",
+    "static/js/2.2f220a76.chunk.js",
     "static/css/main.59c467c9.chunk.css",
-    "static/js/main.5c802380.chunk.js"
+    "static/js/main.c6b58438.chunk.js"
   ]
 }
