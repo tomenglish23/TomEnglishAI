@@ -34,7 +34,7 @@ export default function TomEnglishAIResume() {
                 </tr>
                 <tr>
                   <td colSpan="3">
-                    <center><p>25-year Senior Microsoft Developer - Microsoft Azure - AI Tools &amp; Machine Learning</p></center>
+                    <center><p>25-year Senior Microsoft Developer - AI Tools &amp; Machine Learning - Microsoft Azure</p></center>
                     <center><p style={{marginTop:'18px'}}>AI Tools: &nbsp;n8n, FeedHive, ChatGPT, Copilot, Meta AI</p></center>
                     <center><p>Software: &nbsp;.NET, C#, SQL, Azure, AI, ML, Python, Node, React, PineScript</p></center>
                   </td>
@@ -267,6 +267,7 @@ export default function TomEnglishAIResume() {
             </table>
 
             <p>No Code development with AI Tools</p>
+            <p style={{margin:'0px 0px 10px 20px'}}>Groups: <a target="blank" href="https://www.skool.com/learn-ai">AI Automation Agency Hub</a></p>
             <p style={{margin:'0px 0px 20px 20px'}}>n8n, FeedHive, ChatGPT, Copilot, Meta AI</p>
             <p>Developing a stock market AI/ML platform</p>
             <p style={{marginLeft:"20px"}}> API data input. Algorithm management, sequencing &amp; training vs archived rankings. </p>
