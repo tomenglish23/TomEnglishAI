@@ -21,7 +21,7 @@ export default function TomEnglishAIResume() {
                 <tr>
                   <td>
                     <p><a target="blank" href="https://www.linkedin.com/in/TomEnglish23">linkedin.com/in/TomEnglish23</a></p>
-                    <p>Tom.English23@yahoo.com</p>
+                    <p><a target="blank" href="https://www.facebook.com/profile.php?id=100067604027953">Facebook Tom English AI</a></p>
                   </td>
                   <td>
                     <center><p><a target="blank" href="https://tomenglish23.github.io/TomEnglishAI/">TomEnglishAI.com</a></p></center>
@@ -29,6 +29,7 @@ export default function TomEnglishAIResume() {
                   </td>
                   <td style={{ textAlign: 'right' }}>
                     <p>February 27, 2025</p>
+                    <p>Tom.English23@yahoo.com</p>
                   </td>
                 </tr>
                 <tr>
