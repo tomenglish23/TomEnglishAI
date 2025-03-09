@@ -19,6 +19,7 @@ export default function MenuSubmenu() {
             <ul className="sub">
                 <li><a href="\TomEnglishAI\AITools\AITools"                     >AI Tools by Category</a></li>
                 <li><a href="\TomEnglishAI\AITools\AIToolsAIToolEnabled"        >AI-Enabled Tools</a></li>
+                <li><a href="\TomEnglishAI\AITools\AITTS"                       >AI TTS</a></li>
             </ul>
         </li>
 
