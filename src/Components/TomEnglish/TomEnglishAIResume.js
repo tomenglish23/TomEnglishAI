@@ -10,12 +10,12 @@ export default function TomEnglishAIResume() {
                   backgroundPosition: 'right top', backgroundRepeat: "no-repeat" }}>
         <TopBar/>
         <div className='homeTable'>
-            <h1>Resume for Tom English</h1>
+            <h3><center>Resume for Tom English</center></h3>
             <table style={{ width:'70%' }}>
               <colgroup>
-                <col style={{ width: '33%' }} />
-                <col style={{ width: '45%', alignContent:'center' }} />
-                <col style={{ width: '20%' }} />
+                <col style={{ width: '27%' }} />
+                <col style={{ width: '46%', alignContent:'center' }} />
+                <col style={{ width: '27%' }} />
                 </colgroup>
               <thead>
                 <tr>
@@ -24,21 +24,24 @@ export default function TomEnglishAIResume() {
                     <p>Tom.English23@yahoo.com</p>
                   </td>
                   <td>
-                  <center><p><a target="blank" href="https://tomenglish23.github.io/TomEnglishAI/">TomEnglishAI.com</a></p></center>
-                    <center><p><b>Tom English, Microsoft and Azure Certified</b></p></center>
-                    <center><p>.NET, SQL, Azure, AI, ML, Python, Node, React</p></center>
+                    <center><p><a target="blank" href="https://tomenglish23.github.io/TomEnglishAI/">TomEnglishAI.com</a></p></center>
+                    <center><p style={{marginBottom:'15px'}}><b>Microsoft &amp; Azure Certified</b></p></center>
                   </td>
                   <td style={{ textAlign: 'right' }}>
                     <p>February 27, 2025</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td colSpan="3">
+                    <center><p>25-year Senior Microsoft Developer - Microsoft Azure - AI Tools &amp; Machine Learning</p></center>
+                    <center><p style={{marginTop:'18px'}}>AI Tools: &nbsp;n8n, FeedHive, ChatGPT, Copilot, Meta AI</p></center>
+                    <center><p>Software: &nbsp;.NET, C#, SQL, Azure, AI, ML, Python, Node, React, PineScript</p></center>
                   </td>
                 </tr>
                 
               </thead>
               <tbody />
             </table>
-
-            <p style={{ height:'10px'}}>&nbsp;</p>
-            <p>25-year Senior Microsoft Developer - Training &amp; developing on Microsoft Azure - Area of interest: Machine Learning</p>
 
 
             <p style={{fontSize:'20px', margin:'30px 0px 10px 0px'}}><b>CERTIFICATIONS</b></p>
@@ -252,28 +255,33 @@ export default function TomEnglishAIResume() {
 
             <p style={{fontSize:'20px', margin:'30px 0px 10px 0px'}}><b>PROFESSIONAL EXPERIENCE</b></p>
 
-            <table style={{ width:'90%', margin:'15px 0px 4px 0px' }}><colgroup><col style={{ width: '30%' }} /><col style={{ width: '50%' }} /><col /></colgroup><tbody><tr>
+            <table style={{ width:'90%', margin:'15px 0px 4px 0px' }}><colgroup><col style={{ width: '30%' }} /><col style={{ width: '50%' }} /><col /></colgroup>
+              <tbody>
+                <tr>
                   <td style={{ fontSize:'16px'}}><b>Tom English AI</b></td>
-                  <td style={{ fontSize:'16px'}}><b>Developer: Machine Learning (ML) / Stock Market Tools</b></td>
-                  <td style={{ fontSize:'16px'}}><b>05/24- Present</b></td></tr></tbody></table>
+                  <td style={{ fontSize:'16px'}}><b>Developer: ML / Stock Market Tools / AI Tools</b></td>
+                  <td style={{ fontSize:'16px'}}><b>05/24 - Present</b></td>
+                </tr>
+              </tbody>
+            </table>
 
-            <p>Developing a stock market AI/ML platform: </p>
+            <p>No Code development with AI Tools</p>
+            <p style={{margin:'0px 0px 20px 20px'}}>n8n, FeedHive, ChatGPT, Copilot, Meta AI</p>
+            <p>Developing a stock market AI/ML platform</p>
             <p style={{marginLeft:"20px"}}> API data input. Algorithm management, sequencing &amp; training vs archived rankings. </p>
             <p style={{marginLeft:"20px"}}> UI: React &amp; Console apps  Algorithms: Pinescript, Algorithm Sequencer Pipeline, ML concepts</p>
             <p style={{marginLeft:"20px"}}> Comms: React-node.js WebSockets  Data storage:  MySQL via Python &amp; node.js</p>
             <p style={{marginLeft:"20px"}}>  React-Python WebSockets  Data APIs: TradingView &amp; FinnHub data collection via Python</p>
             <p style={{marginLeft:"20px"}}>Developing TradingView Pinescripts for stock analysis</p>
             <p style={{marginLeft:"20px"}}>Analyzed stock on various platforms:  TradingView, RobinHood, Schwab ThinkOrSwim, TopTradeTitan</p>
-            <p style={{margin:'15px 0px 4px 40px'}}>Python, React, Node.js, C#, MySQL Workbench<br/ >VSCode, VS2022 for ML development, Jupyter</p>
-
-            <p style={{marginTop:"20px"}}>Developing my AI Tools skills: </p>
-            <p style={{marginLeft:"20px"}}> Copilot, ChatGPT, Meta AI, Claude. Exploring 30+ other AI tools.</p>
+            <p style={{margin:'15px 0px 4px 40px'}}>Python, PineScript, React, Node.js, C#, MySQL Workbench<br/ >
+            VS Code, VS 2022 for ML development, Jupyter</p>
 
 
             <table style={{ width:'90%', margin:'15px 0px 4px 0px' }}><colgroup><col style={{ width: '30%' }} /><col style={{ width: '50%' }} /><col /></colgroup><tbody><tr>
                   <td style={{ fontSize:'16px'}}><b>SMB Capital</b></td>
                   <td style={{ fontSize:'16px'}}><b>Internship: Stock Market</b></td>
-                  <td style={{ fontSize:'16px'}}><b>04/24- 05/24</b></td></tr></tbody></table>
+                  <td style={{ fontSize:'16px'}}><b>04/24 - 05/24</b></td></tr></tbody></table>
 
             <p>Attended Stock Market Investing training courses with stock options trading tools.</p>
 
