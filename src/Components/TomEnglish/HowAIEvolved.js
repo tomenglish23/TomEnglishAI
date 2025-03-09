@@ -12,7 +12,8 @@ export default function HowAIEvolved() {
                       backgroundPosition: 'right top', backgroundRepeat: "no-repeat" }}>
             <TopBar/>
             <div className='homeTable'>
-                <h1>35 years ago, my concept of AI was profitable!</h1>
+            <p>&nbsp;</p>
+            <h3>35 years ago, my concept of AI was profitable!</h3>
                 <p>&nbsp;</p>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -27,7 +28,7 @@ export default function HowAIEvolved() {
                 and A, B and C were weights from 0.1 to 9.9.</p>
                 <p>A, B and C could be complex algorithms where smaller algorithms were combinged.</p>
                 <p>The algorithm finder would run through our entire dinner. Yes, computers were that slow! <br />
-                But, I found some algorithms that worked! </p>
+                But, I found algorithms that worked! </p>
                 <p>&nbsp;</p>
                 <p>In the end, I needed more data which I could not find.</p>
                 <p>Michael Vick came along and race tracks were closed.</p>
@@ -37,20 +38,32 @@ export default function HowAIEvolved() {
                 <p>&nbsp;</p>
 
 
-                <h1>Beginnings of the Tom English AI Platform</h1>
+                <h3>Beginnings of the Tom English AI Platform</h3>
                 <p>&nbsp;</p>
-                <p>Lately, I played with Microsoft's Machine Learning trainings and I started my AI company.</p>
+                <p>I completed Microsoft's <b><u>Machine Learning</u></b> trainings, <br />
+                learned how to write <b><u>PineScript</u></b> stock chart algorithms 
+                on <a target="blank" href="https://www.TradingView.com/"><b>TradingView</b></a> <br />
+                and I started my AI company.</p>
                 <p>&nbsp;</p>
                 <p>Fast forward to today and I'm off and running.</p>
-                <p>I built my AI platform to collect data and learn various technologies to analyze data.</p>
+                <p>I built my <b><u>AI platform</u></b> to collect data and learn various technologies to analyze data.</p>
                 <p>&nbsp;</p>
                 <p>Linear Regression in Machine Learning was my start. It's a good base.<br />
                 But, my algorithm experience from 35 years ago tells me to add on to Microsoft's Machine Learning.</p> 
                 <p>&nbsp;</p>
-                <p>I am adding a rating system to my database, 
+                <p>I am adding a rating system to my database ... 
                 not for the dog track, for stock analysis!</p>
                 <p>&nbsp;</p>
-                <p>Stay tuned!</p>
+
+                <h3>AI Tools</h3>
+                <p>&nbsp;</p>
+                <p>Today's AI tools are fascinating! I am chipping away at the tools required 
+                    to create <b><u>AI Agents</u></b> and <b><u>Chatbots</u></b>.</p>
+                <p>&nbsp;</p>
+                <p>Hi-tech CEOs are NOT kidding ...</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;&nbsp;&nbsp;The more I learn AI Agent development, <br />
+                   &nbsp;&nbsp;&nbsp;the more I know AI will replace many jobs.</p>
                 <p>&nbsp;</p>
                 <p>&nbsp;</p>
                 <p>&nbsp;</p>
