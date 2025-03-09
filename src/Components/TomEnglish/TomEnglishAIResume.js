@@ -21,7 +21,7 @@ export default function TomEnglishAIResume() {
                 <tr>
                   <td>
                     <p><a target="blank" href="https://www.linkedin.com/in/TomEnglish23">linkedin.com/in/TomEnglish23</a></p>
-                    <p><a target="blank" href="https://www.facebook.com/profile.php?id=100067604027953">Facebook Tom English AI</a></p>
+                    <p><a target="blank" href="https://www.facebook.com/people/Tom-English-AI/100067604027953/">Facebook Tom English AI</a></p>
                   </td>
                   <td>
                     <center><p><a target="blank" href="https://tomenglish23.github.io/TomEnglishAI/">TomEnglishAI.com</a></p></center>
