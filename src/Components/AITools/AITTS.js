@@ -22,6 +22,25 @@ export default function AITTS() {
                     </colgroup>
                     <tbody>
 
+                        <tr><td><a href="https://www.naturalreaders.com/online/" target="blank"><b>Natural Readers</b></a></td>
+                            <td> AI Features: AI TTS, LLM multi-lingual, Voice Cloning. </td></tr>
+                        <tr><td style={{paddingBottom:'47px'}}></td><td><b><u>My go-to TTS tool. Cut-n-paste content from a webpage. Select the voice that is right for you.</u></b></td></tr>
+
+
+                        <tr><td><a href="https://ttsreader.com/player/" target="blank"><b>TTSReader</b></a></td>
+                            <td>Has a Player, Studio, Plugin and AI Transcriber.</td></tr>
+                        <tr><td></td><td>Has Text to Podcast &amp; Type to Speak.</td></tr>
+                        <tr><td style={{paddingBottom:'47px'}}></td><td>Has Text to Podcast &amp; Type to Speak.</td></tr>
+
+
+                        <tr><td><a href="https://www.fromtexttospeech.com/from-text-to-speech/natural-reader" target="blank"><b>Natural Reader</b></a></td>
+                            <td> User-friendly TTS tool for personal &amp; business use. <br />
+                            Offers natural-sounding voices &amp; supports multiple file formats. </td></tr>
+                        <tr><td></td><td>Listen to [documents, PDFs, web pages, &amp; more].</td></tr>
+                        <tr><td style={{paddingBottom:'47px'}}></td><td>For [Individuals &amp; small businesses] needing a simple, versatile TTS <br />
+                        for reading documents or e-learning materials. </td></tr>
+
+
                         <tr><td><a href="https://www.fromtexttospeech.com/from-text-to-speech/google-cloud-text-to-speech/" target="blank"><b> Google Cloud TTS</b></a></td>
                             <td> Powered by <b><u>Google DeepMind</u></b> with over 220 voices across 40+ languages &amp; variants. </td></tr>
                         <tr><td></td><td>Supports lifelike speech synthesis with WaveNet tech &amp; SSML (Speech Synthesis Markup Lang) <br />
@@ -52,14 +71,6 @@ export default function AITTS() {
                         <tr><td></td><td>It supports multiple languages &amp; platforms &amp; has high-quality voices <br />
                         for apps like e-learning &amp; business solutions.</td></tr>
                         <tr><td style={{paddingBottom:'47px'}}></td><td>For Businesses &amp; developers needing easy-to-integrate TTS services with high-quality output. </td></tr>
-
-
-                        <tr><td><a href="https://www.fromtexttospeech.com/from-text-to-speech/natural-reader" target="blank"><b>Natural Reader</b></a></td>
-                            <td> User-friendly TTS tool for personal &amp; business use. <br />
-                            Offers natural-sounding voices &amp; supports multiple file formats. </td></tr>
-                        <tr><td></td><td>Listen to [documents, PDFs, web pages, &amp; more].</td></tr>
-                        <tr><td style={{paddingBottom:'47px'}}></td><td>For [Individuals &amp; small businesses] needing a simple, versatile TTS <br />
-                        for reading documents or e-learning materials. </td></tr>
 
 
                         <tr><td><a href="https://www.fromtexttospeech.com/from-text-to-speech/readspeaker" target="blank"><b>ReadSpeaker</b></a></td>
