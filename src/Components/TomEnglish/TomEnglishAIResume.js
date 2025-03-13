@@ -24,8 +24,8 @@ export default function TomEnglishAIResume() {
                     <p><a target="blank" href="https://www.facebook.com/people/Tom-English-AI/100067604027953/">Facebook Tom English AI</a></p>
                   </td>
                   <td>
-                    <center><p><a target="blank" href="https://tomenglish23.github.io/TomEnglishAI/">TomEnglishAI.com</a></p></center>
-                    <center><p style={{marginBottom:'15px'}}><b>Microsoft &amp; Azure Certified</b></p></center>
+                    <center><p>TomEnglishAI.com</p></center>
+                    <center><p style={{marginBottom:'15px'}}><a target="blank" href="https://tomenglish23.github.io/TomEnglishAI/">tomenglish23.github.io/TomEnglishAI</a></p></center>
                   </td>
                   <td style={{ textAlign: 'right' }}>
                     <p>February 27, 2025</p>
@@ -34,7 +34,8 @@ export default function TomEnglishAIResume() {
                 </tr>
                 <tr>
                   <td colSpan="3">
-                    <center><p>25-year Senior Microsoft Developer - AI Tools &amp; Machine Learning - Microsoft Azure</p></center>
+                  <center><p style={{marginBottom:'15px'}}><b>Microsoft &amp; Azure Certified</b></p></center>
+                  <center><p>25-year Senior Microsoft Developer - AI Tools &amp; Machine Learning - Microsoft Azure</p></center>
                     <center><p>.NET, C#, SQL, Azure, AI, ML, Python, Node, React, PineScript</p></center>
                   </td>
                 </tr>
