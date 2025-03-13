@@ -20,10 +20,14 @@ import Copilot from '../../Images/AITools/copilot_ai.png';
 import MidJourney from '../../Images/AITools/Midjourney_ai.png';
 import NiteCafe from '../../Images/AITools/nitecafe_ai.png';
 import NiteCafeOldManInDingy from '../../Images/AITools/OldManInADingyNightCafe.jpg';
+import Replicate from '../../Images/AITools/replicate_ai.png';
 import Runway from '../../Images/AITools/runway_ai.png';
+import Descript from '../../Images/AITools/descript_ai.png';
+import Opus from '../../Images/AITools/opus_ai.png';
 import SecondNature from '../../Images/AITools/secondnature_ai.png';
 import SoulMachines from '../../Images/AITools/soul_machines_ai.png';
 import SoulMachinesEx from '../../Images/AITools/soul_machines_ex.png';
+import Suno from '../../Images/AITools/suno_ai.png';
 import Vue from '../../Images/AITools/vue_ai.png';
 import WonderDynamics from '../../Images/AITools/wonderdynamics_ai.png';
 import Wordtune from '../../Images/AITools/wordtune_ai.png';
@@ -88,8 +92,6 @@ export default function AITools() {
                         </tr>
                     </tbody>
                 </table>
-
-
 
                 <p>&nbsp;</p>
                 <h2>Tools by Category</h2>
@@ -211,6 +213,46 @@ export default function AITools() {
                         <col />
                     </colgroup>
                     <tbody>
+
+                        <tr>
+                            <td><a target="blank" href="https://www.midjourney.com/"><b>Midjourney</b></a></td>
+                            <td><img src={MidJourney} alt="Midjourney" border="0" width="32" height="32" /></td>
+                            <td>Midjourney creates stunning AI-generated images based on text prompts.</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>Midjourney is known for its artistic style and can produce a wide range of visuals from abstract to realistic images.</td>
+                        </tr>
+                        <tr>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td><b><u>$10+/month</u></b></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><a target="blank" href="https://openai.com/dall-e-3"><b>DALL-E 3</b></a></td>
+                            <td><img src={DALL_E3} alt="DALL-E 3" border="0" width="32" height="32" /></td>
+                            <td>DALL-E 3 is an AI model that creates images from textual descriptions.</td>
+                        </tr>
+                        <tr>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>DALL-E 3 enhances the capabilities of its predecessor by generating more detailed and contextually relevant images from user prompts.</td>
+                        </tr>
+                       
+                        <tr>
+                            <td><a target="blank" href="https://replicate.com/"><b>Replicate</b></a></td>
+                            <td><img src={Replicate} alt="Replicate" border="0" width="32" height="32" /></td>
+                            <td style={{paddingBottom:'37px'}}>Run and fine-tune models. Deploy custom models at scale. All with one line of code.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+
                         <tr>
                             <td><a target="blank" href="https://www.grammarly.com/"><b>Grammarly</b></a></td>
                             <td><img src={Grammarly} alt="Grammarly" border="0" width="32" height="32" /></td>
@@ -344,6 +386,117 @@ export default function AITools() {
                     </tbody>
                 </table>
 
+                <h3 style={{backgroundColor: 'gold'}}>Create Videos & Multimedia</h3>
+                <table style={{width:'90%'}}>
+                <colgroup>
+                        <col span="1" style={{width:'12%'}} />
+                        <col span="1" style={{width:'4%'}} />
+                        <col />
+                    </colgroup>
+                    <tbody>
+                        
+                    <tr>
+                            <td><a target="blank" href="https://runwayml.com/"><b>Runway</b></a></td>
+                            <td><img src={Runway} alt="Runway" border="0" width="32" height="32" /></td>
+                            <td>Runway offers AI tools for <b><u>video editing</u></b> and creative content creation.</td>
+                        </tr>
+                        <tr>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>Runway provides innovative editing solutions, including AI-driven features for 
+                                enhancing <b><u>videos</u></b> and <b><u>imagery</u></b>.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td><a target="blank" href="https://suno.com/home"><b>Suno</b></a></td>
+                            <td><img src={Suno} alt="Suno" border="0" width="32" height="32" /></td>
+                            <td>Suno Allows you to make any <b><u>song</u></b> you like.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+
+                        <tr>
+                            <td><a target="blank" href="https://fliki.ai/"><b>Fliki</b></a></td>
+                            <td><img src={Fliki} alt="Fliki" border="0" width="32" height="32" /></td>
+                            <td>Fliki turns text into videos using AI, making video creation easier.</td>
+                        </tr>
+                        <tr>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>Fliki allows users to create engaging videos quickly by converting scripts or articles into video format with visuals and voiceovers.</td>
+                        </tr>
+                        <tr>
+                            <td><a target="blank" href="https://invideo.io/"><b>Invideo</b></a></td>
+                            <td><img src={Invideo} alt="Invideo" border="0" width="32" height="32" /></td>
+                            <td>Invideo is a video creation tool that uses templates to streamline video production.</td>
+                        </tr>
+                        <tr>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>Invideo provides users with a wide range of templates for creating professional-quality videos for marketing and social media.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td><a target="blank" href="https://wonderdynamics.com/"><b>Wonder Dynamics</b></a></td>
+                            <td><img src={WonderDynamics} alt="Wonder Dynamics" border="0" width="32" height="32" /></td>
+                            <td>Wonder Dynamics combines AI and live-action for creating dynamic content.</td>
+                        </tr>
+                        <tr>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>Wonder Dynamics provides tools to merge AI-generated characters with live-action footage, enhancing video production quality.</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3 style={{backgroundColor: 'gold'}}>Polish/Enhance Your Videos & Images</h3>
+                <table style={{width:'90%'}}>
+                <colgroup>
+                        <col span="1" style={{width:'12%'}} />
+                        <col span="1" style={{width:'4%'}} />
+                        <col />
+                    </colgroup>
+                    <tbody>
+                        
+                        <tr>
+                            <td><a target="blank" href="https://www.descript.com/"><b>Descript</b></a></td>
+                            <td><img src={Descript} alt="Runway" border="0" width="32" height="32" /></td>
+                            <td>Make video faster. Make more of it. And make it good.</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>Your audiences want video. Your business needs video. The algorithms demand more and more video.</td>
+                        </tr>
+                        <tr>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>Get them all off your back with Descript—the fully powered video tool you already know how to use.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td><a target="blank" href="https://www.opus.pro/"><b>Opus</b></a></td>
+                            <td><img src={Opus} alt="Opus" border="0" width="32" height="32" /></td>
+                            <td>#1 AI VIDEO CLIPPING TOOL</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>1 long video, 10 viral clips. Create 10x faster..</td>
+                        </tr>
+                        <tr>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>OpusClip turns long videos into shorts, and publishes them to all social platforms in one click.</td>
+                        </tr>   
+
+                    </tbody>
+                </table>
+
                 <h3 style={{backgroundColor: 'gold'}}>Music & Art Generation</h3>
                 <table style={{width:'90%'}}>
                 <colgroup>
@@ -352,6 +505,7 @@ export default function AITools() {
                         <col />
                     </colgroup>
                     <tbody>
+
                         <tr>
                             <td><a target="blank" href="https://www.aiva.ai/"><b>AIVA</b></a></td>
                             <td><img src={AIVA} alt="AIVA" border="0" width="32" height="32" /></td>
@@ -372,6 +526,7 @@ export default function AITools() {
                             <td>&nbsp;</td>
                             <td>Artflow allows users to create and customize artwork by generating images from text descriptions or modifying existing images.</td>
                         </tr>
+
                         <tr>
                             <td><a target="blank" href="https://crypko.ai/"><b>Crypko</b></a></td>
                             <td><img src={Crypko} alt="Crypko" border="0" width="32" height="32" /></td>
@@ -382,31 +537,7 @@ export default function AITools() {
                             <td>&nbsp;</td>
                             <td>Crypko allows users to create unique characters for games, animations, and other creative projects, leveraging deep learning techniques.</td>
                         </tr>
-                        <tr>
-                            <td><a target="blank" href="https://openai.com/dall-e-3"><b>DALL-E 3</b></a></td>
-                            <td><img src={DALL_E3} alt="DALL-E 3" border="0" width="32" height="32" /></td>
-                            <td>DALL-E 3 is an AI model that creates images from textual descriptions.</td>
-                        </tr>
-                        <tr>
-                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>DALL-E 3 enhances the capabilities of its predecessor by generating more detailed and contextually relevant images from user prompts.</td>
-                        </tr>
-                        <tr>
-                            <td><a target="blank" href="https://www.midjourney.com/"><b>Midjourney</b></a></td>
-                            <td><img src={MidJourney} alt="Midjourney" border="0" width="32" height="32" /></td>
-                            <td>Midjourney creates stunning AI-generated images based on text prompts.</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>Midjourney is known for its artistic style and can produce a wide range of visuals from abstract to realistic images.</td>
-                        </tr>
-                        <tr>
-                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td><b><u>$10+/month</u></b></td>
-                        </tr>
+
                         <tr>
                             <td><a target="blank" href="https://nightcafe.studio/"><b>NightCafe</b></a></td>
                             <td>{<img src={NiteCafe} alt="NightCafe" border="0" width="32" height="32" />}</td>
@@ -431,58 +562,6 @@ export default function AITools() {
                             <td style={{paddingBottom:'37px'}}>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td>&nbsp;&nbsp;&nbsp;<img src={NiteCafeOldManInDingy} alt="NightCafe" border="0" width="300" height="350" /></td>
-                        </tr>
-                    </tbody>
-                </table>
-
-
-                <h3 style={{backgroundColor: 'gold'}}>AI Tools for Video & Multimedia</h3>
-                <table style={{width:'90%'}}>
-                <colgroup>
-                        <col span="1" style={{width:'12%'}} />
-                        <col span="1" style={{width:'4%'}} />
-                        <col />
-                    </colgroup>
-                    <tbody>
-                        <tr>
-                            <td><a target="blank" href="https://fliki.ai/"><b>Fliki</b></a></td>
-                            <td><img src={Fliki} alt="Fliki" border="0" width="32" height="32" /></td>
-                            <td>Fliki turns text into videos using AI, making video creation easier.</td>
-                        </tr>
-                        <tr>
-                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>Fliki allows users to create engaging videos quickly by converting scripts or articles into video format with visuals and voiceovers.</td>
-                        </tr>
-                        <tr>
-                            <td><a target="blank" href="https://invideo.io/"><b>Invideo</b></a></td>
-                            <td><img src={Invideo} alt="Invideo" border="0" width="32" height="32" /></td>
-                            <td>Invideo is a video creation tool that uses templates to streamline video production.</td>
-                        </tr>
-                        <tr>
-                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>Invideo provides users with a wide range of templates for creating professional-quality videos for marketing and social media.</td>
-                        </tr>
-                        <tr>
-                            <td><a target="blank" href="https://runwayml.com/"><b>Runway</b></a></td>
-                            <td><img src={Runway} alt="Runway" border="0" width="32" height="32" /></td>
-                            <td>Runway offers AI tools for video editing and creative content creation.</td>
-                        </tr>
-                        <tr>
-                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>Runway provides innovative editing solutions, including AI-driven features for enhancing videos and imagery.</td>
-                        </tr>
-                        <tr>
-                            <td><a target="blank" href="https://wonderdynamics.com/"><b>Wonder Dynamics</b></a></td>
-                            <td><img src={WonderDynamics} alt="Wonder Dynamics" border="0" width="32" height="32" /></td>
-                            <td>Wonder Dynamics combines AI and live-action for creating dynamic content.</td>
-                        </tr>
-                        <tr>
-                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>Wonder Dynamics provides tools to merge AI-generated characters with live-action footage, enhancing video production quality.</td>
                         </tr>
                     </tbody>
                 </table>
