@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7b29ad4f93890a3245b22e880ff354ac",
+    "revision": "57b99ea97adffd093972d6f6bce0a9b9",
     "url": "/TomEnglishAI/index.html"
   },
   {
-    "revision": "87ae866b054906972ff1",
+    "revision": "0d366ea73aca8afc24fc",
     "url": "/TomEnglishAI/static/css/main.7bf64e84.chunk.css"
   },
   {
-    "revision": "2bb5740234c321b6dc24",
-    "url": "/TomEnglishAI/static/js/2.6f975caa.chunk.js"
+    "revision": "680feb9e5ae84dc9779f",
+    "url": "/TomEnglishAI/static/js/2.c8149a59.chunk.js"
   },
   {
     "revision": "9e126fb458b379ef7cf758f298725956",
-    "url": "/TomEnglishAI/static/js/2.6f975caa.chunk.js.LICENSE.txt"
+    "url": "/TomEnglishAI/static/js/2.c8149a59.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9de2077249b77f1cd2f7",
-    "url": "/TomEnglishAI/static/js/3.75c5f47a.chunk.js"
+    "revision": "c0c214770088c283843e",
+    "url": "/TomEnglishAI/static/js/3.37021f01.chunk.js"
   },
   {
-    "revision": "87ae866b054906972ff1",
-    "url": "/TomEnglishAI/static/js/main.d37d6fc8.chunk.js"
+    "revision": "0d366ea73aca8afc24fc",
+    "url": "/TomEnglishAI/static/js/main.e2895776.chunk.js"
   },
   {
-    "revision": "83b42025f31d847ff0c9",
-    "url": "/TomEnglishAI/static/js/runtime-main.0e9f8828.js"
+    "revision": "58bd1c316ec0aa619b11",
+    "url": "/TomEnglishAI/static/js/runtime-main.5b422b9b.js"
   },
   {
     "revision": "d933811650a919e6f2fa9dbfe9ee0938",
@@ -100,6 +100,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TomEnglishAI/static/media/Terms_Geek2.a47634e1.jpg"
   },
   {
+    "revision": "029615307084669e621e0b2780658e03",
+    "url": "/TomEnglishAI/static/media/airtable_ai.02961530.png"
+  },
+  {
     "revision": "637bcc5ec678805e7c54aa95ee53ae06",
     "url": "/TomEnglishAI/static/media/aiva_ai.637bcc5e.png"
   },
@@ -162,6 +166,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "db7846e03a259eb1f3c2ea3b6457e874",
     "url": "/TomEnglishAI/static/media/knowji_ai.db7846e0.png"
+  },
+  {
+    "revision": "79b6388d7faea3f04a49e58f2e5eacc4",
+    "url": "/TomEnglishAI/static/media/make_ai.79b6388d.png"
   },
   {
     "revision": "2917c51c806f73be999dba3d83903f97",
