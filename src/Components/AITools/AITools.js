@@ -661,7 +661,7 @@ export default function AITools() {
                         <tr>
                             <td>&nbsp;</td>
                             <td>&nbsp;</td>
-                            <td>Bland AI, Air AI, SentFlow, Vapi</td>
+                            <td>Bland.AI, Air AI, Synthflow, Vapi</td>
                         </tr>
                         <tr>
                             <td>&nbsp;</td>
