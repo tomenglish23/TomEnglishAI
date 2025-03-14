@@ -48,6 +48,7 @@ export default function Home() {
                                         <tr> <td style={{padding:'0px 0px 3px 0px'}}><a href="\TomEnglishAI\AITools\AIToolsAIToolEnabled">AI-Enabled Tools</a></td> </tr>
                                         <tr> <td style={{padding:'0px 0px 3px 0px'}}><a href="\TomEnglishAI\AITools\AITTS">AI TTS</a></td> </tr>
                                         <tr> <td style={{padding:'0px 0px 3px 0px'}}><a href="\TomEnglishAI\AITools\AIGPTs">AI GPTs</a></td> </tr>
+                                        <tr> <td style={{padding:'0px 0px 3px 0px'}}><a href="\TomEnglishAI\AITools\AIBusinessTypes">AI Business Types</a></td> </tr>
                                         <tr> <td style={{padding:'0px 0px 3px 0px'}}><a href="\TomEnglishAI\AITools\TomEnglishAIChatBot">Tom English AI ChatBots</a></td> </tr>
                                     </tbody>
                                 </table>

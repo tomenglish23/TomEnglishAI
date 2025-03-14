@@ -20,6 +20,8 @@ export default function MenuSubmenu() {
                 <li><a href="\TomEnglishAI\AITools\AIToolsAIToolEnabled"        >AI-Enabled Tools</a></li>
                 <li><a href="\TomEnglishAI\AITools\AITTS"                       >AI TTS</a></li>
                 <li><a href="\TomEnglishAI\AITools\AIGPTs"                      >AI GPTs</a></li>
+                <li><a href="\TomEnglishAI\AITools\AIBusinessTypes"             >AI Business Types</a></li>
+                
             </ul>
         </li>
 

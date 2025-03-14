@@ -36,6 +36,7 @@ import TomEnglishAIChatBot         from './Components/AITools/TomEnglishAIChatBo
 import ChatBots                    from './Components/AITools/ChatBots';
 import AIGPTs                      from './Components/AITools/AIGPTs';
 import AITTS                       from './Components/AITools/AITTS';
+import AIBusinessTypes             from './Components/AITools/AIBusinessTypes';
 
 import Private                     from './Components/Presence/Private';
 import BusinessPlan                from './Components/Presence/BusinessPlan';
@@ -94,6 +95,7 @@ function App() {
           <Route path="/AITools/ChatBots"                     element={<ChatBots />} />
           <Route path="/AITools/AIGPTs"                       element={<AIGPTs />} />
           <Route path="/AITools/AITTS"                        element={<AITTS />} />
+          <Route path="/AITools/AIBusinessTypes"              element={<AIBusinessTypes />} />
 
           <Route path="/Presence/Private"                     element={<Private />} />
           <Route path="/Presence/BusinessPlan"                element={<BusinessPlan />} />
