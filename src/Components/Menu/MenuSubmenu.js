@@ -1,6 +1,5 @@
 import React from "react";
 import '../CSS/MenuSubmenu.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 // Path: src\Components\Menu\MenuSubmenu.js
 
@@ -8,7 +7,7 @@ export default function MenuSubmenu() {
  
     /* Need images of each CP */
 
-    const publicUrl = process.env.PUBLIC_URL;
+    // const publicUrl = process.env.PUBLIC_URL;
 
   return (
 <div>
@@ -20,6 +19,7 @@ export default function MenuSubmenu() {
                 <li><a href="\TomEnglishAI\AITools\AITools"                     >AI Tools by Category</a></li>
                 <li><a href="\TomEnglishAI\AITools\AIToolsAIToolEnabled"        >AI-Enabled Tools</a></li>
                 <li><a href="\TomEnglishAI\AITools\AITTS"                       >AI TTS</a></li>
+                <li><a href="\TomEnglishAI\AITools\AIGPTs"                      >AI GPTs</a></li>
             </ul>
         </li>
 

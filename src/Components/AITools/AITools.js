@@ -30,6 +30,7 @@ import SecondNature from '../../Images/AITools/secondnature_ai.png';
 import SoulMachines from '../../Images/AITools/soul_machines_ai.png';
 import SoulMachinesEx from '../../Images/AITools/soul_machines_ex.png';
 import Suno from '../../Images/AITools/suno_ai.png';
+import Veed from '../../Images/AITools/veed_ai.png';
 import Vue from '../../Images/AITools/vue_ai.png';
 import WonderDynamics from '../../Images/AITools/wonderdynamics_ai.png';
 import Wordtune from '../../Images/AITools/wordtune_ai.png';
@@ -397,22 +398,29 @@ export default function AITools() {
                     </colgroup>
                     <tbody>
                         
-                    <tr>
+                        <tr>
                             <td><a target="blank" href="https://runwayml.com/"><b>Runway</b></a></td>
                             <td><img src={Runway} alt="Runway" border="0" width="32" height="32" /></td>
                             <td>Runway offers AI tools for <b><u>video editing</u></b> and creative content creation.</td>
                         </tr>
                         <tr>
-                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
                             <td>&nbsp;</td>
-                            <td>Runway provides innovative editing solutions, including AI-driven features for 
+                            <td>&nbsp;</td>
+                            <td style={{paddingBottom:'37px'}}>Runway provides innovative editing solutions, including AI-driven features for 
                                 enhancing <b><u>videos</u></b> and <b><u>imagery</u></b>.</td>
                         </tr>
                         
                         <tr>
                             <td><a target="blank" href="https://suno.com/home"><b>Suno</b></a></td>
                             <td><img src={Suno} alt="Suno" border="0" width="32" height="32" /></td>
-                            <td>Suno Allows you to make any <b><u>song</u></b> you like.</td>
+                            <td style={{paddingBottom:'37px'}}>Suno Allows you to make any <b><u>song</u></b> you like.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td><a target="blank" href="https://www.veed.io/"><b>Veed</b></a></td>
+                            <td><img src={Veed} alt="Veed" border="0" width="32" height="32" /></td>
+                            <td>Use Veed to create videos in the blink of AI. 
+                                Make better videos faster. AI-powered video creation for teams..</td>
                         </tr>
                         
                         <tr>
