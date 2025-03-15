@@ -1,35 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a9d91f83a27efb4cac007bfe57e637ba",
+    "revision": "3ba5ff37c6d0587ae5ff1ad5c7e6996a",
     "url": "/TomEnglishAI/index.html"
   },
   {
-    "revision": "b0b6c2e4e53980632529",
-    "url": "/TomEnglishAI/static/css/main.7bf64e84.chunk.css"
+    "revision": "836c4e796305599b7464",
+    "url": "/TomEnglishAI/static/css/main.94ccdd72.chunk.css"
   },
   {
-    "revision": "0a777d804bd923302aee",
-    "url": "/TomEnglishAI/static/js/2.dd72745d.chunk.js"
+    "revision": "d683a26d90429eedc2a6",
+    "url": "/TomEnglishAI/static/js/2.d0cf7a7f.chunk.js"
   },
   {
     "revision": "9e126fb458b379ef7cf758f298725956",
-    "url": "/TomEnglishAI/static/js/2.dd72745d.chunk.js.LICENSE.txt"
+    "url": "/TomEnglishAI/static/js/2.d0cf7a7f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a747e7a560b1658c672e",
-    "url": "/TomEnglishAI/static/js/3.22c4ceb4.chunk.js"
+    "revision": "e05282b20c718eedb8ae",
+    "url": "/TomEnglishAI/static/js/3.6a61a204.chunk.js"
   },
   {
-    "revision": "b0b6c2e4e53980632529",
-    "url": "/TomEnglishAI/static/js/main.5e07173c.chunk.js"
+    "revision": "836c4e796305599b7464",
+    "url": "/TomEnglishAI/static/js/main.203a3eb8.chunk.js"
   },
   {
-    "revision": "7ae463ab6d9b46452e4c",
-    "url": "/TomEnglishAI/static/js/runtime-main.9605aca3.js"
+    "revision": "a3977a0394f9cd1424d0",
+    "url": "/TomEnglishAI/static/js/runtime-main.ed8c2d8f.js"
   },
   {
     "revision": "d933811650a919e6f2fa9dbfe9ee0938",
     "url": "/TomEnglishAI/static/media/AIInFinance1.d9338116.jpg"
+  },
+  {
+    "revision": "c1d2416eef90fa108dd2346ab1bbf0d8",
+    "url": "/TomEnglishAI/static/media/ASRVoicemail.c1d2416e.png"
   },
   {
     "revision": "45d94fb5ff9accc5320afbadd6b1b835",
@@ -82,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bfc4bc331123cf9b9895c88973c87314",
     "url": "/TomEnglishAI/static/media/React1.bfc4bc33.jpg"
+  },
+  {
+    "revision": "c1a6156c04033591800f8157b61cb730",
+    "url": "/TomEnglishAI/static/media/SSIS.c1a6156c.png"
   },
   {
     "revision": "9b36f3d0389a8363f1f91c6b156a400f",
@@ -234,6 +242,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6dd7bb18a0dd2b1719127dcec2dccf95",
     "url": "/TomEnglishAI/static/media/suno_ai.6dd7bb18.png"
+  },
+  {
+    "revision": "b8e9c4f8fc6481e27b1c0e7b29439e48",
+    "url": "/TomEnglishAI/static/media/terminator2.b8e9c4f8.png"
   },
   {
     "revision": "dba320ef4970088ea6e61a0be913598b",
