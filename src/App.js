@@ -6,6 +6,7 @@ import About                       from './Components/TomEnglish/About';
 import HowAIEvolved                from './Components/TomEnglish/HowAIEvolved';
 import TomEnglishAIResume          from './Components/TomEnglish/TomEnglishAIResume';
 import AWSDictionary               from './Components/TomEnglish/AWSDictionary';
+import TestPage                    from './Components/TomEnglish/TestPage';
 
 import SignUp                      from './Components/TomEnglish/Signup';
 
@@ -66,7 +67,8 @@ function App() {
           <Route path="/TomEnglish/TomEnglishAIResume"        element={<TomEnglishAIResume />} />
           <Route path="/TomEnglish/HowAIEvolved"              element={<HowAIEvolved />} />
           <Route path="/TomEnglish/AWSDictionary"             element={<AWSDictionary />} />
-
+          <Route path="/TomEnglish/TestPage"                  element={<TestPage />} />
+          
           <Route path="/TomEnglish/SignUp"                    element={<SignUp />} />
 
           <Route path="/AIStocks/AIStocksCandlesticks"        element={<AIStocksCandlesticks />} />

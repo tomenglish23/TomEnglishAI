@@ -1,20 +1,16 @@
 import React from 'react';
 import TopBar from '../Menu/TopBar';
 import '../CSS/styles.css';
-import backgroundImage from '../../Images/OldManInDingyNoBG.png';
 
 export default function AIStocksExternalFactors() {
       
     return (
-        <div style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: '16%', 
-                      backgroundPosition: 'right top', backgroundRepeat: "no-repeat" }}>
-            <div style={{opacity: 1.0 }}>
-                <TopBar/>
-
-                <p>&nbsp;</p>
-                <h1> External News</h1>
-
-<p>&nbsp;</p>
+        <div style={{opacity: 1.0 }}>
+            <TopBar/>
+            <header>
+                <h1>External News</h1>
+            </header>            
+            <main>
 <h2>Heatmaps</h2>
 
 <h3>Do stocks follow the price rise and fall relative to the largest stock in its heatmap category?</h3>
@@ -280,21 +276,7 @@ In contrast, September is often considered a weak month for stocks.</p>
 <p><br />Key Takeaways</p>
 <p>While there are some intriguing patterns in stock behavior before and after holidays,<br />
 these trends are not always reliable and can be influenced by various market and economic factors.</p>
-
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-
-            </div>
+</main>
         </div>
     )
 }

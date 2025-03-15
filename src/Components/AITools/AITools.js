@@ -1,7 +1,6 @@
 import React from 'react';
 import TopBar from '../Menu/TopBar';
 import '../CSS/styles.css';
-import backgroundImage from '../../Images/OldManInDingyNoBG.png';
 
 import AIVA from '../../Images/AITools/aiva_ai.png';
 import Artflow from '../../Images/AITools/artflow_ai.png';
@@ -38,15 +37,12 @@ import MetaAI from '../../Images/AITools/meta_ai.png';
 export default function AITools() {
       
     return (
-        <div style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: '14%', 
-                      backgroundPosition: 'right top', backgroundRepeat: "no-repeat" }}>
-            <div style={{opacity: 1.0 }}>
-                <TopBar/>
-
+        <div style={{opacity: 1.0 }}>
+            <TopBar/>
+            <header>
                 <h1>AI Tools by Category</h1>
-
-
-                <p>&nbsp;</p>
+            </header>            
+            <main>
                 <h2>Commonly Used</h2>
                 <p>&nbsp;</p>
 
@@ -390,7 +386,7 @@ export default function AITools() {
                 <h3 style={{backgroundColor: 'gold'}}>Create Videos & Multimedia</h3>
                 <table style={{width:'90%'}}>
                 <colgroup>
-                        <col span="1" style={{width:'12%'}} />
+                        <col span="1" style={{width:'15%'}} />
                         <col span="1" style={{width:'4%'}} />
                         <col />
                     </colgroup>
@@ -575,18 +571,7 @@ export default function AITools() {
                         </tr>
                     </tbody>
                 </table>
-
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-
-            </div>
+                </main>
         </div>
     )
 }

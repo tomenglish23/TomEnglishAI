@@ -1,24 +1,20 @@
 import React from 'react';
 import TopBar from '../Menu/TopBar';
 import '../CSS/styles.css';
-import backgroundImage from '../../Images/OldManInDingyNoBG.png';
 
 export default function AITechnologies() {
       
     return (
-        <div style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: '16%', 
-                      backgroundPosition: 'right top', backgroundRepeat: "no-repeat" }}>
-            <div style={{opacity: 1.0 }}>
-                <TopBar/>
-                <div className='homeTable'>
-
-                <p> &nbsp; </p>
-                <h1>Technologies</h1>
-                    <p> &nbsp; </p>
-                    <p> &nbsp; </p>
-                    
+        <div style={{opacity: 1.0 }}>
+            <TopBar/>
+            <header>
+                <h1>AI Technologies</h1>
+                <p>Underpinning technologies</p>
+            </header>            
+            <main>
                     <h2>Python</h2> 
 
+                    <p>&nbsp;</p>
                     <h3>Scikit-Learn</h3>
                     <table style={{width:'100%'}}>
                         <colgroup>
@@ -44,6 +40,7 @@ export default function AITechnologies() {
                         </tr>
                     </table>
 
+                    <p>&nbsp;</p>
                     <h3>PyPi</h3>
                     <table style={{width:'100%'}}>
                         <colgroup>
@@ -62,6 +59,7 @@ export default function AITechnologies() {
                         </tr>
                     </table>
 
+                    <p>&nbsp;</p>
                     <h3>mlens</h3>
                     <table style={{width:'100%'}}>
                         <colgroup>
@@ -80,6 +78,7 @@ export default function AITechnologies() {
                         </tr>
                     </table>
 
+                    <p>&nbsp;</p>
                     <h3>GitHub</h3>
                     <table style={{width:'100%'}}>
                         <colgroup>
@@ -154,10 +153,12 @@ export default function AITechnologies() {
                         </tr>
                     </table>
                     
+                    <p>&nbsp;</p>
                     <h3>SkiLearn Data</h3> 
                     <p><a target="blank" href="https://scikit-learn.org/stable/auto_examples/applications/plot_stock_market.html#sphx-glr-download-auto-examples-applications-plot-stock-market-py">plot_stock_market</a></p>
                     <p><a target="blank" href="https://raw.githubusercontent.com/scikit-learn/examples-data/master/financial-data/TXN.csv">financial-data/TXN.csv</a></p>
                  
+                    <p>&nbsp;</p>
                     <h3>Py: NumPy,Pandas,Jupyter</h3> 
 
                     <p>
@@ -187,7 +188,8 @@ Testing hypotheses <br />
 &nbsp;&nbsp;&nbsp;   - Repeat process
 </p>
 
-                    <h3>Py.exe, Jupyter Lab, Notebooks, Contoso</h3> 
+<p>&nbsp;</p>
+<h3>Py.exe, Jupyter Lab, Notebooks, Contoso</h3> 
 
 
                     <h4>Installs</h4>
@@ -352,16 +354,8 @@ Please try a more unique name or leave unspecified to receive a randomly generat
 
                     <h4>TEM</h4>
 
-
-                    <p> <a target="blank" href="https://robinhood.com/stocks/TEM?source=search">TEM</a> </p>
-                    <p> &nbsp; </p>
-                    <p> &nbsp; </p>
-                    <p> &nbsp; </p>
-                    <p> &nbsp; </p>
-
-                </div>
-
-            </div>
+<p> <a target="blank" href="https://robinhood.com/stocks/TEM?source=search">TEM</a> </p>
+            </main>
         </div>
     )
 }

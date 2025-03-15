@@ -1,19 +1,17 @@
 import React from 'react';
 import TopBar from '../Menu/TopBar';
 import '../CSS/styles.css';
-import backgroundImage from '../../Images/OldManInDingyNoBG.png';
 
 export default function AWSDictionary() {
 
   return (
-    <div style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: '16%', 
-                  backgroundPosition: 'right top', backgroundRepeat: "no-repeat" }}>
-        <TopBar/>
-        <div className='homeTable'>
-            <h1>AWS Dictionary</h1>
-            <p>&nbsp;</p>
-            <p>I had this handy. Keeping it here in case I find that AWS has some good Machine Learning technology.</p>
-
+        <div style={{opacity: 1.0 }}>
+            <TopBar/>
+            <header>
+                <h1>AWS Dictionary</h1>
+                <p>I had this handy. <br />Keeping it here in case AWS has good Machine Learning technology.</p>
+            </header>            
+            <main>
             <table style={{ width:'90%' }}>
               <colgroup>
                 <col style={{ width: '34%' }} />
@@ -818,15 +816,8 @@ export default function AWSDictionary() {
                 <tr><td>zone awareness</td><td>Amzn Elasticsearch Svc (Amzn ES): A configuration that distributes nodes in a cluster across two Availability Zones in the same region. Zone awareness helps to prevent data loss & minimizes downtime in the event of node & data center failure. If you enable zone awareness, you must have an even number of data instances in the instance count, & you also must use the Amzn Elasticsearch Svc Configuration API to replicate your data for your Elasticsearch cluster.</td></tr>
               </tbody>
             </table>
-
-            <p>&nbsp;</p>            
-            <p>&nbsp;</p>            
-            <p>&nbsp;</p>            
-            <p>&nbsp;</p>            
-            <p>&nbsp;</p>            
-            <p>&nbsp;</p>            
+            </main>
         </div>
-    </div>
     )
 }
-                 
+            

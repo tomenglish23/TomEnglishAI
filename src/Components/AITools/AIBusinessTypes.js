@@ -1,23 +1,18 @@
 import React from 'react';
 import TopBar from '../Menu/TopBar';
 import '../CSS/styles.css';
-import backgroundImage from '../../Images/OldManInDingyNoBG.png';
 import Airtable from '../../Images/AITools/airtable_ai.png';
 import Make from '../../Images/AITools/make_ai.png';
 
 export default function AIBusinessTypes() {
       
     return (
-        <div style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: '19%', 
-                      backgroundPosition: 'right top', backgroundRepeat: "no-repeat" }}>
-            <div style={{opacity: 1.0 }}>
-                <TopBar/>
-
+        <div style={{opacity: 1.0 }}>
+            <TopBar/>
+            <header>
                 <h1>AI Business Types</h1>
-
-
-                <p>&nbsp;</p>
-
+            </header>            
+            <main>
                 <h3 style={{backgroundColor: 'linen'}}>5 Types of AI Businesses: 1. AI Automation Specialist</h3>
                 <table style={{width:'90%'}}>
                 <colgroup>
@@ -187,19 +182,7 @@ export default function AIBusinessTypes() {
 
                     </tbody>
                 </table>
-
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-
-            </div>
+                </main>
         </div>
     )
 }

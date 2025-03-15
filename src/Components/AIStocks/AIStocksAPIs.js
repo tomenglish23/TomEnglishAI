@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import Axios from 'axios';
 import TopBar from '../Menu/TopBar';
-import backgroundImage from '../../Images/OldManInDingyNoBG.png';
 import '../CSS/styles.css';
 
 //import Select from 'react-select';
@@ -29,14 +28,15 @@ export default function AIStocksAPIs() {
         // alert('get_tv_stk_hist')
         try {
 
-            /* const cmd = 'GET_DATA'; // TODO: cmd_symb not received by the server
-            Axios.AxiosHeaders = {
+            const cmd = 'GET_DATA'; // TODO: cmd_symb not received by the server
+            /* Axios.AxiosHeaders = {
                 'Content-Type': 'application/json',
                 'Access-Control-Allow-Origin': '*'
-            }
+            } */
             let is_5Min = is5Min === 'y' ? true : false;
             console.log("Cmd:", cmd, "is_5Min:", is_5Min, "Exch:", exch, "Tkr:", tkr, "BarCt:", barCt)
-            Axios.post( pythonServerUrl, { cmd: cmd, is_5Min: is_5Min, exch: exch, tkr: tkr, bar_ct: barCt }).then((data)=>{
+            
+            /* Axios.post( pythonServerUrl, { cmd: cmd, is_5Min: is_5Min, exch: exch, tkr: tkr, bar_ct: barCt }).then((data)=>{
                 let json_resp = data.data["POST"]; //[{"id":13171,"dt":"2024-12-15 19:00:00","op":2.4475,
                 //console.log(json_resp);
                 //console.log(json_resp[0].OP);
@@ -47,7 +47,7 @@ export default function AIStocksAPIs() {
                     console.log(itm.print_row());
                     // console.log("b: ", itm.id, itm.op, itm.hi, itm.lo, itm.cl, itm.vol, itm.dt);
                 });
-            }) */
+            })  */
 
         } catch (error) {
             alert('get_tv_stk_hist error: ' + error)            
@@ -196,12 +196,22 @@ export default function AIStocksAPIs() {
     }
       
     return (
-        <div style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: '16%', 
-                      backgroundPosition: 'right top', backgroundRepeat: "no-repeat" }}>
-            <div style={{opacity: 1.0 }}>
-                <TopBar/>
-                <div className='homeTable'>
-                    <h1>APIs</h1>
+        <div style={{opacity: 1.0 }}>
+            <TopBar/>
+            <header>
+                <h1>Stock APIs</h1>
+                <p>APIs to retrieve stock data</p>
+                <p>&nbsp;</p>
+                <center><table>
+                    <tbody>
+                        <tr><td>Front end: React.js</td></tr>
+                        <tr><td>Back end: Node.js and Python</td></tr>
+                        <tr><td>Internal communications: Sockets</td></tr>
+                        <tr><td>External: TradingView.com and FinnHub.io</td></tr>
+                    </tbody>
+                </table></center>
+            </header>            
+            <main>
                     <h2>Python Server Communications</h2> 
                     <p>&nbsp;</p>
                     <p><b><strong><i>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -276,14 +286,7 @@ export default function AIStocksAPIs() {
                             </tr>
                         </tbody>
                     </table>
-
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-
-                </div>
-            </div>
+            </main>
         </div>
     )
 }

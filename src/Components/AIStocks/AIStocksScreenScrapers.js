@@ -1,21 +1,18 @@
 import React from 'react';
 import TopBar from '../Menu/TopBar';
 import '../CSS/styles.css';
-import backgroundImage from '../../Images/OldManInDingyNoBG.png';
 import ScreenScrape    from '../../Images/ArchImages/ScreenScrape.jpg';
 import ScreenScrape2   from '../../Images/ArchImages/ScreenScrape2.jpg';
 
 export default function AIStocksScreenScrapers() {
       
     return (
-        <div style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: '16%', 
-                      backgroundPosition: 'right top', backgroundRepeat: "no-repeat" }}>
-            <div style={{opacity: 1.0 }}>
-                <TopBar/>
-                <div className='homeTable'>
-
-                <h1> Sentiment by Screen Scraping </h1>
-
+        <div style={{opacity: 1.0 }}>
+            <TopBar/>
+            <header>
+                <h1>Sentiment by Screen Scraping</h1>
+            </header>            
+            <main>
 <h3>Analyze a stock’s sentiment by screen scraping</h3>
                     <p>&nbsp;</p>
                     <p>By following these steps &amp; best practices,<br /> you can develop a robust sentiment analysis system to analyze stock sentiment through screen scraping.</p>
@@ -159,19 +156,7 @@ export default function AIStocksScreenScrapers() {
 
 <p>&nbsp;</p>
 <p>By following these steps and best practices, you can develop a robust sentiment analysis system to analyze stock sentiment through screen scraping.</p>
-
-<p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-
-                </div>
-            </div>
+</main>
         </div>
     )
 }

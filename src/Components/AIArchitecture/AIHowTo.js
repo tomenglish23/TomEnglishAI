@@ -1,21 +1,17 @@
 import React from 'react';
 import TopBar from '../Menu/TopBar';
 import '../CSS/styles.css';
-import backgroundImage from '../../Images/OldManInDingyNoBG.png';
 
 export default function AIHowTo() {
 
     return (
-        <div style={{ backgroundImage:    `url(${backgroundImage})`, 
-                      backgroundSize:     '16%', 
-                      backgroundPosition: 'right top', 
-                      backgroundRepeat:   "no-repeat" }}>
+        <div style={{opacity: 1.0 }}>
             <TopBar/>
-            <div className='homeTable'>
-
-
-            <h1> TTS</h1>
-
+            <header>
+                <h1>AI How-To</h1>
+                <p>Miscellaneous technical support steps for our underlying technologies</p>
+            </header>            
+            <main>
 <h2>Tools to add to the website that will read the page aloud upon clicking it</h2>
 <p>Text-to-Speech (TTS):</p>
 <p>&nbsp;</p>
@@ -407,20 +403,7 @@ MySQL Workbench
 <h4>Ranking and Saving Predictions to the Database</h4>
 <h4>Implement my AI Progressions from 35 years ago</h4>
 <h3>Display Options</h3>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p style={{textAlign:"right"}}>
-    <a className='anounderline' target="blank" href="\TomEnglishAI\Presence\Private">&nbsp;</a>&nbsp;</p>
-
-
-            </div>
+            </main>
         </div>
     )
 }

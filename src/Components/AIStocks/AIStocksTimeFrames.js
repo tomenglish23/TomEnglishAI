@@ -1,18 +1,17 @@
 import React from 'react';
 import TopBar from '../Menu/TopBar';
 import '../CSS/styles.css';
-import backgroundImage from '../../Images/OldManInDingyNoBG.png';
 
 export default function AIStocksTimeFrames() {
       
     return (
-        <div style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: '16%', 
-                      backgroundPosition: 'right top', backgroundRepeat: "no-repeat" }}>
-            <div style={{opacity: 1.0 }}>
-                <TopBar/>
-
-
-                <h1> 15 vs 5-Minute</h1>
+        <div style={{opacity: 1.0 }}>
+            <TopBar/>
+            <header>
+                <h1>Time Frames</h1>
+            </header>            
+            <main>
+                <h2> 15 vs 5-Minute</h2>
 
 <p>Algorithms that work better in the 15-minute timeframe than the 5-minute timeframe<br />
 require more reliable &amp; less noisy signals.</p>
@@ -40,9 +39,10 @@ require more reliable &amp; less noisy signals.</p>
 <p>The optimal timeframe depends on the specific algorithm, market conditions and trading goals.<br />
 Backtest and evaluate the performance of your algorithm in different timeframes to determine the most suitable one.</p>
 
-<h1> 1-HR</h1>
+<p>&nbsp;</p>
+<h2> 1-HR</h2>
 
-<h2>1-HR timeframe candlestick patterns that can indicate Bullish results</h2>
+<h3>1-HR timeframe candlestick patterns that can indicate Bullish results</h3>
 <p># Bullish Candlestick Patterns</p>
 <p>1. Bullish Engulfing:<br />&nbsp;&nbsp;&nbsp;A pattern where a small bearish candle is followed by a large bullish candle that engulfs the previous candle.</p>
 <p>2. Piercing Line:<br />&nbsp;&nbsp;&nbsp;A pattern where a bullish candle closes above the midpoint of the previous bearish candle.</p>
@@ -73,9 +73,10 @@ Backtest and evaluate the performance of your algorithm in different timeframes 
 <p>The 1-hour timeframe can provide more reliable signals than the 5-minute timeframe, but it's still important to be cautious and adapt to changing market conditions.</p>
 
                 
-<h1> Buy at the End of Day - Sell at the Beginning of Day</h1>
+<p>&nbsp;</p>
+<h2> Buy at the End of Day - Sell at the Beginning of Day</h2>
 
-<h2>Do stocks rise more in the 1st 5 minutes of the day than in the last 5 minutes?</h2>
+<h3>Do stocks rise more in the 1st 5 minutes of the day than in the last 5 minutes?</h3>
 <p>On average, stocks tend to experience more price movement and volatility<br />
 &nbsp;&nbsp;&nbsp;during the first few minutes after the market opens <br />
 &nbsp;&nbsp;&nbsp;compared to the last few minutes of the trading day.</p>
@@ -96,9 +97,9 @@ Backtest and evaluate the performance of your algorithm in different timeframes 
 But, market behavior can vary significantly depending on various factors [market conditions, economic events, unexpected news].</p>
 <p>&nbsp;</p>
 
-<h2>Predicting price rises from the end of the day to the beginning of the day</h2>
+<h3>Predicting price rises from the end of the day to the beginning of the day</h3>
 
-<h3> In a tool like TradingView Pinescript, combine the following in algorithms:</h3>
+<h4> In a tool like TradingView Pinescript, combine the following in algorithms:</h4>
 <p># Technical Analysis</p>
 <p>1. Candlestick Patterns:<br />&nbsp;&nbsp;&nbsp;Look for bullish candlestick patterns [Hammer, Bullish Engulfing, Piercing Line]  which can indicate a potential price rise.</p>
 <p>2. Trend Lines:<br />&nbsp;&nbsp;&nbsp;Identify upward trend lines, which can act as support and indicate a potential price bounce.</p>
@@ -108,7 +109,7 @@ But, market behavior can vary significantly depending on various factors [market
 <p>1. Relative Strength Index (RSI):<br />&nbsp;&nbsp;&nbsp;An RSI reading below 30 can indicate oversold conditions, which may lead to a price bounce.</p>
 <p>2. Bollinger Bands:<br />&nbsp;&nbsp;&nbsp;Look for stocks trading near the lower Bollinger Band, which can indicate oversold conditions and a potential price rise.</p>
 <p>3. On-Balance Volume (OBV):<br />&nbsp;&nbsp;&nbsp;A rising OBV can indicate buying pressure, which may lead to a price rise.</p>
-<h3> Pay attention to the following:</h3>
+<h4> Pay attention to the following:</h4>
 <p># Pre-Market Analysis</p>
 <p>1. Earnings Announcements:<br />&nbsp;&nbsp;&nbsp;Companies often release earnings reports after the market closes. Positive surprises can lead to overnight price rises.</p>
 <p>2. News and Events:<br />&nbsp;&nbsp;&nbsp;Monitor news and events that may impact the stock, such as mergers and acquisitions, regulatory approvals, or industry trends.</p>
@@ -126,17 +127,7 @@ But, market behavior can vary significantly depending on various factors [market
 <p>&nbsp;</p>
 <p>Predicting price rises is challenging &amp; there are no guarantees. </p>
 <p>Combine multiple analysis methods &amp; consider risk management strategies to minimize potential losses.</p>
-
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-
-
-            </div>
+            </main>
         </div>
     )
 }

@@ -1,7 +1,6 @@
 import React from 'react';
 import TopBar from '../Menu/TopBar';
 import '../CSS/styles.css';
-import backgroundImage from '../../Images/OldManInDingyNoBG.png';
 
 import Claude from '../../Images/AITools/claude_ai.png';
 import FeedHive from '../../Images/AITools/FeedHive_ai.png';
@@ -20,14 +19,12 @@ import Zapier from '../../Images/AITools/zapier_ai.png';
 export default function AIToolsAIToolEnabled() {
       
     return (
-        <div style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: '14%', 
-                      backgroundPosition: 'right top', backgroundRepeat: "no-repeat" }}>
-            <div style={{opacity: 1.0 }}>
-                <TopBar/>
-
+        <div style={{opacity: 1.0 }}>
+            <TopBar/>
+            <header>
                 <h1>AI Tools</h1>
-
-                <p>&nbsp;</p>
+            </header>            
+            <main>
                 <h2>AI-Enabled Tools</h2>
                 <p>&nbsp;</p>
 
@@ -337,18 +334,7 @@ export default function AIToolsAIToolEnabled() {
 
                     </tbody>
                 </table>
-
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-
-            </div>
+                </main>
         </div>
     )
 }

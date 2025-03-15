@@ -1,16 +1,17 @@
 import React from 'react';
 import TopBar from '../Menu/TopBar';
 import '../CSS/styles.css';
-import backgroundImage from '../../Images/OldManInDingyNoBG.png';
 
 export default function TomEnglishAIResume() {
 
   return (
-    <div style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: '16%', 
-                  backgroundPosition: 'right top', backgroundRepeat: "no-repeat" }}>
-        <TopBar/>
-        <div className='homeTable'>
-            <h3><center>Resume for Tom English</center></h3>
+      <div style={{opacity: 1.0 }}>
+          <TopBar/>
+          <header>
+              <h1>Resume for Tom English</h1>
+          </header>            
+          <main>
+            <center>
             <table style={{ width:'70%' }}>
               <colgroup>
                 <col style={{ width: '27%' }} />
@@ -43,12 +44,9 @@ export default function TomEnglishAIResume() {
               </thead>
               <tbody />
             </table>
-
+            </center>
 
             <p style={{fontSize:'20px', margin:'30px 0px 10px 0px'}}><b>CERTIFICATIONS</b></p>
-
-
-
             <table>
               <colgroup><col style={{ width: '22%' }} /><col /></colgroup>
               <tbody>
@@ -66,6 +64,7 @@ export default function TomEnglishAIResume() {
                 </tr>
               </tbody>
             </table>
+
             <p style={{ height:'1px'}}></p>
             <table style={{ width:'85%' }}>
               <colgroup>
@@ -150,8 +149,6 @@ export default function TomEnglishAIResume() {
               </tbody>
             </table>
 
-
-
             <p style={{fontSize:'20px', margin:'20px 0px 2px 0px'}}><b>TRAININGS</b></p>
            
             <table style={{ width:'90%' }}>
@@ -178,84 +175,79 @@ export default function TomEnglishAIResume() {
                   <tr><td></td><td colSpan="3">Train Machine Learning Model, predictive maintenance using ML.NET Model Builder</td></tr>
                   <tr><td></td><td colSpan="3">Use Automated Machine Learning in Azure Machine Learning</td></tr>
                 </tbody>
-              </table>
+            </table>
 
+            <table style={{ width:'90%' }}>
+              <colgroup><col style={{ width: '3%' }} /><col style={{ width: '34%' }} /><col style={{ width: '26%' }} /><col /></colgroup>
+              <tbody>
+                <tr><td></td>
+                  <td>Azure Data Fundamentals:</td>
+                  <td>-Explore core data concepts</td>
+                  <td>-Explore data roles and services</td></tr>
+                <tr><td></td>
+                    <td>Discover AI for leaders in sustainability</td>
+                    <td colSpan="2">-Define an MS AI strategy to create business value in sustainability</td></tr>
+                <tr><td></td>
+                    <td>&nbsp; and Create Machine Learning Models:</td>
+                    <td>-Explore/Analyze data w/Python</td>
+                    <td>-Train/Evaluate regression models</td></tr>
+                <tr><td colSpan="2"></td>
+                    <td>-Scale AI in your organization</td>
+                    <td>-Train/Evaluate classification models</td></tr>
+                <tr><td></td>
+                    <td>Machine Learning: Optimize Model training:</td>
+                    <td>-Run pipelines in Azure ML</td>
+                    <td></td></tr>
+                <tr><td></td>
+                    <td>Machine Learning: Notebooks for experiments:</td>
+                    <td colSpan="2">-Track Model training in Jupyter notebooks with MLflow</td></tr>
+                <tr><td></td>
+                    <td>Transform your business with Microsoft AI</td>
+                    <td colSpan="2">-Leverage AI tools and resources for your business</td></tr>
+                <tr><td colSpan="2"></td>
+                    <td colSpan="2">-Create business value from AI</td></tr>
+                <tr><td colSpan="2"></td>
+                    <td colSpan="2">-Embrace responsible AI principles and practices</td></tr>
+                <tr><td colSpan="2"></td>
+                    <td colSpan="2">-Scale AI in your organization</td></tr>
+                <tr><td></td>
+                    <td>Get started with Azure AI Services:</td>
+                    <td>-Secure Azure AI services</td>
+                    <td>-Prepare to develop Azure AI solutions</td></tr>
+                <tr><td colSpan="2"></td>
+                    <td>-Monitor Azure AI services</td>
+                    <td>-Create/Consume Azure AI services</td></tr>
+                <tr><td></td>
+                    <td>Azure AI Services: Develop NLP solutions:</td>
+                    <td colSpan="2">-Build a conversational language understanding model</td></tr>
+                <tr><td></td>
+                    <td>Manage resources in Azure:</td>
+                    <td colSpan="2">-Control Azure Services with the CLI</td></tr>
+                <tr><td colSpan="2"></td>
+                    <td colSpan="2">-Align requirements with cloud types and service models in Azure</td></tr>
+                <tr><td colSpan="4"></td></tr>
 
-              <table style={{ width:'90%' }}>
-                <colgroup><col style={{ width: '3%' }} /><col style={{ width: '34%' }} /><col style={{ width: '26%' }} /><col /></colgroup>
-                <tbody>
-                  <tr><td></td>
-                    <td>Azure Data Fundamentals:</td>
-                    <td>-Explore core data concepts</td>
-                    <td>-Explore data roles and services</td></tr>
-                  <tr><td></td>
-                      <td>Discover AI for leaders in sustainability</td>
-                      <td colSpan="2">-Define an MS AI strategy to create business value in sustainability</td></tr>
-                  <tr><td></td>
-                      <td>&nbsp; and Create Machine Learning Models:</td>
-                      <td>-Explore/Analyze data w/Python</td>
-                      <td>-Train/Evaluate regression models</td></tr>
-                  <tr><td colSpan="2"></td>
-                      <td>-Scale AI in your organization</td>
-                      <td>-Train/Evaluate classification models</td></tr>
-                  <tr><td></td>
-                      <td>Machine Learning: Optimize Model training:</td>
-                      <td>-Run pipelines in Azure ML</td>
-                      <td></td></tr>
-                  <tr><td></td>
-                      <td>Machine Learning: Notebooks for experiments:</td>
-                      <td colSpan="2">-Track Model training in Jupyter notebooks with MLflow</td></tr>
-                  <tr><td></td>
-                      <td>Transform your business with Microsoft AI</td>
-                      <td colSpan="2">-Leverage AI tools and resources for your business</td></tr>
-                  <tr><td colSpan="2"></td>
-                      <td colSpan="2">-Create business value from AI</td></tr>
-                  <tr><td colSpan="2"></td>
-                      <td colSpan="2">-Embrace responsible AI principles and practices</td></tr>
-                  <tr><td colSpan="2"></td>
-                      <td colSpan="2">-Scale AI in your organization</td></tr>
-                  <tr><td></td>
-                      <td>Get started with Azure AI Services:</td>
-                      <td>-Secure Azure AI services</td>
-                      <td>-Prepare to develop Azure AI solutions</td></tr>
-                  <tr><td colSpan="2"></td>
-                      <td>-Monitor Azure AI services</td>
-                      <td>-Create/Consume Azure AI services</td></tr>
-                  <tr><td></td>
-                      <td>Azure AI Services: Develop NLP solutions:</td>
-                      <td colSpan="2">-Build a conversational language understanding model</td></tr>
-                  <tr><td></td>
-                      <td>Manage resources in Azure:</td>
-                      <td colSpan="2">-Control Azure Services with the CLI</td></tr>
-                  <tr><td colSpan="2"></td>
-                      <td colSpan="2">-Align requirements with cloud types and service models in Azure</td></tr>
-                  <tr><td colSpan="4"></td></tr>
-
-                  <tr><td colSpan="3"><b>Python</b></td>
-                      <td colSpan="1">All trainings on <a target="blank" href="learn.microsoft.com">learn.microsoft.com</a></td></tr>
-                  <tr><td></td>
-                      <td>Build real world applications with Python:</td>
-                      <td colSpan="2">-Introduction to Python</td></tr>
-                  <tr><td colSpan="2"></td>
-                      <td colSpan="2">-Introduction to object-oriented programming with Python</td></tr>
-                  <tr><td colSpan="2"></td>
-                      <td colSpan="2">-Build an AI web app using Python and Flask</td></tr>
-                  <tr><td colSpan="2"></td>
-                      <td colSpan="2">-Get started with testing in Python</td></tr>
-                  <tr><td></td>
-                      <td>Python: Solve mysteries and find answers:</td>
-                      <td colSpan="2">-Install and configure VS Code for Python development</td></tr>
-                </tbody>
-              </table>
-
+                <tr><td colSpan="3"><b>Python</b></td>
+                    <td colSpan="1">All trainings on <a target="blank" href="learn.microsoft.com">learn.microsoft.com</a></td></tr>
+                <tr><td></td>
+                    <td>Build real world applications with Python:</td>
+                    <td colSpan="2">-Introduction to Python</td></tr>
+                <tr><td colSpan="2"></td>
+                    <td colSpan="2">-Introduction to object-oriented programming with Python</td></tr>
+                <tr><td colSpan="2"></td>
+                    <td colSpan="2">-Build an AI web app using Python and Flask</td></tr>
+                <tr><td colSpan="2"></td>
+                    <td colSpan="2">-Get started with testing in Python</td></tr>
+                <tr><td></td>
+                    <td>Python: Solve mysteries and find answers:</td>
+                    <td colSpan="2">-Install and configure VS Code for Python development</td></tr>
+              </tbody>
+            </table>
 
             <p style={{fontSize:'20px', margin:'30px 0px 10px 0px'}}><b>DEGREE</b></p>
-
             <p>B.S. in Electrical Computer Engineering at Southeastern Massachusetts University</p>
 
-
             <p style={{fontSize:'20px', margin:'30px 0px 10px 0px'}}><b>PROFESSIONAL EXPERIENCE</b></p>
-
             <table style={{ width:'90%', margin:'15px 0px 4px 0px' }}><colgroup><col style={{ width: '30%' }} /><col style={{ width: '50%' }} /><col /></colgroup>
               <tbody>
                 <tr>
@@ -276,14 +268,12 @@ export default function TomEnglishAIResume() {
             <p style={{margin:'15px 0px 4px 40px'}}>Python, PineScript, React, Node.js, C#, MySQL Workbench<br/ >
             VS Code, VS 2022 for ML development, Jupyter</p>
 
-
             <table style={{ width:'90%', margin:'15px 0px 4px 0px' }}><colgroup><col style={{ width: '30%' }} /><col style={{ width: '50%' }} /><col /></colgroup><tbody><tr>
                   <td style={{ fontSize:'16px'}}><b>SMB Capital</b></td>
                   <td style={{ fontSize:'16px'}}><b>Internship: Stock Market</b></td>
                   <td style={{ fontSize:'16px'}}><b>04/24 - 05/24</b></td></tr></tbody></table>
 
             <p>Attended Stock Market Investing training courses with stock options trading tools.</p>
-
 
             <table style={{ width:'90%', margin:'15px 0px 4px 0px' }}><colgroup><col style={{ width: '30%' }} /><col style={{ width: '50%' }} /><col /></colgroup><tbody><tr>
                   <td style={{ fontSize:'16px'}}><b>Tom English AI</b></td>
@@ -333,7 +323,6 @@ export default function TomEnglishAIResume() {
             <p style={{marginLeft:"60px"}}>Client: Angular 12, TypeScript 3.5, Node.js, npm, CSS 3, Chronium, Electron 9.4</p>
             <p style={{marginLeft:"60px"}}>Session management, Telecom, Genesys Content Management System, Audio recording</p>
 
-
             <table style={{ width:'90%', margin:'15px 0px 4px 0px' }}><colgroup><col style={{ width: '30%' }} /><col style={{ width: '50%' }} /><col /></colgroup><tbody>
               <tr><td style={{ fontSize:'16px'}}><b>DotNet Technologies</b></td><td style={{ fontSize:'16px'}}><b>Sr .NET Developer / Architect / Team Lead</b></td><td style={{ fontSize:'16px'}}><b>03/11 – 10/17</b></td></tr></tbody></table>
             
@@ -354,7 +343,6 @@ export default function TomEnglishAIResume() {
             <p style={{marginLeft:"40px"}}>Angular 2.0, AngularJS, KnockoutJS, Telerik, XML, XSLT </p>
             <p style={{marginLeft:"40px"}}>SQL Server, SSIS, SSRS, Oracle PL SQL, HL7, Excel, PDF, SMTP, BDD</p>
             
-
             <table style={{ width:'90%', margin:'15px 0px 4px 0px' }}><colgroup><col style={{ width: '30%' }} /><col style={{ width: '50%' }} /><col /></colgroup><tbody>
               <tr><td style={{ fontSize:'16px'}}><b>Florida Healthcare Plans</b></td><td style={{ fontSize:'16px'}}><b>Sr .NET / Mobile Developer / Tech Lead</b></td><td style={{ fontSize:'16px'}}><b>01/09 - 03/11</b></td></tr></tbody></table>
             
@@ -362,7 +350,6 @@ export default function TomEnglishAIResume() {
             <p style={{margin:'15px 0px 4px 20px'}}> 270/271, 276/277, 278, 834, 835, 837, Payments, Remittance, Providers, Claims, Members, Venders</p>
             <p style={{marginLeft:"20px"}}>C#, .NET, VB.NET, SQL, WCF, Windows apps</p>
             
-
             <table style={{ width:'90%', margin:'15px 0px 4px 0px' }}><colgroup><col style={{ width: '30%' }} /><col style={{ width: '50%' }} /><col /></colgroup><tbody>
               <tr><td style={{ fontSize:'16px'}}><b>Genitiva Health Services</b></td><td style={{ fontSize:'16px'}}><b>Sr .NET / Mobile Developer</b></td><td style={{ fontSize:'16px'}}><b>12/06 - 01/09</b></td></tr></tbody></table>
             
@@ -382,9 +369,7 @@ export default function TomEnglishAIResume() {
             <p style={{marginLeft:"20px"}}>Oracle PL SQL</p>
             <p style={{marginLeft:"20px"}}>Mobile apps, Windows Mobile, Windows Mobile registry, mobile SMS, mobile GPS, mobile SMTP</p>
             
-
             <p style={{fontSize:'20px', margin:'40px 0px 10px 0px'}}><b>TECHNICAL SKILLS</b></p>
-
 
             <table style={{ width:'90%' }}>
               <colgroup><col style={{ width: '140px' }} /><col style={{ width: '95px' }} /><col /></colgroup>
@@ -438,7 +423,6 @@ export default function TomEnglishAIResume() {
               </tbody>
             </table>
 
-
             <p style={{fontSize:'20px', margin:'30px 0px 10px 0px'}}><b>PUBLICATIONS</b></p>
             <p><a target="blank" 
             href="slideshare.net/slideshow/embed_code/key/jQdsdj06s5y5lE">Shared MVC ControllerActionFilter &amp; ControllerBase</a> </p>
@@ -447,22 +431,11 @@ export default function TomEnglishAIResume() {
             <p><a target="blank" 
             href="linkedin.com/pulse/microsoft-visual-studio-code-installation-tom-english-mcpd"> Microsoft Visual Studio Code Installation</a> </p>
 
-
-
             <p style={{fontSize:'20px', margin:'30px 0px 10px 0px'}}><b>DESIGN PATTERNS / INNOVATIONS</b></p>
             <p><b><div style={{ color: 'maroon', display:'inline' }}>Deciphered Google algorithms</div></b>: Created proprietary SEO thesaurus-driven, deep-URL naming, keyword placement technique.</p>
             <p><b><div style={{ color: 'maroon', display:'inline' }}>Proprietary Code Generator</div></b>: &nbsp;&nbsp;for rapid development generating n-layer code from SQL metadata.</p>
-
-            <p>&nbsp;</p>            
-            <p>&nbsp;</p>            
-            <p>&nbsp;</p>            
-            <p>&nbsp;</p>            
-            <p>&nbsp;</p>            
-            <p>&nbsp;</p>            
+          </main>
         </div>
-    </div>
     )
 }
-
-            
             

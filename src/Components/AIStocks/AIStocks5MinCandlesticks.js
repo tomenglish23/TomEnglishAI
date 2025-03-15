@@ -1,17 +1,17 @@
 import React from 'react';
 import TopBar from '../Menu/TopBar';
 import '../CSS/styles.css';
-import backgroundImage from '../../Images/OldManInDingyNoBG.png';
 
 export default function AIStocks5MinCandlesticks() {
       
     return (
-        <div style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: '16%', 
-                      backgroundPosition: 'right top', backgroundRepeat: "no-repeat" }}>
-            <div style={{opacity: 1.0 }}>
-                <TopBar/>
-                <div className='homeTable'>
-                    <h1>5-Min Timeframe Candlestick Patterns - Bullish Results</h1>
+        <div style={{opacity: 1.0 }}>
+            <TopBar/>
+            <header>
+                <h1>5-Min Timeframe Candlestick Patterns<br />&nbsp;&nbsp;&nbsp; Bullish Results</h1>
+                <p></p>
+            </header>            
+            <main>
                     <p> P = Pattern </p>
                     <p> CP = Candlestick Pattern </p>
                     <p> B = Buy </p>
@@ -65,12 +65,7 @@ export default function AIStocks5MinCandlesticks() {
                             <tr><td><strong>Inverse Cup and Handle:</strong></td><td>The price forms an inverse cup shape, followed by a handle. </td></tr>
                         </tbody>
                     </table>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-
-                </div>
-            </div>
+                </main>
         </div>
     )
 }

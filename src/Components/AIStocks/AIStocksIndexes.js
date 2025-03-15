@@ -1,17 +1,16 @@
 import React from 'react';
 import TopBar from '../Menu/TopBar';
 import '../CSS/styles.css';
-import backgroundImage from '../../Images/OldManInDingyNoBG.png';
 
 export default function AIStocksIndexes() {
       
     return (
-        <div style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: '16%', 
-                      backgroundPosition: 'right top', backgroundRepeat: "no-repeat" }}>
-            <div style={{opacity: 1.0 }}>
-                <TopBar/>
-
-                <h1> Indexes</h1>
+        <div style={{opacity: 1.0 }}>
+            <TopBar/>
+            <header>
+                <h1>Indexes</h1>
+            </header>            
+            <main>
 
 <h2>What are the major indices</h2>
 <p>The major indices are like the pulse of the stock market, giving us a sense of how the market is performing.<br />
@@ -68,7 +67,7 @@ Therefore, its performance may also be influenced by the overall performance of 
 <p>&nbsp;</p>
 <p>Keep in mind that HIVE's performance may be influenced by a variety of factors,<br />
 including overall market trends, sector-specific trends, and company-specific events.</p>
-            </div>
+</main>
         </div>
     )
 }

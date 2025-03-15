@@ -1,7 +1,6 @@
 import React from 'react';
 import TopBar from '../Menu/TopBar';
 import '../CSS/styles.css';
-import backgroundImage from '../../Images/OldManInDingyNoBG.png';
 import clip_image002   from '../../Images/clip_image002.jpg';
 
 import Bullish_Bottom_3InsideUp       from '../../Images/CPs/Bullish_Bottom_3InsideUp.jpg';
@@ -40,18 +39,18 @@ import Bearish_Top_SpinningTop     from '../../Images/CPs/Bearish_Top_SpinningTo
 export default function AIStocksCandlesticks() {
       
     return (
-        <div style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: '16%', 
-                      backgroundPosition: 'right top', backgroundRepeat: "no-repeat" }}>
-            <div style={{opacity: 1.0 }}>
-                <TopBar/>
-                <div className='homeTable'>
-                    <h1>Candlestick Patterns</h1>
+        <div style={{opacity: 1.0 }}>
+            <TopBar/>
+            <header>
+                <h1>Candlestick Patterns</h1>
+            </header>            
+            <main>
                     <p> P = Pattern </p>
                     <p> CP = Candlestick Pattern </p>
                     <p> B = Buy </p>
                     <p> S = Sell </p>
 
-                    
+                    <p>&nbsp;</p>
                     <h2>Candlestick Pattern Images</h2> 
 
                     <h3> Bullish Bottom Patterns </h3>
@@ -276,7 +275,7 @@ export default function AIStocksCandlesticks() {
                         </tbody>
                     </table>
 
-
+                    <p>&nbsp;</p>
                     <h2>Comprehensive List</h2> 
 
                     <h3> Reversal: Bull </h3>
@@ -526,9 +525,7 @@ Neither bulls nor bears dominate, creating equal chances for upward or downward 
 </table>
 
 
-
-
-
+<p>&nbsp;</p>
 <h2>Patterns to use together for - Bullish predictions</h2>
 <p> For bullish predictions, certain candlestick patterns can be especially
         effective when used together. Here are some of the key patterns to consider:</p>
@@ -565,7 +562,7 @@ Neither bulls nor bears dominate, creating equal chances for upward or downward 
     <p>&nbsp;</p>
     <p> In ML models, these patterns enhance Bullish  predictions.  </p>
 
-
+    <p>&nbsp;</p>
 <h2> Descending Triangle Form in Candlestick Patterns </h2>
 <p> The Descending  Triangle is a bearish continuation pattern that is typically
     formed during a  downtrend, indicating that the price of a security is
@@ -615,7 +612,8 @@ Neither bulls nor bears dominate, creating equal chances for upward or downward 
 
 
 
-<h2> Rectangle Form in Candlestick Patterns</h2>
+    <p>&nbsp;</p>
+    <h2> Rectangle Form in Candlestick Patterns</h2>
 <p>&nbsp;</p>
 <center><img src={clip_image002} alt="Rectangle Form" border="0" width="400" height="250" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -676,6 +674,7 @@ Neither bulls nor bears dominate, creating equal chances for upward or downward 
 
 
 
+<p>&nbsp;</p>
 <h2> TradingView</h2>
 <p> The TradingView  community has thousands of "AI" pattern indicators and strategies. Backtesting is  available.  </p>
 <p> Some code is not public.  Basic patterns (MACD, RSI, MA, ..) are private.
@@ -721,6 +720,7 @@ Neither bulls nor bears dominate, creating equal chances for upward or downward 
 
 
 
+<p>&nbsp;</p>
 <h2> Other </h2>
 <p> Candlesticks with a long upper shadow and short lower shadow indicate:<br /> &nbsp;&nbsp;&nbsp;Buyers dominated during the first part of the session, bidding  prices higher.</p>
 <p> Candlesticks with long lower shadows and short upper shadows indicate:<br /> &nbsp;&nbsp;&nbsp;Sellers dominated during the first part of the session,  driving prices lower.  </p>
@@ -739,13 +739,7 @@ Notable <strong>Breakout Patterns</strong> include: </p>
 <p> &nbsp;&nbsp;&nbsp;Upside Gap Two Crows </p> 
 <p> &nbsp;&nbsp;&nbsp;Three consecutive bearish candles </p> 
 <p> &nbsp;&nbsp;&nbsp;Three consecutive bullish candles </p> 
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-
-                </div>
-                <TopBar/>
-            </div>
+</main>
         </div>
     )
 }

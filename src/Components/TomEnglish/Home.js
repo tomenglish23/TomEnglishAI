@@ -20,7 +20,7 @@ export default function Home() {
                 <p style={{height: '40px'}}></p>
                 <p className='h2home'> <a href="https://tomenglish23.github.io/TomEnglishAI/">www.TomEnglishAI.com</a> </p> 
                 <p style={{height: '1px'}}></p>
-                <p className='h3home'> Feb  08, 2025 </p> 
+                <p className='h3home'> March  15, 2025 </p> 
 
                 <p>&nbsp;</p>
                 <p>&nbsp;</p>
@@ -40,8 +40,9 @@ export default function Home() {
                     <tbody>
                         <tr>
                             <td style={{padding:'0px 0px 0px 290px', align:'center', width:'50%'}}>
-                                <h3 style={{width:'370px', backgroundColor:'white'}}>AI Tools</h3>
-                                <table style={{width:'90%'}}> 
+                            {/* <h3 style={{width:'370px', backgroundColor:'white'}}>AI Tools</h3> */}
+                            <h3>AI Tools</h3>
+                            <table style={{width:'90%'}}> 
                                     <colgroup> <col span="1" style={{width:'100%'}} /> </colgroup> 
                                     <tbody>
                                         <tr> <td style={{padding:'0px 0px 3px 0px'}}><a href="\TomEnglishAI\AITools\AITools">AI Tools by Category</a></td> </tr>
@@ -53,7 +54,7 @@ export default function Home() {
                                     </tbody>
                                 </table>
                                 <p>&nbsp;</p>
-                                <h3 style={{width:'370px', backgroundColor:'white'}}>AI Stocks - On Chart - Candlesticks</h3>
+                                <h3>AI Stocks - On Chart - Candlesticks</h3>
                                 <table style={{width:'90%'}}> <colgroup> <col span="1" style={{width:'100%'}} /> </colgroup> 
                                     <tbody>
                                         <tr> <td style={{padding:'0px 0px 3px 0px'}}><a href="\TomEnglishAI\AIStocks\AIStocksCandlesticks">Candlesticks</a></td> </tr>
@@ -63,7 +64,7 @@ export default function Home() {
                                     </tbody>
                                 </table>
                                 <p>&nbsp;</p>
-                                <h3 style={{width:'370px', backgroundColor:'white'}}>AI Stocks - External</h3>
+                                <h3>AI Stocks - External</h3>
                                 <table style={{width:'90%'}}> 
                                     <colgroup> <col span="1" style={{width:'100%'}} /> </colgroup> 
                                     <tbody>
@@ -73,7 +74,7 @@ export default function Home() {
                                     </tbody>
                                 </table>
                                 <p>&nbsp;</p>
-                                <h3 style={{width:'370px', backgroundColor:'white'}}>AI Architecture</h3>
+                                <h3>AI Architecture</h3>
                                 <table style={{width:'90%'}}> 
                                     <colgroup> <col span="1" style={{width:'100%'}} /> </colgroup> 
                                     <tbody>
@@ -85,7 +86,7 @@ export default function Home() {
                                     </tbody>
                                 </table>
                                 <p>&nbsp;</p>
-                                <h3 style={{width:'370px', backgroundColor:'white'}}>About Tom English AI</h3>
+                                <h3>About Tom English AI</h3>
                                 <table style={{width:'90%'}}> 
                                     <colgroup> <col span="1" style={{width:'100%'}} /> </colgroup> 
                                     <tbody>

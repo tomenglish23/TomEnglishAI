@@ -11,9 +11,6 @@ export default function About() {
                       backgroundPosition: 'center', 
                       backgroundRepeat: 'no-repeat' }}>
             <TopBar/>
-            <div className='homeTable'>
-                <h1>About</h1>
-                </div>
         </div>
     )
 }

@@ -1,21 +1,19 @@
 import React from 'react';
 import TopBar from '../Menu/TopBar';
 import '../CSS/styles.css';
-import backgroundImage from '../../Images/OldManInDingyNoBG.png';
 import MLExample1   from '../../Images/MLExample1.jpg';
 
 export default function AIStocksMachineLearning() {
 
-    //const pages = require.context('./', true, /\.js$/).keys().map(file => file.replace('./', '').replace('.js', ''));
-
     return (
-        <div style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: '16%', 
-                      backgroundPosition: 'right top', backgroundRepeat: "no-repeat" }}>
-            <div style={{opacity: 1.0 }}>
-                <TopBar/>
-                <div className='homeTable'>
-                    <h1>AI Machine Learning: &nbsp;&nbsp;1. Train the Model &nbsp;2. Make Predictions</h1>
-                    <p>&nbsp;</p>
+        <div style={{opacity: 1.0 }}>
+            <TopBar/>
+            <header>
+            <h1>AI Machine Learning</h1>
+            <p>&nbsp;&nbsp;&nbsp;1. Train the Model</p>
+            <p>&nbsp;&nbsp;&nbsp;2. Make Predictions</p>
+            </header>            
+            <main>
                     <p>Example – This chart pattern is a frequent occurrence across all stocks: </p>
                     <p>&nbsp;</p>
                    
@@ -129,13 +127,7 @@ offering promising potential for returns.<br />
 Analyze & compare across time frames (monthly, weekly, daily) 
 for further insights for informed investment decisions.
 </p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-
-                </div>
-            </div>
+            </main>
         </div>
     )
 }
