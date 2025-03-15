@@ -20,11 +20,10 @@ export default function HowAIEvolved() {
             <main>
             <h3>35 Years Ago ... My Concept of AI was Profitable!</h3>
                 <p>&nbsp;</p>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <img src={dogTrack1} alt="dogTrack1" border="0" width="240" height="150" />&nbsp;
-                <img src={dogTrack2} alt="dogTrack2" border="0" width="240" height="150" />
+                <center>
+                    <img src={dogTrack1} alt="dogTrack1" border="0" width="240" height="150" />&nbsp;
+                    <img src={dogTrack2} alt="dogTrack2" border="0" width="240" height="150" />
+                </center>
                 <p>&nbsp;</p>
                 <p>Thirty five years ago, I used Fortran to create algorighms for picking dogs at the dog track.</p>
                 <p>I created an algorithm rating system. It was, sort of, Ax + By + Cz, <br />
