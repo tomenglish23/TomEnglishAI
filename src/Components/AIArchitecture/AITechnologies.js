@@ -293,8 +293,8 @@ If creating a new app, app names must be globally unique. <br />
 Please try a more unique name or leave unspecified to receive a randomly generated name.
 </p>
 
-<p>&nbsp;</p>
-
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
                     <h3>Py.exe</h3>
                     <p>Later ...</p>
 
@@ -316,7 +316,10 @@ Please try a more unique name or leave unspecified to receive a randomly generat
                     <h4>Anaconda - tvdatafeed</h4>
                     <p>Later ...</p>
 
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
                     <h3>Python stock programs</h3> 
+                    <p>&nbsp;</p>
                     <h4>TVDataFeedPY\...&gt; py tme_main.py</h4>
                     <p>Later ...</p>
                     <h4>Py_DataReader&gt; py finnhubapi2.py</h4>
@@ -327,34 +330,39 @@ Please try a more unique name or leave unspecified to receive a randomly generat
                     <p>Later ...</p>
 
                     <p>&nbsp;</p>
-
+                    <p>&nbsp;</p>
                     <h3>README Folders</h3>
+                    <p>&nbsp;</p>
                     <p>Later ...</p>
-<p>&nbsp;</p>
 
-
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
                     <h3>News</h3> 
 
-
+                    <p>&nbsp;</p>
                     <h4>Cathy Woods</h4>
-<h5>12/13/24 Cathie Wood buys $30 million of under-the-radar AI stock</h5>
-<p>Cathie Wood bought 676,000 shares of AI health-care company this week</p>
-<p>	• AI/gen AI in diags - Physicians/researchers: data-driven decisions.</p>
-<p>	• AI adv's: cloud comp, imaging techs, LLMs & molecular profiling, healthcare data digitization. </p>
-<p>	•&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'15: Tempus AI health tech company (TEM). AI for precise diags.</p>
-<p>	•&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'22: -$290M</p>
-<p>	•&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'23: -$214M</p>
-<p>	• 09&nbsp;&nbsp;/24: $37/share IPO.</p>
-<p>	• 09&nbsp;&nbsp;/24: 305K shares, $9.25M</p>
-<p>	• 09&nbsp;&nbsp;/24: &nbsp;61K shares</p>
-<p>	• 10&nbsp;&nbsp;/24: 171K shares</p>
-<p>	• 12/06-11/24:       677M shares, $29.2M </p> 
-<p>	• Guggenheim analyst Subbu Nambi beg coverage: Buy rating. $74 target, per thefly.com, Dec 9.</p>
-<p>	• 12/12/24: $41.99</p>
 
+                    <p>&nbsp;</p>
+                    <h5>12/13/24 Cathie Wood buys $30 million of under-the-radar AI stock</h5>
+                    <p>&nbsp;</p>
+                    <p>Cathie Wood bought 676,000 shares of AI health-care company this week</p>
+                    <p>	• AI/gen AI in diags - Physicians/researchers: data-driven decisions.</p>
+                    <p>	• AI adv's: cloud comp, imaging techs, LLMs & molecular profiling, healthcare data digitization. </p>
+                    <p>	•&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'15: Tempus AI health tech company (TEM). AI for precise diags.</p>
+                    <p>	•&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'22: -$290M</p>
+                    <p>	•&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'23: -$214M</p>
+                    <p>	• 09&nbsp;&nbsp;/24: $37/share IPO.</p>
+                    <p>	• 09&nbsp;&nbsp;/24: 305K shares, $9.25M</p>
+                    <p>	• 09&nbsp;&nbsp;/24: &nbsp;61K shares</p>
+                    <p>	• 10&nbsp;&nbsp;/24: 171K shares</p>
+                    <p>	• 12/06-11/24:       677M shares, $29.2M </p> 
+                    <p>	• Guggenheim analyst Subbu Nambi beg coverage: Buy rating. $74 target, per thefly.com, Dec 9.</p>
+                    <p>	• 12/12/24: $41.99</p>
+
+                    <p>&nbsp;</p>
                     <h4>TEM</h4>
-
-<p> <a target="blank" href="https://robinhood.com/stocks/TEM?source=search">TEM</a> </p>
+                    <p>&nbsp;</p>
+                    <p> <a target="blank" href="https://robinhood.com/stocks/TEM?source=search">TEM</a> </p>
             </main>
         </div>
     )

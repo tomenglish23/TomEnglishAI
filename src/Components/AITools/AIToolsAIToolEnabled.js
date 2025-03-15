@@ -120,7 +120,9 @@ export default function AIToolsAIToolEnabled() {
 
 
                 <p>&nbsp;</p>
+                <p>&nbsp;</p>
                 <h2>AI-Enabled Tools - Details</h2>
+                <p>&nbsp;</p>
 
                 <h3>Productivity & Organization Tools</h3>
                 <table style={{width:'90%'}}>

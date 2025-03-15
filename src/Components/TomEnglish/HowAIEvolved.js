@@ -6,6 +6,7 @@ import dogTrack2 from '../../Images/DogTrack2.png';
 import SSIS from '../../Images/SSIS.png';
 import ASRVoicemail from '../../Images/ASRVoicemail.png';
 import TERMINATOR from '../../Images/terminator2.png';
+import n8n_io_ai_ex from '../../Images/AITools/n8n_io_ai_ex.png';
 
 export default function HowAIEvolved() {
 
@@ -90,9 +91,18 @@ export default function HowAIEvolved() {
                 <center>
                     <p><br /><img src={SSIS} alt="SSIS" border="0" width="520" height="350" /></p>
                     <p><b>SSIS for ETL (Extract, Transform, Load) data flows</b></p>
+                    <p><b>SQL Developers <u>write code</u> for some of the widgets.</b></p>
+
+                    <p>&nbsp;</p>
+                    <p><br /><img src={n8n_io_ai_ex} alt="n8n" border="0" width="520" height="350" /></p>
+                    <p><b>The n8n.io <u>No Code</u> tool</b></p>
+
                 </center>
                 <p>&nbsp;</p>
+                <p>Each <u>No Code</u> tool or platform is different.</p>
+                <p>Some tools may allow developers to create their own widgets.</p>
 
+                <p>&nbsp;</p>
                 <h3>The Future is Here!</h3>
                 <p>Hi-tech CEOs are NOT kidding ...</p>
                 <p><br />&nbsp;&nbsp;&nbsp;The more I learn AI Agent development, the more I know AI will replace jobs.<br /><br />

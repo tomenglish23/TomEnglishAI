@@ -15,20 +15,24 @@ td         { text-align: left; vertical-align: top; font-family:monospace; font-
 .h2home { font-size:18px; color:rgb(0, 139, 139); padding: 0px 0px 0px 2px; font-family: 'Times New Roman', Times, serif; }
 .h3home { font-size:16px; color:rgb(0, 139, 139); padding: 0px 0px 0px 2px; font-family: 'Times New Roman', Times, serif; }
  */
-h1     { font-size: 1.5rem; margin-bottom: 0.5rem; }
-h2     { color: #4a90e2; margin-bottom: 0.5rem; }
-h3     { color: #4a90e2; margin-bottom: 0.5rem; }
+h1     { margin-bottom: 0.5rem; font-size: 1.5rem; }
+h2     { color: #4a90e2; margin-bottom: 0.5rem; font-size: 1.1rem; }
+h3     { color: #4a90e2; margin-bottom: 0.5rem; font-size: 0.9rem; width:70%; }
+h4     { color: #4a90e2; margin-bottom: 0.5rem; font-size: 0.8rem; width:70%; }
+h5     { color: #4a90e2; margin-bottom: 0.5rem; font-size: 0.7rem; width:70%; }
+
 .h1home  { font-size:64px; color:#4a90e2; padding: 0px 0px 0px 2px; font-family: 'Times New Roman', Times, serif; }
 .h1ahome { font-size:21px; color:#4a90e2; padding: 0px 0px 0px 2px; font-family: 'Times New Roman', Times, serif; }
 .h2home  { font-size:18px; color:#4a90e2; padding: 0px 0px 0px 2px; font-family: 'Times New Roman', Times, serif; }
 .h3home  { font-size:16px; color:#4a90e2; padding: 0px 0px 0px 2px; font-family: 'Times New Roman', Times, serif; }
 
-/* h1     { font-size:28px; width:70%; margin:20px 0px 10px 0px; 
-        background-color:rgb(0, 139, 139, 30%); padding:9px 0px 9px 2px; }
+/* 
+h1     { font-size:28px; width:70%; margin:20px 0px 10px 0px; background-color:rgb(0, 139, 139, 30%); padding:9px 0px 9px 2px; }
 h2     { font-size:22px; width:70%; margin:20px 0px 10px 0px; background-color:rgba(3, 213, 98, 0.4); padding:4px 0px 4px 2px; }
-h3     { font-size:18px; width:70%; margin:20px 0px 10px 0px; background-color:rgba(3, 213, 98, 0.2); padding:3px 0px 3px 2px; } */
+h3     { font-size:18px; width:70%; margin:20px 0px 10px 0px; background-color:rgba(3, 213, 98, 0.2); padding:3px 0px 3px 2px; } 
 h4     { font-size:16px; width:70%; margin:20px 0px 10px 0px; background-color:rgba(3, 213, 98, 0.1); padding:1px 0px 1px 2px; }
 h5     { font-size:14px; width:70%; margin:20px 0px 10px 0px; background-color:rgb(0, 139, 139, 11%); padding:1px 0px 1px 2px; }
+*/
 
 pre        { margin-left: 20px; }
 p          { font-size: small; margin: 0px 0px 6px 0px; padding: 0px;  
@@ -62,7 +66,7 @@ p.colorred   { color:'red'; display:inline-block; }
 
 *      { margin: 0; padding: 0; box-sizing: border-box; }
 
-body   { font-family: Arial, sans-serif; line-height: 1.6; color: #333; 
+body   { font-family: Arial, sans-serif; line-height: 1.1; color: #333; 
          background: linear-gradient(to right, #f0f4f8, #c9d6e3); }
 
 .standout { background: #237de4;; color: white; 
