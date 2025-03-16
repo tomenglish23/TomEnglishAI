@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bc26756e4cc5b4f4bfcb75935c2a1c29",
+    "revision": "24a7152a16e5be39ecae2e49c25fad5f",
     "url": "/TomEnglishAI/index.html"
   },
   {
-    "revision": "d4326aba66de5cb42a8f",
+    "revision": "8c81bc831e70b82aa79c",
     "url": "/TomEnglishAI/static/css/main.d5048a84.chunk.css"
   },
   {
-    "revision": "c67dcabab67d929e3124",
-    "url": "/TomEnglishAI/static/js/2.487cd499.chunk.js"
+    "revision": "194f94b4bbc8d9a91330",
+    "url": "/TomEnglishAI/static/js/2.cc6a4e9a.chunk.js"
   },
   {
     "revision": "9e126fb458b379ef7cf758f298725956",
-    "url": "/TomEnglishAI/static/js/2.487cd499.chunk.js.LICENSE.txt"
+    "url": "/TomEnglishAI/static/js/2.cc6a4e9a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e05282b20c718eedb8ae",
-    "url": "/TomEnglishAI/static/js/3.6a61a204.chunk.js"
+    "revision": "4989184775712f67c3a5",
+    "url": "/TomEnglishAI/static/js/3.85a98307.chunk.js"
   },
   {
-    "revision": "d4326aba66de5cb42a8f",
-    "url": "/TomEnglishAI/static/js/main.3c70f494.chunk.js"
+    "revision": "8c81bc831e70b82aa79c",
+    "url": "/TomEnglishAI/static/js/main.11d32830.chunk.js"
   },
   {
-    "revision": "a3977a0394f9cd1424d0",
-    "url": "/TomEnglishAI/static/js/runtime-main.ed8c2d8f.js"
+    "revision": "84caf940c7ff1d07fd81",
+    "url": "/TomEnglishAI/static/js/runtime-main.5ec63a59.js"
   },
   {
     "revision": "d933811650a919e6f2fa9dbfe9ee0938",
@@ -154,6 +154,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a7367171035fb766367660ce1532652f",
     "url": "/TomEnglishAI/static/media/descript_ai.a7367171.png"
+  },
+  {
+    "revision": "7eb2fd4e57f55eead9a7b7dd97d5fd16",
+    "url": "/TomEnglishAI/static/media/elevenlabs_ai.7eb2fd4e.png"
   },
   {
     "revision": "5ed33728b444fb32265e2ed8b969c517",
