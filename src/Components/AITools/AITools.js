@@ -9,6 +9,7 @@ import Chatfuel from '../../Images/AITools/chatfuel_ai.png';
 import Conversica from '../../Images/AITools/conversica_ai.png';
 import Crypko from '../../Images/AITools/crypko_ai.png';
 import DALL_E3 from '../../Images/AITools/dall_e_3_ai.png';
+import ElevenLabs from '../../Images/AITools/elevenlabs_ai.png';
 import Fliki from '../../Images/AITools/fliki_ai.png';
 import Grammarly from '../../Images/AITools/grammarly_ai.png';
 import Invideo from '../../Images/AITools/invideo_ai.png';
@@ -393,6 +394,45 @@ export default function AITools() {
                     <tbody>
                         
                         <tr>
+                            <td><a target="blank" href="https://ElevenLabs.io/"><b>ElevenLabs</b></a></td>
+                            <td><img src={ElevenLabs} alt="ElevenLabs" border="0" width="32" height="32" /></td>
+                            <td>ElevenLabs is a video creation tool that uses templates to streamline video production.</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>AI audio platform to create realistic speech with their 
+                            Pioneering research in TTS, AI Voice Generator, and more.</td>
+                        </tr>
+                        <tr>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td><b>$22/mo</b></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><a target="blank" href="https://invideo.io/"><b>Invideo</b></a></td>
+                            <td><img src={Invideo} alt="Invideo" border="0" width="32" height="32" /></td>
+                            <td>Invideo is a video creation tool that uses templates to streamline video production.</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>Text-to-video.</td>
+                        </tr>
+                        <tr>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>Invideo provides users with a wide range of templates for creating professional-quality videos for marketing and social media.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        
+                        <tr>
                             <td><a target="blank" href="https://runwayml.com/"><b>Runway</b></a></td>
                             <td><img src={Runway} alt="Runway" border="0" width="32" height="32" /></td>
                             <td>Runway offers AI tools for <b><u>video editing</u></b> and creative content creation.</td>
@@ -415,24 +455,6 @@ export default function AITools() {
                             <td><img src={Veed} alt="Veed" border="0" width="32" height="32" /></td>
                             <td>Use Veed to create videos in the blink of AI. 
                                 Make better videos faster. AI-powered video creation for teams..</td>
-                        </tr>
-                        
-                        <tr>
-                            <td><a target="blank" href="https://invideo.io/"><b>Invideo</b></a></td>
-                            <td><img src={Invideo} alt="Invideo" border="0" width="32" height="32" /></td>
-                            <td>Invideo is a video creation tool that uses templates to streamline video production.</td>
-                        </tr>
-                        <tr>
-                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>Invideo provides users with a wide range of templates for creating professional-quality videos for marketing and social media.</td>
-                        </tr>
-
-
-                        <tr>
-                            <td style={{paddingBottom:'37px'}}>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
                         </tr>
 
                         <tr>

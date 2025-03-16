@@ -25,30 +25,30 @@ export default function HowAIEvolved() {
                     <img src={dogTrack2} alt="dogTrack2" border="0" width="240" height="150" />
                 </center>
                 <p>&nbsp;</p>
-                <p>Thirty five years ago, I used Fortran to create algorighms for picking dogs at the dog track.</p>
+                <p>Thirty five years ago, I used Fortran to create algorithms for picking dogs at the dog track.</p>
                 <p>I created an algorithm rating system. It was, sort of, Ax + By + Cz, <br />
                 where x, y and z were individual algorithms to be run on data from the racing book <br />
                 and A, B and C were weights from 0.1 to 9.9.</p>
-                <p>A, B and C could be complex algorithms where smaller algorithms were combinged.</p>
+                <p>A, B and C could be complex algorithms where smaller algorithms were combined.</p>
                 <p>The algorithm finder would run through our entire dinner. Yes, computers were that slow! <br />
                 But, I found algorithms that worked! </p>
-                <p><br />In the end, I needed more data which I could not find. Michael Vick came along &amp; race tracks were closed.</p>
+                <p><br />In the end, I needed more data which I could not find. Michael Vick came along &amp; racetracks were closed.</p>
                 <p>But, I've had AI in my soul ever since!</p>
-                <p>Ever read "Think and Grow Rich"? Combine that with my 35 year AI passion &amp; you have a slight insite into my mind!</p>
+                <p>Ever read "Think and Grow Rich"? Combine that with my 35-year AI passion &amp; you have a slight incite into my mind!</p>
                 <p>&nbsp;</p>
 
 
                 <h3>Integrated Automatic Speech Recognition into Voicemail</h3>
-                <p>In the 1990's, I was a voicemail company's the Lead Engineer 
+                <p>In the 1990's, I was a voicemail company's Lead Engineer 
                     to integrate speech recognition into their system. </p>                
                 <center>
                     <p><img src={ASRVoicemail} alt="ASRVoicemail" border="0" width="300" height="200" /></p>
                 </center>
 
                 <p>&nbsp;</p>
-                <h3>Decyphered the Google Search Algorithm</h3>
+                <h3>Deciphered the Google Search Algorithm</h3>
                 <p>In 2000, I started teaching Argentine tango and wanted a way to successfully advertise. <br />
-                I experimented on Google, Netscape &amp; Yahoo and, in short time, decyphered their search engines!!!</p>
+                I experimented on Google, Netscape &amp; Yahoo and, in short time, deciphered their search engines!!!</p>
 
                 <p className='standout'>This was ground-breaking! I owned Google, Netscape &amp; Yahoo searches!</p>
 
