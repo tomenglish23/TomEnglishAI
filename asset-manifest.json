@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/TomEnglishAI/static/css/main.d5048a84.chunk.css",
-    "main.js": "/TomEnglishAI/static/js/main.11d32830.chunk.js",
-    "main.js.map": "/TomEnglishAI/static/js/main.11d32830.chunk.js.map",
-    "runtime-main.js": "/TomEnglishAI/static/js/runtime-main.5ec63a59.js",
-    "runtime-main.js.map": "/TomEnglishAI/static/js/runtime-main.5ec63a59.js.map",
-    "static/js/2.cc6a4e9a.chunk.js": "/TomEnglishAI/static/js/2.cc6a4e9a.chunk.js",
-    "static/js/2.cc6a4e9a.chunk.js.map": "/TomEnglishAI/static/js/2.cc6a4e9a.chunk.js.map",
-    "static/js/3.85a98307.chunk.js": "/TomEnglishAI/static/js/3.85a98307.chunk.js",
-    "static/js/3.85a98307.chunk.js.map": "/TomEnglishAI/static/js/3.85a98307.chunk.js.map",
+    "main.js": "/TomEnglishAI/static/js/main.9c337844.chunk.js",
+    "main.js.map": "/TomEnglishAI/static/js/main.9c337844.chunk.js.map",
+    "runtime-main.js": "/TomEnglishAI/static/js/runtime-main.1c5f752b.js",
+    "runtime-main.js.map": "/TomEnglishAI/static/js/runtime-main.1c5f752b.js.map",
+    "static/js/2.c2876c82.chunk.js": "/TomEnglishAI/static/js/2.c2876c82.chunk.js",
+    "static/js/2.c2876c82.chunk.js.map": "/TomEnglishAI/static/js/2.c2876c82.chunk.js.map",
+    "static/js/3.60cb3b44.chunk.js": "/TomEnglishAI/static/js/3.60cb3b44.chunk.js",
+    "static/js/3.60cb3b44.chunk.js.map": "/TomEnglishAI/static/js/3.60cb3b44.chunk.js.map",
     "index.html": "/TomEnglishAI/index.html",
-    "precache-manifest.17e23803beb003ef4ef4ddfa080474e4.js": "/TomEnglishAI/precache-manifest.17e23803beb003ef4ef4ddfa080474e4.js",
+    "precache-manifest.5451d03a315c5cd95a2d500ec59a3a7d.js": "/TomEnglishAI/precache-manifest.5451d03a315c5cd95a2d500ec59a3a7d.js",
     "service-worker.js": "/TomEnglishAI/service-worker.js",
     "static/css/main.d5048a84.chunk.css.map": "/TomEnglishAI/static/css/main.d5048a84.chunk.css.map",
-    "static/js/2.cc6a4e9a.chunk.js.LICENSE.txt": "/TomEnglishAI/static/js/2.cc6a4e9a.chunk.js.LICENSE.txt",
+    "static/js/2.c2876c82.chunk.js.LICENSE.txt": "/TomEnglishAI/static/js/2.c2876c82.chunk.js.LICENSE.txt",
+    "static/media/11Labs35YearsOfAI.mp4": "/TomEnglishAI/static/media/11Labs35YearsOfAI.1c4a3bca.mp4",
     "static/media/AIInFinance1.jpg": "/TomEnglishAI/static/media/AIInFinance1.d9338116.jpg",
     "static/media/ASRVoicemail.png": "/TomEnglishAI/static/media/ASRVoicemail.c1d2416e.png",
     "static/media/DogTrack1.jpg": "/TomEnglishAI/static/media/DogTrack1.45d94fb5.jpg",
@@ -77,9 +78,9 @@
     "static/media/zapier_ai.png": "/TomEnglishAI/static/media/zapier_ai.b68cd2fa.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.5ec63a59.js",
-    "static/js/2.cc6a4e9a.chunk.js",
+    "static/js/runtime-main.1c5f752b.js",
+    "static/js/2.c2876c82.chunk.js",
     "static/css/main.d5048a84.chunk.css",
-    "static/js/main.11d32830.chunk.js"
+    "static/js/main.9c337844.chunk.js"
   ]
 }
