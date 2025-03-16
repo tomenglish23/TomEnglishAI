@@ -1,3 +1,4 @@
+//import React, {useState} from 'react';
 import React from 'react';
 import TopBar from '../Menu/TopBar';
 import '../CSS/styles.css';
@@ -7,8 +8,19 @@ import SSIS from '../../Images/SSIS.png';
 import ASRVoicemail from '../../Images/ASRVoicemail.png';
 import TERMINATOR from '../../Images/terminator2.png';
 import n8n_io_ai_ex from '../../Images/AITools/n8n_io_ai_ex.png';
+import ElevenLabs35YearsOfAI from '../../Images/Videos/11Labs35YearsOfAI.mp4';
 
 export default function HowAIEvolved() {
+
+    let videoMute = false;
+    function on11LabsMuteClick() {
+        //console.log("Mute is " + videoMute);
+        videoMute = !videoMute;
+        let elevenLabsVid = document.getElementById('elevenLabsVideo');
+        elevenLabsVid.muted = videoMute;
+        let btnMute = document.getElementById('btnMute');
+        btnMute.innerHTML = videoMute ? "Unmute" : "Mute";
+    }
 
     return (
         <div style={{opacity: 1.0 }}>
@@ -113,6 +125,20 @@ export default function HowAIEvolved() {
                 <center>
                     <p><img src={TERMINATOR} alt="TERMINATOR" border="0" width="250" height="300" /></p>
                 </center>
+
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>Video created on ElevenLabs.</p>
+                <p>&nbsp;</p>
+                <center>   
+                    <p><video  id="elevenLabsVideo" width="320" height="240" 
+                               autoPlay={true} 
+                               muted={videoMute} 
+                               loop={true}>
+                            <source src={ElevenLabs35YearsOfAI} type="video/mp4" /></video></p>
+                    <button id="btnMute" onClick={() => on11LabsMuteClick()} style={{marginLeft:'10px'}}>Mute</button>
+                </center>
+
                 </main>
         </div>
     )

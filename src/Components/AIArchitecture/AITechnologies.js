@@ -215,7 +215,7 @@ The sum is:  11<br />
 <br />
 <a target="blank" href="https://learn.microsoft.com/en-us/training/modules/python-install-vscode/">Python Install VSCode</a><br />
 <br />
-C:\ML\PyLearn>python --version<br />
+C:\ML\PyLearn&gt;python --version<br />
 Python 3.11.5<br />
 <br />
 </p>
@@ -223,7 +223,7 @@ Python 3.11.5<br />
 <h4>python.exe</h4>
 <p>
 <br />
-&gt; "C:\Python311\python.exe" -m pip install --user "jupyter>=1.0.0" "notebook==6.5.6" "ipykernel==5.5.5"<br />
+&gt; "C:\Python311\python.exe" -m pip install --user "jupyter&gt;=1.0.0" "notebook==6.5.6" "ipykernel==5.5.5"<br />
 &nbsp;&nbsp;&nbsp;Successfully installed   entrypoints-0.4             widgetsnbextension-4.0.9<br />
 &nbsp;&nbsp;&nbsp;pyzmq-24.0.1                nbclassic-1.0.0 <br />
 &nbsp;&nbsp;&nbsp;ipykernel-5.5.5             notebook-6.5.6 <br />
