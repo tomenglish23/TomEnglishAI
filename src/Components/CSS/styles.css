@@ -16,7 +16,7 @@ td         { text-align: left; vertical-align: top; font-family:monospace; font-
 .h3home { font-size:16px; color:rgb(0, 139, 139); padding: 0px 0px 0px 2px; font-family: 'Times New Roman', Times, serif; }
  */
 h1     { margin-bottom: 0.5rem; font-size: 1.5rem; }
-h2     { color: #4a90e2; margin-bottom: 0.5rem; font-size: 1.1rem; }
+h2     { color: #4a90e2; margin-bottom: 0.5rem; font-size: 1.1rem; width:70%; }
 h3     { color: #4a90e2; margin-bottom: 0.5rem; font-size: 0.9rem; width:70%; }
 h4     { color: #4a90e2; margin-bottom: 0.5rem; font-size: 0.8rem; width:70%; }
 h5     { color: #4a90e2; margin-bottom: 0.5rem; font-size: 0.7rem; width:70%; }
@@ -54,7 +54,9 @@ code       { font-size:small;  margin: 5px 0px 5px 0px; padding: 2px 20px 2px 5p
 
              .div150PL { width: 150px; display:inline-block; padding-left:25px; }
 
-p.colorred   { color:'red'; display:inline-block; }
+             p.colorred    { color:red; display:inline-block; }
+             p.redbold     { color:red; display:inline-block; font-weight:bold; }
+             .boldred  { color:red; display:inline-block; font-weight:bold; }
 
 .anounderline { text-decoration:'none' }
 

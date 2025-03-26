@@ -132,7 +132,7 @@ export default function AITools() {
                         <tr>
                             <td>&nbsp;</td>
                             <td>&nbsp;</td>
-                            <td style={{paddingBottom:'23px'}}><b><u>~50 FREE uses. I have 23 remaining.</u></b></td>
+                            <td style={{paddingBottom:'23px'}}><b><u>50 FREE uses. I have 23 remaining.</u></b></td>
                         </tr>
 
                     </tbody>
