@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d7bf6b0d1750080ca5f7cf31ae84093b",
+    "revision": "d5d3fed88f5484fd89aaf2a3e23d65ea",
     "url": "/TomEnglishAI/index.html"
   },
   {
-    "revision": "86fe43e31f96d426b81a",
-    "url": "/TomEnglishAI/static/css/main.d5048a84.chunk.css"
+    "revision": "4407d72dca1d7d4263ad",
+    "url": "/TomEnglishAI/static/css/main.1ed706d3.chunk.css"
   },
   {
-    "revision": "1f3870caf86380e0df46",
-    "url": "/TomEnglishAI/static/js/2.c2876c82.chunk.js"
+    "revision": "97fa79dc044261bb5208",
+    "url": "/TomEnglishAI/static/js/2.6d1b6636.chunk.js"
   },
   {
     "revision": "9e126fb458b379ef7cf758f298725956",
-    "url": "/TomEnglishAI/static/js/2.c2876c82.chunk.js.LICENSE.txt"
+    "url": "/TomEnglishAI/static/js/2.6d1b6636.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c3593364e1456fab52fc",
-    "url": "/TomEnglishAI/static/js/3.60cb3b44.chunk.js"
+    "revision": "5c4dfefe4d2e11273474",
+    "url": "/TomEnglishAI/static/js/3.172d66f8.chunk.js"
   },
   {
-    "revision": "86fe43e31f96d426b81a",
-    "url": "/TomEnglishAI/static/js/main.9c337844.chunk.js"
+    "revision": "4407d72dca1d7d4263ad",
+    "url": "/TomEnglishAI/static/js/main.ff511254.chunk.js"
   },
   {
-    "revision": "2b37596820b2a6d7f785",
-    "url": "/TomEnglishAI/static/js/runtime-main.1c5f752b.js"
+    "revision": "38788a6dc8c026a1e99f",
+    "url": "/TomEnglishAI/static/js/runtime-main.51ab02a0.js"
   },
   {
     "revision": "1c4a3bcaf1b3c044f32d90b688ec85c7",
@@ -152,6 +152,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TomEnglishAI/static/media/crypko_ai.7a35d500.png"
   },
   {
+    "revision": "cfb342e1364b1e85ce6872bdf85146b1",
+    "url": "/TomEnglishAI/static/media/cursor_ai.cfb342e1.png"
+  },
+  {
+    "revision": "5e8d2e1dff3d692577c6f1081c4d1ae4",
+    "url": "/TomEnglishAI/static/media/cursor_ai_ex.5e8d2e1d.png"
+  },
+  {
     "revision": "5ed33728b444fb32265e2ed8b969c517",
     "url": "/TomEnglishAI/static/media/dall_e_3_ai.5ed33728.png"
   },
@@ -184,6 +192,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TomEnglishAI/static/media/knowji_ai.db7846e0.png"
   },
   {
+    "revision": "85515f2f8146d13de0c55089664816e9",
+    "url": "/TomEnglishAI/static/media/loveable_ai.85515f2f.png"
+  },
+  {
     "revision": "79b6388d7faea3f04a49e58f2e5eacc4",
     "url": "/TomEnglishAI/static/media/make_ai.79b6388d.png"
   },
@@ -202,6 +214,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "da3c487ddd10cad09200fceb43679836",
     "url": "/TomEnglishAI/static/media/nitecafe_ai.da3c487d.png"
+  },
+  {
+    "revision": "5911fc1de70873581a4ebd15450b361a",
+    "url": "/TomEnglishAI/static/media/notegpt_ai.5911fc1d.png"
   },
   {
     "revision": "029f8f496035621fa94b29f5d5cbdda6",
@@ -232,6 +248,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TomEnglishAI/static/media/relevance_ai.3f94a422.png"
   },
   {
+    "revision": "13c9af7c15b89e23a26a872543573501",
+    "url": "/TomEnglishAI/static/media/replit_ai.13c9af7c.png"
+  },
+  {
     "revision": "798567a97b7beae3564aeb586fea3658",
     "url": "/TomEnglishAI/static/media/runway_ai.798567a9.png"
   },
@@ -254,6 +274,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b8e9c4f8fc6481e27b1c0e7b29439e48",
     "url": "/TomEnglishAI/static/media/terminator2.b8e9c4f8.png"
+  },
+  {
+    "revision": "cff5f111d808103f8c9c8cca5084b4c6",
+    "url": "/TomEnglishAI/static/media/v0_ai.cff5f111.png"
   },
   {
     "revision": "dba320ef4970088ea6e61a0be913598b",
