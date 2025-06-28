@@ -33,8 +33,8 @@
 .topBarTable {
     width: 100%;
 }
-.topBarLeft    { width: 20%; text-align: left; }
-.topBarCenter  { width: 65%; text-align: center; }
+.topBarLeft    { width: 35%; text-align: left; }
+.topBarCenter  { width: 50%; text-align: center; }
 .topBarRight   { width: 15%; text-align: right; }
 /* https://react-bootstrap.github.io/docs/components/modal  
    https://mui.com/material-ui/react-button/

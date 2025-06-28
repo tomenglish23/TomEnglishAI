@@ -1,0 +1,3 @@
+npm start
+C:\B\TomEnglishAI\src\Documentation\Readme2RunTheProject.md
+

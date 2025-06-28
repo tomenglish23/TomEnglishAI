@@ -11,6 +11,8 @@ import replit_ai from '../../Images/AITools/replit_ai.png';
 import notegpt_ai from '../../Images/AITools/notegpt_ai.png';
 import Airtable from '../../Images/AITools/airtable_ai.png';
 import Make from '../../Images/AITools/make_ai.png';
+import vapi_ai from '../../Images/AITools/vapi_ai.png';
+import vapi_ex1 from '../../Images/AITools/vapi_ex1.png';
 
 export default function AIBusinessTypes() {
       
@@ -292,6 +294,22 @@ export default function AIBusinessTypes() {
                             <td>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td style={{paddingBottom:'27px'}}></td>
+                        </tr>
+
+                        <tr>
+                            <td><a target="blank" href="https://vapi.ai"><b>Vapi</b></a></td>
+                            <td><img src={vapi_ai} alt="NoteGPT" border="0" width="32" height="32" /></td>
+                            <td>Voice AI agents for developers</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td><img src={vapi_ex1} alt="Vapi example" border="0" width="600" height="600" /></td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td style={{paddingBottom:'27px'}}><div className="boldred">1000 FREE minutes per month.</div></td>
                         </tr>
 
                     </tbody>
