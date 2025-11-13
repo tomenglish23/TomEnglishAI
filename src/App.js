@@ -45,6 +45,7 @@ import AITechnologies              from './Components/AIConsultant/AITechnologie
 import Telegram                    from './Components/AIConsultant/Telegram';
 
 import AIVideos                    from './Components/AIVideos/AIVideos';
+import AIVideoTEAIVideoMaker       from './Components/AIVideos/AIVideoTEAIVideoMaker';
 import AIVideoCapCut               from './Components/AIVideos/AIVideoCapCut';
 import AIVideoClipchamp            from './Components/AIVideos/AIVideoClipchamp';
 import FFmpeg                      from './Components/AIVideos/FFmpeg';
@@ -111,6 +112,7 @@ function App() {
           <Route path="/AIConsultant/Telegram"                element={<Telegram />} />
 
           <Route path="/AIVideos/AIVideos"                    element={<AIVideos />} />
+          <Route path="/AIVideos/AIVideoTEAIVideoMaker"       element={<AIVideoTEAIVideoMaker />} />
           <Route path="/AIVideos/AIVideoCapCut"               element={<AIVideoCapCut />} />
           <Route path="/AIVideos/AIVideoClipchamp"            element={<AIVideoClipchamp />} />
           <Route path="/AIVideos/FFmpeg"                      element={<FFmpeg />} />

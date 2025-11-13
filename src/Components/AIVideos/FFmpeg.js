@@ -28,8 +28,22 @@ Env vars:&nbsp;&nbsp;&nbsp;Add the FFmpeg directory to your system's PATH for ea
 Docs:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Refer to the FFmpeg documentation for detailed info on all available options. <br/>
 Experiment:&nbsp;FFmpeg offers numerous customization options. Experiment for desired results. <br/>
 <br/>
-Tutorial: <a href="https://www.youtube.com/watch?v=26Mayv5JPz0" target="blank">FFmpeg in 100 Seconds</a>
 <br/>
+
+<center>
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/26Mayv5JPz0"
+  title="FFmpeg in 100 Seconds from Fireship"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+  style={{ display: 'block', margin: 0 }}
+></iframe>
+<br/>
+Tutorial: <a href="https://www.youtube.com/watch?v=26Mayv5JPz0" target="blank">FFmpeg in 100 Seconds from Fireship</a>
+</center>
+
 <br/>
 <br/>
 <b>VIDEO CREATION:</b><br/>

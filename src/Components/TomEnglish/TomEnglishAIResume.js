@@ -9,6 +9,9 @@ export default function TomEnglishAIResume() {
           <TopBar/>
           <header>
               <h1>Resume for Tom English</h1>
+              <p style={{color: 'white', padding: '0px'}}><b>Detailed resume before making my 2-page .NET / AI job search resume</b></p>
+              <p style={{color: 'white', padding: '0px'}}><b>14 certification links -  30+ trainings - Full job descriptions</b></p>
+              <p style={{color: 'white', padding: '0px'}}><b>Not update since February 27, 2025.</b></p>
           </header>            
           <main>
             <center>
@@ -25,12 +28,11 @@ export default function TomEnglishAIResume() {
                     <p><a target="blank" href="https://www.facebook.com/people/Tom-English-AI/100067604027953/">Facebook Tom English AI</a></p>
                   </td>
                   <td>
-                    <center><p>TomEnglishAI.com</p></center>
-                    <center><p style={{marginBottom:'15px'}}><a target="blank" href="https://tomenglish23.github.io/TomEnglishAI/">tomenglish23.github.io/TomEnglishAI</a></p></center>
+                    <center><p style={{marginBottom:'15px'}}><a target="blank" href="https://tomenglishai.com/TomEnglishAI/">TomEnglishAI.com</a></p></center>
                   </td>
                   <td style={{ textAlign: 'right' }}>
                     <p>February 27, 2025</p>
-                    <p>Tom.English23@yahoo.com</p>
+                    <p>JobSearch@TomEnglishAI.com</p>
                   </td>
                 </tr>
                 <tr>

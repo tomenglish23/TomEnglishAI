@@ -215,7 +215,8 @@ export default function AIStocksAPIs() {
                     <h2>Python Server Communications</h2> 
                     <p>&nbsp;</p>
                     <p><b><strong><i>&nbsp;&nbsp;&nbsp;&nbsp;
-                                  Sorry for the inconvenience ... Except for "Select Exchange", buttons have been disabled.
+                                  Sorry for the inconvenience ... Except for "Select Exchange", buttons have been disabled<br />
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;until I host on a server that has Python support.
                                   </i></strong></b></p>
                     <p>&nbsp;</p>
                     <table>
