@@ -432,8 +432,12 @@ export default function TomEnglishAIResume() {
             href="linkedin.com/pulse/microsoft-visual-studio-code-installation-tom-english-mcpd"> Microsoft Visual Studio Code Installation</a> </p>
 
             <p style={{fontSize:'20px', margin:'30px 0px 10px 0px'}}><b>DESIGN PATTERNS / INNOVATIONS</b></p>
-            <p><b><div style={{ color: 'maroon', display:'inline' }}>Deciphered Google algorithms</div></b>: Created proprietary SEO thesaurus-driven, deep-URL naming, keyword placement technique.</p>
-            <p><b><div style={{ color: 'maroon', display:'inline' }}>Proprietary Code Generator</div></b>: &nbsp;&nbsp;for rapid development generating n-layer code from SQL metadata.</p>
+            <p>
+              <b>{/* <div style={{ color: 'maroon', display:'inline' }}> */}Deciphered Google algorithms{/* </div> */}</b>
+              : Created proprietary SEO thesaurus-driven, deep-URL naming, keyword placement technique.</p>
+            <p>
+              <b>{/* <div style={{ color: 'maroon', display:'inline' }}> */}Proprietary Code Generator{/* </div> */}</b>
+              : &nbsp;&nbsp;for rapid development generating n-layer code from SQL metadata.</p>
           </main>
         </div>
     )

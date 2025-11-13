@@ -9,9 +9,10 @@ export default function Telegram() {
             <TopBar/>
             <header>
                 <h1>Telegram</h1>
-                <p>Telegram can be used as an input node into AI Agent Workflows like N8N and Make.</p>
             </header>            
             <main>
+                <p>Telegram can be used as an input node into AI Agent Workflows like N8N and Make.</p>
+                <p>N8N diagram is coming.</p>
             </main>
         </div>
     )

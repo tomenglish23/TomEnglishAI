@@ -14,8 +14,8 @@ export default function AIArchitecture() {
         <div style={{opacity: 1.0 }}>
             <TopBar/>
             <header>
-                <h1>AI Architecture</h1>
-                <p>The big picture</p>
+                <h1>Stock Data Software Architecture</h1>
+                <p>Stock Data access &amp; usage</p>
             </header>            
             <main>  
                 <h2>Data</h2> 

@@ -1,6 +1,7 @@
 import React from 'react';
 import TopBar from '../Menu/TopBar';
 import '../CSS/styles.css';
+import AIConsultantDescr2 from './AIConsultantDescr2';
 
 export default function AICustomGPTs() {
       
@@ -12,6 +13,10 @@ export default function AICustomGPTs() {
                 <p></p>
             </header>            
             <main>
+
+            <div>
+                <AIConsultantDescr2 />
+            </div>
             </main>
         </div>
     )

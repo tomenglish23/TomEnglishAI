@@ -12,14 +12,14 @@ export default function Private() {
                 <p className='h1home'> Tom English AI </p>
                 <p style={{height: '50px'}}></p>
             </center> 
-            <p><a target="blank" href="/">Home</a></p>
-            <p>&nbsp;</p>
+            {/* <p><a target="blank" href="/">Home</a></p>
+            <p>&nbsp;</p> */}
             <p><a target="blank" href="\TomEnglishAI\AIArchitecture/Todo">Todo</a></p>
-            <p>&nbsp;</p>
+            {/* <p>&nbsp;</p>
             <h2>AI Tools - Extensions and ChatBots</h2>
             <p><a target="blank" href="\TomEnglishAI\AITools\AIToolsAddExtension">AITools Add Extension</a></p>
             <p><a target="blank" href="\TomEnglishAI\AITools\TomEnglishAIChatBot">AITools TomEnglishAI ChatBot</a></p>
-            <p><a target="blank" href="\TomEnglishAI\AITools\ChatBots">AITools ChatBots</a></p>
+            <p><a target="blank" href="\TomEnglishAI\AITools\ChatBots">AITools ChatBots</a></p> */}
             <p>&nbsp;</p>
             <p><a target="blank" href="\TomEnglishAI\Presence\Presence1">Presence</a></p>
             <p><a target="blank" href="\TomEnglishAI\Presence\Funding">Funding</a></p>
@@ -27,9 +27,9 @@ export default function Private() {
             <p><a target="blank" href="\TomEnglishAI\Presence\PlansProposalsDecks">Plans Proposals Decks</a></p>
             <p>&nbsp;</p>
             <p><a target="blank" href="\TomEnglishAI\AIConsoleApps\AIConsoleApps">Fix: Console Apps</a></p>
-            <p><a target="blank" href="\TomEnglishAI\AIConsoleApps\AIGetStkHist">Fix: Stock History</a></p>
-            <p>&nbsp;</p>
-            <p><a target="blank" href="\TomEnglishAI\AIStocks\AIStocksAPIs2">Too much: AIStocksAPIs 2</a></p>
+            {/* <p><a target="blank" href="\TomEnglishAI\AIConsoleApps\AIGetStkHist">Fix: Stock History</a></p> */}
+            {/* <p>&nbsp;</p>
+            <p><a target="blank" href="\TomEnglishAI\AIStocks\AIStocksAPIs2">Too much: AIStocksAPIs 2</a></p> */}
             <p>&nbsp;</p>
             <p style={{height: '20px'}}></p>
             <center> 

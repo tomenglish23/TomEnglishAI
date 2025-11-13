@@ -310,7 +310,7 @@ export default function AIConsoleApps() {
                             <tr>
                                 <td></td>
                                 <td></td>
-                                <td colspan="3">
+                                <td colSpan="3">
                                     <button id="btnGetStkHist"
                                     onClick={()=>{get_tv_stk_hist()}}>Get Stock Data History for {tkr}</button>
                                 </td>

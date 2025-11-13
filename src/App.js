@@ -71,6 +71,7 @@ import PlansProposalsDecks         from './Components/Presence/PlansProposalsDec
 import React                       from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
+/* import reactManifest from "react-manifest" */
 
 export const history = createBrowserHistory({ basename: process.env.PUBLIC_URL });
 

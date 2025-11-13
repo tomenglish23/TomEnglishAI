@@ -8,80 +8,192 @@ export default function MenuSubmenu() {
     /* Need images of each CP */
 
     // const publicUrl = process.env.PUBLIC_URL;
+    const SP = "\u00A0"; // Non-breaking space
+    const DO = "x"; // Placeholder for TODO items
 
   return (
 <div>
-    <ul id="menu">
-        <li><a href="\TomEnglishAI\TomEnglish\Home"                      >Home</a></li>
-        <li><a href="\TomEnglishAI\AIConsultant\AIConsultant"            >AI Consultant</a>
-            <ul className="sub">
-                <li>&nbsp;</li>
-                <li><a href="\TomEnglishAI\AIConsultant\AIConsultant"              >AI Consultant</a></li>
-                <li>&nbsp;</li>
-                <li><a href="\TomEnglishAI\AIConsultant\AIGPTs"                    >AI GPTs     </a></li>
-                <li><a href="\TomEnglishAI\AIConsultant\Prompts"                   >AI GPTs   - Prompt Engineering</a></li>
-                <li><a href="\TomEnglishAI\AIConsultant\AICustomGPTs"              >AI GPTs   - Custom GPTs</a></li>
-                <li>&nbsp;</li>
-                <li><a href="\TomEnglishAI\AIConsultant\AIChatbots"                >AI Bots   - Chatbots</a></li>
-                <li>&nbsp;</li>
-                <li><a href="\TomEnglishAI\AIConsultant\AIAgents"                  >AI Agents   </a></li>
-                <li><a href="\TomEnglishAI\AIConsultant\AIVoiceAgents"             >AI Agents - Voice Agents</a></li>
-                <li><a href="\TomEnglishAI\AIConsultant\N8N"                       >AI Workflows - N8N</a></li>
-                <li><a href="\TomEnglishAI\AIConsultant\Make"                      >AI Workflows - Make</a></li>
-                <li><a href="\TomEnglishAI\AIConsultant\Telegram"                  >AI Workflows - Telegram</a></li>
-                <li>&nbsp;</li>
-                <li><a href="\TomEnglishAI\AIConsultant\AIWebsite"                 >AI Website Tools </a></li>
-                <li><a href="\TomEnglishAI\AIConsultant\AIWebsiteHTTrack"          >AI Website Tools - HTTrack</a></li>
-                <li><a href="\TomEnglishAI\AIConsultant\AIWebsiteHuggingFace"      >AI Website Tools - HuggingFace</a></li>
-                <li>&nbsp;</li>
-                <li><a href="\TomEnglishAI\AIVideos\AIVideos"                      >Videos </a></li>
-                <li><a href="\TomEnglishAI\AIVideos\AIVideoCapCut"                 >Videos - IDE: CapCut</a></li>
-                <li><a href="\TomEnglishAI\AIVideos\AIVideoClipchamp"              >Videos - IDE: Clipchamp</a></li>
-                <li><a href="\TomEnglishAI\AIVideos\FFmpeg"                        >Videos - Cmd Line: FFmpeg  </a></li>
-                <li><a href="\TomEnglishAI\AIVideos\FFmpegImagesAdd"               >Videos - Cmd Line: FFmpeg: Images: Add</a></li>
-                <li><a href="\TomEnglishAI\AIVideos\FFmpegImagesExtract"           >Videos - Cmd Line: FFmpeg: Images: Extract</a></li>
-                <li><a href="\TomEnglishAI\AIVideos\FFmpegImagesTransitions"       >Videos - Cmd Line: FFmpeg: Images: Transistions</a></li>
-                <li><a href="\TomEnglishAI\AIVideos\FFmpegSoundtracksAdd"          >Videos - Cmd Line: FFmpeg: Soundtracks: Add</a></li>
-                <li><a href="\TomEnglishAI\AIVideos\FFmpegSoundtracksRemove"       >Videos - Cmd Line: FFmpeg: Soundtracks: Add</a></li>
-                <li><a href="\TomEnglishAI\AIVideos\FFmpegTextAddCaptions"         >Videos - Cmd Line: FFmpeg: Text: Add Captions</a></li>
-                <li><a href="\TomEnglishAI\AIVideos\FFmpegTextTTS"                 >Videos - Cmd Line: FFmpeg: Text: TTS</a></li>
-                <li><a href="\TomEnglishAI\AIVideos\FFmpegTextVideoInside"         >Videos - Cmd Line: FFmpeg: Text: Video Inside</a></li>
-                <li>&nbsp;</li>
-                <li><a href="\TomEnglishAI\AIConsultant\AIStocksMachineLearning"   >Machine Learning - Microsoft Example</a></li>
-                <li><a href="\TomEnglishAI\AIConsultant\AITechnologies"            >Machine Learning - Technology List</a></li>
-                <li>&nbsp;</li>
-                <li><a href="\TomEnglishAI\TomEnglish\About"                       >About     </a></li>
-                <li><a href="\TomEnglishAI\TomEnglish\TomEnglishAIResume"          >About     - Tom English Resume</a></li>
-                <li><a href="\TomEnglishAI\TomEnglish\HowAIEvolved"                >About     - How AI evolved for me</a></li>
-                <li>&nbsp;</li>
-                <li><a href="\TomEnglishAI\AIArchitecture\AIArchitecture"          >Knowledge - Architecture: The Big Picture</a></li>
-                <li><a href="\TomEnglishAI\AIArchitecture\AIHowTo"                 >Knowledge - Quick Reference</a></li>
-                <li><a href="\TomEnglishAI\TomEnglish\AWSDictionary"               >Knowledge - AWS Dictionary</a></li>
-            </ul>
-        </li>
-        <li><a href="\TomEnglishAI\AITools\AITools"                      >AI Tools</a>
-            <ul className="sub">
-                <li>&nbsp;</li>
-                <li><a href="\TomEnglishAI\AITools\AITools"                        >AI Tools by Category</a></li>
-                <li><a href="\TomEnglishAI\AITools\AIToolsAIToolEnabled"           >AI-Enabled Tools</a></li>
-                <li><a href="\TomEnglishAI\AITools\AIBusinessTypes"                >AI Business Types</a></li>
-            </ul>
-        </li>
-        <li><a href="\TomEnglishAI\AIStocks\AIStocksCandlesticks"        >Stocks</a> 
-            <ul className="sub">
-                <li>&nbsp;</li>
-                <li><a href="\TomEnglishAI\AIStocks\AIStocksCandlesticks"          >Stocks - On Chart: Candlesticks</a></li>
-                <li><a href="\TomEnglishAI\AIStocks\AIStocks5MinCandlesticks"      >Stocks - On Chart: 5-Min Candlesticks</a></li>
-                <li><a href="\TomEnglishAI\AIStocks\AIStocksPrimitiveAlgorithms"   >Stocks - On Chart: Primitive Algorithms</a></li>
-                <li><a href="\TomEnglishAI\AIStocks\AIStocksTimeFrames"            >Stocks - On Chart: TimeFrames</a></li>
-                <li>&nbsp;</li>
-                <li><a href="\TomEnglishAI\AIStocks\AIStocksExternalFactors"       >Stocks - External: External Factors</a></li>
-                <li><a href="\TomEnglishAI\AIStocks\AIStocksIndexes"               >Stocks - External: Indexes</a></li>
-                <li><a href="\TomEnglishAI\AIStocks\AIStocksScreenScrapers"        >Stocks - External: Screen Scrapers</a></li>
-                <li>&nbsp;</li>
-                <li><a href="\TomEnglishAI\AIStocks\AIStocksAPIs"                  >Stocks - Console Apps: Stock APIs</a></li>
-            </ul>
-        </li>
+    <ul id="menu" className='blockmenu'>
+        <table className='blockmenu'>
+            <colgroup>
+                <col span="1" />
+                <col span="1" />
+                <col span="1" />
+                <col span="1" />
+                <col span="1"  />
+            </colgroup>
+            <tbody>
+                <tr>
+                    <td>
+                        <li><a href="\TomEnglishAI\AIConsultant\AIConsultant">
+                            AI CONSULTANT<br />GPTs | AI Bots | AI Agents | ML</a>
+                            <ul className="sub">
+
+                                <li><div className="li_spacer"></div></li>
+                                <li><a href="\TomEnglishAI\AIConsultant\AIConsultant">
+                                    {SP}AI Consultant{SP}</a></li>
+                                <li><a href="\TomEnglishAI\AIConsultant\AICustomGPTs">
+                                    {SP}AI Consultant: {SP}Custom GPTs{SP}</a></li>
+
+                                <li><div className="li_spacer"></div></li>
+                                <li><a href="\TomEnglishAI\AIConsultant\AIGPTs">
+                                    {SP}AI GPTs{SP}</a></li>
+                                <li><a href="\TomEnglishAI\AIConsultant\Prompts">
+                                    {SP}AI GPTs: Prompts for a Replit Voice Agent {SP}</a></li>
+
+                                <li><div className="li_spacer"></div></li>
+                                <li><a href="\TomEnglishAI\AIConsultant\AIChatbots">
+                                    {DO}AI Bots: Chatbots{SP}</a></li>
+
+                                <li><div className="li_spacer"></div></li>
+                                <li><a href="\TomEnglishAI\AIConsultant\AIAgents">
+                                    {DO}AI Agents{SP}</a></li>
+
+                                <li><div className="li_spacer"></div></li>
+                                <li><a href="\TomEnglishAI\AIConsultant\N8N">
+                                    {DO}AI Agents: Workflows{SP}</a></li>
+                                <li><a href="\TomEnglishAI\AIConsultant\N8N">
+                                    {DO}AI Agents: Workflows: N8N{SP}</a></li>
+                                <li><a href="\TomEnglishAI\AIConsultant\Make">
+                                    {DO}AI Agents: Workflows: Make{SP}</a></li>
+                                <li><a href="\TomEnglishAI\AIConsultant\Telegram">
+                                    {SP}AI Agents: Workflows: Telegram{SP}</a></li>
+
+                                <li><div className="li_spacer"></div></li>
+                                <li><a href="\TomEnglishAI\AIConsultant\AIStocksMachineLearning">
+                                    {SP}Machine Learning: Linear Regression Example{SP}</a></li>
+                                <li><a href="\TomEnglishAI\AIConsultant\AITechnologies">
+                                    {SP}Machine Learning: Technology List{SP}</a></li>
+
+                                <li><div className="li_spacer"></div></li>
+                            </ul>
+                        </li>
+                    </td>
+                    <td>
+                        <li><a href="\TomEnglishAI\AIConsultant\AIConsultant">
+                            AI CONSULTANT<br />Videos | Websites</a>
+                            <ul className="sub">
+
+                                <li><div className="li_spacer"></div></li>
+                                <li><a href="\TomEnglishAI\AIVideos\AIVideos">
+                                {SP}Videos{SP}</a></li>
+                                <li><a href="\TomEnglishAI\AIVideos\AIVideoCapCut">
+                                    {SP}Videos: IDE: {SP}{SP}{SP}CapCut{SP}</a></li>
+                                <li><a href="\TomEnglishAI\AIVideos\AIVideoClipchamp">
+                                    {SP}Videos: IDE: {SP}{SP}{SP}Clipchamp{SP}</a></li>
+
+                                <li><div className="li_spacer"></div></li>
+                                <li><a href="\TomEnglishAI\AIVideos\FFmpeg">
+                                    {SP}Videos: FFmpeg{SP}</a></li>
+                                <li><a href="\TomEnglishAI\AIVideos\FFmpegImagesAdd">
+                                    {SP}Videos: FFmpeg: Images: {SP}{SP}{SP}{SP}{SP}{SP}Add{SP}</a></li>
+                                <li><a href="\TomEnglishAI\AIVideos\FFmpegImagesExtract">
+                                    {DO}Videos: FFmpeg: Images: {SP}{SP}{SP}{SP}{SP}{SP}Extract{SP}</a></li>
+                                <li><a href="\TomEnglishAI\AIVideos\FFmpegImagesTransitions">
+                                    {DO}Videos: FFmpeg: Images: {SP}{SP}{SP}{SP}{SP}{SP}Transistions{SP}</a></li>
+                                <li><a href="\TomEnglishAI\AIVideos\FFmpegSoundtracksAdd">
+                                    {DO}Videos: FFmpeg: Soundtracks: {SP}Add{SP}</a></li>
+                                <li><a href="\TomEnglishAI\AIVideos\FFmpegSoundtracksRemove">
+                                    {DO}Videos: FFmpeg: Soundtracks: {SP}Remove{SP}</a></li>
+                                <li><a href="\TomEnglishAI\AIVideos\FFmpegTextAddCaptions">
+                                    {DO}Videos: FFmpeg: Text: {SP}{SP}{SP}{SP}{SP}{SP}{SP}{SP}Add Captions{SP}</a></li>
+                                <li><a href="\TomEnglishAI\AIVideos\FFmpegTextTTS">
+                                    {SP}Videos: FFmpeg: Text: {SP}{SP}{SP}{SP}{SP}{SP}{SP}{SP}TTS{SP}</a></li>
+                                <li><a href="\TomEnglishAI\AIVideos\FFmpegTextVideoInside">
+                                    {DO}Videos: FFmpeg: Text: {SP}{SP}{SP}{SP}{SP}{SP}{SP}{SP}Video Inside{SP}</a></li>
+
+                                <li><div className="li_spacer"></div></li>
+                                <li><a href="\TomEnglishAI\AIConsultant\AIWebsite">
+                                    {DO}AI Website Tools</a></li>
+                                <li><a href="\TomEnglishAI\AIConsultant\AIWebsiteHTTrack">
+                                    {DO}AI Website Tools: HTTrack{SP}</a></li>
+                                <li><a href="\TomEnglishAI\AIConsultant\AIWebsiteHuggingFace">
+                                    {DO}AI Website Tools: HuggingFace{SP}</a></li>
+
+                                <li><div className="li_spacer"></div></li>
+                            </ul>
+                        </li>
+                    </td>
+                    <td style={{paddingTop: 23}}>
+                        <li><a href="\TomEnglishAI\TomEnglish\About">
+                            About</a>
+                            <ul className="sub">
+
+                                <li><div className="li_spacer"></div></li>
+                                <li><a href="\TomEnglishAI\TomEnglish\Home">
+                                    {SP}Home{SP}</a></li>
+
+                                <li><div className="li_spacer"></div></li>
+                                <li><a href="\TomEnglishAI\TomEnglish\About">
+                                    {SP}About{SP}</a></li>
+                                <li><a href="\TomEnglishAI\TomEnglish\TomEnglishAIResume">
+                                    {SP}About: Tom English Resume{SP}</a></li>
+                                <li><a href="\TomEnglishAI\TomEnglish\HowAIEvolved">
+                                    {SP}About: How AI evolved for me{SP}</a></li>
+
+                                <li><div className="li_spacer"></div></li>
+                                <li><a href="\TomEnglishAI\AIArchitecture\AIHowTo">
+                                    {SP}Knowledge: Quick Reference{SP}</a></li>
+                                <li><a href="\TomEnglishAI\TomEnglish\AWSDictionary">
+                                    {SP}Knowledge: AWS Dictionary{SP}</a></li>
+
+                                <li><div className="li_spacer"></div></li>
+                            </ul>
+                        </li>
+                    </td>
+                    <td style={{paddingTop: 23}}>
+                        <li><a href="\TomEnglishAI\AIStocks\AIStocksCandlesticks">
+                            Stocks</a> 
+                            <ul className="sub">
+
+                                <li><div className="li_spacer"></div></li>
+                                <li><a href="\TomEnglishAI\AIArchitecture\AIArchitecture">
+                                    {SP}Stock Software Architecture{SP}</a></li>
+                                <li><a href="\TomEnglishAI\AIStocks\AIStocksAPIs">
+                                    {SP}Console Apps: Stock APIs{SP}</a></li>
+
+                                <li><div className="li_spacer"></div></li>
+                                <li><a href="\TomEnglishAI\AIStocks\AIStocksCandlesticks">
+                                    {SP}On Chart: Candlesticks{SP}</a></li>
+                                <li><a href="\TomEnglishAI\AIStocks\AIStocks5MinCandlesticks">
+                                    {SP}On Chart: 5-Min Candlesticks{SP}</a></li>
+                                <li><a href="\TomEnglishAI\AIStocks\AIStocksPrimitiveAlgorithms">
+                                    {SP}On Chart: Primitive Algorithms{SP}</a></li>
+                                <li><a href="\TomEnglishAI\AIStocks\AIStocksTimeFrames">
+                                    {SP}On Chart: TimeFrames{SP}</a></li>
+
+                                <li><div className="li_spacer"></div></li>
+                                <li><a href="\TomEnglishAI\AIStocks\AIStocksExternalFactors">
+                                    {SP}External: External Factors{SP}</a></li>
+                                <li><a href="\TomEnglishAI\AIStocks\AIStocksIndexes">
+                                    {SP}External: Indexes{SP}</a></li>
+                                <li><a href="\TomEnglishAI\AIStocks\AIStocksScreenScrapers">
+                                    {SP}External: Screen Scrapers{SP}</a></li>
+
+                                <li><div className="li_spacer"></div></li>
+                            </ul>
+                        </li>
+                    </td>
+                    <td style={{paddingTop: 23}}>
+                        <li><a href="\TomEnglishAI\AITools\AITools">
+                            AI Tools</a>
+                            <ul className="sub">
+
+                                <li><div className="li_spacer"></div></li>
+                                <li><a href="\TomEnglishAI\AITools\AITools">
+                                    {SP}AI Tools by Category{SP}</a></li>
+                                <li><a href="\TomEnglishAI\AITools\AIToolsAIToolEnabled">
+                                    {SP}AI-Enabled Tools{SP}</a></li>
+                                <li><a href="\TomEnglishAI\AITools\AIBusinessTypes">
+                                    {SP}AI Business Types{SP}</a></li>
+
+                                <li><div className="li_spacer"></div></li>
+                            </ul>
+                        </li>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </ul>
 </div>  
     );
