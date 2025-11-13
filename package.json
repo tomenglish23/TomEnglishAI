@@ -28,7 +28,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "react-scripts --openssl-legacy-provider build && cp build/index.html build/404.html"
+    "build": "react-scripts --openssl-legacy-provider build && powershell Copy-Item build\\index.html build\\404.html"
   },
   "eslintConfig": {
     "extends": [
