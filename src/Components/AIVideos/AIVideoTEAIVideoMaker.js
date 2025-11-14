@@ -1,7 +1,6 @@
 import React from 'react';
 import TopBar from '../Menu/TopBar';
 import '../CSS/styles.css';
-import video from '../../Videos/Enterprise_Chatbots.mp4';
 
 export default function AIVideoTEAIVideoMaker() {
 
@@ -55,7 +54,7 @@ export default function AIVideoTEAIVideoMaker() {
 
 <td style={rightCellStyle}>
     <video width="300" height="222" controls style={videoStyle}>
-    <source src={video} type="video/mp4" />
+    <source src={process.env.PUBLIC_URL + "/Videos/Enterprise_Chatbots.mp4"} type="video/mp4" />
     </video>
 </td>
                     </tr>

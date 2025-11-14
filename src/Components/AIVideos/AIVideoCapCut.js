@@ -1,7 +1,6 @@
 import React/* , { useRef, useEffect } */ from 'react';
 import TopBar from '../Menu/TopBar';
 import '../CSS/styles.css';
-import video from '../../Videos/OutCapCut.mp4'
 
 export default function AIVideoCapCut() {
     return (
@@ -24,7 +23,7 @@ export default function AIVideoCapCut() {
                                 </td>
                             <td>
                                 <center><video width="350" height="500" controls >
-                                    <source src={video} type="video/mp4"/>
+                                    <source src={process.env.PUBLIC_URL + "/Videos/OutCapCut.mp4"} type="video/mp4"/>
                                 </video></center>
                             </td>
                         </tr>

@@ -1,7 +1,6 @@
 import React from 'react';
 import TopBar from '../Menu/TopBar';
 import '../CSS/styles.css';
-import video from '../../Videos/OutClipchamp.mp4'
 
 export default function AIVideoClipchamp() {
       
@@ -26,7 +25,7 @@ export default function AIVideoClipchamp() {
                                 </td>
                             <td>
                                 <center><video width="350" height="500" controls >
-                                    <source src={video} type="video/mp4"/>
+                                    <source src={process.env.PUBLIC_URL + "/Videos/OutClipchamp.mp4"} type="video/mp4"/>
                                 </video></center>
                             </td>
                         </tr>

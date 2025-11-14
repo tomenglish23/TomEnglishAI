@@ -1,7 +1,6 @@
 import React from 'react';
 import TopBar from '../Menu/TopBar';
 import '../CSS/styles.css';
-import video from '../../Videos/Enterprise_Chatbots.mp4';
 
 export default function AIChatbots() {
 
@@ -27,7 +26,7 @@ export default function AIChatbots() {
                     </table>
                     <p>&nbsp;</p>
                     <video width="500" height="372" controls style={videoStyle}>
-                        <source src={video} type="video/mp4" />
+                        <source src={process.env.PUBLIC_URL + "/Videos/Enterprise_Chatbots.mp4"} type="video/mp4" />
                     </video>
                     
                 </center>
