@@ -1,61 +1,97 @@
 import React from 'react';
 import TopBar from '../Menu/TopBar';
 import '../CSS/styles.css';
-import backgroundImage from '../../Images/OldManInDingy.jpg';
+import backgroundImage from '../../Images/tom_english_ai_logo.jpeg';
 
 export default function Home() {
+
+    const videoStyle     = { verticalAlign: 'top', display: 'block', margin: 0 };
 
     return (
         <div>
             <TopBar/>
-            <center>
-                <p style={{height: '30px'}}></p>
-                <p className='h1home'> Tom English AI </p>
-                <p style={{height: '40px'}}></p>
-                <p className='hbhome
-                '>Updates coming to show current AI Tools Development</p>
-                <p style={{height: '60px'}}></p>
-                <p className='h1ahome'>AI Tools Development<br />
-                &amp;<br />
-                Machine Learning in the Financial Market </p>
-                <p style={{height: '20px'}}></p>
-                <img src={backgroundImage} alt="Tom English AI Icon" border="0" width="300" height="350" />
-                <p style={{height: '40px'}}></p>
-                <p className='h2home'> <a href="https://tomenglish23.github.io/TomEnglishAI/">www.TomEnglishAI.com</a> </p> 
-                <p style={{height: '1px'}}></p>
-                <p className='h3home'> June  28, 2025 </p> 
+<center>
 
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
+  <div style={{ height: '20px' }} />
 
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
+  <p className='h1home'>Tom English AI</p>
+  <p className='h5home'>Senior .NET & Azure Engineer • AI Systems Builder</p>
+  <p className='h5home'>Building tools that automate, scale & deliver</p>
 
+  <div style={{ height: '20px' }} />
 
-            </center> 
+  <p className='h1ahome'><b>What I Build</b></p>
+  <p className='h5home' style={{ width: '60%', margin: '0 auto' }}>
+    I build automation systems & AI-driven tools end-to-end using PowerShell, FFmpeg,
+    OpenAI, C# & Azure so ideas move from concept to production-ready workflows without friction.
+  </p>
+  <p className='h5home'>
+    <b>My approach is simple: build the automation first so every idea can scale.</b>
+  </p>
+
+  <div style={{ height: '20px' }} />
+
+  <p className='h1ahome'><b>TEAI Tools</b></p>
+
+  <table style={{ margin: '0px 0 auto', width: '70%' }}>
+    <tbody>
+      <tr>
+        <td className='h5home'><b>TEAIVideoMaker:</b></td>
+        <td className='h5home'>PowerShell + OpenAI + FFmpeg pipeline for rapid video creation</td>
+      </tr>
+      <tr>
+        <td className='h5home'><b>TEAIMP3Maker:</b></td>
+        <td className='h5home'>Fast TTS production & duration-aligned audio for prototypes</td>
+      </tr>
+      <tr>
+        <td className='h5home'><b>TEAIChatbot:</b></td>
+        <td className='h5home'>
+          In-design flow-controlled automation architecture for turning social engagement
+          into guided journeys (described in the whitepaper below)
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div style={{ height: '20px' }} />
+
+  <p className='h1ahome'><b>Distributed Chatbot Platform Architecture</b></p>
+  <p className='h5home'>Ingest • Process • Respond</p>
+
+  <div style={{ height: '20px' }} />
+
+  <a href="/TEAIChatbot Distributed Platform Architecture Tom English AI 251123.pdf" download>
+    <div style={{ fontSize: '22px', color: 'blue' }}>Download the PDF Whitepaper</div>
+  </a>
+
+  <div style={{ height: '20px' }} />
+
+  <video width="630" height="400" controls style={videoStyle}>
+    <source src={process.env.PUBLIC_URL + "/Videos/TEAIChatbotLI01.mp4"}
+            type="video/mp4" />
+  </video>
+
+  <p className='h2home'>
+    Video by&nbsp;
+    <a href="../AIVideos/AIVideoTEAIVideoMaker">
+      <span style={{ fontSize: '18px', color: 'blue' }}>TEAIVideoMaker</span>
+    </a>
+  </p>
+
+  <div style={{ height: '30px' }} />
+
+  <p className='h1ahome'><b>Contact</b></p>
+  <p className='h5home'><a href="https://www.tomenglishai.com">tomenglishai.com</a></p>
+  <p className='h5home'><a href="mailto:jobsearch@tomenglishai.com" target="blank">jobsearch@tomenglishai.com</a></p>
+  <p className='h5home'><a href="https://www.linkedin.com/in/tomenglishai/" target="_blank">LinkedIn.com/in/tomenglishai</a></p>
+
+  <div style={{ height: '40px' }} />
+
+  <p className='h2home'>December 02, 2025</p>
+
+  <div style={{ height: '40px' }} />
+
+</center>
         </div>
     )
 }

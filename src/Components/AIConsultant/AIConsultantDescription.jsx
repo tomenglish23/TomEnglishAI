@@ -1,7 +1,7 @@
 import React from 'react';
 
-const SP = "\u00A0"; // Non-breaking space
-const SP2 = "\u00A0\u00A0"; // Non-breaking space
+// const SP = "\u00A0"; // Non-breaking space
+// const SP2 = "\u00A0\u00A0"; // Non-breaking space
 const SP3 = "\u00A0\u00A0\u00A0"; // Non-breaking space
 
 const AIConsultantDescription = () => {
@@ -14,7 +14,7 @@ const AIConsultantDescription = () => {
     padding: '20px',
   };
 
-  const headingStyle = { fontSize: '28px', marginBottom: '0.5em' };
+  // const headingStyle = { fontSize: '28px', marginBottom: '0.5em' };
   const subheadingStyle = { marginTop: '2em', fontSize: '22px' };
   const listHeadingStyle = { marginTop: '1.5em', fontSize: '18px' };
   const blockStyle = { marginLeft: '1.2em', marginBottom: '2em' };

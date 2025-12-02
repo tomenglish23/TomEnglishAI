@@ -4,14 +4,14 @@ const SP = "\u00A0"; // Non-breaking space
 const SP2 = "\u00A0\u00A0"; // Non-breaking space
 const SP3 = "\u00A0\u00A0\u00A0"; // Non-breaking space
 const SP4 = "\u00A0\u00A0\u00A0\u00A0"; // Non-breaking space
-const SP5 = "\u00A0\u00A0\u00A0\u00A0\u00A0"; // Non-breaking space
+// const SP5 = "\u00A0\u00A0\u00A0\u00A0\u00A0"; // Non-breaking space
 const SP6 = "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0"; // Non-breaking space
-const SP7 = "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0"; // Non-breaking space
-const SP8 = "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0"; // Non-breaking space
-const SPC = "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0"; // Non-breaking space
-const SPD = "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0"; // Non-breaking space
+// const SP7 = "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0"; // Non-breaking space
+// const SP8 = "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0"; // Non-breaking space
+// const SPC = "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0"; // Non-breaking space
+// const SPD = "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0"; // Non-breaking space
 const SPE = "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0"; // Non-breaking space
-const COL1 = "\u0027"; // Column width for table
+// const COL1 = "\u0027"; // Column width for table
 
 const AIConsultantDescr2 = () => {
   const sectionStyle = {
@@ -23,15 +23,15 @@ const AIConsultantDescr2 = () => {
     padding: '20px',
   };
 
-  const headingStyle = { fontSize: '28px', marginBottom: '0.5em' };
-  const subheadingStyle = { marginTop: '2em', fontSize: '22px' };
-  const listHeadingStyle = { marginTop: '1.5em', fontSize: '18px' };
-  const blockStyle = { marginLeft: '1.2em', marginBottom: '2em' };
+  // const headingStyle = { fontSize: '28px', marginBottom: '0.5em' };
+  // const subheadingStyle = { marginTop: '2em', fontSize: '22px' };
+  // const listHeadingStyle = { marginTop: '1.5em', fontSize: '18px' };
+  // const blockStyle = { marginLeft: '1.2em', marginBottom: '2em' };
 
   return (
     <section style={sectionStyle}>
 
-<h2><a target="blank" href="https://chatgpt.com/g/g-pphsHvpFG-expert-ai-consultant">Custom GPT: Expert AI Consultant</a></h2>
+<h2><a target="blank" rel="noopener noreferrer" href="https://chatgpt.com/g/g-pphsHvpFG-expert-ai-consultant">Custom GPT: Expert AI Consultant</a></h2>
 
 <p>{SP}</p>
 <p><b>AI Consultant GPT</b><br />
@@ -187,7 +187,9 @@ Remember that I am just starting to learn to create instructional videos.
 <h3>4. Engage Visitors on Your Site</h3>
 
 <div>
-  <p><strong>Add a ChatGPT-powered chatbot</strong> using the OpenAI API or platforms like <a href="https://www.intercom.com" target="_blank">Intercom</a> or <a href="https://www.tidio.com" target="_blank">Tidio</a>.</p>
+  <p><strong>Add a ChatGPT-powered chatbot</strong> using the OpenAI API or platforms like 
+  <a href="https://www.intercom.com" target="_blank" rel="noopener noreferrer">Intercom</a> or 
+  <a href="https://www.tidio.com" target="_blank" rel="noopener noreferrer">Tidio</a>.</p>
 
   <p><strong>Use the chatbot to:</strong></p>
   <p>• Answer AI-related questions</p>
@@ -326,7 +328,7 @@ Remember that I am just starting to learn to create instructional videos.
 <p>Ready to use AI to save time, impress clients &amp; scale smarter? Let’s chat. 
     Book a free intro call or browse my services below.</p>
 
-<p><a href="https://yourwebsite.com/book" target="_blank">? Book a Free Call</a></p>
+<p><a href="https://yourwebsite.com/book" target="_blank" rel="noopener noreferrer">? Book a Free Call</a></p>
 
 
 <p>{SP}</p><hr />
@@ -368,7 +370,7 @@ Email &amp; comms:{SP6}Drafts project updates or team emails to save time.
 </p>
 
 <p><br />
-<b>🛠️ Tools & Integrations</b><br />
+<b><span role="img" aria-label="rocket">🛠️</span> Tools & Integrations</b><br />
 You can use ChatGPT directly for ad-hoc support or use the OpenAI API to integrate AI into tools like:<br />
 {SP3}Jira, Trello, Asana: {SP3}Generate &amp; update tickets based on meeting notes or email threads.<br />
 {SP3}Notion or Confluence: {SP2}Auto-generate documentation, meeting agendas or retrospectives.<br />

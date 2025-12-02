@@ -8,10 +8,9 @@ export default function TomEnglishAIResume() {
       <div style={{opacity: 1.0 }}>
           <TopBar/>
           <header>
-              <h1>Resume for Tom English</h1>
-              <p style={{color: 'white', padding: '0px'}}><b>Detailed resume before making my 2-page .NET / AI job search resume</b></p>
-              <p style={{color: 'white', padding: '0px'}}><b>14 certification links -  30+ trainings - Full job descriptions</b></p>
-              <p style={{color: 'white', padding: '0px'}}><b>Not update since February 27, 2025.</b></p>
+              <h1>Pre-2025 Resume for Tom English</h1>
+              <p style={{color: 'white', padding: '0px'}}><b>Detailed Resume - Pre-TEAI Projects</b></p>
+              <p style={{color: 'white', padding: '0px'}}><b>14 live certification links | 30+ trainings | Full job descriptions</b></p>
           </header>            
           <main>
             <center>
@@ -31,7 +30,7 @@ export default function TomEnglishAIResume() {
                     <center><p style={{marginBottom:'15px'}}><a target="blank" href="https://tomenglishai.com/TomEnglishAI/">TomEnglishAI.com</a></p></center>
                   </td>
                   <td style={{ textAlign: 'right' }}>
-                    <p>February 27, 2025</p>
+                    <p>January, 2025</p>
                     <p>JobSearch@TomEnglishAI.com</p>
                   </td>
                 </tr>
@@ -53,16 +52,16 @@ export default function TomEnglishAIResume() {
               <colgroup><col style={{ width: '22%' }} /><col /></colgroup>
               <tbody>
                 <tr>
-                  <td><b>Microsoft:</b></td>
-                  <td>Microsoft MCPD  Microsoft Certified Professional Developer</td>
+                  <td style={{ fontSize:'16px' }}><b>Microsoft:</b></td>
+                  <td style={{ fontSize:'16px' }}>Microsoft MCPD  Microsoft Certified Professional Developer</td>
                 </tr>                
                 <tr>
                   <td></td>
-                  <td>Microsoft MCTS  Microsoft Certified Technology Specialist</td>
+                  <td style={{ fontSize:'16px' }}>Microsoft MCTS  Microsoft Certified Technology Specialist</td>
                 </tr>                
                 <tr>
                   <td></td>
-                  <td><a href="https://learn.microsoft.com/en-us/users/thomasenglish-9156/transcript/7o4l4f045yqlqzn">Microsoft AZ-900 Azure Fundamentals</a></td>
+                  <td style={{ fontSize:'16px' }}><a href="https://learn.microsoft.com/en-us/users/thomasenglish-9156/transcript/7o4l4f045yqlqzn">Microsoft AZ-900 Azure Fundamentals</a></td>
                 </tr>
               </tbody>
             </table>
@@ -83,28 +82,28 @@ export default function TomEnglishAIResume() {
                         </colgroup>
                       <tbody>
                         <tr>
-                          <td><b>.NET/C#/SQL:</b></td>
-                          <td><a target="blank" href="http://ude.my/UC-ac8454f0-5fcf-442c-bda9-676bdde1fa81">Entity Framework Core .NET Core 5</a></td>
+                          <td style={{ fontSize:'16px' }}><b>.NET/C#/SQL:</b></td>
+                          <td style={{ fontSize:'16px' }}><a target="blank" href="http://ude.my/UC-ac8454f0-5fcf-442c-bda9-676bdde1fa81">Entity Framework Core .NET Core 5</a></td>
                         </tr>                
                         <tr>
                           <td></td>
-                          <td><a target="blank" href="http://ude.my/UC-9dd20893-7898-40e8-b3e3-30e996eba933">Dependency Injection in .NET 5 .NET Core</a></td>
+                          <td style={{ fontSize:'16px' }}><a target="blank" href="http://ude.my/UC-9dd20893-7898-40e8-b3e3-30e996eba933">Dependency Injection in .NET 5 .NET Core</a></td>
                         </tr>                
                         <tr>
                           <td></td>
-                          <td><a target="blank" href="ude.my/UC-Z514MH4R">Design Patterns in C# and .NET</a></td>
+                          <td style={{ fontSize:'16px' }}><a target="blank" href="ude.my/UC-Z514MH4R">Design Patterns in C# and .NET</a></td>
                         </tr>                
                         <tr>
                           <td></td>
-                          <td><a target="blank" href="ude.my/UC-J5ITZLVF">Parallel Programming with C# and .NET</a></td>
+                          <td style={{ fontSize:'16px' }}><a target="blank" href="ude.my/UC-J5ITZLVF">Parallel Programming with C# and .NET</a></td>
                         </tr>                
                         <tr>
                           <td></td>
-                          <td><a target="blank" href="https://www.hackerrank.com/certificates/07c86ae26e89">C# Basic</a></td>
+                          <td style={{ fontSize:'16px' }}><a target="blank" href="https://www.hackerrank.com/certificates/07c86ae26e89">C# Basic</a></td>
                         </tr>                
                         <tr>
                           <td></td>
-                          <td><a target="blank" href="https://www.hackerrank.com/certificates/947539b63d04">SQL Basic</a></td>
+                          <td style={{ fontSize:'16px' }}><a target="blank" href="https://www.hackerrank.com/certificates/947539b63d04">SQL Basic</a></td>
                         </tr>
                       </tbody>
                     </table>
@@ -112,37 +111,37 @@ export default function TomEnglishAIResume() {
                   <td>
                     <table  style={{ width:'100%'}}>
                       <colgroup>
-                        <col style={{ width: '20%' }} />
+                        <col style={{ width: '18%' }} />
                         <col />
                         </colgroup>
                       <tbody>
                         <tr>
-                          <td><b>Angular:</b></td>
-                          <td><a target=":blank" href="https://www.hackerrank.com/certificates/314ade6928dc">JavaScript Basic</a></td>
+                          <td style={{ fontSize:'16px' }}><b>Angular:</b></td>
+                          <td style={{ fontSize:'16px' }}><a target=":blank" href="https://www.hackerrank.com/certificates/314ade6928dc">JavaScript Basic</a></td>
                         </tr>
                         <tr>
                           <td></td>
-                          <td><a target="blank" href="ude.my/UC-OQIHO21Y">Angular 7</a></td>
+                          <td style={{ fontSize:'16px' }}><a target="blank" href="ude.my/UC-OQIHO21Y">Angular 7</a></td>
                         </tr>
                         <tr>
                           <td></td>
-                          <td><a target="blank" href="ude.my/UC-HIMBNBL3">Angular 7 Quick Guide</a></td>
+                          <td style={{ fontSize:'16px' }}><a target="blank" href="ude.my/UC-HIMBNBL3">Angular 7 Quick Guide</a></td>
                         </tr>
                         <tr>
                           <td></td>
-                          <td><a target="blank" href="ude.my/UC-W8UOKVXE">Angular 7 Quick Start Guide</a></td>
+                          <td style={{ fontSize:'16px' }}><a target="blank" href="ude.my/UC-W8UOKVXE">Angular 7 Quick Start Guide</a></td>
                         </tr>
                         <tr>
                           <td></td>
-                          <td><a target="blank" href="ude.my/UC-PTUKZTND">Angular 7 Build Awesome Web Apps</a></td>
+                          <td style={{ fontSize:'16px' }}><a target="blank" href="ude.my/UC-PTUKZTND">Angular 7 Build Awesome Web Apps</a></td>
                         </tr>
                         <tr>
                           <td></td>
-                          <td><a target="blank" href="ude.my/UC-32c92b8e-c3aa-479e-8a32-8aa3ac28a069">Angular 8 building a Progressive Web App (PWA)</a></td>
+                          <td style={{ fontSize:'16px' }}><a target="blank" href="ude.my/UC-32c92b8e-c3aa-479e-8a32-8aa3ac28a069">Angular 8 building a Progressive Web App (PWA)</a></td>
                         </tr>
                         <tr>
                           <td></td>
-                          <td><a target="blank" href="ude.my/UC-ebea035b-dec4-4a26-8200-19aed682bbd8">Angular 12 Web apps: .NET Core WebAPI, Mongo DB</a></td>
+                          <td style={{ fontSize:'16px' }}><a target="blank" href="ude.my/UC-ebea035b-dec4-4a26-8200-19aed682bbd8">Angular 12 Web apps: .NET Core WebAPI, Mongo DB</a></td>
                         </tr>
                       </tbody>
                     </table>
@@ -157,11 +156,11 @@ export default function TomEnglishAIResume() {
               <colgroup><col style={{ width: '3%' }} /><col style={{ width: '35%' }} /></colgroup>
               <tbody>
                 <tr><td colSpan="3"></td></tr>
-                <tr><td colSpan="3"><b>Docker, Microservices, Azure</b></td></tr>
-                <tr><td></td><td><a target="blank" href="ude.my/UC-89ae4e75-125e-47b6-b8c5-7a1b7f71ecce">Docker with MS .NET Core</a></td>
-                    <td><a target="blank" href="ude.my/UC-T58MPCXQ">Azure Step by Step</a></td></tr>
-                <tr><td></td><td><a target="blank" href="ude.my/UC-57584ba1-f773-492a-88aa-3f39963f0893">Microservices Architecture</a></td>
-                    <td><a target="blank" href="ude.my/UC-d48a7985-5d1a-48a0-8183-79931e0f4cfb">Azure Devops .NET 5 API Build/Deploy/Test</a></td></tr>
+                <tr><td colSpan="3" style={{ fontSize:'16px' }}><b>Docker, Microservices, Azure</b></td></tr>
+                <tr><td></td><td style={{ fontSize:'16px' }}><a target="blank" href="ude.my/UC-89ae4e75-125e-47b6-b8c5-7a1b7f71ecce">Docker with MS .NET Core</a></td>
+                    <td style={{ fontSize:'16px' }}><a target="blank" href="ude.my/UC-T58MPCXQ">Azure Step by Step</a></td></tr>
+                <tr><td></td><td style={{ fontSize:'16px' }}><a target="blank" href="ude.my/UC-57584ba1-f773-492a-88aa-3f39963f0893">Microservices Architecture</a></td>
+                    <td style={{ fontSize:'16px' }}><a target="blank" href="ude.my/UC-d48a7985-5d1a-48a0-8183-79931e0f4cfb">Azure Devops .NET 5 API Build/Deploy/Test</a></td></tr>
               </tbody>
             </table>
            
@@ -171,78 +170,78 @@ export default function TomEnglishAIResume() {
                   <tr><td colSpan="4"></td></tr>
                   <tr><td colSpan="4"></td></tr>
 
-                  <tr><td colSpan="3"><b>Azure AI, Machine Learning &amp; Resources</b></td>
-                      <td>All trainings on <a target="blank" href="learn.microsoft.com">learn.microsoft.com</a></td></tr>
-                  <tr><td></td><td colSpan="3">Introduction to Azure Machine Learning (<a target="blank" href="kaggle.com/learn">kaggle.com/learn</a>)</td></tr>
-                  <tr><td></td><td colSpan="3">Train Machine Learning Model, predictive maintenance using ML.NET Model Builder</td></tr>
-                  <tr><td></td><td colSpan="3">Use Automated Machine Learning in Azure Machine Learning</td></tr>
+                  <tr><td colSpan="3" style={{ fontSize:'16px' }}><b>Azure AI, Machine Learning &amp; Resources</b></td>
+                      <td style={{ fontSize:'16px' }}>All trainings on <a target="blank" href="learn.microsoft.com">learn.microsoft.com</a></td></tr>
+                  <tr><td></td><td colSpan="3" style={{ fontSize:'16px' }}>Introduction to Azure Machine Learning (<a target="blank" href="kaggle.com/learn">kaggle.com/learn</a>)</td></tr>
+                  <tr><td></td><td colSpan="3" style={{ fontSize:'16px' }}>Train Machine Learning Model, predictive maintenance using ML.NET Model Builder</td></tr>
+                  <tr><td></td><td colSpan="3" style={{ fontSize:'16px' }}>Use Automated Machine Learning in Azure Machine Learning</td></tr>
                 </tbody>
             </table>
 
             <table style={{ width:'90%' }}>
-              <colgroup><col style={{ width: '3%' }} /><col style={{ width: '34%' }} /><col style={{ width: '26%' }} /><col /></colgroup>
+              <colgroup><col style={{ width: '3%' }} /><col style={{ width: '39%' }} /><col style={{ width: '27%' }} /><col /></colgroup>
               <tbody>
                 <tr><td></td>
-                  <td>Azure Data Fundamentals:</td>
-                  <td>-Explore core data concepts</td>
-                  <td>-Explore data roles and services</td></tr>
+                  <td style={{ fontSize:'16px' }}>Azure Data Fundamentals:</td>
+                  <td style={{ fontSize:'16px' }}>-Explore core data concepts</td>
+                  <td style={{ fontSize:'16px' }}>-Explore data roles and services</td></tr>
                 <tr><td></td>
-                    <td>Discover AI for leaders in sustainability</td>
-                    <td colSpan="2">-Define an MS AI strategy to create business value in sustainability</td></tr>
+                    <td style={{ fontSize:'16px' }}>Discover AI for leaders in sustainability</td>
+                    <td colSpan="2" style={{ fontSize:'16px' }}>-Define an MS AI strategy to create business value in sustainability</td></tr>
                 <tr><td></td>
-                    <td>&nbsp; and Create Machine Learning Models:</td>
-                    <td>-Explore/Analyze data w/Python</td>
-                    <td>-Train/Evaluate regression models</td></tr>
+                    <td style={{ fontSize:'16px' }}>&nbsp; and Create Machine Learning Models:</td>
+                    <td style={{ fontSize:'16px' }}>-Explore/Analyze data w/Python</td>
+                    <td style={{ fontSize:'16px' }}>-Train/Evaluate regression models</td></tr>
                 <tr><td colSpan="2"></td>
-                    <td>-Scale AI in your organization</td>
-                    <td>-Train/Evaluate classification models</td></tr>
+                    <td style={{ fontSize:'16px' }}>-Scale AI in your organization</td>
+                    <td style={{ fontSize:'16px' }}>-Train/Evaluate classification models</td></tr>
                 <tr><td></td>
-                    <td>Machine Learning: Optimize Model training:</td>
-                    <td>-Run pipelines in Azure ML</td>
+                    <td style={{ fontSize:'16px' }}>Machine Learning: Optimize Model training:</td>
+                    <td style={{ fontSize:'16px' }}>-Run pipelines in Azure ML</td>
                     <td></td></tr>
                 <tr><td></td>
-                    <td>Machine Learning: Notebooks for experiments:</td>
-                    <td colSpan="2">-Track Model training in Jupyter notebooks with MLflow</td></tr>
+                    <td style={{ fontSize:'16px' }}>Machine Learning: Notebooks for experiments:</td>
+                    <td colSpan="2" style={{ fontSize:'16px' }}>-Track Model training in Jupyter notebooks with MLflow</td></tr>
                 <tr><td></td>
-                    <td>Transform your business with Microsoft AI</td>
-                    <td colSpan="2">-Leverage AI tools and resources for your business</td></tr>
+                    <td style={{ fontSize:'16px' }}>Transform your business with Microsoft AI</td>
+                    <td colSpan="2" style={{ fontSize:'16px' }}>-Leverage AI tools and resources for your business</td></tr>
                 <tr><td colSpan="2"></td>
-                    <td colSpan="2">-Create business value from AI</td></tr>
+                    <td colSpan="2" style={{ fontSize:'16px' }}>-Create business value from AI</td></tr>
                 <tr><td colSpan="2"></td>
-                    <td colSpan="2">-Embrace responsible AI principles and practices</td></tr>
+                    <td colSpan="2" style={{ fontSize:'16px' }}>-Embrace responsible AI principles and practices</td></tr>
                 <tr><td colSpan="2"></td>
-                    <td colSpan="2">-Scale AI in your organization</td></tr>
+                    <td colSpan="2" style={{ fontSize:'16px' }}>-Scale AI in your organization</td></tr>
                 <tr><td></td>
-                    <td>Get started with Azure AI Services:</td>
-                    <td>-Secure Azure AI services</td>
-                    <td>-Prepare to develop Azure AI solutions</td></tr>
+                    <td style={{ fontSize:'16px' }}>Get started with Azure AI Services:</td>
+                    <td style={{ fontSize:'16px' }}>-Secure Azure AI services</td>
+                    <td style={{ fontSize:'16px' }}>-Prepare to develop Azure AI solutions</td></tr>
                 <tr><td colSpan="2"></td>
-                    <td>-Monitor Azure AI services</td>
-                    <td>-Create/Consume Azure AI services</td></tr>
+                    <td style={{ fontSize:'16px' }}>-Monitor Azure AI services</td>
+                    <td style={{ fontSize:'16px' }}>-Create/Consume Azure AI services</td></tr>
                 <tr><td></td>
-                    <td>Azure AI Services: Develop NLP solutions:</td>
-                    <td colSpan="2">-Build a conversational language understanding model</td></tr>
+                    <td style={{ fontSize:'16px' }}>Azure AI Services: Develop NLP solutions:</td>
+                    <td colSpan="2" style={{ fontSize:'16px' }}>-Build a conversational language understanding model</td></tr>
                 <tr><td></td>
-                    <td>Manage resources in Azure:</td>
-                    <td colSpan="2">-Control Azure Services with the CLI</td></tr>
+                    <td style={{ fontSize:'16px' }}>Manage resources in Azure:</td>
+                    <td colSpan="2" style={{ fontSize:'16px' }}>-Control Azure Services with the CLI</td></tr>
                 <tr><td colSpan="2"></td>
-                    <td colSpan="2">-Align requirements with cloud types and service models in Azure</td></tr>
+                    <td colSpan="2" style={{ fontSize:'16px' }}>-Align requirements with cloud types and service models in Azure</td></tr>
                 <tr><td colSpan="4"></td></tr>
 
-                <tr><td colSpan="3"><b>Python</b></td>
-                    <td colSpan="1">All trainings on <a target="blank" href="learn.microsoft.com">learn.microsoft.com</a></td></tr>
+                <tr><td colSpan="3" style={{ fontSize:'16px' }}><b>Python</b></td>
+                    <td colSpan="1" style={{ fontSize:'16px' }}>All trainings on <a target="blank" href="learn.microsoft.com">learn.microsoft.com</a></td></tr>
                 <tr><td></td>
-                    <td>Build real world applications with Python:</td>
-                    <td colSpan="2">-Introduction to Python</td></tr>
+                    <td style={{ fontSize:'16px' }}>Build real world applications with Python:</td>
+                    <td colSpan="2" style={{ fontSize:'16px' }}>-Introduction to Python</td></tr>
                 <tr><td colSpan="2"></td>
-                    <td colSpan="2">-Introduction to object-oriented programming with Python</td></tr>
+                    <td colSpan="2" style={{ fontSize:'16px' }}>-Introduction to object-oriented programming with Python</td></tr>
                 <tr><td colSpan="2"></td>
-                    <td colSpan="2">-Build an AI web app using Python and Flask</td></tr>
+                    <td colSpan="2" style={{ fontSize:'16px' }}>-Build an AI web app using Python and Flask</td></tr>
                 <tr><td colSpan="2"></td>
-                    <td colSpan="2">-Get started with testing in Python</td></tr>
+                    <td colSpan="2" style={{ fontSize:'16px' }}>-Get started with testing in Python</td></tr>
                 <tr><td></td>
-                    <td>Python: Solve mysteries and find answers:</td>
-                    <td colSpan="2">-Install and configure VS Code for Python development</td></tr>
+                    <td style={{ fontSize:'16px' }}>Python: Solve mysteries and find answers:</td>
+                    <td colSpan="2" style={{ fontSize:'16px' }}>-Install and configure VS Code for Python development</td></tr>
               </tbody>
             </table>
 
@@ -376,49 +375,49 @@ export default function TomEnglishAIResume() {
             <table style={{ width:'90%' }}>
               <colgroup><col style={{ width: '140px' }} /><col style={{ width: '95px' }} /><col /></colgroup>
               <tbody>
-                <tr><td><b>AI</b></td>
-                    <td colSpan="2">AI, Machine Learning, Jupyter Notebooks, Data collection &amp; analysis</td></tr>
+                <tr><td style={{ fontSize:'16px' }}><b>AI</b></td>
+                    <td colSpan="2" style={{ fontSize:'16px' }}>AI, Machine Learning, Jupyter Notebooks, Data collection &amp; analysis</td></tr>
 
-                <tr><td><b>Cloud</b></td>
-                    <td>Azure:</td>
-                    <td>AZ-900, Functions, WebApps, Services, API Management</td></tr>
+                <tr><td style={{ fontSize:'16px' }}><b>Cloud</b></td>
+                    <td style={{ fontSize:'16px' }}>Azure:</td>
+                    <td style={{ fontSize:'16px' }}>AZ-900, Functions, WebApps, Services, API Management</td></tr>
                 <tr><td colSpan="2"></td>
-                    <td>GitHub Copilot,  Python, Machine Learning, ML.NET, Flask</td></tr>
+                    <td style={{ fontSize:'16px' }}>GitHub Copilot,  Python, Machine Learning, ML.NET, Flask</td></tr>
                 <tr><td colSpan="2"></td>
-                    <td>GitHub Actions,  PowerShell, Bash, Azure CLI, Docker</td></tr>
-                <tr><td></td><td>Google:</td>
-                <td colSpan="2">PCF deploy, SonarQube, BlackDuck, CheckMarx, TruffleHog, AppDynamics</td></tr>
-                <tr><td></td><td>Research:</td>
-                <td colSpan="2">1 month project: AWS, BPM, EAI, ESB, CEP, TIBCO, Tableau, Docker, Microservices</td></tr>
-                <tr><td><b>Full Stack</b></td>
-                    <td colSpan="2">VS 2022, VS Code, .NET 8.0, EF Core, DI, C# 10.0, .NET Core 3.1, Serilog, Aegis, Swagger</td></tr>
-                <tr><td></td><td colSpan="2">MVC 5, ASP.NET 4.7, WebAPI 2, WCF, Windows Services, EF 6</td></tr>
-                <tr><td></td><td colSpan="2">Multi-threading, Windows Mobile, TDD, VSTest, MSTest, NUnit </td></tr>
-                <tr><td><b>Client-Side</b></td>
-                    <td colSpan="2">React, Angular 14, Typescript 3.5, Node.js, npm, Electron 9.4, Chromium, KnockOut JS</td></tr>
-                <tr><td></td><td colSpan="2">Razor, JavaScript, jQuery, BootStrap, HTML 5, CSS 3, AJAX, Webpack, UI-grid</td></tr>
-                <tr><td><b>Database</b></td>
-                    <td colSpan="2">MySQL, SQL Server 2014/2008, Stored procedures, ETL, SSIS, SSRS, Oracle 11.2, PL/SQL, mongoDB</td></tr>
-                <tr><td><b>3<sup>rd</sup> Party</b></td>
-                    <td colSpan="2">Telerik, Kendo UI, PDF, Excel, SMTP, DevExpress, ASR, Voicemail</td></tr>
-                <tr><td><b>Reporting</b></td>
-                    <td colSpan="2">SSRS, Splunk queries, alerts and dashboards</td></tr>
-                <tr><td><b>Financial</b></td>
-                    <td colSpan="2">Payments, remittance, card/consumer oversight, reporting, audit, remediation; Financial agent; telecom</td></tr>
-                <tr><td><b>Telephony</b></td>
-                    <td colSpan="2">Session managers, Resource managers, SS7/ISDN Q.931, T1/E1, OC3/STM, PPP callback, ethernet</td></tr>
-                    <tr><td></td><td colSpan="2"> IP, VLANs, bridges, DTMF, FAX, MWI, DS1, ISDN/analog modems, LCP/CBCP/SNMP/RIP/OSPF </td></tr>
-                <tr><td><b>Device Drivers</b></td>
-                    <td colSpan="2">SunOS, UnixWare, Solaris, Compaq Tru64 UNIX, Windows NT, VMEbus, SBUS, ATbus, SCSI  </td></tr>
-                <tr><td><b>Real-Time</b></td>
-                    <td colSpan="2">VRTX, ARTX</td></tr>
-                <tr><td><b>Healthcare</b></td>
-                    <td>Protocols:</td>
-                    <td colSpan="2">EDI, X12, HL7 - Provider, Member, Claims, Enrollment, Inquiry, Payment, Remittance</td></tr>
-                <tr><td></td><td>ASP.NET:</td>
-                <td colSpan="2">Hospital and lab applications</td></tr>
-                <tr><td></td><td>Mobile:</td>
-                <td colSpan="2">Visiting Nurse application</td></tr>
+                    <td style={{ fontSize:'16px' }}>GitHub Actions,  PowerShell, Bash, Azure CLI, Docker</td></tr>
+                <tr><td></td><td style={{ fontSize:'16px' }}>Google:</td>
+                <td colSpan="2" style={{ fontSize:'16px' }}>PCF deploy, SonarQube, BlackDuck, CheckMarx, TruffleHog, AppDynamics</td></tr>
+                <tr><td></td><td style={{ fontSize:'16px' }}>Research:</td>
+                <td colSpan="2" style={{ fontSize:'16px' }}>1 month project: AWS, BPM, EAI, ESB, CEP, TIBCO, Tableau, Docker, Microservices</td></tr>
+                <tr><td style={{ fontSize:'16px' }}><b>Full Stack</b></td>
+                    <td colSpan="2" style={{ fontSize:'16px' }}>VS 2022, VS Code, .NET 8.0, EF Core, DI, C# 10.0, .NET Core 3.1, Serilog, Aegis, Swagger</td></tr>
+                <tr><td></td><td colSpan="2" style={{ fontSize:'16px' }}>MVC 5, ASP.NET 4.7, WebAPI 2, WCF, Windows Services, EF 6</td></tr>
+                <tr><td></td><td colSpan="2" style={{ fontSize:'16px' }}>Multi-threading, Windows Mobile, TDD, VSTest, MSTest, NUnit </td></tr>
+                <tr><td style={{ fontSize:'16px' }}><b>Client-Side</b></td>
+                    <td colSpan="2" style={{ fontSize:'16px' }}>React, Angular 14, Typescript 3.5, Node.js, npm, Electron 9.4, Chromium, KnockOut JS</td></tr>
+                <tr><td></td><td colSpan="2" style={{ fontSize:'16px' }}>Razor, JavaScript, jQuery, BootStrap, HTML 5, CSS 3, AJAX, Webpack, UI-grid</td></tr>
+                <tr><td style={{ fontSize:'16px' }}><b>Database</b></td>
+                    <td colSpan="2" style={{ fontSize:'16px' }}>MySQL, SQL Server 2014/2008, Stored procedures, ETL, SSIS, SSRS, Oracle 11.2, PL/SQL, mongoDB</td></tr>
+                <tr><td style={{ fontSize:'16px' }}><b>3<sup>rd</sup> Party</b></td>
+                    <td colSpan="2" style={{ fontSize:'16px' }}>Telerik, Kendo UI, PDF, Excel, SMTP, DevExpress, ASR, Voicemail</td></tr>
+                <tr><td style={{ fontSize:'16px' }}><b>Reporting</b></td>
+                    <td colSpan="2" style={{ fontSize:'16px' }}>SSRS, Splunk queries, alerts and dashboards</td></tr>
+                <tr><td style={{ fontSize:'16px' }}><b>Financial</b></td>
+                    <td colSpan="2" style={{ fontSize:'16px' }}>Payments, remittance, card/consumer oversight, reporting, audit, remediation; Financial agent; telecom</td></tr>
+                <tr><td style={{ fontSize:'16px' }}><b>Telephony</b></td>
+                    <td colSpan="2" style={{ fontSize:'16px' }}>Session managers, Resource managers, SS7/ISDN Q.931, T1/E1, OC3/STM, PPP callback, ethernet</td></tr>
+                    <tr><td></td><td colSpan="2" style={{ fontSize:'16px' }}> IP, VLANs, bridges, DTMF, FAX, MWI, DS1, ISDN/analog modems, LCP/CBCP/SNMP/RIP/OSPF </td></tr>
+                <tr><td style={{ fontSize:'16px' }}><b>Device Drivers</b></td>
+                    <td colSpan="2" style={{ fontSize:'16px' }}>SunOS, UnixWare, Solaris, Compaq Tru64 UNIX, Windows NT, VMEbus, SBUS, ATbus, SCSI  </td></tr>
+                <tr><td style={{ fontSize:'16px' }}><b>Real-Time</b></td>
+                    <td colSpan="2" style={{ fontSize:'16px' }}>VRTX, ARTX</td></tr>
+                <tr><td style={{ fontSize:'16px' }}><b>Healthcare</b></td>
+                    <td style={{ fontSize:'16px' }}>Protocols:</td>
+                    <td colSpan="2" style={{ fontSize:'16px' }}>EDI, X12, HL7 - Provider, Member, Claims, Enrollment, Inquiry, Payment, Remittance</td></tr>
+                <tr><td></td><td style={{ fontSize:'16px' }}>ASP.NET:</td>
+                <td colSpan style={{ fontSize:'16px' }}>Hospital and lab applications</td></tr>
+                <tr><td></td><td style={{ fontSize:'16px' }}>Mobile:</td>
+                <td colSpan="2" style={{ fontSize:'16px' }}>Visiting Nurse application</td></tr>
                 {/* <tr><td>Agile / Deploy</td>
                     <td colSpan="2">Jira, Confluence, Jenkins, Artifactory/JFrog, GitHub, Rally, Horizon, BitBucket, TFS, SourceSafe, 
                         PCF, AZ-900, SonarQube, BlackDuck, CheckMarx, TruffleHog, AppDynamics, SourceGear Vault</td></tr> */}

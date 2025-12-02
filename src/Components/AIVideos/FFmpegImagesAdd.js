@@ -88,7 +88,7 @@ Write-Host "===="<br />
 Write-Host "STEP 3: Add Audio: Ceated from a separate TTS program<br />
 Write-Host "===="<br />
 <code>ffmpeg -i $mp4_mid -i $mp3_in -c:v copy -c:a aac -map 0:v:0 -map 1:a:0 $mp4_out</code><br />
-<p>&nbsp;</p>
+<span>&nbsp;</span>
 </pre>
 
 
@@ -96,9 +96,9 @@ Write-Host "===="<br />
 <h3>HowToStoryLine.ass</h3>
 
 <pre style={{fontSize: '0.8em'}}>
-<p>&nbsp;</p>
-; Filename:    CapCutFirstAuto\250622_Clipchamp\HowToStoryLine.ass <br />
-; Apply to:    CapCutFirstAuto\250622_Clipchamp\250622Clipchamp.mp4<br />
+<span style={{ display: "inline-block", width: "6px" }}></span>
+; Filename:    CapCutFirstAuto\\250622_Clipchamp\\HowToStoryLine.ass <br />
+; Apply to:    CapCutFirstAuto\\250622_Clipchamp\\250622Clipchamp.mp4<br />
 ; .ass:        Advanced SubStation Alpha. Subtitles file created w/Aegisub.<br />
 ; Aegisub:     X-platf app to gen custom subtitles.<br />
 ; ffmpeg docs: http://www.tcax.org/docs/ass-specs.htm<br />

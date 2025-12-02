@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Axios from 'axios';
 import TopBar from '../Menu/TopBar';
-import backgroundImage from '../../Images/OldManInDingyNoBG.png';
+import backgroundImage from '../../Images/tom_english_ai_logo.jpeg';
 import TkrBar from '../Helpers/TkrBar';
 import '../CSS/styles.css';
 

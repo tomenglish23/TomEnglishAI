@@ -26,7 +26,8 @@ li:hover a          { background:  #1e7c9a; }
 /* Menu items - hover */
 li:hover li a:hover { background:  #4a90e2; }
 
-.li_spacer {height: 4px; }
+.li_spacerw { height: 24px; line-height: 24px; padding-left:17px; color: white; }
+.li_spacery { height: 24px; line-height: 24px; padding-left:17px; color: yellow; }
 
 .sub                { margin-left: -40px; margin-top: 1px;
                       padding:     0px;                 width:           auto; }

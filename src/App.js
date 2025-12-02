@@ -32,7 +32,7 @@ import AIConsultant                from './Components/AIConsultant/AIConsultant'
 import AIGPTs                      from './Components/AIConsultant/AIGPTs';
 import Prompts                     from './Components/AIConsultant/Prompts';
 import AICustomGPTs                from './Components/AIConsultant/AICustomGPTs';
-import AIChatbots                  from './Components/AIConsultant/AIChatbots';
+import TEAIChatbot                 from './Components/AIConsultant/TEAIChatbot';
 import AIAgents                    from './Components/AIConsultant/AIAgents';
 import AIVoiceAgents               from './Components/AIConsultant/AIVoiceAgents';
 import N8N                         from './Components/AIConsultant/N8N';
@@ -45,7 +45,8 @@ import AITechnologies              from './Components/AIConsultant/AITechnologie
 import Telegram                    from './Components/AIConsultant/Telegram';
 
 import AIVideos                    from './Components/AIVideos/AIVideos';
-import AIVideoTEAIVideoMaker       from './Components/AIVideos/AIVideoTEAIVideoMaker';
+import TEAIVideoMaker              from './Components/AIVideos/TEAIVideoMaker';
+import TEAIMP3Maker                from './Components/AIVideos/TEAIMP3Maker';
 import AIVideoCapCut               from './Components/AIVideos/AIVideoCapCut';
 import AIVideoClipchamp            from './Components/AIVideos/AIVideoClipchamp';
 import FFmpeg                      from './Components/AIVideos/FFmpeg';
@@ -99,7 +100,7 @@ function App() {
           <Route path="/AIConsultant/AIGPTs"                  element={<AIGPTs />} />
           <Route path="/AIConsultant/Prompts"                 element={<Prompts />} />
           <Route path="/AIConsultant/AICustomGPTs"            element={<AICustomGPTs />} />
-          <Route path="/AIConsultant/AIChatbots"              element={<AIChatbots />} />
+          <Route path="/AIConsultant/TEAIChatbot"             element={<TEAIChatbot />} />
           <Route path="/AIConsultant/AIAgents"                element={<AIAgents />} />
           <Route path="/AIConsultant/AIVoiceAgents"           element={<AIVoiceAgents />} />
           <Route path="/AIConsultant/N8N"                     element={<N8N />} />
@@ -112,7 +113,8 @@ function App() {
           <Route path="/AIConsultant/Telegram"                element={<Telegram />} />
 
           <Route path="/AIVideos/AIVideos"                    element={<AIVideos />} />
-          <Route path="/AIVideos/AIVideoTEAIVideoMaker"       element={<AIVideoTEAIVideoMaker />} />
+          <Route path="/AIVideos/TEAIVideoMaker"              element={<TEAIVideoMaker />} />
+          <Route path="/AIVideos/TEAIMP3Maker"                element={<TEAIMP3Maker />} />
           <Route path="/AIVideos/AIVideoCapCut"               element={<AIVideoCapCut />} />
           <Route path="/AIVideos/AIVideoClipchamp"            element={<AIVideoClipchamp />} />
           <Route path="/AIVideos/FFmpeg"                      element={<FFmpeg />} />

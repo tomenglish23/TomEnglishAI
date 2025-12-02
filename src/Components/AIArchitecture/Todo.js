@@ -1,7 +1,7 @@
 import React from 'react';
 import TopBar from '../Menu/TopBar';
 import '../CSS/styles.css';
-import backgroundImage from '../../Images/OldManInDingy.jpg';
+import backgroundImage from '../../Images/tom_english_ai_logo.jpeg';
 
 export default function Todo() {
 

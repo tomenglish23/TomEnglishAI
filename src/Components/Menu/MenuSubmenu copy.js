@@ -42,7 +42,7 @@ export default function MenuSubmenu() {
                                     {SP}AI GPTs: Prompts for a Replit Voice Agent {SP}</a></li>
 
                                 <li><div className="li_spacer"></div></li>
-                                <li><a href="\TomEnglishAI\AIConsultant\AIChatbots">
+                                <li><a href="\TomEnglishAI\AIConsultant\TEAIChatbot">
                                     {DO}AI Bots: Chatbots{SP}</a></li>
 
                                 <li><div className="li_spacer"></div></li>
