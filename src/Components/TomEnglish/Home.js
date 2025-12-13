@@ -1,7 +1,6 @@
 import React from 'react';
 import TopBar from '../Menu/TopBar';
 import '../CSS/styles.css';
-import backgroundImage from '../../Images/tom_english_ai_logo.jpeg';
 
 export default function Home() {
 
@@ -53,6 +52,9 @@ export default function Home() {
     </tbody>
   </table>
 
+
+
+
   <div style={{ height: '20px' }} />
 
   <p className='h1ahome'><b>Distributed Chatbot Platform Architecture</b></p>
@@ -61,7 +63,7 @@ export default function Home() {
   <div style={{ height: '20px' }} />
 
   <a href="/TEAIChatbot Distributed Platform Architecture Tom English AI 251123.pdf" download>
-    <div style={{ fontSize: '22px', color: 'blue' }}>Download the PDF Whitepaper</div>
+    <div style={{ fontSize: '22px', color: '#1234c7' }}>Download the PDF Whitepaper</div>
   </a>
 
   <div style={{ height: '20px' }} />
@@ -74,16 +76,18 @@ export default function Home() {
   <p className='h2home'>
     Video by&nbsp;
     <a href="../AIVideos/AIVideoTEAIVideoMaker">
-      <span style={{ fontSize: '18px', color: 'blue' }}>TEAIVideoMaker</span>
+      <span style={{ fontSize: '18px', color: '#1234c7' }}>TEAIVideoMaker</span>
     </a>
   </p>
+
+
 
   <div style={{ height: '30px' }} />
 
   <p className='h1ahome'><b>Contact</b></p>
   <p className='h5home'><a href="https://www.tomenglishai.com">tomenglishai.com</a></p>
   <p className='h5home'><a href="mailto:jobsearch@tomenglishai.com" target="blank">jobsearch@tomenglishai.com</a></p>
-  <p className='h5home'><a href="https://www.linkedin.com/in/tomenglishai/" target="_blank">LinkedIn.com/in/tomenglishai</a></p>
+  <p className='h5home'><a href="https://www.linkedin.com/in/tomenglishai/" target="_blank" rel="noopener noreferrer">LinkedIn.com/in/tomenglishai</a></p>
 
   <div style={{ height: '40px' }} />
 

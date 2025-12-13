@@ -10,7 +10,7 @@ export default function TEAIChatbot() {
         <div style={{opacity: 1.0 }}>
             <TopBar/>
             <header>
-                <h1>TEAIChatbot</h1>
+                <h1>AI Chatbot – TEAIChatbot</h1>
             </header>            
             <main>
                 <center>
@@ -23,7 +23,7 @@ export default function TEAIChatbot() {
                     <div style={{ height: '20px' }} />
 
                     <a href="/TEAIChatbot Distributed Platform Architecture Tom English AI 251123.pdf" download>
-                        <div style={{ fontSize: '22px', color: 'blue' }}>Download the PDF Whitepaper</div>
+                        <div style={{ fontSize: '22px', color: '#1234c7' }}>Download the PDF Whitepaper</div>
                     </a>
 
                     <div style={{ height: '20px' }} />

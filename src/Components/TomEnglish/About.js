@@ -6,11 +6,13 @@ import backgroundImage from '../../Images/tom_english_ai_logo.jpeg';
 export default function About() {
 
     return (
-        <div style={{ backgroundImage: `url(${backgroundImage})`, height: '50vh', width: '50vw',  
-                      backgroundSize: 'contain', 
-                      backgroundPosition: 'center', 
-                      backgroundRepeat: 'no-repeat' }}>
+        <center>
             <TopBar/>
-        </div>
+            <div style={{ backgroundImage: `url(${backgroundImage})`, height: '50vh', width: '50vw',  
+                          backgroundSize: 'contain', 
+                          backgroundPosition: 'center', 
+                          backgroundRepeat: 'no-repeat' }}>
+            </div>
+        </center>
     )
 }

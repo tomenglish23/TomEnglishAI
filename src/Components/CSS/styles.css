@@ -46,12 +46,12 @@ h5     { color: #4a90e2; margin-bottom: 0.5rem; margin-top: 1.3rem; font-size: 0
 .img03232   { border:0px; width:32px; height:32px;}
 .img01717   { border:0px; width:17px; height:17px;}
 
-.h1home  { font-size:52px; color:#1941f1; padding: 0px 0px 0px 0px; font-family: 'Times New Roman', Times, serif; }
-.hbhome  { font-size:28px; color:#1941f1; padding: 0px 0px 0px 2px; font-family: 'Times New Roman', Times, serif; }
-.h1ahome { font-size:24px; color:#1941f1; padding: 0px 0px 0px 2px; font-family: 'Times New Roman', Times, serif; }
-.h5home  { font-size:20px; color:#1941f1; padding: 0px 0px 0px 2px; font-family: 'Times New Roman', Times, serif; }
-.h2home  { font-size:18px; color:#1941f1; padding: 0px 0px 0px 2px; font-family: 'Times New Roman', Times, serif; }
-.h3home  { font-size:16px; color:#1941f1; padding: 0px 0px 0px 2px; font-family: 'Times New Roman', Times, serif; }
+.h1home  { font-size:52px; color:#1234c7; padding: 0px 0px 0px 0px; font-family: 'Times New Roman', Times, serif; }
+.hbhome  { font-size:28px; color:#1234c7; padding: 0px 0px 0px 2px; font-family: 'Times New Roman', Times, serif; }
+.h1ahome { font-size:24px; color:#1234c7; padding: 0px 0px 0px 2px; font-family: 'Times New Roman', Times, serif; }
+.h5home  { font-size:20px; color:#1234c7; padding: 0px 0px 0px 2px; font-family: 'Times New Roman', Times, serif; }
+.h2home  { font-size:18px; color:#1234c7; padding: 0px 0px 0px 2px; font-family: 'Times New Roman', Times, serif; }
+.h3home  { font-size:16px; color:#1234c7; padding: 0px 0px 0px 2px; font-family: 'Times New Roman', Times, serif; }
 
 /* 
 h1     { font-size:28px; width:70%; margin:20px 0px 10px 0px; background-color:rgb(0, 139, 139, 30%); padding:9px 0px 9px 2px; }

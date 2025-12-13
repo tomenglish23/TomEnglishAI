@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.899a73a3.chunk.css",
-    "main.js": "/static/js/main.6c0f6b79.chunk.js",
-    "main.js.map": "/static/js/main.6c0f6b79.chunk.js.map",
+    "main.css": "/static/css/main.1122a1f8.chunk.css",
+    "main.js": "/static/js/main.a12c77dd.chunk.js",
+    "main.js.map": "/static/js/main.a12c77dd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8ae6515c.js",
     "runtime-main.js.map": "/static/js/runtime-main.8ae6515c.js.map",
     "static/js/2.1dc2aeec.chunk.js": "/static/js/2.1dc2aeec.chunk.js",
@@ -10,9 +10,9 @@
     "static/js/3.e56eb115.chunk.js": "/static/js/3.e56eb115.chunk.js",
     "static/js/3.e56eb115.chunk.js.map": "/static/js/3.e56eb115.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0eefa4448d4f0ba0da39cebac27289c3.js": "/precache-manifest.0eefa4448d4f0ba0da39cebac27289c3.js",
+    "precache-manifest.2775ea3814beee76c5a60502940e1d83.js": "/precache-manifest.2775ea3814beee76c5a60502940e1d83.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.899a73a3.chunk.css.map": "/static/css/main.899a73a3.chunk.css.map",
+    "static/css/main.1122a1f8.chunk.css.map": "/static/css/main.1122a1f8.chunk.css.map",
     "static/js/2.1dc2aeec.chunk.js.LICENSE.txt": "/static/js/2.1dc2aeec.chunk.js.LICENSE.txt",
     "static/media/11Labs35YearsOfAI.mp4": "/static/media/11Labs35YearsOfAI.1c4a3bca.mp4",
     "static/media/AIInFinance1.jpg": "/static/media/AIInFinance1.d9338116.jpg",
@@ -89,7 +89,7 @@
   "entrypoints": [
     "static/js/runtime-main.8ae6515c.js",
     "static/js/2.1dc2aeec.chunk.js",
-    "static/css/main.899a73a3.chunk.css",
-    "static/js/main.6c0f6b79.chunk.js"
+    "static/css/main.1122a1f8.chunk.css",
+    "static/js/main.a12c77dd.chunk.js"
   ]
 }

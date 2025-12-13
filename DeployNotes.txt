@@ -1,0 +1,47 @@
+TomEnglishAI â€“ Deploy Notes
+
+Deploy target:
+  GitHub Pages builds from:  main / docs
+  Custom domain:             www.tomenglishai.com
+  CNAME file:                docs\CNAME  with:  www.tomenglishai.com
+
+Standard deploy steps
+
+1) Make code changes
+   - Edit files under src\ or public\ as usual
+
+2) Build React for production
+   - From C:\B\React\TomEnglishAI run:
+       npm run build
+
+3) Mirror build â†’ docs
+   - From the same folder run:
+       robocopy .\build .\docs /MIR
+
+4) Commit docs
+   - Still in C:\B\React\TomEnglishAI:
+       git add docs
+       git commit -m "site update"    (or a better message)
+
+5) Push to GitHub
+   - Run:
+       git push origin main
+
+6) Verify deploy
+   - https://github.com/tomenglish23/TomEnglishAI/settings
+   - On the left: click Pages.
+   - GitHub: check latest "pages-build-deployment" succeeded
+   - Browser: open https://www.tomenglishai.com in a private window
+
+• Select main as the branch
+• Select /docs as the folder
+
+
+Important notes
+
+- Never delete docs\CNAME. If it disappears recreate it with:
+      www.tomenglishai.com
+- If the site ever shows 404 again:
+  * Confirm Pages is set to: main / docs
+  * Confirm docs\index.html exists from the latest build
+  * Confirm docs\CNAME has the domain line above

@@ -7,7 +7,7 @@ import HowAIEvolved                from './Components/TomEnglish/HowAIEvolved';
 import TomEnglishAIResume          from './Components/TomEnglish/TomEnglishAIResume';
 import AWSDictionary               from './Components/TomEnglish/AWSDictionary';
 import TestPage                    from './Components/TomEnglish/TestPage';
-
+import NETEngineering              from './Components/TomEnglish/NETEngineering';
 import SignUp                      from './Components/TomEnglish/Signup';
 
 import AIStocksCandlesticks        from './Components/AIStocks/AIStocksCandlesticks';
@@ -32,7 +32,6 @@ import AIConsultant                from './Components/AIConsultant/AIConsultant'
 import AIGPTs                      from './Components/AIConsultant/AIGPTs';
 import Prompts                     from './Components/AIConsultant/Prompts';
 import AICustomGPTs                from './Components/AIConsultant/AICustomGPTs';
-import TEAIChatbot                 from './Components/AIConsultant/TEAIChatbot';
 import AIAgents                    from './Components/AIConsultant/AIAgents';
 import AIVoiceAgents               from './Components/AIConsultant/AIVoiceAgents';
 import N8N                         from './Components/AIConsultant/N8N';
@@ -70,6 +69,9 @@ import Funding                     from './Components/Presence/Funding';
 import VentureCapitalists          from './Components/Presence/VentureCapitalists';
 import PlansProposalsDecks         from './Components/Presence/PlansProposalsDecks';
 
+import TEAIChatbot                 from './Components/TEAIChatbot/TEAIChatbot';
+import ChatbotPostDemo             from "./Components/TEAIChatbot/ChatbotPostDemo";
+
 import React                       from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
@@ -93,14 +95,13 @@ function App() {
           <Route path="/TomEnglish/HowAIEvolved"              element={<HowAIEvolved />} />
           <Route path="/TomEnglish/AWSDictionary"             element={<AWSDictionary />} />
           <Route path="/TomEnglish/TestPage"                  element={<TestPage />} />
-          
+          <Route path="/TomEnglish/NETEngineering"            element={<NETEngineering />} />
           <Route path="/TomEnglish/SignUp"                    element={<SignUp />} />
 
           <Route path="/AIConsultant/AIConsultant"            element={<AIConsultant />} />
           <Route path="/AIConsultant/AIGPTs"                  element={<AIGPTs />} />
           <Route path="/AIConsultant/Prompts"                 element={<Prompts />} />
           <Route path="/AIConsultant/AICustomGPTs"            element={<AICustomGPTs />} />
-          <Route path="/AIConsultant/TEAIChatbot"             element={<TEAIChatbot />} />
           <Route path="/AIConsultant/AIAgents"                element={<AIAgents />} />
           <Route path="/AIConsultant/AIVoiceAgents"           element={<AIVoiceAgents />} />
           <Route path="/AIConsultant/N8N"                     element={<N8N />} />
@@ -154,6 +155,9 @@ function App() {
           <Route path="/Presence/Funding"                     element={<Funding />} />
           <Route path="/Presence/VentureCapitalists"          element={<VentureCapitalists />} />
           <Route path="/Presence/PlansProposalsDecks"         element={<PlansProposalsDecks />} />
+
+          <Route path="/TEAIChatbot/TEAIChatbot"              element={<TEAIChatbot />} />
+          <Route path="/TEAIChatbot/ChatbotPostDemo"          element={<ChatbotPostDemo />} />
 
        </Routes>
       </div>

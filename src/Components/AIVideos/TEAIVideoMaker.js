@@ -8,7 +8,6 @@ export default function TEAIVideoMaker() {
   const rightCellStyle = { verticalAlign: 'top', padding: '10px 0px 0px 20px' };
   const videoStyle     = { verticalAlign: 'top', display: 'block', margin: 0 };
   const indent         = { paddingLeft: '27px' };
-  const padTop         = { paddingTop:  '4px' };
 
   return (
     <div style={{ opacity: 1 }}>
@@ -27,12 +26,12 @@ export default function TEAIVideoMaker() {
                           <div style={{ height: '18px' }} />
                           <p>The process can start in one of two ways:</p>
 
-                          <p style={padTop}><b>1. Create a list of talking points</b></p>
+                          <p style={{paddingTop: '4px', fontSize: '20px', color: '#1234c7' }}><b>1. Create a list of talking points</b></p>
                           <p style={indent}>ChatGPT creates great talking points!</p>
                           <p style={indent}>Tell it the topic, number of talking points and the maximum length.</p>
                           <p style={indent}>Use as is or as a starting point for the intended conversation.</p>
 
-                          <p style={padTop}><b>2. Gather content as talking points from a client website.</b></p>
+                          <p style={{paddingTop: '4px', fontSize: '20px', color: '#1234c7' }}><b>2. Gather content as talking points from a client website.</b></p>
                           <p style={indent}>Many webpages contain too much data and the HTTP process errors.</p>
                           <p style={indent}>When successful, results can be a good starting point to gather talking points.</p>
                           <p style={indent}>Then, the talking points can be culled for a more satisfying list.</p>
@@ -49,7 +48,7 @@ export default function TEAIVideoMaker() {
                               Copy the images into the project Image folder and TEAIVideoMaker will 
                               update the image list on the next run. 
                               <div style={{ height: '8px' }} /></p>
-                          <p>Voila! You have a new video!</p>
+                           <p style={{paddingTop: '4px', fontSize: '20px', color: '#1234c7' }}><b>Voila! You have a new video!</b></p>
                       </td>
                     </tr>
                     <tr>

@@ -112,6 +112,11 @@ export default function HowAIEvolved() {
                 <p>&nbsp;</p>
                 <p>Each <u>No Code</u> tool or platform is different.</p>
                 <p>Some tools may allow developers to create their own widgets.</p>
+                <p>Unfortunately, n8n was not <span style={{color: '#1234c7' }}><b>ffmpeg</b></span>-friendly.</p>
+                <p>It was great to develop flows and immediately pluck technologies from their library.</p>
+                <p>But when ffmpeg was not easily available, I halted that path of development.</p>
+                <p><span style={{color: '#1234c7' }}><b>What's the #1 rule? Get it working, first.</b></span> Well, I did that. I got <span style={{color: '#1234c7' }}><b>TEAIVideoMaker</b></span> working.</p>
+                <p>Sorry n8n.io, I am not to the <span style={{color: '#1234c7' }}><b>TEAIChatbot</b></span>. See you down the road!</p>
 
                 <p>&nbsp;</p>
                 <h3>The Future is Here!</h3>
@@ -138,7 +143,11 @@ export default function HowAIEvolved() {
                             <source src={ElevenLabs35YearsOfAI} type="video/mp4" /></video></p>
                     <button id="btnMute" onClick={() => on11LabsMuteClick()} style={{marginLeft:'10px'}}>Mute</button>
                 </center>
-
+                <p>&nbsp;</p>
+                <h3>Make Videos to Advertise my AI Platform</h3>
+                <p>ML, N8N and more is interesting. But when I created <span style={{color: '#1234c7' }}><b>TEAIVideoMaker</b></span> and <span style={{color: '#1234c7' }}><b>TEAIMp3Maker</b></span>, I knew I was onto something special.</p>
+                <p>I have always liked to teach. Videos allow me to share knowledge effectively. Anything I want to think through or share, TEAIVideoMaker is my tool of choice.</p>
+                <p>My AI friends started with making the tool-of-the-day. Today, that is AI Agents. I'll admit that I went down that path. But it felt too much like Machine Learning development, great technology, but little to show my community, my potential customers. With <span style={{color: '#1234c7' }}><b>TEAIVideoMaker</b></span>, I am immediately communicating my product ideas.</p>
                 </main>
         </div>
     )
