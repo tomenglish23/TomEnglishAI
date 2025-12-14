@@ -42,9 +42,9 @@ export default function TEAIChatbot() {
 
                 <div style={{ height: '40px' }} />
 
-                {/* <ChatbotPostDemo /> */}
-                <div style={{ fontSize: 28 }}>CHATBOT DEMO HERE</div>
-                <div style={{ height: '80px' }} />
+                <ChatbotPostDemo />
+                {/* <div style={{ fontSize: 28 }}>CHATBOT DEMO HERE</div>
+                <div style={{ height: '80px' }} /> */}
             </main>
         </div>
     </center>
