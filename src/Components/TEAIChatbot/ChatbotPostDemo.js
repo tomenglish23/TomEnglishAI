@@ -122,7 +122,7 @@ export default function ChatbotPostDemo() {
     <div style={{ maxWidth: 840, margin: "2rem auto", padding: "1rem",
                   border: "1px solid #ccc", borderRadius: 8 }}>
       <div style={{ marginBottom: "1rem" }}>
-        <h1 style={{ marginBottom: 4 }}>TEAI Chatbot</h1>
+        <h1 style={{ marginBottom: 4 }}>Live TEAI Chatbot</h1>
         <p style={{ fontSize: 14, color: "#555" }}>Commands are sent to the TEAIChatbot API</p>
       </div>
 
