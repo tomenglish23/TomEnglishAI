@@ -124,6 +124,16 @@ export default function ChatbotPostDemo() {
       <div style={{ marginBottom: "1rem" }}>
         <h1 style={{ marginBottom: 4 }}>Live TEAI Chatbot</h1>
         <p style={{ fontSize: 14, color: "#555" }}>Commands are sent to the TEAIChatbot API</p>
+        <p style={{ fontSize: 14, color: "#555", textAlign: "left" }}></p>
+        <p style={{ fontSize: 14, color: "#555", textAlign: "left" }}>
+          The 1st 2 buttons are example interview topics. I have 1000+ software engineering interview questions. Soon, I will make a page to allow me to enter categories & subcategories and search for key words or phrases. It will be a quick reference for answers to interview questions.
+        </p>
+        <p style={{ fontSize: 14, color: "#555", textAlign: "left" }}>
+          The 3rd button tests round-trip.
+        </p>
+        <p style={{ fontSize: 14, color: "#555", textAlign: "left" }}>
+          The 4th button displays the beginning of the TEAIChatbot whitepaper.
+        </p>
       </div>
 
       <form onSubmit={handleSubmit}>
