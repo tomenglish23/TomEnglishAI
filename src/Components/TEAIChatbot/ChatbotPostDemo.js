@@ -17,8 +17,6 @@ export default function ChatbotPostDemo() {
   });
 }
 
-  const commentId = crypto.randomUUID(); // or `CMT_${Date.now()}`
-
   const COMMANDS = [
     { cmd: "!solid",  label: "SOLID",  help: "SOLID principles explanation" },
     { cmd: "!cicd",   label: "CICD",   help: "CI/CD overview" },
@@ -28,6 +26,14 @@ export default function ChatbotPostDemo() {
 
 
   async function getBotReply(userText) {
+
+    const commentId =
+      (typeof window !== "undefined" &&
+      window.crypto &&
+      typeof window.crypto.randomUUID === "function")
+        ? window.crypto.randomUUID()
+        : `CMT_${Date.now()}_${Math.random().toString(16).slice(2)}`;
+
     const payload = {
       SourceChannel: "LocalDemo",
       UserId: "USER_001",
