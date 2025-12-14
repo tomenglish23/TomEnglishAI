@@ -35,7 +35,7 @@ export default function TEAIChatbot() {
 
                 <p className='h2home'>
                     Video by&nbsp;
-                    <a href="../AIVideos/AIVideoTEAIVideoMaker">
+                    <a href="../AIVideos/TEAIVideoMaker">
                     <span style={{ fontSize: '18px', color: '#1234c7' }}>TEAIVideoMaker</span>
                     </a>
                 </p>
