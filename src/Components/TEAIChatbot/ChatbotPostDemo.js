@@ -25,7 +25,7 @@ export default function ChatbotPostDemo() {
   ];
 
 
-  async function getBotReply(userText) {
+  async function getBotReply() {
 
     const commentId =
       (typeof window !== "undefined" &&
@@ -39,7 +39,7 @@ export default function ChatbotPostDemo() {
       UserId: "USER_001",
       PostId: "POST_001",
       CommentId: commentId,
-      OriginalText: userText,
+      OriginalText: input,
       TriggerMatched: true,
       CreatedUtc: new Date().toISOString()
     };
@@ -109,7 +109,7 @@ export default function ChatbotPostDemo() {
     setIsSubmitting(true);
 
     try {
-      const reply = await getBotReply(trimmed);
+      const reply = await getBotReply();
       addComment("TEAIChatbot", reply, true);
     } catch (err) {
       addComment("TEAIChatbot", "There was an error generating a reply. The TEAIChatbot API may be unavailable.", true);
@@ -149,11 +149,11 @@ export default function ChatbotPostDemo() {
           ))}
         </div>
 
-        <textarea style={{ width: "100%", resize: "vertical", padding: 8, fontSize: 14 }}
+        {/* <textarea style={{ width: "100%", resize: "vertical", padding: 8, fontSize: 14 }}
                   value={input}
                   onChange={e => setInput(e.target.value)}
                   placeholder="Write a comment... Try !teai"
-                  rows={3} />
+                  rows={3} /> */}
         <div style={{ marginTop: 8, textAlign: "left" }}>
           <button type="submit" disabled={isSubmitting || !input.trim()}>
             {isSubmitting ? "Posting..." : "Post command"}
