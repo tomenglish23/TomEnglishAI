@@ -149,11 +149,11 @@ export default function ChatbotPostDemo() {
           ))}
         </div>
 
-       {/*  <textarea style={{ width: "100%", resize: "vertical", padding: 8, fontSize: 14 }}
+        <textarea style={{ width: "100%", resize: "vertical", padding: 8, fontSize: 14 }}
                   value={input}
                   onChange={e => setInput(e.target.value)}
                   placeholder="Write a comment... Try !teai"
-                  rows={3} /> */}
+                  rows={3} />
         <div style={{ marginTop: 8, textAlign: "left" }}>
           <button type="submit" disabled={isSubmitting || !input.trim()}>
             {isSubmitting ? "Posting..." : "Post command"}
