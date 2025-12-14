@@ -1,10 +1,12 @@
+// Rebuild → copy to docs → commit → push
+
 import React, { useState } from "react";
 
 export default function ChatbotPostDemo() {
   const [comments, setComments] = useState([]);
   const [input, setInput] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [nextId, setNextId] = useState(1);
+  // const [nextId, setNextId] = useState(1);
 
   const postId = "TEAI_FB_DEMO_001"; // placeholder for your flow engine later
 
@@ -76,7 +78,7 @@ export default function ChatbotPostDemo() {
     trimmed = input.trim();
     if (!trimmed) return;
 
-    const lower = trimmed.toLowerCase();
+    // const lower = trimmed.toLowerCase();
 
     /* if (lower === "!solid") {
       addComment("TEAIChatbot", "SOLID = Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion.", true);
