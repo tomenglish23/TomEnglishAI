@@ -70,7 +70,11 @@ import VentureCapitalists          from './Components/Presence/VentureCapitalist
 import PlansProposalsDecks         from './Components/Presence/PlansProposalsDecks';
 
 import TEAIChatbot                 from './Components/TEAIChatbot/TEAIChatbot';
-import ChatbotPostDemo             from "./Components/TEAIChatbot/ChatbotPostDemo";
+import ChatbotPostDemo2            from "./Components/TEAIChatbot/ChatbotPostDemo2";
+import ChatbotPostDemoX            from "./Components/TEAIChatbot/ChatbotPostDemoX";
+
+import TechOverview                from './Components/TEAIChatbot/TechOverview';
+
 
 import React                       from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -157,7 +161,9 @@ function App() {
           <Route path="/Presence/PlansProposalsDecks"         element={<PlansProposalsDecks />} />
 
           <Route path="/TEAIChatbot/TEAIChatbot"              element={<TEAIChatbot />} />
-          <Route path="/TEAIChatbot/ChatbotPostDemo"          element={<ChatbotPostDemo />} />
+          <Route path="/TEAIChatbot/ChatbotPostDemo2"         element={<ChatbotPostDemo2 />} />
+          <Route path="/TEAIChatbot/ChatbotPostDemoX"         element={<ChatbotPostDemoX />} />
+          <Route path="/TEAIChatbot/TechOverview"             element={<TechOverview />} />
 
        </Routes>
       </div>

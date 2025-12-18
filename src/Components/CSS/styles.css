@@ -24,6 +24,8 @@ h3     { color: #0240d1; margin-bottom: 0.5rem; margin-top: 1.3rem; font-size: 1
 h4     { color: #2475d2; margin-bottom: 0.5rem; margin-top: 1.3rem; font-size: 0.9rem; width:90%; }
 h5     { color: #4a90e2; margin-bottom: 0.5rem; margin-top: 1.3rem; font-size: 0.8rem; width:90%; }
 
+h2x    { color: #379d46; margin-bottom: 0.1rem; margin-top: 4.3rem; font-size: 1.2rem; width:100%; font-weight:bold; }
+
 .bulletstyle {
    margin-left: '20px'; font-family: 'monospace'; font-size: 'small';
    text-indent: '-10px';
@@ -41,7 +43,6 @@ h5     { color: #4a90e2; margin-bottom: 0.5rem; margin-top: 1.3rem; font-size: 0
    background-color: '#f9f9f9'
  };
 
-
 .img02424   { border:0px; width:24px; height:24px;} /* Something wrong with this one */
 .img03232   { border:0px; width:32px; height:32px;}
 .img01717   { border:0px; width:17px; height:17px;}
@@ -52,14 +53,6 @@ h5     { color: #4a90e2; margin-bottom: 0.5rem; margin-top: 1.3rem; font-size: 0
 .h5home  { font-size:20px; color:#1234c7; padding: 0px 0px 0px 2px; font-family: 'Times New Roman', Times, serif; }
 .h2home  { font-size:18px; color:#1234c7; padding: 0px 0px 0px 2px; font-family: 'Times New Roman', Times, serif; }
 .h3home  { font-size:16px; color:#1234c7; padding: 0px 0px 0px 2px; font-family: 'Times New Roman', Times, serif; }
-
-/* 
-h1     { font-size:28px; width:70%; margin:20px 0px 10px 0px; background-color:rgb(0, 139, 139, 30%); padding:9px 0px 9px 2px; }
-h2     { font-size:22px; width:70%; margin:20px 0px 10px 0px; background-color:rgba(3, 213, 98, 0.4); padding:4px 0px 4px 2px; }
-h3     { font-size:18px; width:70%; margin:20px 0px 10px 0px; background-color:rgba(3, 213, 98, 0.2); padding:3px 0px 3px 2px; } 
-h4     { font-size:16px; width:70%; margin:20px 0px 10px 0px; background-color:rgba(3, 213, 98, 0.1); padding:1px 0px 1px 2px; }
-h5     { font-size:14px; width:70%; margin:20px 0px 10px 0px; background-color:rgb(0, 139, 139, 11%); padding:1px 0px 1px 2px; }
-*/
 
 pre1       { margin-left: 20px; background-color: #ffe4c4; padding: 10px; 
              border-radius: 4px; overflow-x: auto;}
@@ -123,9 +116,6 @@ body {
    color: #000000;
  }
 
-/* body   { font-family: Arial, sans-serif; line-height: 1.1; color: #333; 
-         background: linear-gradient(to right, #f0f4f8, #c9d6e3); } */
-
 .standout { background: #237de4;; color: white; 
             margin: 2px 0px 2px 26px; padding: 1px 1px 1px 8px; 
             display:inline-block; border-left: 4px solid rgb(253, 215, 215); }
@@ -150,4 +140,54 @@ main   { padding: 2rem; margin-bottom: 8rem; }
    margin-left: 2em;
 }
 
+.bullets { text-align: left; }
+.bullet  { margin: 0px 0px 0px 20px; padding: 0px; display: block; font-size: large; font-family: monospace;  }
+.bullet::before { content: "• "; }
 
+.tech-overview {
+  /* isolate from hostile global CSS */
+  all: initial;
+  display: block;
+  box-sizing: border-box;
+
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 24px 16px;
+
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: #111;
+}
+
+.tech-overview *,
+.tech-overview *::before,
+.tech-overview *::after { box-sizing: border-box; }
+
+/* grid */
+.tech-overview .grid       { display: grid; grid-template-columns: repeat(1, 1fr); gap: 1px; }
+
+@media (max-width: 980px) {
+  .tech-overview .grid     { grid-template-columns: 1fr; }
+}
+
+.tech-overview .muted      { color: #555; }
+
+/* STOP margin collapse between sections */
+.tech-overview .section    { padding-top: 1px; }
+.tech-overview .summary    { padding: 16px; border: 1px solid #ddd; border-radius: 12px; background: #fafafa;
+                             max-width: 980px; }
+.tech-overview .card       { padding:  8px; border: 1px solid #ddd; border-radius: 12px; background: #fff;
+                             margin-bottom: 12px; max-width: 980px; }
+
+.tech-overview p           { margin: 0 0 12px; text-align: left; }
+.tech-overview > .section  { margin-bottom: 1px; } /* vertical rhythm */
+.tech-overview h2          { margin: 0 0 12px; font-size: 1.35rem; font-weight: 600; }
+.tech-overview h3          { margin: 00px; font-size: 1.05rem; font-weight: 600; }
+/* .tech-overview li          { margin: 0 0 12px; text-align: left; }
+.tech-overview ul          { margin: 0 0 12px 20px; padding: 0; list-style: disc; }
+.tech-overview ul ul       { margin-top: 8px; list-style: circle; }
+.tech-overview li          { margin-bottom: 6px; } */
+
+.tech-overview .card > :last-child,
+.tech-overview .summary > :last-child,
+.tech-overview .section > :last-child { margin-bottom: 0px; } /* normalize section endings */

@@ -2,11 +2,10 @@
 
 import React, { useState } from "react";
 
-export default function ChatbotPostDemo() {
+export default function ChatbotPostDemoX() {
   const [comments, setComments] = useState([]);
   const [input, setInput] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
-  // const [nextId, setNextId] = useState(1);
 
   const postId = "TEAI_FB_DEMO_001"; // placeholder for your flow engine later
 
@@ -23,7 +22,6 @@ export default function ChatbotPostDemo() {
     { cmd: "!sanity", label: "Sanity", help: "Sanity check round-trip" },
     { cmd: "!chatbot", label: "Chatbot", help: "Beginning of TEAIChatbot Whitepaper" }
   ];
-
 
   async function getBotReply() {
 
@@ -52,12 +50,6 @@ export default function ChatbotPostDemo() {
       body: JSON.stringify(payload),
     });
 
-    // const resp = await fetch("/ingress", {
-    //   method: "POST",
-    //   headers: { "Content-Type": "application/json" },
-    //   body: JSON.stringify(payload)
-    // });
-
     const raw = await resp.text(); // read once
     console.log("RAW:", raw);
 
@@ -84,27 +76,6 @@ export default function ChatbotPostDemo() {
     trimmed = input.trim();
     if (!trimmed) return;
 
-    // const lower = trimmed.toLowerCase();
-
-    /* if (lower === "!solid") {
-      addComment("TEAIChatbot", "SOLID = Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion.", true);
-      setIsSubmitting(false);
-      return;
-    }
-
-    if (lower === "!cicd") {
-      addComment("TEAIChatbot", "CI/CD = automated build + test + deploy pipeline. CI validates each commit. CD ships to envs with gates.", true);
-      setIsSubmitting(false);
-      return;
-    } 
-
-    if (lower === "!sanity") {
-      // This one still calls ingress so you prove round-trip
-      // fall through to your existing await getBotReply(trimmed)
-    } */
-
-    //addComment("Visitor", `${trimmed} (id: ${commentId})`, false);
-
     setInput("");
     setIsSubmitting(true);
 
@@ -119,19 +90,33 @@ export default function ChatbotPostDemo() {
   }
 
   return (
-    <div style={{ maxWidth: 840, margin: "2rem auto", padding: "1rem",
+    <div style={{ maxWidth: 840, height: 900, margin: "2rem auto", padding: "1rem",
                   border: "1px solid #ccc", borderRadius: 8 }}>
       <div style={{ marginBottom: "1rem" }}>
-        <h1 style={{ marginBottom: 4 }}>Live TEAI Chatbot</h1>
+        <h1 style={{ marginBottom: 4 }}>TEAIChatbot Demo</h1>
         <p style={{ fontSize: 14, color: "#555" }}>Commands are sent to the TEAIChatbot API</p>
-        <p style={{ fontSize: 14, color: "#555", textAlign: "left" }}></p>
-        <p style={{ fontSize: 14, color: "#555", textAlign: "left" }}>
+        <p style={{ fontSize: 14, color: "#555", textAlign: "left", marginBottom: 20 }}></p>
+
+        <p style={{ fontSize: 14, color: "#555", textAlign: "left", marginBottom: 20 }}>
+          This page exercises a production-oriented chatbot architecture designed
+          to ingest conversation events from multiple channels, orchestrate
+          deterministic or AI-assisted flows, &amp; return structured responses.
+        </p>
+
+        <p style={{ fontSize: 14, color: "#555", textAlign: "left", marginBottom: 20 }}>
+          The UI is intentionally minimal. The emphasis is on backend
+          architecture, contracts, cloud integration &amp; extensibility, not UI
+          polish.
+        </p>
+
+
+        <p style={{ fontSize: 14, color: "#555", textAlign: "left", marginBottom: 20 }}>
           The 1st 2 buttons are example interview topics. I have 1000+ software engineering interview questions. Soon, I will make a page to allow me to enter categories & subcategories and search for key words or phrases. It will be a quick reference for answers to interview questions.
         </p>
-        <p style={{ fontSize: 14, color: "#555", textAlign: "left" }}>
+        <p style={{ fontSize: 14, color: "#555", textAlign: "left", marginBottom: 20 }}>
           The 3rd button tests round-trip.
         </p>
-        <p style={{ fontSize: 14, color: "#555", textAlign: "left" }}>
+        <p style={{ fontSize: 14, color: "#555", textAlign: "left", marginBottom: 20 }}>
           The 4th button displays the beginning of the TEAIChatbot whitepaper.
         </p>
       </div>
@@ -141,19 +126,11 @@ export default function ChatbotPostDemo() {
         <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: 8 }}>
           Commands: {COMMANDS.map(x => (
             <button
-              key={x.cmd}
-              type="button"
-              onClick={() => setInput(x.cmd)}
-              style={{
-                padding: "6px 10px",
-                borderRadius: 999,
-                border: "1px solid #ccc",
-                background: "white",
-                cursor: "pointer",
-                fontSize: 13
-              }}
-              title={x.help}
-            >
+                key={x.cmd}
+                type="button"
+                className="teai-pill"
+                onClick={() => setInput(x.cmd)}
+                title={x.help}>
               {x.label}
             </button>
           ))}
@@ -187,9 +164,6 @@ export default function ChatbotPostDemo() {
           ) : (
             comments.map(c => (
               <div key={c.id} style={{ padding: "0.5rem 0", borderTop: "1px solid #eee" }}>
-                {/* <div style={{ fontSize: 13, fontWeight: 600, color: c.fromBot ? "#1941f1" : "#333" }}>
-                  {c.author}
-                </div> */}
                 <div style={{ fontSize: 14, textAlign: "left" }}>
                   {c.text.split("\n").map((line, i) => (
                     <span key={i}>

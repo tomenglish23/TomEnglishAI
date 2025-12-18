@@ -9,93 +9,188 @@ export default function Home() {
     return (
         <div>
             <TopBar/>
-<center>
+          <center>
 
-  <div style={{ height: '20px' }} />
+            <div style={{ height: '20px' }} />
 
-  <p className='h1home'>Tom English AI</p>
-  <p className='h5home'>Senior .NET & Azure Engineer • AI Systems Builder</p>
-  <p className='h5home'>Building tools that automate, scale & deliver</p>
+            <p className='h1home'>Tom English AI</p>
+            <p className='h5home'>Senior .NET & Azure Engineer • AI Systems Builder</p>
+            <p className='h5home'>Building tools that automate, scale & deliver</p>
 
-  <div style={{ height: '20px' }} />
+            <div style={{ height: '20px' }} />
 
-  <p className='h1ahome'><b>What I Build</b></p>
-  <p className='h5home' style={{ width: '60%', margin: '0 auto' }}>
-    I build automation systems & AI-driven tools end-to-end using PowerShell, FFmpeg,
-    OpenAI, C# & Azure so ideas move from concept to production-ready workflows without friction.
-  </p>
-  <p className='h5home'>
-    <b>My approach is simple: build the automation first so every idea can scale.</b>
-  </p>
+            <div style={{ height: '20px' }} />
+            <p className='h1ahome'><b>TEAI Tools</b></p>
 
-  <div style={{ height: '20px' }} />
+            <table style={{ margin: '0px 0 auto', width: '70%' }}>
+              <tbody>
+                <tr>
+                  <td className='h5home'><b>TEAIVideoMaker:&nbsp;</b></td>
+                  <td className='h5home'>PowerShell + OpenAI + FFmpeg pipeline for rapid video creation</td>
+                </tr>
+                <tr>
+                  <td className='h5home'><b>TEAIMP3Maker:</b></td>
+                  <td className='h5home'>Fast TTS production & duration-aligned audio for prototypes</td>
+                </tr>
+                <tr>
+                  <td className='h5home'><b>TEAIChatbot:</b></td>
+                  <td className='h5home'>
+                    In-design flow-controlled automation architecture for turning social engagement
+                    into guided journeys through our distributed platform. <br />
+                    <a href="/TEAIChatbot Distributed Platform Architecture Tom English AI 251123.pdf" download>
+                      <div style={{ color: '#1234c7' }}>Download the PDF Whitepaper</div></a>
+                  </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>
+                      <video width="530" height="350" controls style={videoStyle}>
+                        <source src={process.env.PUBLIC_URL + "/Videos/TEAIChatbotLI01.mp4"} type="video/mp4" /></video>
+                      <br /><span style={{ fontSize: '18px' }}>Video by&nbsp;</span>
+                      <a href="../AIVideos/TEAIVideoMaker"><span style={{ fontSize: '18px', color: '#1234c7' }}>TEAIVideoMaker</span></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div style={{ height: '10px' }} />
 
-  <p className='h1ahome'><b>TEAI Tools</b></p>
+            <p className='h2home'>
+              
+            </p>
 
-  <table style={{ margin: '0px 0 auto', width: '70%' }}>
-    <tbody>
-      <tr>
-        <td className='h5home'><b>TEAIVideoMaker:</b></td>
-        <td className='h5home'>PowerShell + OpenAI + FFmpeg pipeline for rapid video creation</td>
-      </tr>
-      <tr>
-        <td className='h5home'><b>TEAIMP3Maker:</b></td>
-        <td className='h5home'>Fast TTS production & duration-aligned audio for prototypes</td>
-      </tr>
-      <tr>
-        <td className='h5home'><b>TEAIChatbot:</b></td>
-        <td className='h5home'>
-          In-design flow-controlled automation architecture for turning social engagement
-          into guided journeys (described in the whitepaper below)
-        </td>
-      </tr>
-    </tbody>
-  </table>
+          </center>
 
+          <section className="tech-overview">
 
+            <div className="section">
+              <h2>Architecture Overview</h2>
+              <div className="summary">
+                <p>The <strong>TEAIChatbot</strong> system follows an <strong>event-driven, API-first</strong> pipeline:</p>
+                <p>&nbsp;&nbsp;&nbsp;<em>Web UI → Ingress API → Orchestrator → Flow Engine → Adapter → Response Channel</em></p>
+                
+                <p><b>We build automation systems & AI-driven tools end-to-end</b> using <b>PowerShell</b>, <b>FFmpeg</b>, <b>OpenAI</b>, <b>C#</b> & <b>Azure</b> so ideas move from concept to production-ready workflows without friction.</p>
+                <p className="muted">
+                  Each layer is isolated behind stable interfaces, enabling independent evolution, testing & deployment.
+                </p>
 
+                <p><b>Our simple approach: Build the automation first so every idea can scale.</b></p>
 
-  <div style={{ height: '20px' }} />
+              </div>
+            </div>
 
-  <p className='h1ahome'><b>Distributed Chatbot Platform Architecture</b></p>
-  <p className='h5home'>Ingest • Process • Respond</p>
+              <h2>Tech Stack</h2>
+              <div className="card">
+                <h3>Frontend</h3>
+                <div className="bullets">
+                  <div className="bullet">React component-based UI</div>
+                  <div className="bullet">Event-based command dispatch</div>
+                </div>
+              </div>
 
-  <div style={{ height: '20px' }} />
+              <div className="card">
+                <h3>Backend (.NET)</h3>
+                <div className="bullets">
+                  <div className="bullet"><strong>C# / .NET</strong> (modular solution architecture)</div>
+                  <div className="bullet">Dependency Injection for orchestration, flow engines & adapters</div>
+                  <div className="bullet"><strong>Separation of Concerns</strong>
+                    <div className="bullets">
+                      <div className="bullet">Ingress handling</div>
+                      <div className="bullet">Conversation normalization</div>
+                      <div className="bullet">Flow routing</div>
+                      <div className="bullet">Response formatting</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-  <a href="/TEAIChatbot Distributed Platform Architecture Tom English AI 251123.pdf" download>
-    <div style={{ fontSize: '22px', color: '#1234c7' }}>Download the PDF Whitepaper</div>
-  </a>
+              <div className="card">
+                <h3>Azure Cloud</h3>
+                <div className="bullets">
+                  <div className="bullet"><strong>Azure App Service</strong> (current hosting for API & web ingress)</div>
+                  <div className="bullet">HTTPS endpoints with JSON payload contracts</div>
+                  <div className="bullet">Cloud-friendly configuration & deployment patterns</div>
+                  <div className="bullet">Azure-ready path to Functions
+                    <div className="bullets">
+                      <div className="bullet">Azure Functions (HTTP-triggered, consumption-based)</div>
+                      <div className="bullet">Event-driven scaling with minimal contract changes</div>
+                    </div>
+                  </div>
+                </div>
 
-  <div style={{ height: '20px' }} />
+                <p className="muted" style={{ margin: '5px 0px 0px 20px' }}>
+                  The current Web App  enabled rapid iteration. <br />
+                  The architecture is structured for a low-cost move to Azure.<br />
+                  Functions as traffic & usage evolve.
+                </p>
+              </div>
 
-  <video width="630" height="400" controls style={videoStyle}>
-    <source src={process.env.PUBLIC_URL + "/Videos/TEAIChatbotLI01.mp4"}
-            type="video/mp4" />
-  </video>
+              <div className="card">
+                <h3>Applied AI & LLM Strategy</h3>
+                <p className="muted" style={{ margin: '0px 0px 5px 20px' }}>
+                  The chatbot is designed around <strong>pluggable AI adapters</strong>, not a single framework dependency.
+                </p>
+                <div className="bullets">
+                  <div className="bullet">Current: deterministic knowledge flows for predictable output</div>
+                  <div className="bullet">Current: command-based routing for testability & debugging</div>
+                  <div className="bullet">Planned: LangChain, LangGraph, LlamaIndex</div>
+                  <div className="bullet">Injected behind interfaces for safe swaps, experiments & rollback</div>
+                </div>
+              </div>
 
-  <p className='h2home'>
-    Video by&nbsp;
-    <a href="../AIVideos/TEAIVideoMaker">
-      <span style={{ fontSize: '18px', color: '#1234c7' }}>TEAIVideoMaker</span>
-    </a>
-  </p>
+              <h2>Conversation Entry Points (Demo Flows)</h2>
+              <div className="card">
+                <div className="bullets">
+                  <div className="bullet"><strong>Knowledge Flows</strong> – deterministic responses used to validate formatting, structure & routing</div>
+                  <div className="bullet"><strong>Round-Trip Sanity Flow</strong> – verifies full request/response lifecycle</div>
+                  <div className="bullet"><strong>Content Retrieval Flow</strong> – returns structured sections from the TEAIChatbot architecture whitepaper</div>
+                </div>
+                <p className="muted" style={{ margin: '5px 0px 0px 20px' }}>
+                  These flows support debugging, regression testing, recruiter demos & technical walkthroughs.</p>
+              </div>
 
+              <h2>Testing & Extensibility Signals</h2>
+              <div className="card">
+                <div className="bullets">
+                  <div className="bullet">Deterministic commands act as living test vectors</div>
+                  <div className="bullet">Clear contracts enable unit testing at orchestration boundaries</div>
+                  <div className="bullet">Integration testing covers end-to-end flows</div>
+                  <div className="bullet">Flow engines & adapters are independently testable</div>
+                  <div className="bullet">Future support: /qa microservice, multi-channel ingress, event-driven scaling patterns</div>
+                </div>
+              </div>
 
+              <h2>TEAI design paradigm</h2>
+              <div className="card">
+                <p className="muted" style={{ margin: '0px 0px 5px 20px' }}>
+                  This project demonstrates <strong>how I design systems</strong>, 
+                  not just that I can call an LLM. <br />
+                  It reflects:
+                </p>
+                <div className="bullets">
+                  <div className="bullet">Long-term maintainability</div>
+                  <div className="bullet">Cloud-conscious cost decisions</div>
+                  <div className="bullet">Incremental delivery</div>
+                  <div className="bullet">Realistic trade-offs between speed & architecture</div>
+                </div>
+              </div>
 
-  <div style={{ height: '30px' }} />
+          </section>
 
-  <p className='h1ahome'><b>Contact</b></p>
-  <p className='h5home'><a href="https://www.tomenglishai.com">tomenglishai.com</a></p>
-  <p className='h5home'><a href="mailto:jobsearch@tomenglishai.com" target="blank">jobsearch@tomenglishai.com</a></p>
-  <p className='h5home'><a href="https://www.linkedin.com/in/tomenglishai/" target="_blank" rel="noopener noreferrer">LinkedIn.com/in/tomenglishai</a></p>
+          <center>
+            <div style={{ height: '1px' }} />
 
-  <div style={{ height: '40px' }} />
+            <p className='h1ahome'><b>Contact</b></p>
+            <p className='h5home'><a href="https://www.tomenglishai.com">tomenglishai.com</a></p>
+            <p className='h5home'><a href="mailto:jobsearch@tomenglishai.com" target="blank">jobsearch@tomenglishai.com</a></p>
+            <p className='h5home'><a href="https://www.linkedin.com/in/tomenglishai/" target="_blank" rel="noopener noreferrer">LinkedIn.com/in/tomenglishai</a></p>
 
-  <p className='h2home'>December 02, 2025</p>
+            <div style={{ height: '40px' }} />
 
-  <div style={{ height: '40px' }} />
+            <p className='h2home'>December 18, 2025</p>
 
-</center>
+            <div style={{ height: '40px' }} />
+          </center>
+
         </div>
     )
 }

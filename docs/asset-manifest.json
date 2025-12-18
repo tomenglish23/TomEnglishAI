@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.1122a1f8.chunk.css",
-    "main.js": "/static/js/main.f0c3bb15.chunk.js",
-    "main.js.map": "/static/js/main.f0c3bb15.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.8ae6515c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.8ae6515c.js.map",
-    "static/js/2.1dc2aeec.chunk.js": "/static/js/2.1dc2aeec.chunk.js",
-    "static/js/2.1dc2aeec.chunk.js.map": "/static/js/2.1dc2aeec.chunk.js.map",
-    "static/js/3.e56eb115.chunk.js": "/static/js/3.e56eb115.chunk.js",
-    "static/js/3.e56eb115.chunk.js.map": "/static/js/3.e56eb115.chunk.js.map",
+    "main.css": "/static/css/main.25b4d3a3.chunk.css",
+    "main.js": "/static/js/main.3a90bea4.chunk.js",
+    "main.js.map": "/static/js/main.3a90bea4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9dac0eb5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9dac0eb5.js.map",
+    "static/js/2.86f110aa.chunk.js": "/static/js/2.86f110aa.chunk.js",
+    "static/js/2.86f110aa.chunk.js.map": "/static/js/2.86f110aa.chunk.js.map",
+    "static/js/3.b69f89b8.chunk.js": "/static/js/3.b69f89b8.chunk.js",
+    "static/js/3.b69f89b8.chunk.js.map": "/static/js/3.b69f89b8.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9b07b5a0c62797b377898c196dcc23b8.js": "/precache-manifest.9b07b5a0c62797b377898c196dcc23b8.js",
+    "precache-manifest.95de9be1566b641c30e6c88de22a057d.js": "/precache-manifest.95de9be1566b641c30e6c88de22a057d.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.1122a1f8.chunk.css.map": "/static/css/main.1122a1f8.chunk.css.map",
-    "static/js/2.1dc2aeec.chunk.js.LICENSE.txt": "/static/js/2.1dc2aeec.chunk.js.LICENSE.txt",
+    "static/css/main.25b4d3a3.chunk.css.map": "/static/css/main.25b4d3a3.chunk.css.map",
+    "static/js/2.86f110aa.chunk.js.LICENSE.txt": "/static/js/2.86f110aa.chunk.js.LICENSE.txt",
     "static/media/11Labs35YearsOfAI.mp4": "/static/media/11Labs35YearsOfAI.1c4a3bca.mp4",
     "static/media/AIInFinance1.jpg": "/static/media/AIInFinance1.d9338116.jpg",
     "static/media/ASRVoicemail.png": "/static/media/ASRVoicemail.c1d2416e.png",
@@ -87,9 +87,9 @@
     "static/media/zapier_ai.png": "/static/media/zapier_ai.b68cd2fa.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.8ae6515c.js",
-    "static/js/2.1dc2aeec.chunk.js",
-    "static/css/main.1122a1f8.chunk.css",
-    "static/js/main.f0c3bb15.chunk.js"
+    "static/js/runtime-main.9dac0eb5.js",
+    "static/js/2.86f110aa.chunk.js",
+    "static/css/main.25b4d3a3.chunk.css",
+    "static/js/main.3a90bea4.chunk.js"
   ]
 }

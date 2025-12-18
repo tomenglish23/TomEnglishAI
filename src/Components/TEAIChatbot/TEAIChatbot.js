@@ -1,5 +1,6 @@
 import React from "react";
-import ChatbotPostDemo from "./ChatbotPostDemo";
+import ChatbotPostDemo2 from "./ChatbotPostDemo2";
+import ChatbotPostDemoX from "./ChatbotPostDemoX";
 import TopBar from '../Menu/TopBar';
 import '../CSS/styles.css';
 
@@ -33,23 +34,14 @@ export default function TEAIChatbot() {
                             type="video/mp4" />
                 </video>
 
-                <p className='h2home'>
-                    Video by&nbsp;
+                <p className='h2home'>Video by&nbsp;
                     <a href="../AIVideos/TEAIVideoMaker">
-                    <span style={{ fontSize: '18px', color: '#1234c7' }}>TEAIVideoMaker</span>
-                    </a>
-                </p>
-
+                        <span style={{ fontSize: '18px', color: '#1234c7' }}>TEAIVideoMaker</span>
+                    </a></p>
+                <div style={{ height: '1px' }} />
+                <ChatbotPostDemoX />
                 <div style={{ height: '40px' }} />
 
-{/* <div style={{border:"3px solid red", padding:12}}>
-  <div style={{fontSize:22}}>MARKER ABOVE DEMO</div>
-  <ChatbotPostDemo />
-  <div style={{fontSize:22}}>MARKER BELOW DEMO</div>
-</div> */}
-                <ChatbotPostDemo />
-                {/* <div style={{ fontSize: 28 }}>CHATBOT DEMO HERE</div>
-                <div style={{ height: '80px' }} /> */}
             </main>
         </div>
     </center>

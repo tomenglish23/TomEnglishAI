@@ -1,0 +1,48 @@
+/* TechOverview.css – stable, boring, done */
+
+.tech-overview {
+  /* isolate from hostile global CSS */
+  all: initial;
+  display: block;
+  box-sizing: border-box;
+
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px 16px;
+
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: #111;
+}
+
+.tech-overview *,
+.tech-overview *::before,
+.tech-overview *::after { box-sizing: border-box; }
+
+/* grid */
+.tech-overview .grid       { display: grid; grid-template-columns: repeat(1, 1fr); gap: 1px; }
+
+@media (max-width: 1100px) {
+  .tech-overview .grid     { grid-template-columns: 1fr; }
+}
+
+.tech-overview .muted      { color: #555; }
+
+/* STOP margin collapse between sections */
+.tech-overview .section    { padding-top: 1px; }
+.tech-overview .summary    { padding: 16px; border: 1px solid #ddd; border-radius: 12px; background: #fafafa; }
+.tech-overview .card       { padding: 16px; border: 1px solid #ddd; border-radius: 12px; background: #fff; max-width: 980px; }
+
+.tech-overview p           { margin: 0 0 12px; text-align: left; }
+.tech-overview li          { margin: 0 0 12px; text-align: left; }
+.tech-overview ul          { margin: 0 0 12px 20px; padding: 0; list-style: disc; }
+.tech-overview ul ul       { margin-top: 8px; list-style: circle; }
+.tech-overview li          { margin-bottom: 6px; }
+.tech-overview > .section  { margin-bottom: 32px; } /* vertical rhythm */
+.tech-overview h2          { margin: 0 0 16px; font-size: 1.35rem; font-weight: 600; }
+.tech-overview h3          { margin: 0 0 12px; font-size: 1.05rem; font-weight: 600; }
+
+.tech-overview .card > :last-child,
+.tech-overview .summary > :last-child,
+.tech-overview .section > :last-child { margin-bottom: 0px; } /* normalize section endings */
+

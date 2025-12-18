@@ -1,0 +1,121 @@
+/* TEAIChatbotDemo.css */
+
+/* Container & typography */
+.teai-chatbot {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  color: #111827;
+  line-height: 1.5;
+}
+
+.teai-header h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.teai-section h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 1.5rem 0 0.75rem;
+}
+
+.teai-muted {
+  color: #6b7280;
+  font-size: 0.95rem;
+}
+
+/* Live demo box */
+.teai-live {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 1rem;
+  background: #fff;
+  margin-top: 1rem;
+}
+
+/* Command buttons row */
+.teai-live-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.teai-pill {
+  border: 1px solid #d1d5db;
+  background: #fff;
+  border-radius: 999px;
+  padding: 0.35rem 0.65rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.teai-pill:hover {
+  border-color: #9ca3af;
+}
+
+/* Action buttons */
+.teai-live-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.teai-primary,
+.teai-secondary {
+  border-radius: 6px;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.teai-primary {
+  border: 1px solid #111827;
+  background: #111827;
+  color: #fff;
+}
+
+.teai-secondary {
+  border: 1px solid #d1d5db;
+  background: #fff;
+  color: #111827;
+}
+
+.teai-primary:disabled,
+.teai-secondary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Response section */
+.teai-live-response {
+  margin-top: 1rem;
+}
+
+.teai-live-label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.teai-response-box {
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  padding: 0.75rem;
+  background: #f9fafb;
+  font-size: 0.95rem;
+  text-align: left;      /* ensures text aligns left */
+}
+
+.teai-response-item {
+  padding: 0.5rem 0;
+  border-top: 1px solid #e5e7eb;
+}
+
+.teai-response-item:first-child {
+  border-top: none;
+  padding-top: 0;
+}
