@@ -19,7 +19,9 @@ export default function ChatbotPostDemoX() {
     const id = prev.length ? Math.max(...prev.map(x => x.id)) + 1 : 1;
     return [...prev, { id, author, text, fromBot }];
   });
-}
+  }
+
+  const [apiBackend, setApiBackend] = useState('api'); // 'api', 'func', or 'debug'
 
   const COMMANDS = [
     { cmd: "!solid",  label: "SOLID",  help: "SOLID principles explanation" },
@@ -47,7 +49,25 @@ export default function ChatbotPostDemoX() {
       CreatedUtc: new Date().toISOString()
     };
 
-    const API_BASE = "https://api.tomenglishai.com";
+    /* const API_BASES = {
+      api: "https://api.tomenglishai.com",
+      func: "https://func.tomenglishai.com",
+      debug: "http://localhost:7072/api"
+    }; */
+    const API_BASES = {
+      api: "https://api.tomenglishai.com",
+      func: "https://teai-chatbot-functions-dybwakenb8atb7fu.eastus-01.azurewebsites.net/api",  // Update this
+      debug: "http://localhost:7072/api"
+    };
+    // In your fetch:
+    const API_BASE = API_BASES[apiBackend];
+
+    // const API_BASE_API  = "https://api.tomenglishai.com";
+    // const API_BASE_FUNC = "https://func.tomenglishai.com";
+    // const API_BASE_DBG = "http://localhost:7072/api";
+
+    // let API_BASE = API_BASE_DBG;  // switch between App Service & Function App here
+    // console.log("Using API_BASE:", API_BASE);
 
 /*     // Get token
     const accounts = msalInstance.getAllAccounts();
@@ -98,7 +118,8 @@ export default function ChatbotPostDemoX() {
     console.log("PARSED:", data);
     console.log("PARSED.text:", data.text);
 
-    return data.text ?? "[No text field returned]";
+    //return data.text ?? "[No text field returned]";
+    return data.text ?? data.Text ?? "[No text field returned]";
   }
 
   async function handleSubmit(e) {
@@ -151,6 +172,15 @@ export default function ChatbotPostDemoX() {
           The 4th button displays the beginning of the TEAIChatbot whitepaper.
         </p>
       </div>
+
+    <div style={{ marginBottom: '20px' }}>
+      <label>Backend: </label>
+      <select value={apiBackend} onChange={(e) => setApiBackend(e.target.value)}>
+        <option value="api">App Service</option>
+        <option value="func">Function App</option>
+        <option value="debug">Local Function (Debug)</option>
+      </select>
+    </div>
 
       <form onSubmit={handleSubmit}>
 
