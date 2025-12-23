@@ -2,6 +2,11 @@
 
 import React, { useState } from "react";
 
+// DELETE THESE LINES:
+// import { msalInstance, msalConfig } from '../../authConfig';
+// const accounts = msalInstance.getAllAccounts();
+// ... all the token stuff
+
 export default function ChatbotPostDemoX() {
   const [comments, setComments] = useState([]);
   const [input, setInput] = useState("");
@@ -44,9 +49,35 @@ export default function ChatbotPostDemoX() {
 
     const API_BASE = "https://api.tomenglishai.com";
 
+/*     // Get token
+    const accounts = msalInstance.getAllAccounts();
+    if (accounts.length === 0) {
+      // User not logged in - trigger login
+      await msalInstance.loginPopup({
+        scopes: [`api://${msalConfig.auth.clientId}/.default`]
+      });
+    }
+
+    const tokenResponse = await msalInstance.acquireTokenSilent({
+      scopes: [`api://${msalConfig.auth.clientId}/.default`],
+      account: msalInstance.getAllAccounts()[0]
+    });
+
     const resp = await fetch(`${API_BASE}/ingress`, {   // /events
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers: { 
+        "Content-Type": "application/json",
+        "Authorization": `Bearer ${tokenResponse.accessToken}`
+       },
+      body: JSON.stringify(payload),
+    });
+ */
+    const resp = await fetch(`${API_BASE}/ingress`, {   // /events
+      method: "POST",
+      headers: { 
+        "Content-Type": "application/json",
+        "X-API-Key": "demo-key-12345"
+      },
       body: JSON.stringify(payload),
     });
 

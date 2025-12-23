@@ -1,5 +1,4 @@
 import React from "react";
-import ChatbotPostDemo2 from "./ChatbotPostDemo2";
 import ChatbotPostDemoX from "./ChatbotPostDemoX";
 import TopBar from '../Menu/TopBar';
 import '../CSS/styles.css';

@@ -106,7 +106,7 @@ export default function Home() {
               <div className="card">
                 <h3>Azure Cloud</h3>
                 <div className="bullets">
-                  <div className="bullet"><strong>Azure App Service</strong> (current hosting for API & web ingress)</div>
+                  <div className="bullet"><em><b>Dynamic api.tomenglishai.com access → <u>Azure App Service</u> or <u>Azure Function App</u></b></em></div>
                   <div className="bullet">HTTPS endpoints with JSON payload contracts</div>
                   <div className="bullet">Cloud-friendly configuration & deployment patterns</div>
                   <div className="bullet">Azure-ready path to Functions
