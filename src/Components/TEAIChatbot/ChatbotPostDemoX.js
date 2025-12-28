@@ -1,5 +1,3 @@
-// Rebuild → copy to docs → commit → push
-
 import React, { useState } from "react";
 
 // DELETE THESE LINES:
@@ -49,24 +47,31 @@ export default function ChatbotPostDemoX() {
       CreatedUtc: new Date().toISOString()
     };
 
-    /* const API_BASES = {
-      api: "https://api.tomenglishai.com",
-      func: "https://func.tomenglishai.com",
-      debug: "http://localhost:7072/api"
-    }; */
     const API_BASES = {
       api: "https://api.tomenglishai.com",
-      func: "https://teai-chatbot-functions-dybwakenb8atb7fu.eastus-01.azurewebsites.net/api",  // Update this
-      debug: "http://localhost:7072/api"
+      func: "https://teai-chatbot-functions-dybwakenb8atb7fu.eastus-01.azurewebsites.net/api",
+      render: "https://pt-billing-assistant.onrender.com/api"
     };
-    // In your fetch:
-    const API_BASE = API_BASES[apiBackend];
+    /* Swap once DNS is configured
+    const API_BASES = {
+      api: "https://api.tomenglishai.com",
+      func: "https://func.tomenglishai.com"
+    }; */
 
-    // const API_BASE_API  = "https://api.tomenglishai.com";
-    // const API_BASE_FUNC = "https://func.tomenglishai.com";
-    // const API_BASE_DBG = "http://localhost:7072/api";
+    const API_BASE = API_BASES[apiBackend]; // fetch base URL
 
-    // let API_BASE = API_BASE_DBG;  // switch between App Service & Function App here
+    /*
+    Endpoints:
+    Chatbot (App Service): api.tomenglishai.com/teaichatbot
+    Chatbot (Function): teai-chatbot-functions-xxx.azurewebsites.net/api/teaichatbot
+    PT Assistant (Function): teai-chatbot-functions-xxx.azurewebsites.net/api/ptquery
+
+    Endpoints:
+    Chatbot (App Service): api.tomenglishai.com/teaichatbot
+    Chatbot (Function): func.tomenglishai.com/teaichatbot
+    PT Assistant (Function): func.tomenglishai.com/ptquery
+    */
+
     // console.log("Using API_BASE:", API_BASE);
 
 /*     // Get token
@@ -178,7 +183,7 @@ export default function ChatbotPostDemoX() {
       <select value={apiBackend} onChange={(e) => setApiBackend(e.target.value)}>
         <option value="api">App Service</option>
         <option value="func">Function App</option>
-        <option value="debug">Local Function (Debug)</option>
+        <option value="render">PT Function</option>
       </select>
     </div>
 

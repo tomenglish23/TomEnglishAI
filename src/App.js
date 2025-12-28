@@ -75,6 +75,7 @@ import ChatbotPostDemoX            from "./Components/TEAIChatbot/ChatbotPostDem
 
 import TechOverview                from './Components/TEAIChatbot/TechOverview';
 
+import TeaiRagPt                   from './Components/RAG/TeaiRagPt';
 
 import React                       from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -165,6 +166,7 @@ function App() {
           <Route path="/TEAIChatbot/ChatbotPostDemoX"         element={<ChatbotPostDemoX />} />
           <Route path="/TEAIChatbot/TechOverview"             element={<TechOverview />} />
 
+          <Route path="/RAG/TeaiRagPt"                        element={<TeaiRagPt />} />
        </Routes>
       </div>
     </Router>

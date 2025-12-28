@@ -25,7 +25,7 @@ export default function MenuSubmenu() {
             <tbody>
                 <tr>
                     <td style={{paddingTop: 10}}>
-                        <li style={{width: '80px'}}><a href="\TomEnglish\Home">Home</a>
+                        <li style={{width: '50px'}}><a href="\TomEnglish\Home">Home</a>
                             <ul className="sub">
                                 <li><a href="\TomEnglish\Home">
                                     {SP}Home{SP}</a></li>
@@ -39,20 +39,27 @@ export default function MenuSubmenu() {
                             </ul>
                         </li>
                     </td>
+
+                    <td style={{paddingTop: 10}}>
+                        <li style={{width: '80px'}}><a href="\RAG\TeaiRagPt">TEAIRAG</a>
+                        </li>
+                    </td>
+
+
                     <td style={{paddingTop: 10}}>
                         <li style={{width: '140px'}}><a href="\AIVideos\TEAIVideoMaker">TEAIVideoMaker</a>
                         </li>
                     </td>
                     <td style={{paddingTop: 10}}>
-                        <li style={{width: '140px'}}><a href="\AIVideos\TEAIMP3Maker">TEAIMP3Maker</a>
+                        <li style={{width: '120px'}}><a href="\AIVideos\TEAIMP3Maker">TEAIMP3Maker</a>
                         </li>
                     </td>
                     <td style={{paddingTop: 10}}>
-                        <li style={{width: '140px'}}><a href="\TEAIChatbot\TEAIChatbot">TEAIChatbot</a>
+                        <li style={{width: '110px'}}><a href="\TEAIChatbot\TEAIChatbot">TEAIChatbot</a>
                         </li>
                     </td>
                     <td style={{paddingTop: 10}}>
-                        <li style={{width: '80px'}}><a href="\AIConsultant\AIConsultant">2025</a>
+                        <li style={{width: '50px'}}><a href="\AIConsultant\AIConsultant">2025</a>
                             <ul className="sub">
                                 
                                 <li><div className="li_spacery">AI Consultant</div></li>
@@ -78,7 +85,7 @@ export default function MenuSubmenu() {
                         </li>
                     </td>
                     <td style={{paddingTop: 10}}>
-                        <li style={{width: '80px'}}><a href="\AIConsultant\AITechnologies">2024</a>
+                        <li style={{width: '50px'}}><a href="\AIConsultant\AITechnologies">2024</a>
                             <ul className="sub">
 
                                 <li><div className="li_spacery">Microsoft Machine Learning</div></li>
@@ -116,7 +123,7 @@ export default function MenuSubmenu() {
                         </li>
                     </td>
                     <td style={{paddingTop: 10}}>
-                        <li style={{width: '80px'}}><a href="\TomEnglish\NETEngineering">Earlier</a>
+                        <li style={{width: '70px'}}><a href="\TomEnglish\NETEngineering">Prior</a>
                             <ul className="sub">
 
                                 <li><a href="\TomEnglish\NETEngineering">{SP}.NET Engineering{SP}</a></li>
