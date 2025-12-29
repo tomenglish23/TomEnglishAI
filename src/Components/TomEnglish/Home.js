@@ -8,55 +8,165 @@ export default function Home() {
 
     return (
         <div>
-            <TopBar/>
-          <center>
+<TopBar/>
 
-            <div style={{ height: '20px' }} />
+<center>
 
-            <p className='h1home'>Tom English AI</p>
-            <p className='h5home'>Senior .NET & Azure Engineer • AI Systems Builder</p>
-            <p className='h5home'>Building tools that automate, scale & deliver</p>
+  {/* TAGLINE */}
+  <p style={{ fontSize: '22px', marginTop: '20px', color: '#1234c7' }}>
+    TEAI: Practical systems, modern AI.
+  </p>
+            {/* CONTACT SECTION */}
+            <div style={{ marginTop: '20px', marginBottom: '30px' }}>
+              <div style={{ display:'flex', justifyContent:'center', gap:'20px' }}>
 
-            <div style={{ height: '20px' }} />
+                {/* LinkedIn */}
+                <a className="libutton"
+                  style={{
+                    backgroundColor:'#e8ecff',
+                    color:'#1234c7',
+                    border:'1px solid #d0d8ff',
+                    padding:'6px 16px',
+                    borderRadius:'4px'
+                  }}
+                  href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=tomenglishai"
+                  target="_blank">
+                  Follow on LinkedIn
+                </a>
 
-            <div style={{ height: '20px' }} />
-            <p className='h1ahome'><b>TEAI Tools</b></p>
+                {/* Email */}
+                <a className="libutton"
+                  style={{
+                    backgroundColor:'#e8ecff',
+                    color:'#1234c7',
+                    border:'1px solid #d0d8ff',
+                    padding:'6px 16px',
+                    borderRadius:'4px'
+                  }}
+                  href="mailto:jobsearch@tomenglishai.com">
+                  Email Me
+                </a>
 
-            <table style={{ margin: '0px 0 auto', width: '70%' }}>
-              <tbody>
-                <tr>
-                  <td className='h5home'><b>TEAIVideoMaker:&nbsp;</b></td>
-                  <td className='h5home'>PowerShell + OpenAI + FFmpeg pipeline for rapid video creation</td>
-                </tr>
-                <tr>
-                  <td className='h5home'><b>TEAIMP3Maker:</b></td>
-                  <td className='h5home'>Fast TTS production & duration-aligned audio for prototypes</td>
-                </tr>
-                <tr>
-                  <td className='h5home'><b>TEAIChatbot:</b></td>
-                  <td className='h5home'>
-                    In-design flow-controlled automation architecture for turning social engagement
-                    into guided journeys through our distributed platform. <br />
-                    <a href="/TEAIChatbot Distributed Platform Architecture Tom English AI 251123.pdf" download>
-                      <div style={{ color: '#1234c7' }}>Download the PDF Whitepaper</div></a>
-                  </td>
-                </tr>
-                <tr>
-                    <td>&nbsp;</td>
-                    <td>
-                      <video width="530" height="350" controls style={videoStyle}>
-                        <source src={process.env.PUBLIC_URL + "/Videos/TEAIChatbotLI01.mp4"} type="video/mp4" /></video>
-                      <br /><span style={{ fontSize: '18px' }}>Video by&nbsp;</span>
-                      <a href="../AIVideos/TEAIVideoMaker"><span style={{ fontSize: '18px', color: '#1234c7' }}>TEAIVideoMaker</span></a>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-            <div style={{ height: '10px' }} />
+              </div>
+            </div>
 
-            <p className='h2home'>
-              
-            </p>
+            {/* BUTTON HOVER STATES */}
+            <style>
+            {`
+              .libutton {
+                transition: background-color 0.15s ease-in-out;
+              }
+              .libutton:hover {
+                background-color: #dfe6ff !important;
+              }
+            `}
+            </style>
+
+            {/* FEATURED PRODUCTS */}
+            <p className='h1ahome'><b>Featured Products</b></p>
+
+            <div style={{
+              display: 'flex',
+              justifyContent: 'center',
+              gap: '20px',
+              width: '90%',
+              marginTop: '20px',
+              marginBottom: '30px',
+              flexWrap: 'nowrap'
+            }}>
+
+              {/* TEAIVideoMaker */}
+              <div className="card" style={{ width: '30%', minWidth: '260px', textAlign:'left' }}>
+                <h3>TEAIVideoMaker</h3>
+                <p>Automated video creation using PowerShell, OpenAI & FFmpeg.</p>
+                <p>Azure‑ready automation pipeline built for reproducible creative workflows.</p>
+              </div>
+
+              {/* TEAIChatbot */}
+              <div className="card" style={{ width: '30%', minWidth: '260px', textAlign:'left' }}>
+                <h3>TEAIChatbot</h3>
+                <p>Event‑driven, API‑first automation architecture for guided user journeys.</p>
+                <p>Designed for Azure App Service & Azure Functions deployment.</p>
+
+                <a className="libutton"
+                  style={{
+                    backgroundColor:'#e8ecff',
+                    color:'#1234c7',
+                    border:'1px solid #d0d8ff',
+                    padding:'6px 16px',
+                    borderRadius:'4px',
+                    marginTop:'10px',
+                    display:'inline-block'
+                  }}
+                  href="/TEAIChatbot Distributed Platform Architecture Tom English AI 251123.pdf"
+                  download>
+                  Download the PDF Whitepaper
+                </a>
+              </div>
+
+              {/* PT Billing Assistant (RAG System) */}
+              <div className="card" style={{ width: '30%', minWidth: '260px', textAlign:'left' }}>
+                <h3>PT Billing Assistant (RAG)</h3>
+                <p>AI‑powered clinical & billing guidance for physical therapists.</p>
+                <p>LangChain • LangGraph • ChromaDB • Python • serverless architecture.</p>
+
+                <a className="libutton"
+                  style={{
+                    backgroundColor:'#e8ecff',
+                    color:'#1234c7',
+                    border:'1px solid #d0d8ff',
+                    padding:'6px 16px',
+                    borderRadius:'4px',
+                    marginTop:'10px',
+                    display:'inline-block'
+                  }}
+                  href="https://www.tomenglishai.com/RAG/TeaiRagPt"
+                  target="_blank">
+                  View RAG Demo
+                </a>
+              </div>
+
+            </div>
+
+            {/* VIDEO SECTION */}
+            <div style={{ marginTop: '20px' }}>
+              <video width="530" height="350" controls style={{ verticalAlign: 'top', display: 'block', margin: 0 }}>
+                <source src={process.env.PUBLIC_URL + "/Videos/TEAIChatbotLI01.mp4"} type="video/mp4" />
+              </video>
+              <br />
+              <span style={{ fontSize: '18px' }}>Video by&nbsp;</span>
+              <a href="../AIVideos/TEAIVideoMaker">
+                <span style={{ fontSize: '18px', color: '#1234c7' }}>TEAIVideoMaker</span>
+              </a>
+            </div>
+
+            {/* WHY HIRE ME */}
+            <p className='h1ahome' style={{ marginTop:'40px' }}><b>Why Hire Me</b></p>
+            <div className="card" style={{ width:'70%', margin:'0 auto', textAlign:'left' }}>
+              <p>I build production systems that are stable, testable and ready for cloud deployment. My work focuses on clean interfaces, deterministic flows and modular orchestration so each component can evolve without breaking the system. I bring enterprise CI/CD discipline, modern .NET engineering and practical AI integration into every project.</p>
+            </div>
+
+            {/* SKILLS SNAPSHOT */}
+            <p className='h1ahome' style={{ marginTop:'40px' }}><b>Skills Snapshot</b></p>
+            <div className="card" style={{ width:'70%', margin:'0 auto', textAlign:'left' }}>
+              <p><b>Azure Cloud Architecture</b> — App Service, Functions, HTTPS JSON contracts, event‑driven scaling, cost‑aware design.</p>
+              <p><b>.NET Engineering</b> — C#, DI, routing, flow engines, adapters, normalization, modular architecture.</p>
+              <p><b>CI/CD Toolchains</b> — GitHub → Jenkins → Artifactory → PCF; SonarQube, Checkmarx, Black Duck, TruffleHog.</p>
+              <p><b>AI Systems Engineering</b> — LangChain, LangGraph, ChromaDB, OpenAI, deterministic flows, adapter‑based design.</p>
+              <p><b>Automation</b> — PowerShell, FFmpeg, schema‑driven workflows, video/TTS automation.</p>
+            </div>
+
+            {/* HOW I WORK */}
+            <p className='h1ahome' style={{ marginTop:'40px' }}><b>How I Work</b></p>
+            <div className="card" style={{ width:'70%', margin:'0 auto', textAlign:'left' }}>
+              <p>I design systems around clarity and stability. Every project starts with well‑defined boundaries, predictable flows and components that can be tested in isolation. I deliver in small, functional increments so architecture, automation and deployment paths stay aligned from the start. My goal is always the same: build systems that are clear to follow, easy to extend and stable over time.</p>
+            </div>
+
+            {/* WHAT I'M LOOKING FOR */}
+            <p className='h1ahome' style={{ marginTop:'40px' }}><b>What I’m Looking For</b></p>
+            <div className="card" style={{ width:'70%', margin:'0 auto', textAlign:'left' }}>
+              <p>I’m looking for a role where I can design and build cloud‑ready systems using Azure or AWS. My strongest experience is in Azure, but I’m fully comfortable working in AWS environments and can ramp quickly when needed. I prefer to stay focused within one cloud ecosystem for deeper growth, but I’m equally ready to switch to AWS if that’s where the team is building. I’m available for remote work with the ability to transition to hybrid or on‑site for the right long‑term opportunity.</p>
+            </div>
 
           </center>
 
