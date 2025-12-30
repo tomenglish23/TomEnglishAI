@@ -79,6 +79,10 @@ export default function TEAIRAG_PT() {
               Hosted on Render.com | 25 Knowledge Files | Medicare A/B + MassHealth
             </span>
           </p>
+          <p>The first question will be slow. We deployed to Render.com rather than Azure because <br />
+          Our Azure Function is a .NET function. The function is written in Python. Azure cannot host both types.<br />
+          Stay tuned for a future port to Azure.</p>
+          <p>Stay tuned for categories to be added to the search so we can narrow searches down to specific topics like Medicare, Medicaid or MassHealth.</p>
 
           <div style={{ height: '20px' }} />
 

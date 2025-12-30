@@ -75,10 +75,15 @@ export default function TeaiRagPt() {
           <p className='h5home'>
             Powered by LangChain + LangGraph + OpenAI + ChromaDB
             <br />
-            <span style={{ fontSize: '0.85em', color: '#666' }}>
+            <span style={{ fontSize: '0.85em', color: '#666', maxWidth: 840 }}>
               Hosted on Render.com | 25 Knowledge Files | Medicare A/B + MassHealth
             </span>
           </p>
+          <p style={{ fontSize: '1.25em', color: '#700', maxWidth: 840 }}><br />The first question will be slow. We deployed to Render.com rather than Azure <br /> because
+          our Azure Function is a .NET function. This function is written in Python. <br />Azure cannot host both types. 
+          Stay tuned for a future port to Azure.</p>
+          <p style={{ fontSize: '1.25em', color: '#700', maxWidth: 840 }}>Stay tuned for categories to be added to the search so we can <br /> narrow down searches to
+          specific topics like Medicare, Medicaid or MassHealth.</p>
 
           <div style={{ height: '2px' }} />
 
