@@ -9,7 +9,7 @@ export default function TeaiRagPt() {
   const [mode, setMode] = useState('quick'); // 'quick' or 'assistant'
 
   const COMMON_QUESTIONS = [
-    "What are posterior hip precautions?",
+    "Does MassHealth require prior auth?",
     "How do I bill when a PTA provides treatment?",
     "What is the 8-minute rule?",
     "Can I bill 97110 and 97530 together?",
@@ -65,8 +65,9 @@ export default function TeaiRagPt() {
       <div style={{ opacity: 1.0 }}>
         <TopBar />
         <header>
-          <h1>TEAI RAG Systems</h1>
+          <h1>TEAIRAG System</h1>
           <p>Retrieval-Augmented Generation Demonstrations</p>
+          <p>Coming Soon: Search by topic (Medicare, Medicaid, MassHealth, Clinical Protocols)</p>
         </header>
         <main>
           {/* <div style={{ height: '2px' }} /> */}
@@ -76,16 +77,16 @@ export default function TeaiRagPt() {
             Powered by LangChain + LangGraph + OpenAI + ChromaDB
             <br />
             <span style={{ fontSize: '0.85em', color: '#666', maxWidth: 840 }}>
-              Hosted on Render.com | 25 Knowledge Files | Medicare A/B + MassHealth
+              Hosted on Render.com | 36 Knowledge Files | Medicare A/B + Medicaid + MassHealth + Clinical Protocols<br />
+              Deployed on Render.com for cost-optimized serverless Python hosting.<br /> 
+              Demonstrates multi-cloud architecture alongside our Azure-based systems.
             </span>
           </p>
-          <p style={{ fontSize: '1.25em', color: '#700', maxWidth: 840 }}><br />The first question will be slow. We deployed to Render.com rather than Azure <br /> because
-          our Azure Function is a .NET function. This function is written in Python. <br />Azure cannot host both types. 
-          Stay tuned for a future port to Azure.</p>
-          <p style={{ fontSize: '1.25em', color: '#700', maxWidth: 840 }}>Stay tuned for categories to be added to the search so we can <br /> narrow down searches to
-          specific topics like Medicare, Medicaid or MassHealth.</p>
 
-          <div style={{ height: '2px' }} />
+          <div style={{ height: '11px' }} />
+
+          <p style={{ fontSize: '1.22em', color: '#700', maxWidth: 840 }}>
+            First request: 50-60 seconds (Render's free tier has a cold start). &nbsp;Click: Common Questions.</p> 
 
           <div style={{
             maxWidth: 840,
@@ -172,8 +173,8 @@ export default function TeaiRagPt() {
             <details style={{ marginBottom: '0.5rem', textAlign: 'left' }}>
               <summary style={{
                 cursor: 'pointer',
-                fontWeight: 'bold',
-                color: '#667eea',
+                fontWeight: 'normal',
+                color: '#700',
                 marginBottom: '8px'
               }}>
                 Common Questions
@@ -279,9 +280,9 @@ export default function TeaiRagPt() {
             }}>
               <strong>Tech Stack:</strong> Python • LangChain • LangGraph • OpenAI GPT-4 • ChromaDB • Flask
               <br />
-              <strong>Deployment:</strong> Render.com (Serverless) • 25 YAML Knowledge Files
+              <strong>Deployment:</strong> Render.com (Serverless) • 36 YAML Knowledge Files
               <br />
-              <strong>Knowledge Base:</strong> Medicare Part A & B • MassHealth • Clinical Protocols
+              <strong>Knowledge Base:</strong> Medicare Part A & B • Medicaid • MassHealth • Clinical Protocols
             </div>
           </div>
 
