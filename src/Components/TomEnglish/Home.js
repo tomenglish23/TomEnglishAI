@@ -14,9 +14,16 @@ export default function Home() {
 
   {/* TAGLINE */}
   <p style={{ fontSize: '22px', marginTop: '20px', color: '#1234c7' }}>
-    TEAI: Practical systems, modern AI.
+    <b>TEAI: Practical systems, modern AI</b>
   </p>
-            {/* CONTACT SECTION */}
+    <div style={{ width: '820px', textAlign: 'left'/* , border:'1px solid #d0d8ff' */ }} >
+  <p style={{ fontSize: '16px', marginTop: '2px', color: '#1234c7' }}>
+    <b>TEAIVideoMaker</b> began <b>TEAI viral advertising</b> with PowerShell, OpenAI &amp; FFMPEG<br />
+    <b>TEAIChatbot</b> uses our <b>private Azure Microsoft Cloud</b>. Questions get quick answers.<br />
+    <b>TEAIRAG</b> is our <b>private AI</b>. Data is ingested &amp; accessed for <b>clinical & billing assistance</b>.<br />
+  </p>
+   </div>
+           {/* CONTACT SECTION */}
             <div style={{ marginTop: '20px', marginBottom: '30px' }}>
               <div style={{ display:'flex', justifyContent:'center', gap:'20px' }}>
 
@@ -76,7 +83,7 @@ export default function Home() {
             }}>
 
               {/* TEAIVideoMaker */}
-              <div className="card" style={{ width: '30%', minWidth: '260px', textAlign:'left' }}>
+              <div className="card" style={{ width: '33%', minWidth: '260px', textAlign:'left' }}>
                 <h3>TEAIVideoMaker</h3>
                 <p>Automated video creation using PowerShell, OpenAI & FFmpeg.</p>
                 <p>Azure‑ready automation pipeline built for reproducible creative workflows.</p>
@@ -85,8 +92,22 @@ export default function Home() {
               {/* TEAIChatbot */}
               <div className="card" style={{ width: '30%', minWidth: '260px', textAlign:'left' }}>
                 <h3>TEAIChatbot</h3>
-                <p>Event‑driven, API‑first automation architecture for guided user journeys.</p>
-                <p>Designed for Azure App Service & Azure Functions deployment.</p>
+                <p>Event‑driven, API‑first automation architecture for guided user journeys. Accessible by either our Azure App Service or Azure Function.</p>
+
+                <a className="libutton"
+                  style={{
+                    backgroundColor:'#e8ecff',
+                    color:'#1234c7',
+                    border:'1px solid #d0d8ff',
+                    padding:'6px 16px',
+                    borderRadius:'4px',
+                    marginTop:'10px',
+                    display:'inline-block'
+                  }}
+                  href="https://www.tomenglishai.com/TEAIChatbot/TEAIChatbot"
+                  target="_blank">
+                  View Chatbot Demo
+                </a>
 
                 <a className="libutton"
                   style={{
@@ -105,8 +126,9 @@ export default function Home() {
               </div>
 
               {/* PT Billing Assistant (RAG System) */}
-              <div className="card" style={{ width: '30%', minWidth: '260px', textAlign:'left' }}>
-                <h3>PT Billing Assistant (RAG)</h3>
+              <div className="card" style={{ width: '33%', minWidth: '260px', textAlign:'left' }}>
+                <h3>TEAIRAG PT Billing Assistant</h3>
+                <p>Retrieval-Augmented Generation (RAG)</p>
                 <p>AI‑powered clinical & billing guidance for physical therapists.</p>
                 <p>LangChain • LangGraph • ChromaDB • Python • serverless architecture.</p>
 
@@ -146,16 +168,6 @@ export default function Home() {
               <p>I build production systems that are stable, testable and ready for cloud deployment. My work focuses on clean interfaces, deterministic flows and modular orchestration so each component can evolve without breaking the system. I bring enterprise CI/CD discipline, modern .NET engineering and practical AI integration into every project.</p>
             </div>
 
-            {/* SKILLS SNAPSHOT */}
-            <p className='h1ahome' style={{ marginTop:'40px' }}><b>Skills Snapshot</b></p>
-            <div className="card" style={{ width:'70%', margin:'0 auto', textAlign:'left' }}>
-              <p><b>Azure Cloud Architecture</b> — App Service, Functions, HTTPS JSON contracts, event‑driven scaling, cost‑aware design.</p>
-              <p><b>.NET Engineering</b> — C#, DI, routing, flow engines, adapters, normalization, modular architecture.</p>
-              <p><b>CI/CD Toolchains</b> — GitHub → Jenkins → Artifactory → PCF; SonarQube, Checkmarx, Black Duck, TruffleHog.</p>
-              <p><b>AI Systems Engineering</b> — LangChain, LangGraph, ChromaDB, OpenAI, deterministic flows, adapter‑based design.</p>
-              <p><b>Automation</b> — PowerShell, FFmpeg, schema‑driven workflows, video/TTS automation.</p>
-            </div>
-
             {/* HOW I WORK */}
             <p className='h1ahome' style={{ marginTop:'40px' }}><b>How I Work</b></p>
             <div className="card" style={{ width:'70%', margin:'0 auto', textAlign:'left' }}>
@@ -176,7 +188,7 @@ export default function Home() {
               <h2>Architecture Overview</h2>
               <div className="summary">
                 <p>The <strong>TEAIChatbot</strong> system follows an <strong>event-driven, API-first</strong> pipeline:</p>
-                <p>&nbsp;&nbsp;&nbsp;<em>Web UI → Ingress API → Orchestrator → Flow Engine → Adapter → Response Channel</em></p>
+                <p><em>Web UI → Ingress API → Orchestrator → Flow Engine → Adapter → Response Channel</em></p>
                 
                 <p><b>We build automation systems & AI-driven tools end-to-end</b> using <b>PowerShell</b>, <b>FFmpeg</b>, <b>OpenAI</b>, <b>C#</b> & <b>Azure</b> so ideas move from concept to production-ready workflows without friction.</p>
                 <p className="muted">
@@ -189,6 +201,18 @@ export default function Home() {
             </div>
 
               <h2>Tech Stack</h2>
+              
+              <div className="card">
+                <h3>Skills Snapshot</h3>
+                <div className="bullets">
+                  <div className="bullet"><b>Azure Cloud Architecture</b>: App Service, Functions, JSON contracts, event‑driven scaling, cost‑aware</div>
+                  <div className="bullet"><b>.NET Engineering</b>: C#, DI, routing, flow engines, adapters, normalization, modular architecture</div>
+                  <div className="bullet"><b>CI/CD Toolchains</b>: GitHub → Jenkins → Artifactory → PCF; SonarQube, Checkmarx, Black Duck, TruffleHog</div>
+                  <div className="bullet"><b>AI Systems</b>: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LangChain, LangGraph, ChromaDB, OpenAI, deterministic flows, adapter‑based design</div>
+                  <div className="bullet"><b>Automation</b>: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PowerShell, FFmpeg, schema‑driven workflows, video/TTS automation</div>
+                </div>
+              </div>
+            
               <div className="card">
                 <h3>Frontend</h3>
                 <div className="bullets">
