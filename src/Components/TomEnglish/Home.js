@@ -18,9 +18,9 @@ export default function Home() {
   </p>
     <div style={{ width: '820px', textAlign: 'left'/* , border:'1px solid #d0d8ff' */ }} >
   <p style={{ fontSize: '16px', marginTop: '2px', color: '#1234c7' }}>
-    <b>TEAIVideoMaker</b> began <b>TEAI viral advertising</b> with PowerShell, OpenAI &amp; FFMPEG<br />
-    <b>TEAIChatbot</b> uses our <b>private Azure Microsoft Cloud</b>. Questions get quick answers.<br />
-    <b>TEAIRAG</b> is our <b>private AI</b>. Data is ingested &amp; accessed for <b>clinical & billing assistance</b>.<br />
+    <b>TEAIVideoMaker</b> began TEAI <b><u>viral advertising</u></b> with PowerShell, OpenAI &amp; FFMPEG<br />
+    <b>TEAIChatbot</b> uses our <b><u>private Microsoft Azure Cloud</u></b>. Questions get quick answers.<br />
+    <b>TEAIRAG</b> uses our <b><u>private AI</u></b>. Data is ingested &amp; accessed for <b>clinical & billing assistance</b>.<br />
   </p>
    </div>
            {/* CONTACT SECTION */}
@@ -202,7 +202,7 @@ export default function Home() {
 
               <h2>Tech Stack</h2>
               
-              <div className="card">
+              <div className="card-indent">
                 <h3>Skills Snapshot</h3>
                 <div className="bullets">
                   <div className="bullet"><b>Azure Cloud Architecture</b>: App Service, Functions, JSON contracts, event‑driven scaling, cost‑aware</div>
@@ -213,7 +213,7 @@ export default function Home() {
                 </div>
               </div>
             
-              <div className="card">
+              <div className="card-indent">
                 <h3>Frontend</h3>
                 <div className="bullets">
                   <div className="bullet">React component-based UI</div>
@@ -221,7 +221,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="card">
+              <div className="card-indent">
                 <h3>Backend (.NET)</h3>
                 <div className="bullets">
                   <div className="bullet"><strong>C# / .NET</strong> (modular solution architecture)</div>
@@ -237,7 +237,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="card">
+              <div className="card-indent">
                 <h3>Azure Cloud</h3>
                 <div className="bullets">
                   <div className="bullet"><em><b>Dynamic api.tomenglishai.com access → <u>Azure App Service</u> or <u>Azure Function App</u></b></em></div>
@@ -258,7 +258,7 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="card">
+              <div className="card-indent">
                 <h3>Applied AI & LLM Strategy</h3>
                 <p className="muted" style={{ margin: '0px 0px 5px 20px' }}>
                   The chatbot is designed around <strong>pluggable AI adapters</strong>, not a single framework dependency.

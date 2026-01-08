@@ -49,8 +49,8 @@ export default function ChatbotPostDemoX() {
 
     const API_BASES = {
       api: "https://api.tomenglishai.com",
-      func: "https://teai-chatbot-functions-dybwakenb8atb7fu.eastus-01.azurewebsites.net/api",
-      render: "https://pt-billing-assistant.onrender.com/api"
+      func: "https://teai-chatbot-functions-dybwakenb8atb7fu.eastus-01.azurewebsites.net/api"
+      /* , render: "https://pt-billing-assistant.onrender.com/api" */
     };
     /* Swap once DNS is configured
     const API_BASES = {
@@ -147,50 +147,40 @@ export default function ChatbotPostDemoX() {
   }
 
   return (
-    <div style={{ maxWidth: 840, height: 900, margin: "2rem auto", padding: "1rem",
-                  border: "1px solid #ccc", borderRadius: 8 }}>
+    <div style={{ maxWidth: 840, height: 900, margin: "2rem auto", padding: "1rem", fontSize: 16, color: "#555",
+                  fontSize: 16, color: "#555", border: "1px solid #ccc", borderRadius: 8 }}>
       <div style={{ marginBottom: "1rem" }}>
         <h1 style={{ marginBottom: 4 }}>TEAIChatbot Demo</h1>
-        <p style={{ fontSize: 14, color: "#555" }}>Commands are sent to the TEAIChatbot API</p>
-        <p style={{ fontSize: 14, color: "#555", textAlign: "left", marginBottom: 20 }}></p>
+        <p>Commands are sent to the TEAIChatbot API - (Azure App Service or Azure Function App).</p>
+        <p style={{ textAlign: "left", marginBottom: 10 }}></p>
 
-        <p style={{ fontSize: 14, color: "#555", textAlign: "left", marginBottom: 20 }}>
-          This page exercises a production-oriented chatbot architecture designed
-          to ingest conversation events from multiple channels, orchestrate
-          deterministic or AI-assisted flows, &amp; return structured responses.
+        <p style={{ textAlign: "left", marginBottom: 5 }}>
+          This demos an Azure chatbot 
+          which ingests conversation events from multiple channels, orchestrates
+          deterministic or AI-assisted flows, &amp; returns structured responses. The UI is intentionally minimal.
         </p>
 
-        <p style={{ fontSize: 14, color: "#555", textAlign: "left", marginBottom: 20 }}>
-          The UI is intentionally minimal. The emphasis is on backend
-          architecture, contracts, cloud integration &amp; extensibility, not UI
-          polish.
+        <p style={{ textAlign: "left", marginBottom: 5 }}>
+          'SOLID' and 'CICD' are examples of my 1000+ interview questions. 
         </p>
-
-
-        <p style={{ fontSize: 14, color: "#555", textAlign: "left", marginBottom: 20 }}>
-          The 1st 2 buttons are example interview topics. I have 1000+ software engineering interview questions. Soon, I will make a page to allow me to enter categories & subcategories and search for key words or phrases. It will be a quick reference for answers to interview questions.
+        <p style={{ textAlign: "left", marginBottom: 5 }}>
+          'Sanity' is a round-trip sanity test.
         </p>
-        <p style={{ fontSize: 14, color: "#555", textAlign: "left", marginBottom: 20 }}>
-          The 3rd button tests round-trip.
-        </p>
-        <p style={{ fontSize: 14, color: "#555", textAlign: "left", marginBottom: 20 }}>
-          The 4th button displays the beginning of the TEAIChatbot whitepaper.
+        <p style={{ textAlign: "left", marginBottom: 5 }}>
+          'Chatbot' displays the beginning of the TEAIChatbot whitepaper.
         </p>
       </div>
 
-    <div style={{ marginBottom: '20px' }}>
-      <label>Backend: </label>
-      <select value={apiBackend} onChange={(e) => setApiBackend(e.target.value)}>
-        <option value="api">App Service</option>
-        <option value="func">Function App</option>
-        <option value="render">PT Function</option>
-      </select>
-    </div>
-
       <form onSubmit={handleSubmit}>
 
-        <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: 8 }}>
-          Commands: {COMMANDS.map(x => (
+        <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: 8, alignItems: "center" }}>
+          <label><b>Azure Backend:</b> </label>
+          <select style={{padding: '5px'}} value={apiBackend} onChange={(e) => setApiBackend(e.target.value)}>
+            <option value="api">App Service</option>
+            <option value="func">Function App</option>
+          </select>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+          <b>Commands:</b> {COMMANDS.map(x => (
             <button
                 key={x.cmd}
                 type="button"
@@ -202,17 +192,12 @@ export default function ChatbotPostDemoX() {
           ))}
         </div>
 
-        {/* <textarea style={{ width: "100%", resize: "vertical", padding: 8, fontSize: 14 }}
-                  value={input}
-                  onChange={e => setInput(e.target.value)}
-                  placeholder="Write a comment... Try !teai"
-                  rows={3} /> */}
-        <div style={{ marginTop: 8, textAlign: "left" }}>
-          <button type="submit" disabled={isSubmitting || !input.trim()}>
+        <div style={{ marginTop: 8, textAlign: "left"}}>
+          <button style={{ fontSize: 16 }} type="submit" disabled={isSubmitting || !input.trim()}>
             {isSubmitting ? "Posting..." : "Post command"}
           </button>
           &nbsp;
-          <button style={{ opacity: comments.length ? 1 : 0.5 }}
+          <button style={{ fontSize: 16, opacity: comments.length ? 1 : 0.5 }}
             type="button"
             onClick={() => setComments([])}
             disabled={comments.length === 0} >
@@ -224,7 +209,7 @@ export default function ChatbotPostDemoX() {
       <div style={{ marginBottom: "1rem" }}>
         <strong>Response</strong>
         {/* scroll size and enable vertical scroll   No comments yet. Try <code>!teai</code>. */}
-        <div style={{ marginTop: 8, maxHeight: 300, paddingRight: 6, overflowY: "auto"}}>
+        <div style={{ marginTop: 8, maxHeight: 490, paddingRight: 6, overflowY: "auto"}}>
           {comments.length === 0 ? (
             <p style={{ fontSize: 14, color: "#777" }}></p>
           ) : (

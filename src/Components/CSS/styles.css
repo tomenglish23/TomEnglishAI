@@ -51,6 +51,7 @@ h2x    { color: #379d46; margin-bottom: 0.1rem; margin-top: 4.3rem; font-size: 1
 .hbhome  { font-size:28px; color:#1234c7; padding: 0px 0px 0px 2px; font-family: 'Times New Roman', Times, serif; }
 .h1ahome { font-size:24px; color:#1234c7; padding: 0px 0px 0px 2px; font-family: 'Times New Roman', Times, serif; }
 .h5home  { font-size:20px; color:#1234c7; padding: 0px 0px 0px 2px; font-family: 'Times New Roman', Times, serif; }
+.h5homem { font-size:20px; color:#1234c7; padding: 0px 0px 0px 2px; margin: 0px 0px 0px 0px; font-family: 'Times New Roman', Times, serif; }
 .h2home  { font-size:18px; color:#1234c7; padding: 0px 0px 0px 2px; font-family: 'Times New Roman', Times, serif; }
 .h3home  { font-size:16px; color:#1234c7; padding: 0px 0px 0px 2px; font-family: 'Times New Roman', Times, serif; }
 
@@ -178,6 +179,9 @@ main   { padding: 2rem; margin-bottom: 8rem; }
                              max-width: 980px; }
 .tech-overview .card       { padding:  8px; border: 1px solid #ddd; border-radius: 12px; background: #fff;
                              margin-bottom: 12px; max-width: 980px; }
+
+.tech-overview .card-indent { margin-left: 20px; padding:  8px; border: 1px solid #ddd; border-radius: 12px; background: #fff;
+                             margin-bottom: 12px; max-width: 960px; }
 
 .tech-overview p           { margin: 0 0 12px; text-align: left; }
 .tech-overview > .section  { margin-bottom: 1px; } /* vertical rhythm */
