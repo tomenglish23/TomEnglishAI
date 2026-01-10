@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import TopBar from '../Menu/TopBar';
 import '../CSS/styles.css';
 
@@ -15,6 +15,16 @@ export default function TeaiRagPt() {
   const [selectedQuestion, setSelectedQuestion] = useState('');
   const [areas, setAreas] = useState([]);
   const [sampleQuestions, setSampleQuestions] = useState([]);
+  const [hierarchy, setHierarchy] = useState(null);
+  
+  // Load hierarchy on mount
+  useEffect(() => {
+    fetch('https://intv-qa-assistant-1.onrender.com/api/hierarchy')
+      .then(res => res.json())
+      .then(data => setHierarchy(data))
+      .catch(err => console.error('Failed to load hierarchy:', err));
+  }, []);
+  
   const COMMON_QUESTIONS_PT = [
     "Does MassHealth require prior auth?",
     "How do I bill when a PTA provides treatment?",
@@ -24,165 +34,23 @@ export default function TeaiRagPt() {
     "How many PT visits does MassHealth cover?"
   ];
 
-  const COMMON_QUESTIONS_QA = [
-    "What are Angular observables?",
-    "Explain C# async/await",
-    "What is dependency injection?",
-    "How does garbage collection work in .NET?",
-    "What is the difference between IEnumerable and IQueryable?"
-  ];
-
-  // Load areas for selected discipline
-  async function loadAreas(discipline) {
-    const areasByDiscipline = {
-      "C#": [
-        "Basic Knowledge",
-        "OOPS Concepts",
-        "Exception Handling",
-        "Collections",
-        "Delegates and Events",
-        "LINQ",
-        "Async and Await",
-        "Garbage Collection",
-        "Miscellaneous"
-      ],
-      "SQL SERVER": [
-        "General",
-        "Versions",
-        "Programming Questions",
-        "SQL Injection",
-        "Backup Logs and Bulk Commands",
-        "Users and Authentication",
-        "Performance",
-        "Normalization",
-        "Types"
-      ]
-    };
-    
-    setAreas(areasByDiscipline[discipline] || []);
-  }
+  // Load areas for selected discipline (dynamic from hierarchy)
+  function loadAreas(discipline) {
+    if (hierarchy && discipline) {
+      const areas = hierarchy.areas[discipline] || [];
+      setAreas(areas);
+    } else {
+      setAreas([]);
+    }
+  } 
 
   // Load sample questions for selected area
-  async function loadSampleQuestions(discipline, area) {
-    const samplesByCSharp = {
-      "Basic Knowledge": [
-        "Is C# object-oriented?",
-        "What is boxing and unboxing?",
-        "What is the difference between string and StringBuilder?",
-        "What is the difference between ref and out parameters?",
-        "What is the difference between const and readonly?"
-      ],
-      "OOPS Concepts": [
-        "What is encapsulation?",
-        "What is inheritance?",
-        "What is polymorphism?",
-        "What is the difference between overloading and overriding?",
-        "What is a sealed class?"
-      ],
-      "Exception Handling": [
-        "What is an exception?",
-        "What is a try-catch block?",
-        "What is a finally block?",
-        "What are custom exceptions?"
-      ],
-      "Collections": [
-        "What is a collection?",
-        "What are generic collections?",
-        "What is the difference between List and Dictionary?",
-        "What is the difference between HashSet and List?"
-      ],
-      "Delegates and Events": [
-        "What is a delegate?",
-        "What is a multicast delegate?",
-        "What is an event?",
-        "What is the difference between delegate and event?"
-      ],
-      "LINQ": [
-        "What is LINQ?",
-        "What are the types of LINQ?",
-        "What is the difference between IEnumerable and IQueryable?",
-        "What is deferred execution in LINQ?"
-      ],
-      "Async and Await": [
-        "What is asynchronous programming?",
-        "What are async and await keywords?",
-        "What is the difference between Task and Thread?",
-        "What is Task.Run()?"
-      ],
-      "Garbage Collection": [
-        "What is garbage collection?",
-        "What are the generations in garbage collection?",
-        "What is the difference between Dispose and Finalize?",
-        "What is the using statement?"
-      ],
-      "Miscellaneous": [
-        "What is the difference between String and string?",
-        "What is a nullable type?",
-        "What is the ?? operator?",
-        "What is reflection?"
-      ]
-    };
-    
-    const samplesBySQL = {
-      "General": [
-        "What is SQL Server?",
-        "What are the different types of databases?",
-        "What is a primary key?",
-        "What is a foreign key?",
-        "What is normalization?"
-      ],
-      "Versions": [
-        "What are the different SQL Server versions?",
-        "What's new in SQL Server 2019?",
-        "What are the editions of SQL Server?"
-      ],
-      "Programming Questions": [
-        "What is a stored procedure?",
-        "What is a trigger?",
-        "What is a view?",
-        "What is the difference between function and stored procedure?"
-      ],
-      "SQL Injection": [
-        "What is SQL injection?",
-        "How do you prevent SQL injection?",
-        "What are parameterized queries?"
-      ],
-      "Backup Logs and Bulk Commands": [
-        "What is a backup?",
-        "What are the types of backups?",
-        "What is a transaction log?",
-        "What is bulk insert?"
-      ],
-      "Users and Authentication": [
-        "What is a SQL Server login?",
-        "What is a database user?",
-        "What is the difference between Windows and SQL authentication?",
-        "What are database roles?"
-      ],
-      "Performance": [
-        "What is an index?",
-        "What is query optimization?",
-        "What is execution plan?",
-        "What are statistics?"
-      ],
-      "Normalization": [
-        "What is normalization?",
-        "What is 1NF, 2NF, 3NF?",
-        "What is denormalization?",
-        "When should you denormalize?"
-      ],
-      "Types": [
-        "What are SQL Server data types?",
-        "What is VARCHAR vs NVARCHAR?",
-        "What is INT vs BIGINT?",
-        "What is DATETIME vs DATETIME2?"
-      ]
-    };
-    
-    if (discipline === "C#") {
-      setSampleQuestions(samplesByCSharp[area] || []);
-    } else if (discipline === "SQL SERVER") {
-      setSampleQuestions(samplesBySQL[area] || []);
+  function loadSampleQuestions(discipline, area) {
+    if (hierarchy && discipline && area) {
+      const topics = hierarchy.topics[discipline]?.[area] || [];
+      setSampleQuestions(topics);
+    } else {
+      setSampleQuestions([]);
     }
   }
 
