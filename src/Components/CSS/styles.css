@@ -51,7 +51,7 @@ h2x    { color: #379d46; margin-bottom: 0.1rem; margin-top: 4.3rem; font-size: 1
 .hbhome  { font-size:28px; color:#1234c7; padding: 0px 0px 0px 2px; font-family: 'Times New Roman', Times, serif; }
 .h1ahome { font-size:24px; color:#1234c7; padding: 0px 0px 0px 2px; font-family: 'Times New Roman', Times, serif; }
 .h5home  { font-size:20px; color:#1234c7; padding: 0px 0px 0px 2px; font-family: 'Times New Roman', Times, serif; }
-.h5homem { font-size:20px; color:#1234c7; padding: 0px 0px 0px 2px; margin: 0px 0px 0px 0px; font-family: 'Times New Roman', Times, serif; }
+.h5homem { line-height: 1.2em; font-size:20px; color:#1234c7; padding: 0px; margin: 0px; font-family: 'Times New Roman', Times, serif; }
 .h2home  { font-size:18px; color:#1234c7; padding: 0px 0px 0px 2px; font-family: 'Times New Roman', Times, serif; }
 .h3home  { font-size:16px; color:#1234c7; padding: 0px 0px 0px 2px; font-family: 'Times New Roman', Times, serif; }
 
