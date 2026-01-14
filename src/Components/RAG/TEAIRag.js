@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import TopBar from '../Menu/TopBar';
 
 const TEAIRag = () => {
   const [question, setQuestion] = useState('');
@@ -83,6 +84,7 @@ const TEAIRag = () => {
       fontFamily: 'system-ui, -apple-system, sans-serif'
     }}>
       
+    <TopBar/>
       {/* Header */}
       <div style={{ 
         marginBottom: '16px', 
