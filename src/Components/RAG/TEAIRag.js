@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import TopBar from '../Menu/TopBar';
 
 const TEAIRag = () => {
   const [question, setQuestion] = useState('');
@@ -7,7 +6,7 @@ const TEAIRag = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [config, setConfig] = useState(null);
   const [taxonomies, setTaxonomies] = useState(null);
-  
+
   // Filters
   const [selectedState, setSelectedState] = useState('');
   const [selectedCert, setSelectedCert] = useState('');
@@ -30,7 +29,7 @@ const TEAIRag = () => {
   // Get relevant sample questions based on selected filters
   const getRelevantQuestions = () => {
     if (!config?.sample_questions) return [];
-    
+
     // If both state and cert selected, show specific questions
     if (selectedState && selectedCert) {
       const stateQuestions = config.sample_questions[selectedState];
@@ -38,7 +37,7 @@ const TEAIRag = () => {
         return stateQuestions[selectedCert];
       }
     }
-    
+
     // Otherwise show default questions
     return config.sample_questions.default || [];
   };
@@ -77,27 +76,26 @@ const TEAIRag = () => {
   const relevantQuestions = getRelevantQuestions();
 
   return (
-    <div style={{ 
-      maxWidth: '900px', 
-      margin: '0 auto', 
+    <div style={{
+      maxWidth: '900px',
+      margin: '0 auto',
       padding: '16px',
       fontFamily: 'system-ui, -apple-system, sans-serif'
     }}>
-      
-    <TopBar/>
+
       {/* Header */}
-      <div style={{ 
-        marginBottom: '16px', 
-        paddingBottom: '12px', 
-        borderBottom: '2px solid #667eea' 
+      <div style={{
+        marginBottom: '16px',
+        paddingBottom: '12px',
+        borderBottom: '2px solid #667eea'
       }}>
-        <h1 style={{ 
-          margin: 0, 
-          fontSize: '1.5em', 
-          color: '#667eea' 
+        <h2 style={{
+          margin: 0,
+          fontSize: '1.5em',
+          color: '#667eea'
         }}>
           {config.branding.title}
-        </h1>
+        </h2>
         {config.branding.subtitle && (
           <p style={{ margin: '4px 0 0 0', fontSize: '0.9em', color: '#666' }}>
             {config.branding.subtitle}
@@ -106,17 +104,17 @@ const TEAIRag = () => {
       </div>
 
       {/* Filters - 2 rows */}
-      <div style={{ 
-        marginBottom: '12px', 
-        padding: '12px', 
-        backgroundColor: '#f8f9fa', 
+      <div style={{
+        marginBottom: '12px',
+        padding: '12px',
+        backgroundColor: '#f8f9fa',
         borderRadius: '6px',
         fontSize: '0.9em'
       }}>
         {/* Row 1: State and Certification */}
-        <div style={{ 
-          display: 'flex', 
-          gap: '16px', 
+        <div style={{
+          display: 'flex',
+          gap: '16px',
           marginBottom: '8px',
           alignItems: 'center'
         }}>
@@ -125,9 +123,9 @@ const TEAIRag = () => {
             <select
               value={selectedState}
               onChange={(e) => setSelectedState(e.target.value)}
-              style={{ 
-                padding: '4px 8px', 
-                border: '1px solid #ddd', 
+              style={{
+                padding: '4px 8px',
+                border: '1px solid #ddd',
                 borderRadius: '4px',
                 minWidth: '120px'
               }}
@@ -146,9 +144,9 @@ const TEAIRag = () => {
             <select
               value={selectedCert}
               onChange={(e) => setSelectedCert(e.target.value)}
-              style={{ 
-                padding: '4px 8px', 
-                border: '1px solid #ddd', 
+              style={{
+                padding: '4px 8px',
+                border: '1px solid #ddd',
                 borderRadius: '4px',
                 minWidth: '150px'
               }}
@@ -164,8 +162,8 @@ const TEAIRag = () => {
         </div>
 
         {/* Row 2: Cost and Duration */}
-        <div style={{ 
-          display: 'flex', 
+        <div style={{
+          display: 'flex',
           gap: '16px',
           alignItems: 'center'
         }}>
@@ -174,9 +172,9 @@ const TEAIRag = () => {
             <select
               value={selectedCost}
               onChange={(e) => setSelectedCost(e.target.value)}
-              style={{ 
-                padding: '4px 8px', 
-                border: '1px solid #ddd', 
+              style={{
+                padding: '4px 8px',
+                border: '1px solid #ddd',
                 borderRadius: '4px',
                 minWidth: '120px'
               }}
@@ -195,9 +193,9 @@ const TEAIRag = () => {
             <select
               value={selectedDuration}
               onChange={(e) => setSelectedDuration(e.target.value)}
-              style={{ 
-                padding: '4px 8px', 
-                border: '1px solid #ddd', 
+              style={{
+                padding: '4px 8px',
+                border: '1px solid #ddd',
                 borderRadius: '4px',
                 minWidth: '120px'
               }}
@@ -216,17 +214,17 @@ const TEAIRag = () => {
       {/* Sample Questions - Dynamic based on filters */}
       {relevantQuestions.length > 0 && (
         <div style={{ marginBottom: '12px' }}>
-          <div style={{ 
-            fontSize: '0.85em', 
-            fontWeight: '600', 
+          <div style={{
+            fontSize: '0.85em',
+            fontWeight: '600',
             marginBottom: '6px',
             color: '#666'
           }}>
             Try:
           </div>
-          <div style={{ 
-            display: 'flex', 
-            flexWrap: 'wrap', 
+          <div style={{
+            display: 'flex',
+            flexWrap: 'wrap',
             gap: '6px'
           }}>
             {relevantQuestions.map((q, idx) => (
@@ -311,16 +309,16 @@ const TEAIRag = () => {
             <div style={{ color: '#f44336' }}>{answer.error}</div>
           ) : (
             <>
-              <div style={{ 
+              <div style={{
                 lineHeight: '1.6',
                 marginBottom: config.features.show_confidence || config.features.show_sources ? '12px' : 0
               }}>
                 {answer.answer}
               </div>
-              
+
               {(config.features.show_confidence || config.features.show_sources) && (
-                <div style={{ 
-                  fontSize: '0.85em', 
+                <div style={{
+                  fontSize: '0.85em',
                   color: '#666',
                   paddingTop: '12px',
                   borderTop: '1px solid #ddd'

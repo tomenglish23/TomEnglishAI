@@ -27,22 +27,9 @@ export default function TeaiRagPt() {
   useEffect(() => {
     fetch('https://intv-qa-assistant-1.onrender.com/api/hierarchy')
       .then(res => res.json())
-      .then(data => {
-        console.log('✓ Hierarchy loaded:', data);
-        console.log('✓ C# areas count:', data.areas['C#']?.length);
-        console.log('✓ SQL SERVER areas count:', data.areas['SQL SERVER']?.length);
-        setHierarchy(data);
-      })
+      .then(data => setHierarchy(data))
       .catch(err => console.error('Failed to load hierarchy:', err));
   }, []);
-
-  // Debug: Log when areas changes
-  useEffect(() => {
-    console.log('🔄 Areas state updated:', areas.length, 'items');
-    if (areas.length > 0) {
-      console.log('🔄 First area:', areas[0]);
-    }
-  }, [areas]);
 
   const COMMON_QUESTIONS_PT = [
     "What are posterior hip precautions?",
@@ -55,16 +42,10 @@ export default function TeaiRagPt() {
 
   // Load areas for selected discipline
   function loadAreas(discipline) {
-    console.log('→ loadAreas called with:', discipline);
-    console.log('→ hierarchy exists?', !!hierarchy);
-    
     if (hierarchy && discipline) {
       const areas = hierarchy.areas[discipline] || [];
-      console.log('→ Areas found:', areas.length, 'items');
-      console.log('→ First 3 areas:', areas.slice(0, 3));
       setAreas(areas);
     } else {
-      console.log('→ No hierarchy or discipline, clearing areas');
       setAreas([]);
     }
   }
@@ -480,7 +461,6 @@ export default function TeaiRagPt() {
                     }}
                     onChange={(e) => {
                       const discipline = e.target.value;
-                      console.log('📝 Discipline selected:', discipline);
                       setSelectedDiscipline(discipline);
                       setSelectedArea('');
                       setSelectedQuestion('');
@@ -488,7 +468,6 @@ export default function TeaiRagPt() {
                       if (discipline) {
                         loadAreas(discipline);
                       } else {
-                        console.log('📝 Clearing areas (no discipline)');
                         setAreas([]);
                       }
                     }}
