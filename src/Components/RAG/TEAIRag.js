@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import TopBar from '../Menu/TopBar';
 
 const TEAIRag = () => {
   const [question, setQuestion] = useState('');
@@ -15,32 +16,42 @@ const TEAIRag = () => {
 
   const API_BASE = 'https://healthcare-certs.onrender.com';
 
+  // Get relevant sample questions based on selected filters
+  const getRelevantQuestions = () => {
+    console.log('getRelevantQuestions called');
+    console.log('selectedState:', selectedState);
+    console.log('selectedCert:', selectedCert);
+    console.log('config.sample_questions:', config?.sample_questions);
+    
+    if (!config?.sample_questions) return [];
+
+    if (selectedState && selectedCert) {
+      const stateQuestions = config.sample_questions[selectedState];
+      console.log('stateQuestions:', stateQuestions);
+      if (stateQuestions && stateQuestions[selectedCert]) {
+        console.log('Returning:', stateQuestions[selectedCert]);
+        return stateQuestions[selectedCert];
+      }
+    }
+
+    return config.sample_questions.default || [];
+  };
+
+  let relevantQuestions = getRelevantQuestions();
+
   useEffect(() => {
     // Load config and taxonomies
     Promise.all([
       fetch(`${API_BASE}/api/config`).then(r => r.json()),
       fetch(`${API_BASE}/api/taxonomies`).then(r => r.json())
     ]).then(([configData, taxData]) => {
+      console.log('Config from API:', configData);  // Add this
+      console.log('Keys in config:', Object.keys(configData));  // Add this
       setConfig(configData);
       setTaxonomies(taxData);
+      relevantQuestions = getRelevantQuestions(); // tmetme
     }).catch(err => console.error('Failed to load config:', err));
   }, []);
-
-  // Get relevant sample questions based on selected filters
-  const getRelevantQuestions = () => {
-    if (!config?.sample_questions) return [];
-
-    // If both state and cert selected, show specific questions
-    if (selectedState && selectedCert) {
-      const stateQuestions = config.sample_questions[selectedState];
-      if (stateQuestions && stateQuestions[selectedCert]) {
-        return stateQuestions[selectedCert];
-      }
-    }
-
-    // Otherwise show default questions
-    return config.sample_questions.default || [];
-  };
 
   const handleSearch = async (e) => {
     e.preventDefault();
@@ -73,8 +84,6 @@ const TEAIRag = () => {
     return <div style={{ padding: '20px', textAlign: 'center' }}>Loading...</div>;
   }
 
-  const relevantQuestions = getRelevantQuestions();
-
   return (
     <div style={{
       maxWidth: '900px',
@@ -82,6 +91,10 @@ const TEAIRag = () => {
       padding: '16px',
       fontFamily: 'system-ui, -apple-system, sans-serif'
     }}>
+        <TopBar />
+        <center>
+          <p style={{ margin: '0px', fontSize: '1.86em', fontWeight: '1000', color: '#2475d2' }}>TEAI RAG System for {config.branding?.subtitle || ''}</p>
+        </center>
 
       {/* Header */}
       <div style={{
@@ -89,18 +102,10 @@ const TEAIRag = () => {
         paddingBottom: '12px',
         borderBottom: '2px solid #667eea'
       }}>
-        <h2 style={{
-          margin: 0,
-          fontSize: '1.5em',
-          color: '#667eea'
-        }}>
-          {config.branding.title}
-        </h2>
-        {config.branding.subtitle && (
-          <p style={{ margin: '4px 0 0 0', fontSize: '0.9em', color: '#666' }}>
-            {config.branding.subtitle}
-          </p>
-        )}
+        <center>
+          <p style={{ margin: '0px', fontSize: '1.1em', fontWeight: '500' }}>
+            The first request has a 60 second delay due to the Render free tier cold start</p> 
+        </center>
       </div>
 
       {/* Filters - 2 rows */}
@@ -122,7 +127,10 @@ const TEAIRag = () => {
             <label style={{ fontWeight: '600', whiteSpace: 'nowrap' }}>State:</label>
             <select
               value={selectedState}
-              onChange={(e) => setSelectedState(e.target.value)}
+              onChange={(e) => {
+                setSelectedState(e.target.value);
+                relevantQuestions = getRelevantQuestions();
+              }}
               style={{
                 padding: '4px 8px',
                 border: '1px solid #ddd',
@@ -143,7 +151,10 @@ const TEAIRag = () => {
             <label style={{ fontWeight: '600', whiteSpace: 'nowrap' }}>Certification:</label>
             <select
               value={selectedCert}
-              onChange={(e) => setSelectedCert(e.target.value)}
+              onChange={(e) => {
+                setSelectedCert(e.target.value);
+                relevantQuestions = getRelevantQuestions();
+              }}
               style={{
                 padding: '4px 8px',
                 border: '1px solid #ddd',
@@ -168,7 +179,7 @@ const TEAIRag = () => {
           alignItems: 'center'
         }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-            <label style={{ fontWeight: '600', whiteSpace: 'nowrap' }}>Cost:</label>
+            <label style={{ fontWeight: '600', whiteSpace: 'nowrap' }}>Cost:&nbsp;</label>
             <select
               value={selectedCost}
               onChange={(e) => setSelectedCost(e.target.value)}
@@ -209,6 +220,18 @@ const TEAIRag = () => {
             </select>
           </div>
         </div>
+
+        <div style={{
+          display: 'flex',
+          gap: '16px',
+          alignItems: 'center'
+        }}>
+          <div style={{ fontSize: '1.1em', color: '#666' }}>
+            Add <b>duration &amp; cost</b> to the question by typing in your perferences. E.g., "under $500" or "less than 3 months". <br />
+            We have not completed testing those filters. So, textbox question does not change when you change those filters.
+          </div>
+        </div>
+
       </div>
 
       {/* Sample Questions - Dynamic based on filters */}
@@ -300,16 +323,16 @@ const TEAIRag = () => {
       {/* Results */}
       {answer && (
         <div style={{
-          padding: '16px',
+          padding: '16px', borderRadius: '4px',
           backgroundColor: answer.error ? '#fee' : '#f8f9fa',
-          borderLeft: `4px solid ${answer.error ? '#f44336' : '#667eea'}`,
-          borderRadius: '4px'
+          borderLeft: `4px solid ${answer.error ? '#f44336' : '#667eea'}`
         }}>
           {answer.error ? (
             <div style={{ color: '#f44336' }}>{answer.error}</div>
           ) : (
             <>
               <div style={{
+                whiteSpace: 'pre-wrap', 
                 lineHeight: '1.6',
                 marginBottom: config.features.show_confidence || config.features.show_sources ? '12px' : 0
               }}>

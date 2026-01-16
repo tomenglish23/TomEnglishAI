@@ -53,7 +53,7 @@ export default function Home() {
               style={btnStyle}
               href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=tomenglishai"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               Follow on LinkedIn
             </a>
@@ -111,7 +111,7 @@ export default function Home() {
               style={btnStyle}
               href="https://www.tomenglishai.com/TEAIChatbot/TEAIChatbot"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               View Chatbot Demo
             </a>
@@ -134,7 +134,7 @@ export default function Home() {
               style={btnStyle}
               href="https://www.tomenglishai.com/RAG/TeaiRagPt"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               View RAG Demo
             </a>

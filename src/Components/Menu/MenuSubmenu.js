@@ -41,7 +41,7 @@ export default function MenuSubmenu() {
                     </td>
 
                     <td style={{paddingTop: 10}}>
-                        <li style={{width: '80px'}}><a href="\RAG\TeaiRag">TEAIRAG</a>
+                        <li style={{width: '80px'}}><a href="\RAG\TEAIRag">TEAIRAG</a>
                         </li>
                     </td>
 

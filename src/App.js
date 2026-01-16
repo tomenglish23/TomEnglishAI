@@ -75,7 +75,7 @@ import ChatbotPostDemoX            from "./Components/TEAIChatbot/ChatbotPostDem
 
 import TechOverview                from './Components/TEAIChatbot/TechOverview';
 
-import TeaiRag                     from './Components/RAG/TeaiRagPt';
+import TEAIRag                     from './Components/RAG/TEAIRag';
 
 import React                       from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -84,7 +84,7 @@ import { createBrowserHistory } from 'history';
 
 export const history = createBrowserHistory({ basename: process.env.PUBLIC_URL });
 
-function App() {
+function App() { 
   return (
     <Router basename={process.env.PUBLIC_URL}>
     <div>
@@ -166,7 +166,7 @@ function App() {
           <Route path="/TEAIChatbot/ChatbotPostDemoX"         element={<ChatbotPostDemoX />} />
           <Route path="/TEAIChatbot/TechOverview"             element={<TechOverview />} />
 
-          <Route path="/RAG/TeaiRagPT"                        element={<TeaiRag />} />
+          <Route path="/RAG/TEAIRag"                        element={<TEAIRag />} />
        </Routes>
       </div>
     </Router>
