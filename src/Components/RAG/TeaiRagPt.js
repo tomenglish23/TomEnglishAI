@@ -1,45 +1,17 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import TopBar from '../Menu/TopBar';
 import '../CSS/styles.css';
 
 const TEAIRagPT = () => {
-  // Active RAG selector
-  const [activeRAG, setActiveRAG] = useState('pt'); // 'pt', 'intvqa', or 'healthcare'
   
+  const API_BASE = 'https://pt-billing-assistant.onrender.com';
+
   // Shared state
   const [question, setQuestion] = useState("");
   const [answer, setAnswer] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
-  const [mode, setMode] = useState('quick');
-
-  // Interview Q&A state
-  const [selectedDiscipline, setSelectedDiscipline] = useState('');
-  const [selectedArea, setSelectedArea] = useState('');
-  const [selectedQuestion, setSelectedQuestion] = useState('');
-  const [areas, setAreas] = useState([]);
-  const [sampleQuestions, setSampleQuestions] = useState([]);
-  const [hierarchy, setHierarchy] = useState(null);
-
-  // Load hierarchy for Interview Q&A
-  useEffect(() => {
-    fetch('https://intv-qa-assistant-1.onrender.com/api/hierarchy')
-      .then(res => res.json())
-      .then(data => {
-        console.log('✓ Hierarchy loaded:', data);
-        console.log('✓ C# areas count:', data.areas['C#']?.length);
-        console.log('✓ SQL SERVER areas count:', data.areas['SQL SERVER']?.length);
-        setHierarchy(data);
-      })
-      .catch(err => console.error('Failed to load hierarchy:', err));
-  }, []);
-
-  // Debug: Log when areas changes
-  useEffect(() => {
-    console.log('🔄 Areas state updated:', areas.length, 'items');
-    if (areas.length > 0) {
-      console.log('🔄 First area:', areas[0]);
-    }
-  }, [areas]);
+  /* const [mode, setMode] = useState('quick'); */
+  const mode = 'quick';
 
   const COMMON_QUESTIONS_PT = [
     "What are posterior hip precautions?",
@@ -49,32 +21,6 @@ const TEAIRagPT = () => {
     "What ICD-10 code for knee pain?",
     "How many PT visits does MassHealth cover?"
   ];
-
-  // Load areas for selected discipline
-  function loadAreas(discipline) {
-    console.log('→ loadAreas called with:', discipline);
-    console.log('→ hierarchy exists?', !!hierarchy);
-    
-    if (hierarchy && discipline) {
-      const areas = hierarchy.areas[discipline] || [];
-      console.log('→ Areas found:', areas.length, 'items');
-      console.log('→ First 3 areas:', areas.slice(0, 3));
-      setAreas(areas);
-    } else {
-      console.log('→ No hierarchy or discipline, clearing areas');
-      setAreas([]);
-    }
-  }
-
-  // Load sample questions for selected area
-  function loadSampleQuestions(discipline, area) {
-    if (hierarchy && discipline && area) {
-      const topics = hierarchy.topics[discipline]?.[area] || [];
-      setSampleQuestions(topics);
-    } else {
-      setSampleQuestions([]);
-    }
-  }
 
   // PT Billing submit handler
   async function handleSubmitPT(e) {
@@ -91,7 +37,7 @@ const TEAIRagPT = () => {
         mode: mode
       };
 
-      const resp = await fetch("https://pt-billing-assistant.onrender.com/api/query", {
+      const resp = await fetch(API_BASE + "/api/query", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
@@ -116,44 +62,6 @@ const TEAIRagPT = () => {
     }
   }
 
-  // Interview Q&A submit handler
-  async function handleSubmitQA(e) {
-    e.preventDefault();
-    const trimmed = question.trim();
-    if (!trimmed) return;
-
-    setIsLoading(true);
-    setAnswer(null);
-
-    try {
-      const resp = await fetch("https://intv-qa-assistant-1.onrender.com/api/query", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          question: trimmed,
-          discipline: selectedDiscipline || null,
-          area: selectedArea || null
-        }),
-      });
-
-      if (!resp.ok) {
-        throw new Error(`API returned ${resp.status}`);
-      }
-
-      const data = await resp.json();
-      setAnswer(data);
-    } catch (err) {
-      setAnswer({
-        answer: `Error: ${err.message}. The Interview Q&A API may be unavailable.`,
-        confidence: 0,
-        sources: [],
-        use_fallback: false
-      });
-    } finally {
-      setIsLoading(false);
-    }
-  }
-
   function handleQuestionClick(q) {
     setQuestion(q);
   }
@@ -162,23 +70,15 @@ const TEAIRagPT = () => {
     <center>
       <div style={{ opacity: 1.0 }}>
         <TopBar />
-        <header>
-          <h1>TEAI RAG Systems</h1>
-          <p>Retrieval-Augmented Generation Demonstrations</p>
-          <p>First request: 50-60 seconds (Render's free tier has a cold start).</p>
-        </header>
+        <center>
+          <p style={{ margin: '0px', fontSize: '1.86em', fontWeight: '1000', color: '#2475d2' }}>
+            TEAI RAG System</p>
+       </center>
 
         <main>
 
             <>
               <p className='h1ahome'><b>PT Billing Assistant</b></p>
-              <p className='h5home'>
-                Powered by LangChain + LangGraph + OpenAI + ChromaDB
-                <br />
-                <span style={{ fontSize: '0.85em', color: '#666' }}>
-                  Hosted on Render.com | 25 Knowledge Files | Medicare A/B + MassHealth
-                </span>
-              </p>
 
               <div style={{ height: '2px' }} />
 
@@ -192,7 +92,7 @@ const TEAIRagPT = () => {
               }}>
 
                 {/* Mode Selector */}
-                <div style={{ marginBottom: '1.5rem', textAlign: 'left' }}>
+                {/* <div style={{ marginBottom: '1.5rem', textAlign: 'left' }}>
                   <strong>Mode:</strong>
                   <div style={{ display: 'flex', gap: '10px', marginTop: '8px' }}>
                     <button
@@ -227,7 +127,39 @@ const TEAIRagPT = () => {
                   <div style={{ fontSize: '0.85em', color: '#666', marginTop: '4px' }}>
                     {mode === 'quick' ? 'Fast code/modifier lookup' : 'Complex scenarios with calculations'}
                   </div>
-                </div>
+                </div> */}
+
+                {/* Common Questions */}
+                <details style={{ marginBottom: '0.5rem', textAlign: 'left' }}>
+                  <summary style={{
+                    cursor: 'pointer',
+                    fontWeight: 'bold',
+                    color: '#667eea',
+                    marginBottom: '8px'
+                  }}>
+                    Common Questions
+                  </summary>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '6px', marginTop: '8px' }}>
+                    {COMMON_QUESTIONS_PT.map((q, idx) => (
+                      <button
+                        key={idx}
+                        type="button"
+                        onClick={() => handleQuestionClick(q)}
+                        style={{
+                          textAlign: 'left',
+                          padding: '10px',
+                          backgroundColor: '#f8f9fa',
+                          border: '1px solid #e0e0e0',
+                          borderLeft: '4px solid #667eea',
+                          borderRadius: '4px',
+                          cursor: 'pointer',
+                          fontSize: '0.9em'
+                        }}>
+                        {q}
+                      </button>
+                    ))}
+                  </div>
+                </details>
 
                 {/* Search Form */}
                 <form onSubmit={handleSubmitPT}>
@@ -262,38 +194,6 @@ const TEAIRagPT = () => {
                     </button>
                   </div>
                 </form>
-
-                {/* Common Questions */}
-                <details style={{ marginBottom: '0.5rem', textAlign: 'left' }}>
-                  <summary style={{
-                    cursor: 'pointer',
-                    fontWeight: 'bold',
-                    color: '#667eea',
-                    marginBottom: '8px'
-                  }}>
-                    Common Questions
-                  </summary>
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '6px', marginTop: '8px' }}>
-                    {COMMON_QUESTIONS_PT.map((q, idx) => (
-                      <button
-                        key={idx}
-                        type="button"
-                        onClick={() => handleQuestionClick(q)}
-                        style={{
-                          textAlign: 'left',
-                          padding: '10px',
-                          backgroundColor: '#f8f9fa',
-                          border: '1px solid #e0e0e0',
-                          borderLeft: '4px solid #667eea',
-                          borderRadius: '4px',
-                          cursor: 'pointer',
-                          fontSize: '0.9em'
-                        }}>
-                        {q}
-                      </button>
-                    ))}
-                  </div>
-                </details>
 
                 {/* Loading Indicator */}
                 {isLoading && (

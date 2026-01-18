@@ -2,19 +2,20 @@ import React, { useState, useEffect } from 'react';
 import TopBar from '../Menu/TopBar';
 
 const TEAIRagHC = () => {
+  const API_BASE = 'https://healthcare-certs.onrender.com';
+
   const [question, setQuestion] = useState('');
   const [answer, setAnswer] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
   const [config, setConfig] = useState(null);
   const [taxonomies, setTaxonomies] = useState(null);
+  const [relevantQuestions, setRelevantQuestions] = useState([]);
 
   // Filters
   const [selectedState, setSelectedState] = useState('');
   const [selectedCert, setSelectedCert] = useState('');
   const [selectedCost, setSelectedCost] = useState('');
   const [selectedDuration, setSelectedDuration] = useState('');
-
-  const API_BASE = 'https://healthcare-certs.onrender.com';
 
   // Get relevant sample questions based on selected filters
   const getRelevantQuestions = () => {
@@ -37,8 +38,6 @@ const TEAIRagHC = () => {
     return config.sample_questions.default || [];
   };
 
-  let relevantQuestions = getRelevantQuestions();
-
   useEffect(() => {
     // Load config and taxonomies
     Promise.all([
@@ -49,8 +48,9 @@ const TEAIRagHC = () => {
       console.log('Keys in config:', Object.keys(configData));  // Add this
       setConfig(configData);
       setTaxonomies(taxData);
-      relevantQuestions = getRelevantQuestions(); // tmetme
+      setRelevantQuestions(getRelevantQuestions());
     }).catch(err => console.error('Failed to load config:', err)); 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const handleSearch = async (e) => {
@@ -88,10 +88,10 @@ const TEAIRagHC = () => {
                   fontFamily: 'system-ui, -apple-system, sans-serif' }}>
       <TopBar />
       <center>
-        <p style={{ margin: '0px', fontSize: '1.86em', fontWeight: '1000', color: '#2475d2' }}>TEAI RAG System for {config.branding?.subtitle || ''}</p>
+        <p style={{ margin: '0px', fontSize: '1.86em', fontWeight: '1000', color: '#2475d2' }}>
+          TEAI RAG System for {config.branding?.subtitle || ''}</p>
       </center>
 
-      {/* Header */}
       <div style={{ marginBottom: '16px', paddingBottom: '12px', borderBottom: '2px solid #667eea' }}>
         <center>
           <p style={{ margin: '0px', fontSize: '1.1em', fontWeight: '500' }}>
@@ -115,7 +115,7 @@ const TEAIRagHC = () => {
               value={selectedState}
               onChange={(e) => {
                 setSelectedState(e.target.value);
-                relevantQuestions = getRelevantQuestions();
+                setRelevantQuestions(getRelevantQuestions());
               }}
               style={{
                 padding: '4px 8px',
@@ -139,7 +139,7 @@ const TEAIRagHC = () => {
               value={selectedCert}
               onChange={(e) => {
                 setSelectedCert(e.target.value);
-                relevantQuestions = getRelevantQuestions();
+                setRelevantQuestions(getRelevantQuestions());
               }}
               style={{
                 padding: '4px 8px',

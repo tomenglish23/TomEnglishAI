@@ -6,6 +6,22 @@ import React, { useState } from "react";
 // ... all the token stuff
 
 export default function ChatbotPostDemoX() {
+  const [apiBackend, setApiBackend] = useState('api'); // 'api', 'func', or 'debug'
+
+  const API_BASES = {
+    api: "https://api.tomenglishai.com",
+    func: "https://teai-chatbot-functions-dybwakenb8atb7fu.eastus-01.azurewebsites.net/api"
+    /* , render: "https://pt-billing-assistant.onrender.com/api" */
+  };
+
+  /* Swap once DNS is configured
+  const API_BASES = {
+    api: "https://api.tomenglishai.com",
+    func: "https://func.tomenglishai.com"
+  }; */
+
+  const API_BASE = API_BASES[apiBackend]; // fetch base URL
+
   const [comments, setComments] = useState([]);
   const [input, setInput] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -18,8 +34,6 @@ export default function ChatbotPostDemoX() {
     return [...prev, { id, author, text, fromBot }];
   });
   }
-
-  const [apiBackend, setApiBackend] = useState('api'); // 'api', 'func', or 'debug'
 
   const COMMANDS = [
     { cmd: "!solid",  label: "SOLID",  help: "SOLID principles explanation" },
@@ -46,19 +60,6 @@ export default function ChatbotPostDemoX() {
       TriggerMatched: true,
       CreatedUtc: new Date().toISOString()
     };
-
-    const API_BASES = {
-      api: "https://api.tomenglishai.com",
-      func: "https://teai-chatbot-functions-dybwakenb8atb7fu.eastus-01.azurewebsites.net/api"
-      /* , render: "https://pt-billing-assistant.onrender.com/api" */
-    };
-    /* Swap once DNS is configured
-    const API_BASES = {
-      api: "https://api.tomenglishai.com",
-      func: "https://func.tomenglishai.com"
-    }; */
-
-    const API_BASE = API_BASES[apiBackend]; // fetch base URL
 
     /*
     Endpoints:
@@ -147,7 +148,7 @@ export default function ChatbotPostDemoX() {
   }
 
   return (
-    <div style={{ maxWidth: 840, height: 900, margin: "2rem auto", padding: "1rem", fontSize: 16, color: "#555",
+    <div style={{ maxWidth: 840, height: 900, margin: "2rem auto", padding: "1rem", 
                   fontSize: 16, color: "#555", border: "1px solid #ccc", borderRadius: 8 }}>
       <div style={{ marginBottom: "1rem" }}>
         <h1 style={{ marginBottom: 4 }}>TEAIChatbot Demo</h1>

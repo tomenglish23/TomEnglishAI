@@ -3,7 +3,9 @@
 import React, { useState } from "react";
 import "./TEAIChatbotDemo.css";
 
-export default function ChatbotPostDemo2() {
+export default function ChatbotPostDemo2Old() {
+  const API_BASE = "https://api.tomenglishai.com";
+
   const [comments, setComments] = useState([]);
   const [input, setInput] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -42,8 +44,6 @@ export default function ChatbotPostDemo2() {
       TriggerMatched: true,
       CreatedUtc: new Date().toISOString()
     };
-
-    const API_BASE = "https://api.tomenglishai.com";
 
     const resp = await fetch(`${API_BASE}/ingress`, {   // /events
       method: "POST",

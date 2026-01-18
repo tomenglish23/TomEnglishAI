@@ -36,7 +36,7 @@ const TEAIRag = () => {
       <p style={{ margin: '0px', fontSize: '1.20em', alignItems: 'center', color: '#2475d2' }}>
       &nbsp;</p>
       <p style={{ margin: '0px', fontSize: '1.20em', alignItems: 'center', color: '#2475d2' }}>
-        <a href="TeaiRagQA" target="_blank" rel="noopener noreferrer">TEAI RAG Interview Q&As</a></p>
+        <a href="TEAIRagQA" target="_blank" rel="noopener noreferrer">TEAI RAG Interview Q&As</a></p>
 
     </div>
   );

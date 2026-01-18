@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
 const HealthcareCertsRAG = () => {
+  const API_BASE = 'https://healthcare-certs.onrender.com';
+
   const [question, setQuestion] = useState('');
   const [answer, setAnswer] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
@@ -12,8 +14,6 @@ const HealthcareCertsRAG = () => {
   const [selectedCert, setSelectedCert] = useState('');
   const [selectedCost, setSelectedCost] = useState('');
   const [selectedDuration, setSelectedDuration] = useState('');
-
-  const API_BASE = 'https://healthcare-certs.onrender.com';
 
   useEffect(() => {
     // Load config and taxonomies
