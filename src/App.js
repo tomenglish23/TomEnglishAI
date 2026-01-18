@@ -76,7 +76,9 @@ import ChatbotPostDemoX            from "./Components/TEAIChatbot/ChatbotPostDem
 import TechOverview                from './Components/TEAIChatbot/TechOverview';
 
 import TEAIRag                     from './Components/RAG/TEAIRag';
-
+import TEAIRagPT                   from './Components/RAG/TEAIRagPT';
+import TEAIRagHC                   from './Components/RAG/TEAIRagHC';
+import TEAIRagQA                   from './Components/RAG/TEAIRagQA';
 import React                       from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
@@ -166,7 +168,11 @@ function App() {
           <Route path="/TEAIChatbot/ChatbotPostDemoX"         element={<ChatbotPostDemoX />} />
           <Route path="/TEAIChatbot/TechOverview"             element={<TechOverview />} />
 
-          <Route path="/RAG/TEAIRag"                        element={<TEAIRag />} />
+          <Route path="/RAG/TEAIRag"                          element={<TEAIRag />} />
+          <Route path="/RAG/TEAIRagPT"                        element={<TEAIRagPT />} />
+          <Route path="/RAG/TEAIRagHC"                        element={<TEAIRagHC />} />
+          <Route path="/RAG/TEAIRagQA"                        element={<TEAIRagQA />} />
+          
        </Routes>
       </div>
     </Router>
