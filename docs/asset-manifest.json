@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.a689fadf.chunk.css",
-    "main.js": "/static/js/main.ff5a8b0e.chunk.js",
-    "main.js.map": "/static/js/main.ff5a8b0e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.9dac0eb5.js",
-    "runtime-main.js.map": "/static/js/runtime-main.9dac0eb5.js.map",
-    "static/js/2.86f110aa.chunk.js": "/static/js/2.86f110aa.chunk.js",
-    "static/js/2.86f110aa.chunk.js.map": "/static/js/2.86f110aa.chunk.js.map",
-    "static/js/3.b69f89b8.chunk.js": "/static/js/3.b69f89b8.chunk.js",
-    "static/js/3.b69f89b8.chunk.js.map": "/static/js/3.b69f89b8.chunk.js.map",
+    "main.js": "/static/js/main.3d0ba84b.chunk.js",
+    "main.js.map": "/static/js/main.3d0ba84b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2fc6ec14.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2fc6ec14.js.map",
+    "static/js/2.05a139f4.chunk.js": "/static/js/2.05a139f4.chunk.js",
+    "static/js/2.05a139f4.chunk.js.map": "/static/js/2.05a139f4.chunk.js.map",
+    "static/js/3.f038b99e.chunk.js": "/static/js/3.f038b99e.chunk.js",
+    "static/js/3.f038b99e.chunk.js.map": "/static/js/3.f038b99e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2d25cc825578c4d27f1da3a6979ea868.js": "/precache-manifest.2d25cc825578c4d27f1da3a6979ea868.js",
+    "precache-manifest.d99bd37554843f0cef21c8151c1126b5.js": "/precache-manifest.d99bd37554843f0cef21c8151c1126b5.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.a689fadf.chunk.css.map": "/static/css/main.a689fadf.chunk.css.map",
-    "static/js/2.86f110aa.chunk.js.LICENSE.txt": "/static/js/2.86f110aa.chunk.js.LICENSE.txt",
+    "static/js/2.05a139f4.chunk.js.LICENSE.txt": "/static/js/2.05a139f4.chunk.js.LICENSE.txt",
     "static/media/11Labs35YearsOfAI.mp4": "/static/media/11Labs35YearsOfAI.1c4a3bca.mp4",
     "static/media/AIInFinance1.jpg": "/static/media/AIInFinance1.d9338116.jpg",
     "static/media/ASRVoicemail.png": "/static/media/ASRVoicemail.c1d2416e.png",
@@ -22,6 +22,8 @@
     "static/media/FeedHive_ai.png": "/static/media/FeedHive_ai.d582983a.png",
     "static/media/FullStack2.jpg": "/static/media/FullStack2.1d31553e.jpg",
     "static/media/MLExample1.jpg": "/static/media/MLExample1.cc250fe3.jpg",
+    "static/media/MSBadges1.jpg": "/static/media/MSBadges1.ccd66fba.jpg",
+    "static/media/MSBadges2.jpg": "/static/media/MSBadges2.867a47df.jpg",
     "static/media/MicrosoftEdge_Copilot.png": "/static/media/MicrosoftEdge_Copilot.2adbebc0.png",
     "static/media/MicrosoftEdge_ai.png": "/static/media/MicrosoftEdge_ai.ad6e0e9b.png",
     "static/media/Midjourney_ai.png": "/static/media/Midjourney_ai.185d6bd1.png",
@@ -87,9 +89,9 @@
     "static/media/zapier_ai.png": "/static/media/zapier_ai.b68cd2fa.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.9dac0eb5.js",
-    "static/js/2.86f110aa.chunk.js",
+    "static/js/runtime-main.2fc6ec14.js",
+    "static/js/2.05a139f4.chunk.js",
     "static/css/main.a689fadf.chunk.css",
-    "static/js/main.ff5a8b0e.chunk.js"
+    "static/js/main.3d0ba84b.chunk.js"
   ]
 }
