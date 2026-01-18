@@ -19,11 +19,9 @@ const TEAIRag = () => {
       <p style={{ margin: '0px', fontSize: '1.20em', alignItems: 'center', color: '#2475d2' }}>
       &nbsp;</p>
       <p style={{ margin: '0px', fontSize: '1.20em', alignItems: 'center', color: '#2475d2' }}>
-      Pardon the latency. <br />
-      Each link, below, takes a full minute to load 
-      ... because they are separate RAG services. <br />
-      Each Render.com service has a COLD START. <br /> 
-      That is expected behavior while using the FREE Render service. <br />
+      Pardon the latency. 
+      The links take a full minute to load due to Render.com's COLD START. <br /> 
+      That is expected behavior while using the FREE Render service. 
       We will upgrade soon.</p>
       <p style={{ margin: '0px', fontSize: '1.20em', alignItems: 'center', color: '#2475d2' }}>
       &nbsp;</p>
