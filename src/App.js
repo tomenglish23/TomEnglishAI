@@ -70,7 +70,6 @@ import VentureCapitalists          from './Components/Presence/VentureCapitalist
 import PlansProposalsDecks         from './Components/Presence/PlansProposalsDecks';
 
 import TEAIChatbot                 from './Components/TEAIChatbot/TEAIChatbot';
-import ChatbotPostDemo2            from "./Components/TEAIChatbot/ChatbotPostDemo2";
 import ChatbotPostDemoX            from "./Components/TEAIChatbot/ChatbotPostDemoX";
 
 import TechOverview                from './Components/TEAIChatbot/TechOverview';
@@ -164,7 +163,6 @@ function App() {
           <Route path="/Presence/PlansProposalsDecks"         element={<PlansProposalsDecks />} />
 
           <Route path="/TEAIChatbot/TEAIChatbot"              element={<TEAIChatbot />} />
-          <Route path="/TEAIChatbot/ChatbotPostDemo2"         element={<ChatbotPostDemo2 />} />
           <Route path="/TEAIChatbot/ChatbotPostDemoX"         element={<ChatbotPostDemoX />} />
           <Route path="/TEAIChatbot/TechOverview"             element={<TechOverview />} />
 
