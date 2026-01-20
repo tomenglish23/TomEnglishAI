@@ -39,11 +39,12 @@ export default function Home() {
             My focus: <b>traceability</b>, <b>repeatable delivery</b> and <b>impactful products</b>.
           </p>
 
-          {/* Proof ribbon (this is where badges belong: 1 line) */}
+          <center>
           <p style={{ marginTop: "8px", marginBottom: "0px", fontSize: "16px", opacity: 0.85 }}>
-            <b>Proof:</b> Microsoft Learn (<b>30 badges</b>) • Azure • .NET • Python • Render (PaaS) <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GitHub Actions CI/CD • RAG (LangChain / LangGraph / Chroma DB)
+            30 Microsoft Learn badges • Azure • .NET • GitHub Actions CI/CD<br />
+            Python • RAG (LangChain / LangGraph / Chroma DB) • Render (PaaS)
           </p>
+          </center>
         </div>
 
         {/* CONTACT SECTION */}
@@ -89,8 +90,56 @@ export default function Home() {
             flexWrap: "wrap",
           }}
         >
+          {/* TEAIRAG */}
+
+          <div className="card" style={{ width: "400px", minWidth: "260px", textAlign: "left" }}>
+            <h3>TEAIRAG Private AI Systems: <br />
+            &nbsp; &nbsp; &nbsp;Software Interview Q&As <br />
+            &nbsp; &nbsp; &nbsp;Healthcare Certifications <br />
+            &nbsp; &nbsp; &nbsp;PT Billing Assistant</h3>
+            <p>Retrieval-Augmented Generation</p>
+            <p>
+              LangChain • LangGraph • ChromaDB • <b>Python</b> • deployed on <b>Render (PaaS)</b>
+            </p>
+
+            <a
+              className="libutton"
+              style={btnStyle}
+              href="https://www.tomenglishai.com/RAG/TEAIRag"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View RAG Demos
+            </a>
+          </div>
+
+          {/* NEW: Template Factory (RAG Auto-Generator) */}
+          <div className="card" style={{ width: "400px", minWidth: "260px", textAlign: "left" }}>
+            <h3>TEAIRAG Auto-Generator</h3>
+            <p>
+              Config-driven tool generates new RAG projects fast: <b>Collect data → markdown → index → deploy → eval</b>.
+            </p>
+            <p>
+              Create new “Private AI Systems” quickly with consistent structure and
+              repeatable deployment.
+            </p>
+          </div>
+
+        </div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            gap: "20px",
+            width: "90%",
+            marginTop: "5px",
+            marginBottom: "18px",
+            flexWrap: "wrap",
+          }}
+        >
+
           {/* TEAIVideoMaker */}
-          <div className="card" style={{ width: "320px", minWidth: "260px", textAlign: "left" }}>
+          <div className="card" style={{ width: "400px", minWidth: "260px", textAlign: "left" }}>
             <h3>TEAIVideoMaker</h3>
             <p>Automated demo video creation using PowerShell, OpenAI &amp; FFmpeg.</p>
             <p>Turns engineering work into clear 60–90 second proof. Fast review <br />for recruiters &amp; Hiring Managers.</p>
@@ -99,8 +148,9 @@ export default function Home() {
             </a>
           </div>
 
+
           {/* TEAIChatbot */}
-          <div className="card" style={{ width: "320px", minWidth: "260px", textAlign: "left" }}>
+          <div className="card" style={{ width: "400px", minWidth: "260px", textAlign: "left" }}>
             <h3>TEAIChatbot</h3>
             <p>
               ChatGPT-style UI routed to <b><br />two Azure .NET backends</b><br />(App Service + Function App).
@@ -122,50 +172,6 @@ export default function Home() {
             </a>
           </div>
 
-          {/* TEAIRAG */}
-
-          <div className="card" style={{ width: "320px", minWidth: "260px", textAlign: "left" }}>
-            <h3>TEAIRAG Private AI Systems: <br />
-            &nbsp; &nbsp; &nbsp;Software Interview Q&As <br />
-            &nbsp; &nbsp; &nbsp;Healthcare Certifications <br />
-            &nbsp; &nbsp; &nbsp;PT Billing Assistant</h3>
-            <p>Retrieval-Augmented Generation (RAG) for clinical + billing support.</p>
-            <p>
-              LangChain • LangGraph • ChromaDB • <b>Python</b> • deployed on <b>Render (PaaS)</b>
-            </p>
-
-            <a
-              className="libutton"
-              style={btnStyle}
-              href="https://www.tomenglishai.com/RAG/TEAIRag"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View RAG Demos
-            </a>
-          </div>
-
-          {/* NEW: Template Factory (RAG Auto-Generator) */}
-          <div className="card" style={{ width: "320px", minWidth: "260px", textAlign: "left" }}>
-            <h3>TEAI Template Factory — <br />
-            &nbsp; &nbsp; &nbsp;RAG Auto-Generator</h3>
-            <p>
-              A config-driven tool that generates new RAG projects fast: <b>markdown corpus → index → deploy → eval</b>.
-            </p>
-            <p>
-              Designed so new “Private AI Systems” can be spun up quickly with consistent structure, citations, and
-              repeatable deployment.
-            </p>
-
-            {/* These links assume you’ll add a page later; placeholders are still useful narrative */}
-{/*             <a className="libutton" style={btnStyle} href="/TEAI/Factory">
-              View Factory (Spec / Demo)
-            </a>
-
-            <a className="libutton" style={btnStyle} href="/TEAI/Factory#roadmap">
-              Today: Build Project #2 from Markdown
-            </a>
- */}          </div>
         </div>
 
         {/* VIDEO SECTION */}
@@ -181,7 +187,7 @@ export default function Home() {
         </div>
 
         {/* THIS IS THE FIX: collapse the essay sections */}
-        <div style={{ width: "70%", marginTop: "30px", textAlign: "left" }}>
+        <div style={{ width: "80%", marginTop: "30px", textAlign: "left" }}>
           <details className="card" style={{ padding: "14px" }}>
             <summary style={{ cursor: "pointer", fontWeight: 800, color: "#1234c7" }}>
               Why Hire Me / How I Work / What I’m Looking For (click)
@@ -215,11 +221,10 @@ export default function Home() {
             Architecture & Tech Stack
           </p>
             <div className="summary" style={{ marginTop: "10px" }}>
-              <h2 style={{ marginTop: 0 }}>Architecture Overview</h2>
-              <details className="section" open={false}>
+              <details className="section" open={false}><summary style={{color: '#0240d1', fontWeight: '600'}}>Architecture Overview</summary>
                 <p><strong>TEAIChatbot</strong> follows an <strong>event-driven, API-first</strong> pipeline:</p>
                 <p><em>&nbsp;&nbsp;&nbsp;Web UI → Ingress API → Orchestrator → Flow Engine → Adapter → Response Channel</em></p>
-                <p><b>TEAIRAG</b> is a deployed Python RAG service (Render PaaS) with retrieval + citations, backed by ChromaDB.</p>
+                <p><b>TEAIRAG</b> is a deployed Python RAG service (Render PaaS) with retrieval, backed by ChromaDB.</p>
                 <p className="muted">Each layer is isolated behind stable interfaces, enabling independent evolution, testing, and deployment.</p>
               </details><br />
               <h2>Tech Stack</h2>
@@ -254,8 +259,8 @@ export default function Home() {
                 </div>
               
                 <div className="card-indent">
-                  <h3>30 Microsoft Badges</h3>
-                  <details className="section" open={false}>
+                  
+                  <details className="section" open={false}><summary style={{color: '#0240d1', fontWeight: '600'}}>30 Microsoft Badges</summary>
                     <table>
                         <tbody>
                             <colgroup>
@@ -271,8 +276,7 @@ export default function Home() {
                 </div>
               
                 <div className="card-indent">
-                  <h3>Frontend</h3>
-                  <details className="section" open={false}>
+                  <details className="section" open={false}><summary style={{color: '#0240d1', fontWeight: '600'}}>Frontend</summary>
                     <div className="bullets">
                       <div className="bullet">React component-based UI</div>
                       <div className="bullet">Event-based command dispatch</div>
@@ -281,8 +285,7 @@ export default function Home() {
                 </div>
 
                 <div className="card-indent">
-                  <h3>Backend (.NET)</h3>
-                  <details className="section" open={false}>
+                  <details className="section" open={false}><summary style={{color: '#0240d1', fontWeight: '600'}}>Backend (.NET)</summary>
                     <div className="bullets">
                       <div className="bullet"><strong>C# / .NET</strong> (modular solution architecture)</div>
                       <div className="bullet">Dependency Injection for orchestration, flow engines & adapters</div>
@@ -299,8 +302,7 @@ export default function Home() {
                 </div>
 
                 <div className="card-indent">
-                  <h3>Azure Cloud</h3>
-                  <details className="section" open={false}>
+                  <details className="section" open={false}><summary style={{color: '#0240d1', fontWeight: '600'}}>Azure Cloud</summary>
                     <div className="bullets">
                       <div className="bullet"><em><b>Dynamic api.tomenglishai.com access → <u>Azure App Service</u> or <u>Azure Function App</u></b></em></div>
                       <div className="bullet">HTTPS endpoints with JSON payload contracts</div>
@@ -322,40 +324,21 @@ export default function Home() {
                 </div>
 
                 <div className="card-indent">
-                  <h3>Applied AI & LLM Strategy</h3>
-                  <details className="section" open={false}>
+                  <details className="section" open={false}><summary style={{color: '#0240d1', fontWeight: '600'}}>Applied AI & LLM Strategy</summary>
                     <p className="muted" style={{ margin: '0px 0px 5px 20px' }}>
                       The chatbot is designed around <strong>pluggable AI adapters</strong>, not a single framework dependency.
                     </p>
                     <div className="bullets">
-                      <div className="bullet">Current: deterministic knowledge flows for predictable output</div>
-                      <div className="bullet">Current: command-based routing for testability & debugging</div>
-                      <div className="bullet">Current: LangChain, LangGraph</div>
-                      <div className="bullet">Planned: LlamaIndex</div>
+                      <div className="bullet">Deterministic knowledge flows for predictable output</div>
+                      <div className="bullet">Command-based routing for testability & debugging</div>
+                      <div className="bullet">LangChain, LangGraph on Render.com</div>
                       <div className="bullet">Injected behind interfaces for safe swaps, experiments & rollback</div>
                     </div>
                   </details>
                 </div>
                 {/* </details><br /> */}
 
-                <h2>Conversation Entry Points (Demo Flows)</h2>
-                <details className="section" open={false}>
-                  <div className="card">
-                    <div className="bullets">
-                      <div className="bullet"><strong>Knowledge Flows</strong> – deterministic responses used to validate formatting, structure & routing</div>
-                      <div className="bullet"><strong>Round-Trip Sanity Flow</strong> – verifies full request/response lifecycle</div>
-                      <div className="bullet"><strong>Content Retrieval Flow</strong> – returns structured sections from the <br />
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                      TEAIChatbot architecture whitepaper</div>
-                    </div>
-                    <p className="muted" style={{ margin: '5px 0px 0px 20px' }}>
-                      These flows support debugging, regression testing, recruiter demos & technical walkthroughs.</p>
-                  </div>
-                </details><br />
-
-                <h2>Testing & Extensibility Signals</h2>
-                <details className="section" open={false}>
+                <details className="section" open={false}><summary style={{color: '#0240d1', fontWeight: '600'}}>Testing & Extensibility</summary>
                   <div className="card">
                     <div className="bullets">
                       <div className="bullet">Deterministic commands act as living test vectors</div>
@@ -367,13 +350,11 @@ export default function Home() {
                   </div>
                 </details><br />
                 
-                <h2>TEAI design paradigm</h2>
-                <details className="section" open={false}>
+                <details className="section" open={false}><summary style={{color: '#0240d1', fontWeight: '600'}}>TEAI design paradigm</summary>
                   <div className="card">
                     <p className="muted" style={{ margin: '0px 0px 5px 20px' }}>
-                      This project demonstrates <strong>how I design systems</strong>, 
-                      not just that I can call an LLM. <br />
-                      It reflects:
+                      I demonstrate <strong>how I design systems</strong>, 
+                      not just that I can call an LLM. 
                     </p>
                     <div className="bullets">
                       <div className="bullet">Long-term maintainability</div>
@@ -384,32 +365,7 @@ export default function Home() {
                   </div>
                 </details><br />
                 
-                <h2>30 Microsoft Badges</h2>
-                <details className="section" open={false}>
-                  <div className="card">
-                    <p className="muted" style={{ margin: '0px 0px 5px 20px' }}>
-                      Coming soon
-                    </p>
-                  </div>
-                </details><br />
-
-              <h2 id="roadmap">What I’m building next</h2>
-              <details className="section" open={false}>
-                <div className="card">
-                  <div className="bullets">
-                    <div className="bullet">
-                      <b>TEAI Template Factory</b>: config → markdown corpus → ingest/index → deploy → eval report
-                    </div>
-                    <div className="bullet">
-                      <b>Project #2</b>: generate a second Markdown-driven RAG system from the factory output
-                    </div>
-                    <div className="bullet">
-                      <b>Homepage</b>: show “Factory-generated” badge on new projects + link to the generator
-                    </div>
-                  </div>
-                </div>
-              </details><br />
-            </div>
+           </div>
       </section>
 
       <center>
