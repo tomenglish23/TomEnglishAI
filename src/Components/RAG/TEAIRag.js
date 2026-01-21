@@ -20,11 +20,14 @@ const TEAIRag = () => {
       &nbsp;</p>
       <p style={{ margin: '0px', fontSize: '1.20em', alignItems: 'center', color: '#2475d2' }}>
       Pardon the latency. 
-      The links take a full minute to load due to Render.com's COLD START. <br /> 
+      The links take a 1-2 minutes to load due to Render.com's COLD START. <br /> 
       That is expected behavior while using the FREE Render service. 
       We will upgrade soon.</p>
       <p style={{ margin: '0px', fontSize: '1.20em', alignItems: 'center', color: '#2475d2' }}>
       &nbsp;</p>
+      <p style={{ margin: '0px', fontSize: '1.20em', alignItems: 'center', color: '#2475d2' }}>
+      Repeat:&nbsp;<b>In each implementation,&nbsp;
+      <u>you will wait 1-2 minutes for dropdownlists to load</u></b>.</p>
       <p style={{ margin: '0px', fontSize: '1.20em', alignItems: 'center', color: '#2475d2' }}>
       &nbsp;</p>
 
