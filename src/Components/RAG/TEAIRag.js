@@ -124,7 +124,7 @@ const TEAIRag = () => {
                     Healthcare Certifications for TN &amp; W VA</a></p>
               </td>
               <td style={{ border: '1px solid black', fontSize: '1.10em', padding: '4px', color: '#2475d2' }}>
-                <details className="section" open={true}><summary> TEAIAgenticRAG HC</summary>
+                <details className="section" open={true}><summary> Healthcare Certifications</summary>
                   
                 </details>
               </td>
