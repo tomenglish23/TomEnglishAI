@@ -88,7 +88,8 @@ const TEAIRag = () => {
           </tbody>
         </table>
       </div>
-      <div className="card-indent">
+
+      {/* <div className="card-indent">
         <table style={{ borderCollapse: 'collapse', width: '100%' }}>
           <colgroup>
             <col style={{ width: '43%' }} />
@@ -108,7 +109,7 @@ const TEAIRag = () => {
             </tr>
           </tbody>
         </table>
-      </div>
+      </div> */}
 
       <div className="card-indent">
         <table style={{ borderCollapse: 'collapse', width: '100%' }}>
@@ -120,7 +121,7 @@ const TEAIRag = () => {
               <td style={{ border: '1px solid black', padding: '4px' }}>
                 <p style={{ margin: '0px', fontSize: '1.20em', alignItems: 'center', color: '#2475d2' }}>
                   <a href="TEAIAgenticRAG" target="_blank" rel="noopener noreferrer">
-                    TEAIAgenticRAG</a></p>
+                    Healthcare Certifications for TN &amp; W VA</a></p>
               </td>
               <td style={{ border: '1px solid black', fontSize: '1.10em', padding: '4px', color: '#2475d2' }}>
                 <details className="section" open={true}><summary> TEAIAgenticRAG HC</summary>
