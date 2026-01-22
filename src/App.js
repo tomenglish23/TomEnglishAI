@@ -78,6 +78,7 @@ import TEAIRag                     from './Components/RAG/TEAIRag';
 import TEAIRagPT                   from './Components/RAG/TEAIRagPT';
 import TEAIRagHC                   from './Components/RAG/TEAIRagHC';
 import TEAIRagQA                   from './Components/RAG/TEAIRagQA';
+import TEAIAgenticRAG              from './Components/RAG/TEAIAgenticRAG';
 import React                       from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
@@ -170,7 +171,7 @@ function App() {
           <Route path="/RAG/TEAIRagPT"                        element={<TEAIRagPT />} />
           <Route path="/RAG/TEAIRagHC"                        element={<TEAIRagHC />} />
           <Route path="/RAG/TEAIRagQA"                        element={<TEAIRagQA />} />
-          
+          <Route path="/RAG/TEAIAgenticRAG"                  element={<TEAIAgenticRAG />} />
        </Routes>
       </div>
     </Router>

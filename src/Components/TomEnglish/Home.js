@@ -262,15 +262,15 @@ export default function Home() {
                   
                   <details className="section" open={false}><summary style={{color: '#0240d1', fontWeight: '600'}}>30 Microsoft Badges</summary>
                     <table>
-                        <tbody>
-                            <colgroup>
-                            </colgroup>
-                            <tr>
-                                <td><img src={badges1} alt="Microsoft Badge 1" border="0" width="900" height="900" /></td>
-                            </tr><tr>   
-                                <td><img src={badges2} alt="Microsoft Badge 2" border="0" width="900" height="900" /></td>
-                            </tr>
-                        </tbody>
+                      <colgroup>
+                      </colgroup>
+                      <tbody>
+                          <tr>
+                              <td><img src={badges1} alt="Microsoft Badge 1" border="0" width="900" height="900" /></td>
+                          </tr><tr>   
+                              <td><img src={badges2} alt="Microsoft Badge 2" border="0" width="900" height="900" /></td>
+                          </tr>
+                      </tbody>
                     </table>  
                   </details>
                 </div>
