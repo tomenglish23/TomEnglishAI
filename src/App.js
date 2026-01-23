@@ -80,7 +80,7 @@ import TEAIRagHC                   from './Components/RAG/TEAIRagHC';
 import TEAIRagQA                   from './Components/RAG/TEAIRagQA';
 import TEAIAgenticRAG              from './Components/RAG/TEAIAgenticRAG';
 import React                       from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
 /* import reactManifest from "react-manifest" */
 
@@ -88,7 +88,6 @@ export const history = createBrowserHistory({ basename: process.env.PUBLIC_URL }
 
 function App() { 
   return (
-    <Router basename={process.env.PUBLIC_URL}>
     <div>
         <Routes>
         {/* <Route exact path="/"                  element={<SignIn />} /> */}
@@ -173,8 +172,7 @@ function App() {
           <Route path="/RAG/TEAIRagQA"                        element={<TEAIRagQA />} />
           <Route path="/RAG/TEAIAgenticRAG"                  element={<TEAIAgenticRAG />} />
        </Routes>
-      </div>
-    </Router>
+    </div>
   );
 }
 
