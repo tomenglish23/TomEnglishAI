@@ -90,26 +90,23 @@ export default function Home() {
             flexWrap: "wrap",
           }}
         >
-          {/* TEAIRAG */}
-
+          
+          {/* TMC EXAM PREP */}
           <div className="card" style={{ width: "400px", minWidth: "260px", textAlign: "left" }}>
-            <h3>TEAIRAG Private AI Systems: <br />
-            &nbsp; &nbsp; &nbsp;Software Interview Q&As <br />
-            &nbsp; &nbsp; &nbsp;Healthcare Certifications <br />
-            &nbsp; &nbsp; &nbsp;PT Billing Assistant</h3>
-            <p>Retrieval-Augmented Generation</p>
+            <h3>TEAIRAG: TMC Exam Prep</h3>
             <p>
-              LangChain • LangGraph • ChromaDB • <b>Python</b> • deployed on <b>Render (PaaS)</b>
+              AI-generated practice questions for the NBRC Therapist Multiple-Choice exam.
+              Purpose-built for Respiratory Therapists preparing for certification.
             </p>
-
+            <p>
+              LangChain • ChromaDB • OpenAI GPT-4o-mini • <b>Python</b> • deployed on <b>Render (PaaS)</b>
+            </p>
             <a
               className="libutton"
               style={btnStyle}
-              href="https://www.tomenglishai.com/RAG/TEAIRag"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/RAG/TEAIRagTMC"
             >
-              View RAG Demos
+              Try TMC Exam Prep
             </a>
           </div>
 

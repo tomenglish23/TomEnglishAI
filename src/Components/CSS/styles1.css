@@ -1,14 +1,27 @@
 
 /* Top, Right, Bottom, Left */
+h1s    { margin-top: 0rem; margin-bottom: 0.2rem; font-size: 1.2rem; font-weight: bold; }
 h1     { margin-bottom: 0.5rem; font-size: 1.7rem; }
+h2s    { color: #379d46; margin-bottom: 0.1rem; margin-top: 0.2rem; font-size: 1.2rem; width:100%; font-weight:bold; }
 h2     { color: #379d46; margin-bottom: 0.1rem; margin-top: 1.3rem; font-size: 1.2rem; width:100%; font-weight:bold; }
 h3     { color: #0240d1;font-size: 1.1rem; width:100%; font-weight:bold; }
 h4     { color: #2475d2; margin-bottom: 0.5rem; margin-top: 1.3rem; font-size: 0.9rem; width:100%; }
 h5     { color: #4a90e2; margin-bottom: 0.5rem; margin-top: 1.3rem; font-size: 0.8rem; width:100%; }
 
-.h2homel { text-align: left; padding: 0px 0px 0px 2px; font-size:18px; color:#1234c7; font-family: 'Times New Roman', Times, serif; }
-.h3homel { text-align: left; padding: 0px 0px 0px 2px; margin-bottom: 0.5rem; margin-top: 1.0rem; font-size:16px; color:#1234c7; font-family: 'Times New Roman', Times, serif; }
-.h3homek { text-align: left; padding: 0px 0px 0px 2px; margin-top: 1.0rem; font-size:16px; color:#1234c7; font-family: 'Times New Roman', Times, serif; }
+.h1homec { font-size:38px; text-align: center; padding: 0px 0px 0px 2px; 
+           color:white; font-family: 'Times New Roman', Times, serif; }
+.h2homel { font-size:18px; text-align: left;  
+           color:white; font-family: 'Times New Roman', Times, serif; }
+.h2homec { font-size:18px; text-align: center; padding: 0px 0px 0px 2px;  
+           color:white; font-family: 'Times New Roman', Times, serif; }
+.h3homel { font-size:16px; text-align: left; padding: 0px 0px 0px 2px; margin-bottom: 0.5rem; margin-top: 1.0rem;  
+           color:white; font-family: 'Times New Roman', Times, serif; }
+.h3homec { font-size:16px; text-align: center; padding: 0px 0px 0px 2px; margin-top: 1.0rem; 
+           color:white; font-family: 'Times New Roman', Times, serif; }
+.hbhome  { font-size:28px; padding: 0px 0px 0px 2px; 
+           color:white; font-family: 'Times New Roman', Times, serif; }
+.hbhomec { font-size:28px; text-align: center; padding: 0px 0px 0px 2px; 
+           color:white; font-family: 'Times New Roman', Times, serif; }
 
 .bullets { margin: 0 0 2rem 0; text-align: left}
 .bullet  { display: block; margin: 0 0 6px 0; }

@@ -41,7 +41,7 @@ export default function MenuSubmenu() {
                     </td>
 
                     <td style={{paddingTop: 10}}>
-                        <li style={{width: '80px'}}><a href="\RAG\TEAIRag">TEAIRAG</a>
+                        <li style={{width: '90px'}}><a href="\RAG\TEAIRagTMC">TMC Exam</a>
                         </li>
                     </td>
 
@@ -56,6 +56,21 @@ export default function MenuSubmenu() {
                     </td>
                     <td style={{paddingTop: 10}}>
                         <li style={{width: '110px'}}><a href="\TEAIChatbot\TEAIChatbot">TEAIChatbot</a>
+                        </li>
+                    </td>
+                    <td style={{paddingTop: 10}}>
+                        <li style={{width: '50px'}}><a href="\AI\AIOverview">AI</a>
+                            <ul className="sub">
+
+                                <li><a href="\AI\AIOverview">{SP}AI Overview{SP}</a></li>
+                                <li><a href="\AI\AIRAG">{SP}RAG Systems Dissertation{SP}</a></li>
+                                <li><a href="\AI\AIRAGObservability">{SP}RAG Observability{SP}</a></li>
+                                <li><a href="\AI\AITerminology">{SP}AI Terminology{SP}</a></li>
+                                <li><a href="\AI\AIArchitecture">{SP}AI Architecture{SP}</a></li>
+                                <li><a href="\AI\AIHowTo">{SP}AI How To{SP}</a></li>
+                                <li><a href="\AI\RAGFlow">{SP}RAG Flow{SP}</a></li>
+
+                           </ul>
                         </li>
                     </td>
                     <td style={{paddingTop: 10}}>
@@ -84,7 +99,7 @@ export default function MenuSubmenu() {
                             </ul>
                         </li>
                     </td>
-                    <td style={{paddingTop: 10}}>
+                     <td style={{paddingTop: 10}}>
                         <li style={{width: '50px'}}><a href="\AIConsultant\AITechnologies">2024</a>
                             <ul className="sub">
 

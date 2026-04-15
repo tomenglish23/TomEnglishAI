@@ -24,9 +24,14 @@ import AIStocksAPIs                from './Components/AIStocks/AIStocksAPIs';
 import AIGetStkHist                from './Components/AIConsoleApps/AIGetStkHist';
 import AIConsoleApps               from './Components/AIConsoleApps/AIConsoleApps';
 
-import Todo                        from './Components/AIArchitecture/Todo';
-import AIHowTo                     from './Components/AIArchitecture/AIHowTo';
-import AIArchitecture              from './Components/AIArchitecture/AIArchitecture';
+import AIOverview                  from './Components/AI/AIOverview';
+import AIRAG                       from './Components/AI/AIRAG';
+import AIRAGObservability          from './Components/AI/AIRAGObservability';
+import AITerminology               from './Components/AI/AITerminology';
+import Todo                        from './Components/AI/Todo';
+import AIHowTo                     from './Components/AI/AIHowTo';
+import AIArchitecture              from './Components/AI/AIArchitecture';
+import RAGFlow              from './Components/AI/RAGFlow';
 
 import AIConsultant                from './Components/AIConsultant/AIConsultant';
 import AIGPTs                      from './Components/AIConsultant/AIGPTs';
@@ -79,6 +84,8 @@ import TEAIRagPT                   from './Components/RAG/TEAIRagPT';
 import TEAIRagHC                   from './Components/RAG/TEAIRagHC';
 import TEAIRagQA                   from './Components/RAG/TEAIRagQA';
 import TEAIAgenticRAG              from './Components/RAG/TEAIAgenticRAG';
+import TEAIRagTMC                  from './Components/RAG/TEAIRagTMC';
+
 import React                       from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
@@ -147,9 +154,14 @@ function App() {
           <Route path="/AIConsoleApps/AIConsoleApps"          element={<AIConsoleApps />} />
           <Route path="/AIConsoleApps/GetStkHist"             element={<AIGetStkHist />} />
 
-          <Route path="/AIArchitecture/AIArchitecture"        element={<AIArchitecture />} />
-          <Route path="/AIArchitecture/AIHowTo"               element={<AIHowTo />} />
-          <Route path="/AIArchitecture/Todo"                  element={<Todo />} />
+          <Route path="/AI/AIOverview"                        element={<AIOverview />} />
+          <Route path="/AI/AIRAG"                             element={<AIRAG />} />
+          <Route path="/AI/AIRAGObservability"                element={<AIRAGObservability />} />
+          <Route path="/AI/AITerminology"                     element={<AITerminology />} />
+          <Route path="/AI/AIArchitecture"                    element={<AIArchitecture />} />
+          <Route path="/AI/AIHowTo"                           element={<AIHowTo />} />
+          <Route path="/AI/Todo"                              element={<Todo />} />
+          <Route path="/AI/RAGFlow"                           element={<RAGFlow />} />
 
           <Route path="/AITools/AITools"                      element={<AITools />} />
           <Route path="/AITools/AIToolsAIToolEnabled"         element={<AIToolsAIToolEnabled />} />
@@ -170,8 +182,9 @@ function App() {
           <Route path="/RAG/TEAIRagPT"                        element={<TEAIRagPT />} />
           <Route path="/RAG/TEAIRagHC"                        element={<TEAIRagHC />} />
           <Route path="/RAG/TEAIRagQA"                        element={<TEAIRagQA />} />
-          <Route path="/RAG/TEAIAgenticRAG"                  element={<TEAIAgenticRAG />} />
-       </Routes>
+          <Route path="/RAG/TEAIAgenticRAG"                   element={<TEAIAgenticRAG />} />
+          <Route path="/RAG/TEAIRagTMC"                       element={<TEAIRagTMC />} />
+        </Routes>
     </div>
   );
 }

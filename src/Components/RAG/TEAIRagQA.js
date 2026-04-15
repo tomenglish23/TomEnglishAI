@@ -17,7 +17,8 @@ export default function TEAIRagQA() {
   
   // Load hierarchy on mount
   useEffect(() => {
-    fetch('https://intv-qa-assistant-1.onrender.com/api/hierarchy')
+    // fetch('https://intv-qa-assistant-1.onrender.com/api/hierarchy')
+    fetch('https://teai-rag-v5.onrender.com/api/hierarchy')
       .then(res => res.json())
       .then(data => setHierarchy(data))
       .catch(err => console.error('Failed to load hierarchy:', err));
@@ -53,15 +54,15 @@ export default function TEAIRagQA() {
 
     try {
       // Send question + filters to your API
-      //const the_url = "http://127.0.0.1:5000/api/query"
-      const the_url = "https://intv-qa-assistant-1.onrender.com/api/query"
+      const the_url = "http://127.0.0.1:5000/api/query"
+      //const the_url = "https://teai-rag-v5.onrender.com/api/query"
       const resp = await fetch(the_url, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ 
           question: trimmed,
-          discipline: selectedDiscipline || null,  // ← ADD THIS
-          area: selectedArea || null                // ← ADD THIS
+          discipline: selectedDiscipline || null, 
+          area: selectedArea || null 
         }),
       });
 
@@ -270,7 +271,7 @@ export default function TEAIRagQA() {
               {/* Tech Stack Badge */}
               <div style={{ marginTop: '0.5rem', padding: '1rem', backgroundColor: '#f0f0f0', borderRadius: '4px',
                             fontSize: '0.85em', color: '#666', textAlign: 'center' }}>
-                <strong>Tech Stack:</strong> Python • LangChain • LangGraph • OpenAI GPT-4 • ChromaDB
+                <strong>Tech Stack:</strong> Python - LangChain - LangGraph - OpenAI GPT-4 - ChromaDB
                 <br />
                 <strong>Knowledge Base:</strong> 70+ C# Questions • Hierarchical Navigation
               </div>
