@@ -382,12 +382,12 @@ export default function TEAIRagTMC() {
             {/* ── Dropdowns + Generate (study / exam only) ── */}
             {!isDrill && (
               <>
-                <div style={{ marginBottom: "1rem", textAlign: "left" }}>
-                  <label style={{ fontWeight: "bold", marginBottom: "4px", display: "block" }}>
-                    Select Subtopic:
+                <div style={{ marginBottom: "1rem", display: "flex", alignItems: "center", gap: "12px" }}>
+                  <label style={{ fontWeight: "bold", whiteSpace: "nowrap", minWidth: "120px" }}>
+                    Select Category:
                   </label>
                   <select
-                    style={{ width: "100%", padding: "10px", fontSize: "1rem",
+                    style={{ flex: 1, padding: "10px", fontSize: "1rem",
                              border: "1px solid #ddd", borderRadius: "4px" }}
                     value={selectedSubtopic}
                     onChange={(e) => { setSelectedSubtopic(e.target.value); resetQuestion(); }}
@@ -398,12 +398,12 @@ export default function TEAIRagTMC() {
                 </div>
 
                 {selectedSubtopic && (
-                  <div style={{ marginBottom: "1rem", textAlign: "left" }}>
-                    <label style={{ fontWeight: "bold", marginBottom: "4px", display: "block" }}>
+                  <div style={{ marginBottom: "1rem", display: "flex", alignItems: "center", gap: "12px" }}>
+                    <label style={{ fontWeight: "bold", whiteSpace: "nowrap", minWidth: "120px" }}>
                       Select Difficulty:
                     </label>
                     <select
-                      style={{ width: "100%", padding: "10px", fontSize: "1rem",
+                      style={{ flex: 1, padding: "10px", fontSize: "1rem",
                                border: "1px solid #ddd", borderRadius: "4px" }}
                       value={selectedDifficulty}
                       onChange={(e) => { setSelectedDifficulty(e.target.value); resetQuestion(); }}
