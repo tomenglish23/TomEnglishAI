@@ -392,7 +392,7 @@ export default function TEAIRagTMC() {
                     value={selectedSubtopic}
                     onChange={(e) => { setSelectedSubtopic(e.target.value); resetQuestion(); }}
                   >
-                    <option value="">-- Choose a subtopic --</option>
+                    <option value="">-- Choose a category --</option>
                     {subtopics.map((s, i) => <option key={i} value={s}>{s}</option>)}
                   </select>
                 </div>
