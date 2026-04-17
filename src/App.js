@@ -85,6 +85,7 @@ import TEAIRagHC                   from './Components/RAG/TEAIRagHC';
 import TEAIRagQA                   from './Components/RAG/TEAIRagQA';
 import TEAIAgenticRAG              from './Components/RAG/TEAIAgenticRAG';
 import TEAIRagTMC                  from './Components/RAG/TEAIRagTMC';
+import TEAITmcTtsTool              from './Components/RAG/TEAITmcTtsTool';
 
 import React                       from 'react';
 import { Route, Routes } from 'react-router-dom';
@@ -184,6 +185,7 @@ function App() {
           <Route path="/RAG/TEAIRagQA"                        element={<TEAIRagQA />} />
           <Route path="/RAG/TEAIAgenticRAG"                   element={<TEAIAgenticRAG />} />
           <Route path="/RAG/TEAIRagTMC"                       element={<TEAIRagTMC />} />
+          <Route path="/RAG/TEAITmcTtsTool"                   element={<TEAITmcTtsTool />} />
         </Routes>
     </div>
   );

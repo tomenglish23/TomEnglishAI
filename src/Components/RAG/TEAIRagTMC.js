@@ -278,8 +278,7 @@ export default function TEAIRagTMC() {
         </center>
 
         <main>
-          <p className="h5home"><b>Respiratory Therapist - TMC Exam Prep</b> - AI-Generated Practice Questions</p>
-
+          <p className="h5home"><a href="/RAG/TEAITmcTtsTool" style={{ textDecoration: "none", color: "inherit" }}>- &nbsp;&nbsp;</a><b>Respiratory Therapist - TMC Exam Prep</b> - AI-Generated Practice Questions</p>
           <div style={{ maxWidth: 840, margin: "1rem auto", padding: "1rem",
                         border: "1px solid #ccc", borderRadius: 8, backgroundColor: "#f9f9f9" }}>
 
