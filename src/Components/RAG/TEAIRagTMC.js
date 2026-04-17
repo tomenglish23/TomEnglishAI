@@ -31,6 +31,7 @@ export default function TEAIRagTMC() {
   const [drillIndex,        setDrillIndex]        = useState(0);
   const [drillQueue,        setDrillQueue]        = useState([]);  // shuffled copy
   const [showExport,        setShowExport]        = useState(false);
+  const [showInstructions,  setShowInstructions]  = useState(false);
   const [examQuestionCount, setExamQuestionCount] = useState(0);   // questions answered this exam session
 
   const exportRef = useRef(null);
@@ -197,7 +198,7 @@ export default function TEAIRagTMC() {
           explanation:    question.explanation,
         };
         setNeedsReview(prev => {
-          const exists = prev.some(w => w.question === entry.question);
+          const exists = prev.some(w => w.question === entry.question && w.subtopic === entry.subtopic);
           return exists ? prev : [...prev, entry];
         });
       }
@@ -277,10 +278,75 @@ export default function TEAIRagTMC() {
         </center>
 
         <main>
-          <p className="h5home"><b>TMC Exam Prep</b> - AI-Generated Practice Questions</p>
+          <p className="h5home"><b>Respiratory Therapist - TMC Exam Prep</b> - AI-Generated Practice Questions</p>
 
           <div style={{ maxWidth: 840, margin: "1rem auto", padding: "1rem",
                         border: "1px solid #ccc", borderRadius: 8, backgroundColor: "#f9f9f9" }}>
+
+            {/* ── Instructions Panel ── */}
+            <div style={{ marginBottom: "1rem" }}>
+              <button
+                onClick={() => setShowInstructions(prev => !prev)}
+                style={{ width: "100%", padding: "10px 14px", backgroundColor: "#fff",
+                        border: "1px solid #ddd", borderRadius: showInstructions ? "6px 6px 0 0" : "6px",
+                        fontWeight: "bold", fontSize: "0.9rem", textAlign: "left",
+                        cursor: "pointer", display: "flex", justifyContent: "space-between",
+                        alignItems: "center", color: "#444" }}
+              >
+                <span>How to Use TMC Exam Prep</span>
+                <span style={{ fontSize: "0.85rem", color: "#888" }}>{showInstructions ? "Hide" : "Show"}</span>
+              </button>
+
+              {showInstructions && (
+                <div style={{ padding: "14px 16px", backgroundColor: "#fafafa",
+                              border: "1px solid #ddd", borderTop: "none",
+                              borderRadius: "0 0 6px 6px", fontSize: "0.88rem",
+                              lineHeight: "1.7", color: "#444" }}>
+
+                  <div style={{ marginBottom: "10px", fontWeight: "bold", color: "#2475d2" }}>
+                    Study Mode
+                  </div>
+                  <div style={{ marginBottom: "12px" }}>
+                    Select a category and difficulty, then click <strong>Generate Question</strong>.
+                    Answer the question by clicking a choice. Feedback and an explanation appear immediately.
+                    Click <strong>Next Question</strong> to continue. No session is tracked in Study mode.
+                  </div>
+
+                  <div style={{ marginBottom: "10px", fontWeight: "bold", color: "#2e7d32" }}>
+                    Exam Mode
+                  </div>
+                  <div style={{ marginBottom: "12px" }}>
+                    Click <strong>Start Exam</strong> to begin a tracked session. Answer questions as in
+                    Study mode. Any question you answer incorrectly is automatically added to your
+                    <strong> Needs Review</strong> list. You can change category and difficulty between
+                    questions. Click <strong>Stop Exam</strong> to end the session without clearing your list.
+                    Click <strong>Clear</strong> to wipe everything and return to Study mode.
+                  </div>
+
+                  <div style={{ marginBottom: "10px", fontWeight: "bold", color: "#1565c0" }}>
+                    Drill Mode
+                  </div>
+                  <div style={{ marginBottom: "12px" }}>
+                    Available when your <strong>Needs Review</strong> list has entries. Click
+                    <strong> Drill</strong> to work through your missed questions in random order.
+                    After answering each question, click <strong>Got It - Remove</strong> if you feel
+                    confident and want to remove it from the list, or <strong>Keep - Next</strong> to
+                    leave it in and move on. Drill through the list as many times as needed until it
+                    is empty.
+                  </div>
+
+                  <div style={{ marginBottom: "10px", fontWeight: "bold", color: "#7b1fa2" }}>
+                    Review
+                  </div>
+                  <div>
+                    Click <strong>Show Review</strong> to see all questions currently in your Needs
+                    Review list. A plain-text summary is shown at the top for copying or printing,
+                    followed by a detailed table with the question, correct answer, and explanation
+                    for each entry.
+                  </div>
+                </div>
+              )}
+            </div>
 
             {/* ── Session Control Bar ── */}
             <div style={{ display: "flex", alignItems: "center", gap: "10px", flexWrap: "wrap",
@@ -558,7 +624,7 @@ export default function TEAIRagTMC() {
                           borderRadius: "4px", fontSize: "0.85em", color: "#666", textAlign: "center" }}>
               <strong>Tech Stack:</strong> Python - LangChain - LangGraph - OpenAI GPT-4o-mini - ChromaDB
               <br />
-              <strong>Knowledge Base:</strong> 198 TMC Clinical Entries - 10 NBRC Domains
+              <strong>Knowledge Base:</strong> 198 TMC Clinical Entries - 10 NBRC Domains (Categories)
             </div>
 
           </div>
