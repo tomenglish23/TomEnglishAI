@@ -1,6 +1,7 @@
 // import { useState, useMemo, useEffect, useRef, useCallback } from "react";
 import React, { useState, useMemo, useEffect, useRef, useCallback } from "react";
 // import { CORPUS } from "./TEAITmcCorpus";
+import TopBar from '../Menu/TopBar';
 
 const CORPUS = [
 {
@@ -965,6 +966,8 @@ export default function TMCTTSTool() {
 
   return (
     <div style={S.root}>
+      <TopBar />
+        
       <div style={S.wrap}>
 
         {/* Header */}
